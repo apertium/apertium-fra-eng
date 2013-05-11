@@ -1,0 +1,12 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="n"  c="Имя существительное"/>
+  </sdefs>
+  <section id="main" type="standard">
+    <!-- Раздел: Имя Существительное -->
+
+    <e><p><l>chien<s n="n"/></l><r>dog<s n="n"/></r></p></e>
+
+  </section>
+</dictionary>

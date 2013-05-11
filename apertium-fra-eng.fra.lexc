@@ -1,0 +1,16 @@
+
+Multichar_Symbols
+
+%<n%>   ! Имя существительное · Noun
+
+LEXICON Root
+
+Nouns ; 
+
+LEXICON N1
+
+%<n%>: # ;
+
+LEXICON Nouns
+
+chien N1 ; ! ""
