@@ -2,15 +2,106 @@
 Multichar_Symbols
 
 %<n%>   ! Имя существительное · Noun
+%<f%>	! Feminine
+%<m%>	! Masculine
+%<mf%>	! Masculine or feminine
+
+%<sg%>	! Singular
+%<pl%>	! Plural
+
+%<v%>	! Verb
+%<1st%>	! First person
+%<2nd%>	! Second person
+%<3rd%> ! Third person
+%<pres%> ! Present tense
+%<pse%> ! Passé simple tense
+%<pce%>	! Passé composé tense
+%<%>
+%<%>
+%<%>
+
+
 
 LEXICON Root
 
 Nouns ; 
+Verbs ;
 
 LEXICON N1
 
-%<n%>: # ;
+%<n%>%<f%>%<sg%>: # ;
+%<n%>%<f%>%<pl%>:s # ;
+
+LEXICON N2 
+
+%<n%>%<m%>%<sg%>: # ;
+%<n%>%<m%>%<pl%>:s # ;
+
+LEXICON N3
+
+%<n%>%<mf%>%<sg%>: # ;
+%<n%>%<mf%>%<pl%>:s # ;
+
+LEXICON N4
+
+%<n%>%<m%>%<sg%>: # ;
+%<n%>%<m%>%<pl%>: # ;
+
+LEXICON N5
+
+%<n%>%<m%>%<sg%>: # ;
+%<n%>%<m%>%<pl%>:x # ;
+
+
+LEXICON N6
+
+%<n%>%<m%>%<sg%>:l # ;
+%<n%>%<m%>%<pl%>:ux # ;
+
+LEXICON N7
+
+%<n%>%<f%>%<sg%>: # ;
+%<n%>%<f%>%<pl%>:x # ;
+
+LEXICON N8
+
+%<n%>%<m%>%<sg%>: # ;
+%<n%>%<m%>%<pl%>: # ;
+
 
 LEXICON Nouns
 
-chien N1 ; ! ""
+chien N2 ; ! ""
+chat N2 ; ! ""
+fille N1 ; ! ""
+jardin N2; ! ""	
+arbre N2 ; ! ""
+enfant N3 ; ! ""
+bruit N2 ; ! ""
+jeu N5 ; ! ""
+maison N1 ; ! ""
+garçon N2 ; ! ""
+sœur N1 ; ! ""
+moment N2 ; ! ""
+mère N1 ; ! ""
+fenêtre N1 ; ! ""
+main N1 ; ! ""
+réponse N1 ; ! ""
+question N1 ; ! ""
+table N1 ; ! ""
+chaise N1 ; ! ""
+oiseau N5 ; ! ""
+animal:anima N6 ; ! ""
+tête N1 ; ! ""
+chose N1 ; ! ""
+eau N7 ; ! ""
+heure N1 ; ! ""
+Jean N2 ; ! ""
+Marie N1 ; ! ""
+
+
+LEXICON V1
+%<v%>%<1st%>%<sg%>
+
+LEXICON Verbs
+faire:fait
