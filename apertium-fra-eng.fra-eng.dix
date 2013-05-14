@@ -1,12 +1,66 @@
 <dictionary>
   <alphabet/>
   <sdefs>
-    <sdef n="n"  c="Имя существительное"/>
+    <sdef n="n"  c="Noun"/>
+    <sdef n="m" c="Masculine"/>
+    <sdef n="f" c="Feminine"/>
+    <sdef n="mf" c="Masculine or feminine"/>
+    <sdef n="v" c="Verb"/>
+    <sdef n="a" c="Adjective"/>
+    <sdef n="adv" c="Adverb"/>
+    <sdef n="pre" c="Preposition"/>
   </sdefs>
   <section id="main" type="standard">
-    <!-- Раздел: Имя Существительное -->
+    <!-- Nouns -->
 
-    <e><p><l>chien<s n="n"/></l><r>dog<s n="n"/></r></p></e>
+    <e><p><l>chien<s n="n"/><s n="m"/></l><r>dog<s n="n"/></r></p></e>
+    <e><p><l>chat<s n="n"/><s n="m"/></l><r>cat<s n="n"/></r></p></e>
+    <e><p><l>fille<s n="n"/><s n="f"/></l><r>girl<s n="n"/></r></p></e>
+    <e><p><l>jardin<s n="n"/><s n="m"/></l><r>garden<s n="n"/></r></p></e>
+    <e><p><l>arbre<s n="n"/><s n="m"/></l><r>tree<s n="n"/></r></p></e>
+    <e><p><l>enfant<s n="n"/><s n="mf"/></l><r>child<s n="n"/></r></p></e>
+    <e><p><l>bruit<s n="n"/><s n="m"/></l><r>noise<s n="n"/></r></p></e>
+    <e><p><l>jeu<s n="n"/><s n="m"/></l><r>game<s n="n"/></r></p></e>
+    <e><p><l>maison<s n="n"/><s n="f"/></l><r>house<s n="n"/></r></p></e>
+    <e><p><l>garçon<s n="n"/><s n="m"/></l><r>boy<s n="n"/></r></p></e>
+    <e><p><l>sœur<s n="n"/><s n="f"/></l><r>sister<s n="n"/></r></p></e>
+    <e><p><l>moment<s n="n"/><s n="m"/></l><r>moment<s n="n"/></r></p></e>
+    <e><p><l>mère<s n="n"/><s n="f"/></l><r>mother<s n="n"/></r></p></e>
+    <e><p><l>fenêtre<s n="n"/><s n="m"/></l><r>window<s n="n"/></r></p></e>
+    <e><p><l>main<s n="n"/><s n="f"/></l><r>hand<s n="n"/></r></p></e>
+    <e><p><l>réponse<s n="n"/><s n="f"/></l><r>reply<s n="n"/></r></p></e>
+    <e><p><l>question<s n="n"/><s n="f"/></l><r>question<s n="n"/></r></p></e>
+    <e><p><l>table<s n="n"/><s n="f"/></l><r>table<s n="n"/></r></p></e>
+    <e><p><l>chaise<s n="n"/><s n="f"/></l><r>chair<s n="n"/></r></p></e>
+    <e><p><l>oiseau<s n="n"/><s n="m"/></l><r>bird<s n="n"/></r></p></e>
+    <e><p><l>animal<s n="n"/><s n="m"/></l><r>animal<s n="n"/></r></p></e>
+    <e><p><l>tête<s n="n"/><s n="m"/></l><r>head<s n="n"/></r></p></e>
+    <e><p><l>chose<s n="n"/><s n="f"/></l><r>thing<s n="n"/></r></p></e>
+    <e><p><l>eau<s n="n"/><s n="f"/></l><r>water<s n="n"/></r></p></e>
+    <e><p><l>heure<s n="n"/><s n="f"/></l><r>hour<s n="n"/></r></p></e>
+    <e><p><l>Jean<s n="n"/><s n="m"/></l><r>Jack<s n="n"/></r></p></e>
+    <e><p><l>Marie<s n="n"/><s n="f"/></l><r>Mary<s n="n"/></r></p></e>
+    <e><p><l>œuil<s n="n"/><s n="m"/></l><r>eye<s n="n"/></r></p></e>
+    
+    <!-- Adverbs -->
+    <e><p><l>dehors<s n="adv"/></l><r>outside<s n="adv"/></r></p></e>
+    <e><p><l>aujord'hui<s n="adv"/></l><r>today<s n="adv"/></r></p></e>
+    <e><p><l>hier<s n="adv"/></l><r>yesterday<s n="adv"/></r></p></e>
+    <e><p><l>où<s n="adv"/></l><r>where<s n="adv"/></r></p></e>
+    <e><p><l>très<s n="adv"/></l><r>very<s n="adv"/></r></p></e>
+
+    <!-- Verbs -->
+    <e><p><l>être<s n="v"/></l><r>be<s n="v"/></r></p></e>
+    <e><p><l>faire<s n="v"/></l><r>do<s n="v"/></r></p></e>
+    <e><p><l>avoir<s n="v"/></l><r>have<s n="v"/></r></p></e>
+    <e><p><l>jouer<s n="v"/></l><r>play<s n="v"/></r></p></e>
+    <e><p><l>pouvoir<s n="v"/></l><r>can<s n="v"/></r></p></e>
+    <e><p><l>aimer<s n="v"/></l><r>love<s n="v"/></r></p></e>
+    <e><p><l>adorer<s n="v"/></l><r>adore<s n="v"/></r></p></e>
+    
+    <!--Prepositions -->
+    <e><p><l>dans<s n="adv"/></l><r>in<s n="n"/></r></p></e>
+    <e><p><l>devant<s n="adv"/></l><r>behind<s n="n"/></r></p></e>
 
   </section>
 </dictionary>
