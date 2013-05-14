@@ -2,13 +2,22 @@
   <alphabet/>
   <sdefs>
     <sdef n="n"  c="Noun"/>
+    <sdef n="v" c="Verb"/>
+    <sdef n="a" c="Adjective"/>    
+    <sdef n="num" c="Numeral"/>
+    <sdef n="prn" c="Pronoun"/>
+    <sdef n="det" c="Determiner"/>
+    <sdef n="adv" c="Adverb"/>
+    <sdef n="pre" c="Preposition"/>
+    <sdef n="conj" c="Conjunction"/>
+    <sdef n="itg" c="Interrogative"/>
+    <sdef n="part" c="Particle"/>
+    
     <sdef n="m" c="Masculine"/>
     <sdef n="f" c="Feminine"/>
     <sdef n="mf" c="Masculine or feminine"/>
-    <sdef n="v" c="Verb"/>
-    <sdef n="a" c="Adjective"/>
-    <sdef n="adv" c="Adverb"/>
-    <sdef n="pre" c="Preposition"/>
+    <sdef n="pers" c="Personal"/>
+    
   </sdefs>
   <section id="main" type="standard">
     <!-- Nouns -->
@@ -41,13 +50,25 @@
     <e><p><l>Jean<s n="n"/><s n="m"/></l><r>Jack<s n="n"/></r></p></e>
     <e><p><l>Marie<s n="n"/><s n="f"/></l><r>Mary<s n="n"/></r></p></e>
     <e><p><l>œuil<s n="n"/><s n="m"/></l><r>eye<s n="n"/></r></p></e>
+    <e><p><l>an<s n="n"/><s n="m"/></l><r>year<s n="n"/></r></p></e>
     
     <!-- Adverbs -->
     <e><p><l>dehors<s n="adv"/></l><r>outside<s n="adv"/></r></p></e>
-    <e><p><l>aujord'hui<s n="adv"/></l><r>today<s n="adv"/></r></p></e>
+    <e><p><l>aujourd'hui<s n="adv"/></l><r>today<s n="adv"/></r></p></e>
     <e><p><l>hier<s n="adv"/></l><r>yesterday<s n="adv"/></r></p></e>
     <e><p><l>où<s n="adv"/></l><r>where<s n="adv"/></r></p></e>
     <e><p><l>très<s n="adv"/></l><r>very<s n="adv"/></r></p></e>
+    <e><p><l>pas<s n="adv"/></l><r></r></p></e>
+    <e><p><l>toujours<s n="adv"/></l><r>always<s n="adv"/></r></p></e>
+    <e><p><l>ensemble<s n="adv"/></l><r>together<s n="adv"/></r></p></e>
+    <e><p><l>aussi<s n="adv"/></l><r>as well<s n="adv"/></r></p></e>
+    <e><p><l>à présent<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
+    <e><p><l>no<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+    <e><p><l>près<s n="adv"/></l><r>near<s n="adv"/></r></p></e>
+    <e><p><l>près<s n="adv"/></l><r>close<s n="adv"/></r></p></e>
+    <e><p><l>vite<s n="adv"/></l><r>quickly<s n="adv"/></r></p></e>
+    <e><p><l>bien<s n="adv"/></l><r>well<s n="adv"/></r></p></e>
+    <e><p><l>never<s n="adv"/></l><r>ever<s n="adv"/></r></p></e>
 
     <!-- Verbs -->
     <e><p><l>être<s n="v"/></l><r>be<s n="v"/></r></p></e>
@@ -57,10 +78,42 @@
     <e><p><l>pouvoir<s n="v"/></l><r>can<s n="v"/></r></p></e>
     <e><p><l>aimer<s n="v"/></l><r>love<s n="v"/></r></p></e>
     <e><p><l>adorer<s n="v"/></l><r>adore<s n="v"/></r></p></e>
+    <e><p><l>dormir<s n="v"/></l><r>sleep<s n="v"/></r></p></e>
+    <e><p><l>regarder<s n="v"/></l><r>look<s n="v"/></r></p></e>
     
     <!--Prepositions -->
-    <e><p><l>dans<s n="adv"/></l><r>in<s n="n"/></r></p></e>
-    <e><p><l>devant<s n="adv"/></l><r>behind<s n="n"/></r></p></e>
+    <e><p><l>dans<s n="pre"/></l><r>in<s n="pre"/></r></p></e>
+    <e><p><l>devant<s n="pre"/></l><r>behind<s n="pre"/></r></p></e>
+    <e><p><l>avec<s n="pre"/></l><r>with<s n="pre"/></r></p></e>
+    <e><p><l>en<s n="pre"/></l><r>in<s n="pre"/></r></p></e>
+    <e><p><l>par<s n="pre"/></l><r>through<s n="pre"/></r></p></e>
+    <e><p><l>à<s n="pre"/></l><r>to<s n="pre"/></r></p></e>
+    <e><p><l>à<s n="pre"/></l><r>at<s n="pre"/></r></p></e>
+    <e><p><l>de<s n="pre"/></l><r>of<s n="pre"/></r></p></e>
+    <e><p><l>de<s n="pre"/></l><r>from<s n="pre"/></r></p></e>
+    <e><p><l>derrière<s n="pre"/></l><r>behind<s n="pre"/></r></p></e>
+    <e><p><l>sous<s n="pre"/></l><r>under<s n="pre"/></r></p></e>
+    
+    <!--Numerals -->
+    <e><p><l>un<s n="num"/></l><r>one<s n="num"/></r></p></e>
+    <e><p><l>deux<s n="num"/></l><r>two<s n="num"/></r></p></e>
+    <e><p><l>trois<s n="num"/></l><r>three<s n="num"/></r></p></e>
+    <e><p><l>quatre<s n="num"/></l><r>four<s n="num"/></r></p></e>
+    <e><p><l>cinq<s n="num"/></l><r>five<s n="num"/></r></p></e>
+    <e><p><l>six<s n="num"/></l><r>six<s n="num"/></r></p></e>
+    <e><p><l>sept<s n="num"/></l><r>seven<s n="num"/></r></p></e>
+    <e><p><l>huit<s n="num"/></l><r>eight<s n="num"/></r></p></e>
+    <e><p><l>neuf<s n="num"/></l><r>nine<s n="num"/></r></p></e>
+    <e><p><l>dix<s n="num"/></l><r>ten<s n="num"/></r></p></e>
+    
+    <!--Conjunctions -->
+    <e><p><l>mais<s n="conj"/></l><r>but<s n="conj"/></r></p></e>
+    <e><p><l>et<s n="conj"/></l><r>and<s n="conj"/></r></p></e>
+    <e><p><l>que<s n="conj"/></l><r>that<s n="conj"/></r></p></e>
+    <e><p><l>lorsque<s n="conj"/></l><r>when<s n="conj"/></r></p></e>
+    <e><p><l>lorsqu<s n="conj"/></l><r>when<s n="conj"/></r></p></e>
+    <e><p><l>pourquoi<s n="conj"/></l><r>why<s n="conj"/></r></p></e>
+
 
   </section>
 </dictionary>

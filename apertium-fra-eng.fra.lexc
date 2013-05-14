@@ -17,6 +17,8 @@ Multichar_Symbols
 %<m%>	! Masculine
 %<mf%>	! Masculine or feminine
 %<pers%> ! Personal
+%<poss%> ! Possessive
+%<refl%> ! Reflexive
 
 %<sg%>	! Singular
 %<pl%>	! Plural
@@ -29,6 +31,7 @@ Multichar_Symbols
 %<pres%> ! Present tense
 %<past%> ! Past tense
 %<ple%> ! Participle
+%<subj%> ! Subjunctive
 
 %<nom%>	! Nominative
 %<acc%>	! Accusative
@@ -131,6 +134,7 @@ Marie N1 ; ! ""
 œuil:œuil N9s ; ! "" 
 œuil:yeux N9p ; ! ""
 an N2 ; ! ""
+gens N9p ; ! ""
 
 LEXICON V1 	! Conjugation 1 -er (aimer)
 %<v%>%<inf%>:er # ;
@@ -156,6 +160,41 @@ LEXICON V2	! Conjugation 2 -ir (finir)
 %<v%>%<p2%>%<pl%>%<pres%>:issez # ;
 %<v%>%<p3%>%<pl%>%<pres%>:issent # ;
 
+LEXICON V2a	! Conjugation 2 -ir (dormir)
+%<v%>%<inf%>:mir # ;
+%<v%>%<pres%>%<ple%>:mant # ;
+%<v%>%<past%>%<ple%>:mi # ;
+
+%<v%>%<p1%>%<sg%>%<pres%>:s # ;
+%<v%>%<p2%>%<sg%>%<pres%>:s # ;
+%<v%>%<p3%>%<sg%>%<pres%>:t # ;
+%<v%>%<p1%>%<pl%>%<pres%>:mons # ;
+%<v%>%<p2%>%<pl%>%<pres%>:mez # ;
+%<v%>%<p3%>%<pl%>%<pres%>:ment # ;
+
+LEXICON V2b	! Conjugation 2 -ir (courir)
+%<v%>%<inf%>:ir # ;
+%<v%>%<pres%>%<ple%>:ant # ;
+%<v%>%<past%>%<ple%>:u # ;
+
+%<v%>%<p1%>%<sg%>%<pres%>:s # ;
+%<v%>%<p2%>%<sg%>%<pres%>:s # ;
+%<v%>%<p3%>%<sg%>%<pres%>:t # ;
+%<v%>%<p1%>%<pl%>%<pres%>:ons # ;
+%<v%>%<p2%>%<pl%>%<pres%>:ez # ;
+%<v%>%<p3%>%<pl%>%<pres%>:ent # ;
+
+LEXICON V2c	! Conjugation 2 -ir (venir)
+%<v%>%<inf%>:enir # ;
+%<v%>%<pres%>%<ple%>:enant # ;
+%<v%>%<past%>%<ple%>:enu # ;
+
+%<v%>%<p1%>%<sg%>%<pres%>:iens # ;
+%<v%>%<p2%>%<sg%>%<pres%>:iens # ;
+%<v%>%<p3%>%<sg%>%<pres%>:ient # ;
+%<v%>%<p1%>%<pl%>%<pres%>:enons # ;
+%<v%>%<p2%>%<pl%>%<pres%>:enez # ;
+%<v%>%<p3%>%<pl%>%<pres%>:iennent # ;
 
 LEXICON V3	! Conjugation 3 -re (faire)
 %<v%>%<inf%>:re # ;
@@ -177,12 +216,24 @@ LEXICON V3	! Conjugation 3 -re (faire)
 
 
 LEXICON V3b	! Conjugation 3 (faire)
-fai V3 ;
+:fai V3 ;
 %<v%>%<p3%>%<pl%>%<pres%>:font # ;
 
 LEXICON V3a	! Conjugation 3 -re
 V3 ;
 %<v%>%<p3%>%<pl%>%<pres%>:ont # ;
+
+LEXICON V3c	! Conjugation 3 -re (-ndre)
+%<v%>%<inf%>:re # ;
+%<v%>%<pres%>%<ple%>:ant # ;
+%<v%>%<past%>%<ple%>:u # ;
+
+%<v%>%<p1%>%<sg%>%<pres%>:s # ;
+%<v%>%<p2%>%<sg%>%<pres%>:s # ;
+%<v%>%<p3%>%<sg%>%<pres%>: # ;
+%<v%>%<p1%>%<pl%>%<pres%>:ons # ;
+%<v%>%<p2%>%<pl%>%<pres%>:ez # ;
+%<v%>%<p3%>%<pl%>%<pres%>:ent # ;
 
 LEXICON V4a	! (voir)
 %<v%>%<inf%>:voir # ;
@@ -208,22 +259,55 @@ LEXICON V4b	! (pouvoir)
 %<v%>%<p2%>%<pl%>%<pres%>:pouvez # ;
 %<v%>%<p3%>%<pl%>%<pres%>:peuvent # ;
 
-LEXICON V5
+LEXICON V4c	! (vouloir)
+%<v%>%<inf%>:vouloir # ;
+%<v%>%<pres%>%<ple%>:voulant # ;
+%<v%>%<past%>%<ple%>:voulu # ;
+
+%<v%>%<p1%>%<sg%>%<pres%>:veux # ;
+%<v%>%<p2%>%<sg%>%<pres%>:veux  # ;
+%<v%>%<p3%>%<sg%>%<pres%>:veut # ;
+%<v%>%<p1%>%<pl%>%<pres%>:voulons # ;
+%<v%>%<p2%>%<pl%>%<pres%>:voulez # ;
+%<v%>%<p3%>%<pl%>%<pres%>:veulent # ;
+
+LEXICON V5a ! (dire)
+%<v%>%<inf%>:re # ;
+%<v%>%<pres%>%<ple%>:ant # ;
+%<v%>%<past%>%<ple%>:t # ;
+
 %<v%>%<p1%>%<sg%>%<pres%>:s # ;
 %<v%>%<p2%>%<sg%>%<pres%>:s  # ;
 %<v%>%<p3%>%<sg%>%<pres%>:t # ;
 %<v%>%<p1%>%<pl%>%<pres%>:sons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:tes # ;
-%<v%>%<p3%>%<pl%>%<pres%>: # ;
+%<v%>%<p2%>%<pl%>%<pres%>:sez # ;
+%<v%>%<p3%>%<pl%>%<pres%>:sent # ;
 
+LEXICON V5 ! (rire)
+%<v%>%<inf%>:re # ;
+%<v%>%<pres%>%<ple%>:ant # ;
+%<v%>%<past%>%<ple%>: # ;
 
-LEXICON V6
 %<v%>%<p1%>%<sg%>%<pres%>:s # ;
 %<v%>%<p2%>%<sg%>%<pres%>:s  # ;
 %<v%>%<p3%>%<sg%>%<pres%>:t # ;
-%<v%>%<p1%>%<pl%>%<pres%>:sons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:tes # ;
-%<v%>%<p3%>%<pl%>%<pres%>: # ;
+%<v%>%<p1%>%<pl%>%<pres%>:ons # ;
+%<v%>%<p2%>%<pl%>%<pres%>:ez # ;
+%<v%>%<p3%>%<pl%>%<pres%>:ent # ;
+
+
+LEXICON V6 ! (asseoir)
+%<v%>%<inf%>:eoir # ;
+%<v%>%<pres%>%<ple%>:oyant # ;
+%<v%>%<past%>%<ple%>%<m%>:is # ;
+%<v%>%<past%>%<ple%>%<f%>:ise # ;
+
+%<v%>%<p1%>%<sg%>%<pres%>:ois # ;
+%<v%>%<p2%>%<sg%>%<pres%>:ois  # ;
+%<v%>%<p3%>%<sg%>%<pres%>:oit # ;
+%<v%>%<p1%>%<pl%>%<pres%>:oyons # ;
+%<v%>%<p2%>%<pl%>%<pres%>:oyez # ;
+%<v%>%<p3%>%<pl%>%<pres%>:oient # ;
 
 
 LEXICON V10	! (être)
@@ -238,7 +322,6 @@ LEXICON V10	! (être)
 %<v%>%<p2%>%<pl%>%<pres%>:êtes # ;
 %<v%>%<p3%>%<pl%>%<pres%>:sont # ;
 
-
 LEXICON V11	! (avoir)
 %<v%>%<inf%>:avoir # ;
 %<v%>%<pres%>%<ple%>:ayant # ;
@@ -251,39 +334,113 @@ LEXICON V11	! (avoir)
 %<v%>%<p2%>%<pl%>%<pres%>:avez # ;
 %<v%>%<p3%>%<pl%>%<pres%>:ont # ;
 
+LEXICON V12	! (aller)
+%<v%>%<inf%>:aller # ;
+%<v%>%<pres%>%<ple%>:allant # ;
+%<v%>%<past%>%<ple%>:allé # ;
+
+%<v%>%<p1%>%<sg%>%<pres%>:vais # ;
+%<v%>%<p2%>%<sg%>%<pres%>:vas  # ;
+%<v%>%<p3%>%<sg%>%<pres%>:va # ;
+%<v%>%<p1%>%<pl%>%<pres%>:allons # ;
+%<v%>%<p2%>%<pl%>%<pres%>:allez # ;
+%<v%>%<p3%>%<pl%>%<pres%>:vont # ;
+
+LEXICON V13	! (savoir)
+%<v%>%<inf%>:savoir # ;
+%<v%>%<pres%>%<ple%>:sachant # ;
+%<v%>%<past%>%<ple%>:su # ;
+
+%<v%>%<p1%>%<sg%>%<pres%>:sais # ;
+%<v%>%<p2%>%<sg%>%<pres%>:sais  # ;
+%<v%>%<p3%>%<sg%>%<pres%>:sait # ;
+%<v%>%<p1%>%<pl%>%<pres%>:savons # ;
+%<v%>%<p2%>%<pl%>%<pres%>:savez # ;
+%<v%>%<p3%>%<pl%>%<pres%>:savent # ;
+
+%<v%>%<p1%>%<sg%>%<subj%>%<pres%>:sache # ;
+%<v%>%<p2%>%<sg%>%<subj%>%<pres%>:saches  # ;
+%<v%>%<p3%>%<sg%>%<subj%>%<pres%>:sache # ;
+%<v%>%<p1%>%<pl%>%<subj%>%<pres%>:sachions # ;
+%<v%>%<p2%>%<pl%>%<subj%>%<pres%>:sachiez # ;
+%<v%>%<p3%>%<pl%>%<subj%>%<pres%>:sachent # ;
+
+LEXICON V13b	! (devoir)
+%<v%>%<inf%>:devoir # ;
+%<v%>%<pres%>%<ple%>:devant # ;
+%<v%>%<past%>%<ple%>:dû # ;
+
+%<v%>%<p1%>%<sg%>%<pres%>:dois # ;
+%<v%>%<p2%>%<sg%>%<pres%>:dois  # ;
+%<v%>%<p3%>%<sg%>%<pres%>:doit # ;
+%<v%>%<p1%>%<pl%>%<pres%>:devons # ;
+%<v%>%<p2%>%<pl%>%<pres%>:devez # ;
+%<v%>%<p3%>%<pl%>%<pres%>:doivent # ;
 
 LEXICON Verbs
-être%<v%>%<p3%>%<sg%>%<pres%>: V10 ; ! ""
-être%<v%>%<p3%>%<pl%>%<pres%>: V10 ; ! ""
-faire%<v%>%<p3%>%<sg%>%<pres%>: V3b ; ! ""
-faire%<v%>%<p3%>%<sg%>%<past%>: V3b ; ! ""
-avoir%<v%>%<p3%>%<pl%>%<pres%>: V11 ; ! ""
-jouer%<v%>%<inf%>:jou V1 ; ! "" 
-adorer%<v%>%<p3%>%<pl%>%<pres%>:ador V1 ; ! ""
-jouer%<v%>%<p3%>%<pl%>%<pres%>:jou V1 ; ! ""
-pouvoir%<v%>%<past%>%<ple%>: V4b ; ! ""
-avoir%<v%>%<p3%>%<sg%>%<pres%>: V11 ; ! ""
-aimer%<v%>%<p3%>%<sg%>%<pres%>:aim V1 ; ! ""
-
+être: V10 ; ! ""
+faire: V3b ; ! ""
+avoir: V11 ; ! ""
+jouer:jou V1 ; ! "" 
+adorer:ador V1 ; ! ""
+pouvoir: V4b ; ! ""
+aimer:aim V1 ; ! ""
+dormir:dor V2a ; ! ""
+regarder:regard V1 ; ! ""
+voir: V4a ; ! ""
+finir:fin V2 ; ! ""
+compter:compt V1 ; ! ""
+parler:parl V1 ; ! ""
+chercher:cherch V1 ; ! ""
+cacher:cach V1 ; ! ""
+saver:sav V1 ; ! ""
+courir:cour V2b ; ! ""
+écouter:écout V1 ; ! ""
+marcher:march V1 ; ! ""
+manger:mang V1 ; ! ""
+asseoir:ass V6 ; ! ""
+demander:demand V1 ; ! ""
+trouver:trouv V1 ; ! ""
+approcher:approch V1 ; ! ""
+rire:ri V5 ; ! ""
+dire:di V5a ; ! ""
+venir:v V2c ; ! ""
+obtenir:obt V2c ; ! ""
+boire:boi V3 ; ! FIX THIS!!!!!
+répondre:répond V3c ; ! ""
+entendre:entend V3c ; ! ""
+rentrer:rentr V1 ; ! ""
+aller: V12 ; ! ""
+penser:pens V1 ; ! ""
+savoir: V13 ; ! ""
+vouloir: V4c ; ! ""
+devoir: V13b ; ! ""
 
 LEXICON A1
-
 %<a%><%m>%<sg%>: # ;
 %<a%><%f>%<sg%>:e # ;
 %<a%><%m>%<pl%>:s # ;
 %<a%><%f>%<pl%>:es # ;
 
+LEXICON A1a
+%<a%><%m>%<sg%>: # ;
+%<a%><%f>%<sg%>:se # ;
+%<a%><%m>%<pl%>: # ;
+%<a%><%f>%<pl%>:ses # ;
+
+LEXICON A1b
+%<a%><%m>%<sg%>: # ;
+%<a%><%f>%<sg%>: # ;
+%<a%><%m>%<pl%>:s # ;
+%<a%><%f>%<pl%>:s # ;
 
 LEXICON A2m
-
 %<a%><%m>%<sg%>: # ;
 %<a%><%m>%<pl%>:x # ;
 
 LEXICON A2f
-
 %<a%><%f>%<sg%>: # ;
 %<a%><%f>%<pl%>:s # ;
-
 
 LEXICON Adjectives
 chaud A1 ; ! ""
@@ -293,6 +450,12 @@ grand A1 ; ! ""
 petit A1 ; ! ""
 froid A1 ; ! ""
 content A1 ; ! ""
+gros A1a ; ! ""
+vert A1 ; ! ""
+présent A1 ; ! ""
+aucun A1 ; ! ""
+autre A1a ; ! ""
+sûr A1 ; ! ""
 
 LEXICON NUM
 %<num%>: # ;
@@ -304,7 +467,6 @@ LEXICON NUMf
 %<num%>%<f%>: # ;
 
 LEXICON Numerals 
-
 un NUMm ; ! ""
 une NUMf ; ! ""
 deux NUM ; ! ""
@@ -317,57 +479,99 @@ huit NUM ; ! ""
 neuf NUM ; ! ""
 dix NUM ; ! ""
 
+LEXICON PP1-SG
+%<nom%>:je # ;
+%<refl%>:me # ;
+%<acc%>:me # ;
+%<dat%>:me # ;
+%<disj%>:moi # ;
+
+LEXICON PP1-PL
+%<nom%>:nous # ;
+%<refl%>:nous # ;
+%<acc%>:nous # ;
+%<dat%>:nous # ;
+%<disj%>:nous # ;
+
+LEXICON PP2-SG
+%<nom%>:tu # ;
+%<refl%>:te # ;
+%<acc%>:te # ;
+%<dat%>:te # ;
+%<disj%>:toi # ;
+
+LEXICON PP2-PL
+%<nom%>:vous # ;
+%<refl%>:vous # ;
+%<acc%>:vous # ;
+%<dat%>:vous # ;
+%<disj%>:vous # ;
+
+LEXICON PP3
+%<refl%>:se # ;
+
+LEXICON PP3m
+PP3 ;
+%<sg%>%<m%>%<nom%>:il # ;
+%<sg%>%<m%>%<acc%>:le # ;
+%<sg%>%<m%>%<dat%>:lui # ;
+%<sg%>%<m%>%<disj%>:lui # ;
+%<pl%>%<m%>%<nom%>:ils # ;
+%<pl%>%<m%>%<acc%>:les # ;
+%<pl%>%<m%>%<dat%>:leur # ;
+%<pl%>%<m%>%<eux%>:eux # ;
+
+LEXICON PP3f
+PP3 ;
+%<sg%>%<f%>%<nom%>:elle # ;
+%<sg%>%<f%>%<acc%>:la # ;
+%<sg%>%<f%>%<dat%>:lui # ;
+%<sg%>%<f%>%<disj%>:elle # ;
+%<pl%>%<f%>%<nom%>:elles # ;
+%<pl%>%<f%>%<acc%>:les # ;
+%<pl%>%<f%>%<dat%>:leur # ;
+%<pl%>%<f%>%<eux%>:elles # ;
+
 LEXICON PRONPERS
+je%<prn%>%<pers%>%<p1%>%<sg%>: PP1-SG ; ! ""
+nous%<prn%>%<pers%>%<p1%>%<pl%>: PP1-PL ; ! ""
+tu%<prn%>%<pers%>%<p2%>%<sg%>: PP2-SG ; ! ""
+vous%<prn%>%<pers%>%<p2%>%<pl%>: PP2-PL ; ! ""
+il%<prn%>%<pers%>%<p3%>: PP3m ; ! ""
+elle%<prn%>%<pers%>%<p3%>: PP3f ; ! ""
 
-je%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:je # ;
-je%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:me # ;
-je%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:me # ;
-je%<prn%>%<pers%>%<p1%>%<sg%>%<disj%>:moi # ;
+LEXICON PRN
+%<prn%>: # ;
 
-nous%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:nous # ;
-nous%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:nous # ;
-nous%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:nous # ;
-nous%<prn%>%<pers%>%<p1%>%<pl%>%<disj%>:nous # ;
+LEXICON PRNa
+%<prn%>%<sg%>: # ;
+%<prn%>%<pl%>:s # ;
 
-tu%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:tu # ;
-tu%<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:te # ;
-tu%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:te # ;
-tu%<prn%>%<pers%>%<p2%>%<sg%>%<disj%>:toi # ;
-
-vous%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:vous # ;
-vous%<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:vous # ;
-vous%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:vous # ;
-vous%<prn%>%<pers%>%<p2%>%<pl%>%<disj%>:vous # ;
-
-il%<prn%>%<pers%>%<p3%>%<sg%>%<m%>%<nom%>:il # ;
-il%<prn%>%<pers%>%<p3%>%<sg%>%<m%>%<acc%>:le # ;
-il%<prn%>%<pers%>%<p3%>%<sg%>%<m%>%<dat%>:lui # ;
-il%<prn%>%<pers%>%<p3%>%<sg%>%<m%>%<disj%>:lui # ;
-
-il%<prn%>%<pers%>%<p3%>%<pl%>%<m%>%<nom%>:ils # ;
-il%<prn%>%<pers%>%<p3%>%<pl%>%<m%>%<acc%>:les # ;
-il%<prn%>%<pers%>%<p3%>%<pl%>%<m%>%<dat%>:leur # ;
-il%<prn%>%<pers%>%<p3%>%<pl%>%<m%>%<eux%>:eux # ;
-
-elle%<prn%>%<pers%>%<p3%>%<sg%>%<f%>%<nom%>:elle # ;
-elle%<prn%>%<pers%>%<p3%>%<sg%>%<f%>%<acc%>:la # ;
-elle%<prn%>%<pers%>%<p3%>%<sg%>%<f%>%<dat%>:lui # ;
-elle%<prn%>%<pers%>%<p3%>%<sg%>%<f%>%<disj%>:elle # ;
-
-elle%<prn%>%<pers%>%<p3%>%<pl%>%<f%>%<nom%>:elles # ;
-elle%<prn%>%<pers%>%<p3%>%<pl%>%<f%>%<acc%>:les # ;
-elle%<prn%>%<pers%>%<p3%>%<pl%>%<f%>%<dat%>:leur # ;
-elle%<prn%>%<pers%>%<p3%>%<pl%>%<f%>%<disj%>:elles # ;
-
+LEXICON ITG
+%<prn%>%<itg%>: # ;
 
 LEXICON Pronouns
-
 PRONPERS ;
+qui ITG ; ! ""
+rien PRN ; ! ""
+quelque PRNa ; ! ""
+tous PRN ; ! ""
+y PRN ; ! ""
+cela PRN ; ! ""
+ça PRN ; ! ""
 
-LEXICON DET
-
+LEXICON DET1
 %<det%>%<m%>: # ;
 %<det%>%<f%>:e # ;
+
+LEXICON DET2
+%<det%>%<m%>%<sg%>: # ;
+%<det%>%<m%>%<pl%>:s # ;
+%<det%>%<f%>:tte # ;
+%<det%>%<f%>%<pl%>:ttes # ;
+
+LEXICON DET2a
+%<det%>%<m%>: # ;
 
 LEXICON  DETm
 %<det%>%<m%>: # ;
@@ -375,10 +579,53 @@ LEXICON  DETm
 LEXICON DETf
 %<det%>%<f%>: # ;
 
+LEXICON POSS1-SG
+%<m%>:mon # ;
+%<f%>:ma # ;
+%<pl%>: mes # ;
+
+LEXICON POSS2-SG
+%<m%>:ton # ;
+%<f%>:ta # ;
+%<pl%>: tes # ;
+
+LEXICON POSS3-SG
+%<m%>:son # ;
+%<f%>:sa # ;
+%<pl%>: ses # ;
+
+LEXICON POSS1-PL
+%<m%>:notre # ;
+%<f%>:notre # ;
+%<pl%>: nos # ;
+
+LEXICON POSS2-PL
+%<m%>:votre # ;
+%<f%>:votre # ;
+%<pl%>: vos # ;
+
+LEXICON POSS3-PL
+%<m%>:leur # ;
+%<f%>:leur # ;
+%<pl%>: leurs # ;
+
+LEXICON POSSESSIVES
+mon%<det%>%<poss%>%<p1%>%<sg%>: POSS1-SG ; ! ""
+ton%<det%>%<poss%>%<p2%>%<sg%>: POSS2-SG ; ! ""
+son%<det%>%<poss%>%<p3%>%<sg%>: POSS3-SG ; ! ""
+notre%<det%>%<poss%>%<p1%>%<pl%>: POSS1-PL ; ! ""
+votre%<det%>%<poss%>%<p2%>%<pl%>: POSS2-PL ; ! ""
+leus%<det%>%<poss%>%<p3%>%<pl%>: POSS3-PL ; ! ""
+
 LEXICON Determiners
-un DET ; ! ""
+POSSESSIVES ;
+un DET1 ; ! ""
 le DETm ; ! ""
+l DETm; ! ""
 la DETf ; ! ""
+ce DET2 ; ! ""
+cet DET2a ; ! ""
+c DET2a ; ! ""
 
 LEXICON ADV
 %<adv%>: # ;
@@ -387,11 +634,27 @@ LEXICON Adverbs
 aujourd%'hui ADV ; ! ""
 hier ADV ; ! ""
 où ITG ; ! ""
+ou ITG ; ! ""
 très ADV ; ! ""
 dehors ADV ; ! ""
 pas ADV ; ! ""
 toujours ADV ; ! ""
 ensemble ADV ; ! ""
+aussi ADV ; ! ""
+à% présent ADV ; ! ""
+à% travers ADV ; ! ""
+non ADV ; ! ""
+près ADV ; ! ""
+vite ADV ; ! ""
+bien ADV ; ! ""
+jamais ADV ; ! ""
+attentivement ADV ; ! ""
+lentement ADV ; ! ""
+probablement ADV ; ! ""
+partout ADV ; ! ""
+maintenant ADV ; ! ""
+encore ADV ; ! ""
+autour ADV ; ! ""
 
 LEXICON ITG
 %<adv%>%<itg%>: # ;
@@ -402,6 +665,15 @@ LEXICON PRE
 LEXICON Prepositions
 dans PRE ; ! ""
 devant PRE ; ! ""
+avec PRE ; ! ""
+en PRE ; ! ""
+par PRE ; ! ""
+vers PRE ; ! "" 
+à PRE ; ! ""
+de PRE ; ! ""
+d PRE ; ! ""
+derrière PRE ; ! ""
+sous PRE ; ! ""
 
 LEXICON CONJ
 %<conj%>: # ;
@@ -409,6 +681,13 @@ LEXICON CONJ
 LEXICON Conjunctions
 mais CONJ ; ! ""
 et CONJ ; ! ""
+que CONJ ; ! ""
+qu CONJ ; ! ""
+lorsque CONJ ; ! ""
+lorsqu CONJ ; ! ""
+pourquoi CONJ ; ! ""
+alors CONJ ; ! ""
+ou CONJ ; ! ""
 
 LEXICON PART
 %<part%>: # ;
