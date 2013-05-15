@@ -2,20 +2,27 @@
   <alphabet/>
   <sdefs>
     <sdef n="n"  c="Noun"/>
-    <sdef n="v" c="Verb"/>
-    <sdef n="a" c="Adjective"/>    
+    <sdef n="vblex" c="Lexical verb"/>
+    <sdef n="adj" c="Adjective"/>    
     <sdef n="num" c="Numeral"/>
     <sdef n="prn" c="Pronoun"/>
     <sdef n="det" c="Determiner"/>
     <sdef n="adv" c="Adverb"/>
     <sdef n="pre" c="Preposition"/>
-    <sdef n="conj" c="Conjunction"/>
+    <sdef n="cnjcoo" c="Coordinating conjunction"/>
+    <sdef n="cnjsub" c="Subordinating conjunction"/>
     <sdef n="itg" c="Interrogative"/>
     <sdef n="part" c="Particle"/>
+    <sdef n="contr" c="Contraction"/>
     
     <sdef n="m" c="Masculine"/>
     <sdef n="f" c="Feminine"/>
     <sdef n="mf" c="Masculine or feminine"/>
+    <sdef n="sg" c="Singular"/>
+    <sdef n="pl" c="Plural"/>
+    <sdef n="p1" c="First person"/>
+    <sdef n="p2" c="Second person"/>
+    <sdef n="p3" c="Third person"/>
     <sdef n="pers" c="Personal"/>
     
   </sdefs>
@@ -51,6 +58,7 @@
     <e><p><l>Marie<s n="n"/><s n="f"/></l><r>Mary<s n="n"/></r></p></e>
     <e><p><l>œuil<s n="n"/><s n="m"/></l><r>eye<s n="n"/></r></p></e>
     <e><p><l>an<s n="n"/><s n="m"/></l><r>year<s n="n"/></r></p></e>
+    <e><p><l>gens<s n="n"/><s n="m"/><s n="pl"/></l><r>people<s n="n"/></r></p></e>
     
     <!-- Adverbs -->
     <e><p><l>dehors<s n="adv"/></l><r>outside<s n="adv"/></r></p></e>
@@ -68,18 +76,81 @@
     <e><p><l>près<s n="adv"/></l><r>close<s n="adv"/></r></p></e>
     <e><p><l>vite<s n="adv"/></l><r>quickly<s n="adv"/></r></p></e>
     <e><p><l>bien<s n="adv"/></l><r>well<s n="adv"/></r></p></e>
-    <e><p><l>never<s n="adv"/></l><r>ever<s n="adv"/></r></p></e>
+    <e><p><l>jamais<s n="adv"/></l><r>ever<s n="adv"/></r></p></e>
+    <e><p><l>jamais<s n="adv"/></l><r>never<s n="adv"/></r></p></e>
+    <e><p><l>attentivement<s n="adv"/></l><r>attentively<s n="adv"/></r></p></e>
+    <e><p><l>lentement<s n="adv"/></l><r>slowly<s n="adv"/></r></p></e>
+    <e><p><l>probablement<s n="adv"/></l><r>probably<s n="adv"/></r></p></e>
+    <e><p><l>partout<s n="adv"/></l><r>everywhere<s n="adv"/></r></p></e>
+    <e><p><l>maintenant<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
+    <e><p><l>encore<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
+    <e><p><l>autour<s n="adv"/></l><r>around<s n="adv"/></r></p></e>
 
     <!-- Verbs -->
-    <e><p><l>être<s n="v"/></l><r>be<s n="v"/></r></p></e>
-    <e><p><l>faire<s n="v"/></l><r>do<s n="v"/></r></p></e>
-    <e><p><l>avoir<s n="v"/></l><r>have<s n="v"/></r></p></e>
-    <e><p><l>jouer<s n="v"/></l><r>play<s n="v"/></r></p></e>
-    <e><p><l>pouvoir<s n="v"/></l><r>can<s n="v"/></r></p></e>
-    <e><p><l>aimer<s n="v"/></l><r>love<s n="v"/></r></p></e>
-    <e><p><l>adorer<s n="v"/></l><r>adore<s n="v"/></r></p></e>
-    <e><p><l>dormir<s n="v"/></l><r>sleep<s n="v"/></r></p></e>
-    <e><p><l>regarder<s n="v"/></l><r>look<s n="v"/></r></p></e>
+    <e><p><l>être<s n="vblex"/></l><r>be<s n="vblex"/></r></p></e>
+    <e><p><l>faire<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
+    <e><p><l>avoir<s n="vblex"/></l><r>have<s n="vblex"/></r></p></e>
+    <e><p><l>jouer<s n="vblex"/></l><r>play<s n="vblex"/></r></p></e>
+    <e><p><l>pouvoir<s n="vblex"/></l><r>can<s n="vblex"/></r></p></e>
+    <e><p><l>aimer<s n="vblex"/></l><r>love<s n="vblex"/></r></p></e>
+    <e><p><l>adorer<s n="vblex"/></l><r>adore<s n="vblex"/></r></p></e>
+    <e><p><l>dormir<s n="vblex"/></l><r>sleep<s n="vblex"/></r></p></e>
+    <e><p><l>regarder<s n="vblex"/></l><r>look<s n="vblex"/></r></p></e>
+    <e><p><l>voir<s n="vblex"/></l><r>see<s n="vblex"/></r></p></e>
+    <e><p><l>finir<s n="vblex"/></l><r>stop<s n="vblex"/></r></p></e>
+    <e><p><l>compter<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
+    <e><p><l>parler<s n="vblex"/></l><r>speak<s n="vblex"/></r></p></e>
+    <e><p><l>chercher<s n="vblex"/></l><r>search<s n="vblex"/></r></p></e>
+    <e><p><l>cacher<s n="vblex"/></l><r>hide<s n="vblex"/></r></p></e>
+    <e><p><l>courir<s n="vblex"/></l><r>run<s n="vblex"/></r></p></e>
+    <e><p><l>écouter<s n="vblex"/></l><r>listen<s n="vblex"/></r></p></e>
+    <e><p><l>marcher<s n="vblex"/></l><r>march<s n="vblex"/></r></p></e>
+    <e><p><l>manger<s n="vblex"/></l><r>eat<s n="vblex"/></r></p></e>
+    <e><p><l>asseoir<s n="vblex"/></l><r>sit<s n="vblex"/></r></p></e>
+    <e><p><l>demander<s n="vblex"/></l><r>ask<s n="vblex"/></r></p></e>
+    <e><p><l>trouver<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
+    <e><p><l>approcher<s n="vblex"/></l><r>approach<s n="vblex"/></r></p></e>
+    <e><p><l>rire<s n="vblex"/></l><r>laugh<s n="vblex"/></r></p></e>
+    <e><p><l>dire<s n="vblex"/></l><r>say<s n="vblex"/></r></p></e>
+    <e><p><l>venir<s n="vblex"/></l><r>come<s n="vblex"/></r></p></e>
+    <e><p><l>obtenir<s n="vblex"/></l><r>obtain<s n="vblex"/></r></p></e>
+    <e><p><l>obtenir<s n="vblex"/></l><r>get<s n="vblex"/></r></p></e>
+    <e><p><l>boire<s n="vblex"/></l><r>drink<s n="vblex"/></r></p></e>
+    <e><p><l>répondre<s n="vblex"/></l><r>reply<s n="vblex"/></r></p></e>
+    <e><p><l>entendre<s n="vblex"/></l><r>hear<s n="vblex"/></r></p></e>
+    <e><p><l>entendre<s n="vblex"/></l><r>get along<s n="vblex"/></r></p></e>
+    <e><p><l>rentrer<s n="vblex"/></l><r>return<s n="vblex"/></r></p></e>
+    <e><p><l>aller<s n="vblex"/></l><r>go<s n="vblex"/></r></p></e>
+    <e><p><l>penser<s n="vblex"/></l><r>think<s n="vblex"/></r></p></e>
+    <e><p><l>savoir<s n="vblex"/></l><r>know<s n="vblex"/></r></p></e>
+    <e><p><l>vouloir<s n="vblex"/></l><r>want<s n="vblex"/></r></p></e>
+    <e><p><l>devoir<s n="vblex"/></l><r>must<s n="vblex"/></r></p></e>
+    <e><p><l>devoir<s n="vblex"/></l><r>have to<s n="vblex"/></r></p></e>
+
+    <!--Adjectives -->
+    <e><p><l>chaud<s n="adj"/></l><r>warm<s n="adj"/></r></p></e>
+    <e><p><l>chaud<s n="adj"/></l><r>hot<s n="adj"/></r></p></e>
+    <e><p><l>beau<s n="adj"/><s n="m"/></l><r>beautiful<s n="adj"/></r></p></e>
+    <e><p><l>belle<s n="adj"/><s n="f"/></l><r>beautiful<s n="adj"/></r></p></e>
+    <e><p><l>grand<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
+    <e><p><l>grand<s n="adj"/></l><r>great<s n="adj"/></r></p></e>
+    <e><p><l>grand<s n="adj"/></l><r>grand<s n="adj"/></r></p></e>
+    <e><p><l>grand<s n="adj"/></l><r>tall<s n="adj"/></r></p></e>
+    <e><p><l>petit<s n="adj"/></l><r>small<s n="adj"/></r></p></e>
+    <e><p><l>petit<s n="adj"/></l><r>little<s n="adj"/></r></p></e>
+    <e><p><l>froid<s n="adj"/></l><r>cold<s n="adj"/></r></p></e>
+    <e><p><l>content<s n="adj"/></l><r>happy<s n="adj"/></r></p></e>
+    <e><p><l>content<s n="adj"/></l><r>content<s n="adj"/></r></p></e>
+    <e><p><l>gros<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
+    <e><p><l>gros<s n="adj"/></l><r>thick<s n="adj"/></r></p></e>
+    <e><p><l>gros<s n="adj"/></l><r>fat<s n="adj"/></r></p></e>
+    <e><p><l>vert<s n="adj"/></l><r>green<s n="adj"/></r></p></e>
+    <e><p><l>aucun<s n="adj"/></l><r>any<s n="det"/></r></p></e>
+    <e><p><l>aucun<s n="adj"/></l><r>no<s n="adj"/></r></p></e>
+    <e><p><l>aucun<s n="adj"/></l><r>none<s n="adj"/></r></p></e>
+    <e><p><l>autre<s n="adj"/></l><r>another<s n="det"/></r></p></e>
+    <e><p><l>autre<s n="adj"/></l><r>other<s n="adj"/></r></p></e>
+    <e><p><l>sûr<s n="adj"/></l><r>sure<s n="adj"/></r></p></e>
     
     <!--Prepositions -->
     <e><p><l>dans<s n="pre"/></l><r>in<s n="pre"/></r></p></e>
@@ -95,7 +166,8 @@
     <e><p><l>sous<s n="pre"/></l><r>under<s n="pre"/></r></p></e>
     
     <!--Numerals -->
-    <e><p><l>un<s n="num"/></l><r>one<s n="num"/></r></p></e>
+    <e><p><l>un<s n="num"/><s n="m"/></l><r>one<s n="num"/></r></p></e>
+    <e><p><l>une<s n="num"/><s n="f"/></l><r>one<s n="num"/></r></p></e>
     <e><p><l>deux<s n="num"/></l><r>two<s n="num"/></r></p></e>
     <e><p><l>trois<s n="num"/></l><r>three<s n="num"/></r></p></e>
     <e><p><l>quatre<s n="num"/></l><r>four<s n="num"/></r></p></e>
@@ -106,14 +178,60 @@
     <e><p><l>neuf<s n="num"/></l><r>nine<s n="num"/></r></p></e>
     <e><p><l>dix<s n="num"/></l><r>ten<s n="num"/></r></p></e>
     
+    <!--Pronouns -->
+    <e><p><l>je<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l>
+    	<r>I<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>
+    <e><p><l>tu<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l>
+    	<r>you<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
+    <e><p><l>il<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/></l>
+    	<r>he<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
+    <e><p><l>elle<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/></l>
+    	<r>she<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/></r></p></e>
+    <e><p><l>nous<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l>
+    	<r>we<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>vous<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l>
+    	<r>you<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
+    <e><p><l>ils<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="m"/></l>
+    	<r>they<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+    <e><p><l>elles<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="f"/></l>
+    	<r>they<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+    	
+    <e><p><l>qui<s n="prn"/></l><r>who<s n="prn"/></r></p></e>
+    <e><p><l>rien<s n="prn"/></l><r>nothing<s n="prn"/></r></p></e>
+    <e><p><l>rien<s n="prn"/></l><r>anything<s n="prn"/></r></p></e>
+    <e><p><l>quelque<s n="prn"/></l><r>some<s n="prn"/></r></p></e>
+    <e><p><l>tous<s n="prn"/></l><r>all<s n="prn"/></r></p></e>
+    <e><p><l>y<s n="prn"/></l><r>there<s n="prn"/></r></p></e>
+    <e><p><l>cela<s n="prn"/></l><r>that<s n="prn"/></r></p></e>
+    <e><p><l>ça<s n="prn"/></l><r>that<s n="prn"/></r></p></e>
+    
+    <!--Determiners -->
+    <e><p><l>mon<s n="det"/></l><r>my<s n="det"/></r></p></e>
+    <e><p><l>ton<s n="det"/></l><r>your<s n="det"/></r></p></e>
+    <e><p><l>son<s n="det"/></l><r>his<s n="det"/></r></p></e>
+    <e><p><l>son<s n="det"/></l><r>her<s n="det"/></r></p></e>
+    <e><p><l>notre<s n="det"/></l><r>our<s n="det"/></r></p></e>
+    <e><p><l>votre<s n="det"/></l><r>your<s n="det"/></r></p></e>
+    <e><p><l>leur<s n="det"/></l><r>their<s n="det"/></r></p></e>
+    
+    <e><p><l>un<s n="det"/></l><r>a<s n="det"/></r></p></e>
+    <e><p><l>le<s n="det"/></l><r>the<s n="det"/></r></p></e>
+    <e><p><l>ce<s n="det"/></l><r>this<s n="det"/></r></p></e>
+    
     <!--Conjunctions -->
-    <e><p><l>mais<s n="conj"/></l><r>but<s n="conj"/></r></p></e>
-    <e><p><l>et<s n="conj"/></l><r>and<s n="conj"/></r></p></e>
-    <e><p><l>que<s n="conj"/></l><r>that<s n="conj"/></r></p></e>
-    <e><p><l>lorsque<s n="conj"/></l><r>when<s n="conj"/></r></p></e>
-    <e><p><l>lorsqu<s n="conj"/></l><r>when<s n="conj"/></r></p></e>
-    <e><p><l>pourquoi<s n="conj"/></l><r>why<s n="conj"/></r></p></e>
-
+    <e><p><l>mais<s n="cnjsub"/></l><r>but<s n="cnjsub"/></r></p></e>
+    <e><p><l>et<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+    <e><p><l>que<s n="cnjcoo"/></l><r>that<s n="cnjcoo"/></r></p></e>
+    <e><p><l>lorsque<s n="cnjcoo"/></l><r>when<s n="cnjcoo"/></r></p></e>
+    <e><p><l>lorsqu<s n="cnjcoo"/></l><r>when<s n="cnjcoo"/></r></p></e>
+    <e><p><l>pourquoi<s n="cnjcoo"/></l><r>why<s n="cnjcoo"/></r></p></e>
+    <e><p><l>alors<s n="cnjcoo"/></l><r>then<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ou<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
+    
+    <!--Particles and contractions -->
+    <e><p><l>ne<s n="part"/></l><r>no<s n="adv"/></r></p></e>
+    <e><p><l>à le<s n="contr"/></l><r>to<s n="pre"/></r></p></e>
+    <e><p><l>à les<s n="contr"/></l><r>to<s n="pre"/></r></p></e>
 
   </section>
 </dictionary>
