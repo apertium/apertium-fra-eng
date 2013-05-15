@@ -4,8 +4,30 @@ SOFT-DELIMITERS = "<,>" ;
 SETS
 
 LIST N = n ; 
+LIST V-FIN = ind subj imp ;
+LIST DET = det ;
+LIST PRO-PERS = (prn pers) ;
+LIST SUBJ = (n) (prn pers nom) ;
+LIST F = f ;
+LIST M = m ;
+LIST DISJ = disj ;
+LIST REFL = refl ;
+LIST PERSONS = (p1 sg) (p1 pl) (p2 sg) (p2 pl) (p3 sg) (p3 pl) ;
+LIST DAT = dat ;
+LIST COMA = cm ; 
+
+SET CLB = SUBJ | COMA;
 
 SECTION
+
+REMOVE PRO-PERS IF (0 DET) (NOT 1 V-FIN) (1 N) ; 
+REMOVE F IF (-1* M BARRIER CLB) ;
+REMOVE M IF (-1* F BARRIER CLB) ;
+REMOVE DISJ IF (1 V-FIN) ;
+REMOVE DISJ IF (2 V-FIN) (1 REFL) ;
+REMOVE V-FIN + $$PERSONS IF (NOT -1 PRO-PERS + $$PERSONS) ;
+REMOVE REFL + $$PERSONS IF (NOT -1 PRO-PERS + $$PERSONS) ;
+REMOVE DAT IF (NOT 1 SUBJ) ;
 
 SELECT N ;
   ## 

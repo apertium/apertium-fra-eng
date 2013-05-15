@@ -2,16 +2,23 @@
 Multichar_Symbols
 
 %<n%>   ! Noun
-%<v%>	! Verb
-%<a%>	! Adjective
+%<vblex%> ! Lexical verb
+%<vaux%> ! Auxiliary verb
+%<adj%>	! Adjective
 %<num%>	! Numeral
 %<prn%> ! Pronoun
 %<det%>	! Determiner
 %<adv%> ! Adverb
 %<pre%>	! Preposition
-%<conj%> ! Conjunction
+%<cnjcoo%> ! Conjunction
 %<itg%>	! Interrogative
 %<part%> ! Particle
+%<contr%> ! Contraction
+%<ij%> ! Interjection
+%<cnjcoo%> ! Co-ordinating conjunction
+%<cnjsub%> ! Sub-ordinating conjunction 
+%<ind%> ! Indefinite
+%<def%> ! Definite
 
 %<f%>	! Feminine
 %<m%>	! Masculine
@@ -19,6 +26,7 @@ Multichar_Symbols
 %<pers%> ! Personal
 %<poss%> ! Possessive
 %<refl%> ! Reflexive
+%<prc%> ! Proclitic
 
 %<sg%>	! Singular
 %<pl%>	! Plural
@@ -28,15 +36,31 @@ Multichar_Symbols
 %<p3%> ! Third person
 
 %<inf%>	! Infinitive
+%<ind%> ! Indicative
+%<imp%> ! Imperative
+%<subj%> ! Subjunctive
+%<ind%> ! Indicative
 %<pres%> ! Present tense
 %<past%> ! Past tense
 %<ple%> ! Participle
-%<subj%> ! Subjunctive
 
 %<nom%>	! Nominative
 %<acc%>	! Accusative
 %<dat%>	! Dative
 %<disj%> ! Disjunctive
+
+! Punctuation
+%<sent%>      ! Sentence marker
+%<guio%>      ! Hyphen
+%<cm%>        ! Comma
+%<apos%>      ! Apostrophe
+%<rquot%>     ! Quote marker (right hand side)
+%<lquot%>     ! Quote marker (left hand side)
+%<rpar%>      ! Parenthetical marker (right hand side)
+%<lpar%>      ! Parenthetical marker (left hand side)
+
+
+%  
 
 LEXICON Root
 
@@ -50,6 +74,8 @@ Adverbs ;
 Prepositions ;
 Conjunctions ;
 Particles ;
+Contractions ;
+Punctuation ;
 
 LEXICON N1
 
@@ -137,245 +163,249 @@ an N2 ; ! ""
 gens N9p ; ! ""
 
 LEXICON V1 	! Conjugation 1 -er (aimer)
-%<v%>%<inf%>:er # ;
-%<v%>%<pres%>%<ple%>:ant # ;
-%<v%>%<past%>%<ple%>:é # ;
+%<vblex%>%<inf%>:er # ;
+%<vblex%>%<pres%>%<ple%>:ant # ;
+%<vblex%>%<past%>%<ple%>:é # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:e # ;
-%<v%>%<p2%>%<sg%>%<pres%>:es # ;
-%<v%>%<p3%>%<sg%>%<pres%>:e # ;
-%<v%>%<p1%>%<pl%>%<pres%>:ons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:ez # ;
-%<v%>%<p3%>%<pl%>%<pres%>:ent # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:e # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:es # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<pres%>:e # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<pres%>:ons # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:ez # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:ent # ;
 
 LEXICON V2	! Conjugation 2 -ir (finir)
-%<v%>%<inf%>:ir # ;
-%<v%>%<pres%>%<ple%>:issant # ;
-%<v%>%<past%>%<ple%>:i # ;
+%<vblex%>%<inf%>:ir # ;
+%<vblex%>%<pres%>%<ple%>:issant # ;
+%<vblex%>%<past%>%<ple%>:i # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:is # ;
-%<v%>%<p2%>%<sg%>%<pres%>:is # ;
-%<v%>%<p3%>%<sg%>%<pres%>:it # ;
-%<v%>%<p1%>%<pl%>%<pres%>:issons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:issez # ;
-%<v%>%<p3%>%<pl%>%<pres%>:issent # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:is # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:is # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<pres%>:it # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<pres%>:issons # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:issez # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:issent # ;
 
 LEXICON V2a	! Conjugation 2 -ir (dormir)
-%<v%>%<inf%>:mir # ;
-%<v%>%<pres%>%<ple%>:mant # ;
-%<v%>%<past%>%<ple%>:mi # ;
+%<vblex%>%<inf%>:mir # ;
+%<vblex%>%<pres%>%<ple%>:mant # ;
+%<vblex%>%<past%>%<ple%>:mi # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:s # ;
-%<v%>%<p2%>%<sg%>%<pres%>:s # ;
-%<v%>%<p3%>%<sg%>%<pres%>:t # ;
-%<v%>%<p1%>%<pl%>%<pres%>:mons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:mez # ;
-%<v%>%<p3%>%<pl%>%<pres%>:ment # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:s # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:s # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<pres%>:t # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<pres%>:mons # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:mez # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:ment # ;
 
 LEXICON V2b	! Conjugation 2 -ir (courir)
-%<v%>%<inf%>:ir # ;
-%<v%>%<pres%>%<ple%>:ant # ;
-%<v%>%<past%>%<ple%>:u # ;
+%<vblex%>%<inf%>:ir # ;
+%<vblex%>%<pres%>%<ple%>:ant # ;
+%<vblex%>%<past%>%<ple%>:u # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:s # ;
-%<v%>%<p2%>%<sg%>%<pres%>:s # ;
-%<v%>%<p3%>%<sg%>%<pres%>:t # ;
-%<v%>%<p1%>%<pl%>%<pres%>:ons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:ez # ;
-%<v%>%<p3%>%<pl%>%<pres%>:ent # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:s # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:s # ;
+%<v%<ind%>%>%<p3%>%<sg%>%<pres%>:t # ;
+%<v%<ind%>%>%<p1%>%<pl%>%<pres%>:ons # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:ez # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:ent # ;
 
 LEXICON V2c	! Conjugation 2 -ir (venir)
-%<v%>%<inf%>:enir # ;
-%<v%>%<pres%>%<ple%>:enant # ;
-%<v%>%<past%>%<ple%>:enu # ;
+%<vblex%>%<inf%>:enir # ;
+%<vblex%>%<pres%>%<ple%>:enant # ;
+%<vblex%>%<past%>%<ple%>:enu # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:iens # ;
-%<v%>%<p2%>%<sg%>%<pres%>:iens # ;
-%<v%>%<p3%>%<sg%>%<pres%>:ient # ;
-%<v%>%<p1%>%<pl%>%<pres%>:enons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:enez # ;
-%<v%>%<p3%>%<pl%>%<pres%>:iennent # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:iens # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:iens # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<pres%>:ient # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<pres%>:enons # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:enez # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:iennent # ;
 
 LEXICON V3	! Conjugation 3 -re (faire)
-%<v%>%<inf%>:re # ;
-%<v%>%<pres%>%<ple%>:sant # ;
-%<v%>%<past%>%<ple%>:t # ;
+%<vblex%>%<inf%>:re # ;
+%<vblex%>%<pres%>%<ple%>:sant # ;
+%<vblex%>%<past%>%<ple%>:t # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:s # ;
-%<v%>%<p2%>%<sg%>%<pres%>:s # ;
-%<v%>%<p3%>%<sg%>%<pres%>:t # ;
-%<v%>%<p1%>%<pl%>%<pres%>:sons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:tes # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:s # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:s # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<pres%>:t # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<pres%>:sons # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:tes # ;
 
-%<v%>%<p1%>%<sg%>%<past%>:sais # ;
-%<v%>%<p2%>%<sg%>%<past%>:sais # ;
-%<v%>%<p3%>%<sg%>%<past%>:sait # ;
-%<v%>%<p1%>%<pl%>%<past%>:sions # ;
-%<v%>%<p2%>%<pl%>%<past%>:siez # ;
-%<v%>%<p3%>%<pl%>%<past%>:saient # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<past%>:sais # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<past%>:sais # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<past%>:sait # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<past%>:sions # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<past%>:siez # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<past%>:saient # ;
 
 
 LEXICON V3b	! Conjugation 3 (faire)
 :fai V3 ;
-%<v%>%<p3%>%<pl%>%<pres%>:font # ;
+%<vblex%>%<p3%>%<pl%>%<pres%>:font # ;
 
 LEXICON V3a	! Conjugation 3 -re
 V3 ;
-%<v%>%<p3%>%<pl%>%<pres%>:ont # ;
+%<vblex%>%<p3%>%<pl%>%<pres%>:ont # ;
 
 LEXICON V3c	! Conjugation 3 -re (-ndre)
-%<v%>%<inf%>:re # ;
-%<v%>%<pres%>%<ple%>:ant # ;
-%<v%>%<past%>%<ple%>:u # ;
+%<vblex%>%<inf%>:re # ;
+%<vblex%>%<pres%>%<ple%>:ant # ;
+%<vblex%>%<past%>%<ple%>:u # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:s # ;
-%<v%>%<p2%>%<sg%>%<pres%>:s # ;
-%<v%>%<p3%>%<sg%>%<pres%>: # ;
-%<v%>%<p1%>%<pl%>%<pres%>:ons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:ez # ;
-%<v%>%<p3%>%<pl%>%<pres%>:ent # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:s # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:s # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<pres%>: # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<pres%>:ons # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:ez # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:ent # ;
 
 LEXICON V4a	! (voir)
-%<v%>%<inf%>:voir # ;
-%<v%>%<pres%>%<ple%>:voyant # ;
-%<v%>%<past%>%<ple%>:vu # ;
+%<vblex%>%<inf%>:voir # ;
+%<vblex%>%<pres%>%<ple%>:voyant # ;
+%<vblex%>%<past%>%<ple%>:vu # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:vois # ;
-%<v%>%<p2%>%<sg%>%<pres%>:vois  # ;
-%<v%>%<p3%>%<sg%>%<pres%>:voit # ;
-%<v%>%<p1%>%<pl%>%<pres%>:voyons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:voyez # ;
-%<v%>%<p3%>%<pl%>%<pres%>:voient # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:vois # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:vois  # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<pres%>:voit # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<pres%>:voyons # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:voyez # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:voient # ;
 
 LEXICON V4b	! (pouvoir)
-%<v%>%<inf%>:pouvoir # ;
-%<v%>%<pres%>%<ple%>:pouvant # ;
-%<v%>%<past%>%<ple%>:pu # ;
+%<vblex%>%<inf%>:pouvoir # ;
+%<vblex%>%<pres%>%<ple%>:pouvant # ;
+%<vblex%>%<past%>%<ple%>:pu # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:peux # ;
-%<v%>%<p2%>%<sg%>%<pres%>:peux  # ;
-%<v%>%<p3%>%<sg%>%<pres%>:peut # ;
-%<v%>%<p1%>%<pl%>%<pres%>:pouvons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:pouvez # ;
-%<v%>%<p3%>%<pl%>%<pres%>:peuvent # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:peux # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:peux  # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<pres%>:peut # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<pres%>:pouvons # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:pouvez # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:peuvent # ;
 
 LEXICON V4c	! (vouloir)
-%<v%>%<inf%>:vouloir # ;
-%<v%>%<pres%>%<ple%>:voulant # ;
-%<v%>%<past%>%<ple%>:voulu # ;
+%<vblex%>%<inf%>:vouloir # ;
+%<vblex%>%<pres%>%<ple%>:voulant # ;
+%<vblex%>%<past%>%<ple%>:voulu # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:veux # ;
-%<v%>%<p2%>%<sg%>%<pres%>:veux  # ;
-%<v%>%<p3%>%<sg%>%<pres%>:veut # ;
-%<v%>%<p1%>%<pl%>%<pres%>:voulons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:voulez # ;
-%<v%>%<p3%>%<pl%>%<pres%>:veulent # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:veux # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:veux  # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<pres%>:veut # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<pres%>:voulons # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:voulez # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:veulent # ;
 
 LEXICON V5a ! (dire)
-%<v%>%<inf%>:re # ;
-%<v%>%<pres%>%<ple%>:ant # ;
-%<v%>%<past%>%<ple%>:t # ;
+%<vblex%>%<inf%>:re # ;
+%<vblex%>%<pres%>%<ple%>:ant # ;
+%<vblex%>%<past%>%<ple%>:t # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:s # ;
-%<v%>%<p2%>%<sg%>%<pres%>:s  # ;
-%<v%>%<p3%>%<sg%>%<pres%>:t # ;
-%<v%>%<p1%>%<pl%>%<pres%>:sons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:sez # ;
-%<v%>%<p3%>%<pl%>%<pres%>:sent # ;
+%<ind%>%<vblex%>%<p1%>%<sg%>%<pres%>:s # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:s  # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<pres%>:t # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<pres%>:sons # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:sez # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:sent # ;
+
+%<vblex%>%<imp%>%<p2%>%<sg%>%:s # ;
+%<vblex%>%<imp%>%<p1%>%<pl%>:sons # ;
+%<vblex%>%<imp%>%<p2%>%<pl%>:tes # ;
 
 LEXICON V5 ! (rire)
-%<v%>%<inf%>:re # ;
-%<v%>%<pres%>%<ple%>:ant # ;
-%<v%>%<past%>%<ple%>: # ;
+%<vblex%>%<inf%>:re # ;
+%<vblex%>%<pres%>%<ple%>:ant # ;
+%<vblex%>%<past%>%<ple%>: # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:s # ;
-%<v%>%<p2%>%<sg%>%<pres%>:s  # ;
-%<v%>%<p3%>%<sg%>%<pres%>:t # ;
-%<v%>%<p1%>%<pl%>%<pres%>:ons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:ez # ;
-%<v%>%<p3%>%<pl%>%<pres%>:ent # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:s # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:s  # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<pres%>:t # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<pres%>:ons # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:ez # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:ent # ;
 
 
 LEXICON V6 ! (asseoir)
-%<v%>%<inf%>:eoir # ;
-%<v%>%<pres%>%<ple%>:oyant # ;
-%<v%>%<past%>%<ple%>%<m%>:is # ;
-%<v%>%<past%>%<ple%>%<f%>:ise # ;
+%<vblex%>%<inf%>:eoir # ;
+%<vblex%>%<pres%>%<ple%>:oyant # ;
+%<vblex%>%<past%>%<ple%>%<m%>:is # ;
+%<vblex%>%<past%>%<ple%>%<f%>:ise # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:ois # ;
-%<v%>%<p2%>%<sg%>%<pres%>:ois  # ;
-%<v%>%<p3%>%<sg%>%<pres%>:oit # ;
-%<v%>%<p1%>%<pl%>%<pres%>:oyons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:oyez # ;
-%<v%>%<p3%>%<pl%>%<pres%>:oient # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:ois # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:ois  # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<pres%>:oit # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<pres%>:oyons # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:oyez # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:oient # ;
 
 
 LEXICON V10	! (être)
-%<v%>%<inf%>:être # ;
-%<v%>%<pres%>%<ple%>:étant # ;
-%<v%>%<past%>%<ple%>:été # ;
+%<vblex%>%<inf%>:être # ;
+%<vblex%>%<pres%>%<ple%>:étant # ;
+%<vblex%>%<past%>%<ple%>:été # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:suis # ;
-%<v%>%<p2%>%<sg%>%<pres%>:es # ;
-%<v%>%<p3%>%<sg%>%<pres%>:est # ;
-%<v%>%<p1%>%<pl%>%<pres%>:sommes # ;
-%<v%>%<p2%>%<pl%>%<pres%>:êtes # ;
-%<v%>%<p3%>%<pl%>%<pres%>:sont # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:suis # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:es # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<pres%>:est # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<pres%>:sommes # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:êtes # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:sont # ;
 
 LEXICON V11	! (avoir)
-%<v%>%<inf%>:avoir # ;
-%<v%>%<pres%>%<ple%>:ayant # ;
-%<v%>%<past%>%<ple%>:eu # ;
+%<vblex%>%<inf%>:avoir # ;
+%<vblex%>%<pres%>%<ple%>:ayant # ;
+%<vblex%>%<past%>%<ple%>:eu # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:ai # ;
-%<v%>%<p2%>%<sg%>%<pres%>:as  # ;
-%<v%>%<p3%>%<sg%>%<pres%>:a # ;
-%<v%>%<p1%>%<pl%>%<pres%>:avons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:avez # ;
-%<v%>%<p3%>%<pl%>%<pres%>:ont # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:ai # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:as  # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<pres%>:a # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<pres%>:avons # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:avez # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:ont # ;
 
 LEXICON V12	! (aller)
-%<v%>%<inf%>:aller # ;
-%<v%>%<pres%>%<ple%>:allant # ;
-%<v%>%<past%>%<ple%>:allé # ;
+%<vblex%>%<inf%>:aller # ;
+%<vblex%>%<pres%>%<ple%>:allant # ;
+%<vblex%>%<past%>%<ple%>:allé # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:vais # ;
-%<v%>%<p2%>%<sg%>%<pres%>:vas  # ;
-%<v%>%<p3%>%<sg%>%<pres%>:va # ;
-%<v%>%<p1%>%<pl%>%<pres%>:allons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:allez # ;
-%<v%>%<p3%>%<pl%>%<pres%>:vont # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:vais # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:vas  # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<pres%>:va # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<pres%>:allons # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:allez # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:vont # ;
 
 LEXICON V13	! (savoir)
-%<v%>%<inf%>:savoir # ;
-%<v%>%<pres%>%<ple%>:sachant # ;
-%<v%>%<past%>%<ple%>:su # ;
+%<vblex%>%<inf%>:savoir # ;
+%<vblex%>%<pres%>%<ple%>:sachant # ;
+%<vblex%>%<past%>%<ple%>:su # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:sais # ;
-%<v%>%<p2%>%<sg%>%<pres%>:sais  # ;
-%<v%>%<p3%>%<sg%>%<pres%>:sait # ;
-%<v%>%<p1%>%<pl%>%<pres%>:savons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:savez # ;
-%<v%>%<p3%>%<pl%>%<pres%>:savent # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:sais # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:sais  # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<pres%>:sait # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<pres%>:savons # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:savez # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:savent # ;
 
-%<v%>%<p1%>%<sg%>%<subj%>%<pres%>:sache # ;
-%<v%>%<p2%>%<sg%>%<subj%>%<pres%>:saches  # ;
-%<v%>%<p3%>%<sg%>%<subj%>%<pres%>:sache # ;
-%<v%>%<p1%>%<pl%>%<subj%>%<pres%>:sachions # ;
-%<v%>%<p2%>%<pl%>%<subj%>%<pres%>:sachiez # ;
-%<v%>%<p3%>%<pl%>%<subj%>%<pres%>:sachent # ;
+%<vblex%>%<p1%>%<sg%>%<subj%>%<pres%>:sache # ;
+%<vblex%>%<p2%>%<sg%>%<subj%>%<pres%>:saches  # ;
+%<vblex%>%<p3%>%<sg%>%<subj%>%<pres%>:sache # ;
+%<vblex%>%<p1%>%<pl%>%<subj%>%<pres%>:sachions # ;
+%<vblex%>%<p2%>%<pl%>%<subj%>%<pres%>:sachiez # ;
+%<vblex%>%<p3%>%<pl%>%<subj%>%<pres%>:sachent # ;
 
 LEXICON V13b	! (devoir)
-%<v%>%<inf%>:devoir # ;
-%<v%>%<pres%>%<ple%>:devant # ;
-%<v%>%<past%>%<ple%>:dû # ;
+%<vblex%>%<inf%>:devoir # ;
+%<vblex%>%<pres%>%<ple%>:devant # ;
+%<vblex%>%<past%>%<ple%>:dû # ;
 
-%<v%>%<p1%>%<sg%>%<pres%>:dois # ;
-%<v%>%<p2%>%<sg%>%<pres%>:dois  # ;
-%<v%>%<p3%>%<sg%>%<pres%>:doit # ;
-%<v%>%<p1%>%<pl%>%<pres%>:devons # ;
-%<v%>%<p2%>%<pl%>%<pres%>:devez # ;
-%<v%>%<p3%>%<pl%>%<pres%>:doivent # ;
+%<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:dois # ;
+%<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:dois  # ;
+%<vblex%>%<ind%>%<p3%>%<sg%>%<pres%>:doit # ;
+%<vblex%>%<ind%>%<p1%>%<pl%>%<pres%>:devons # ;
+%<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:devez # ;
+%<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:doivent # ;
 
 LEXICON Verbs
 être: V10 ; ! ""
@@ -393,7 +423,6 @@ compter:compt V1 ; ! ""
 parler:parl V1 ; ! ""
 chercher:cherch V1 ; ! ""
 cacher:cach V1 ; ! ""
-saver:sav V1 ; ! ""
 courir:cour V2b ; ! ""
 écouter:écout V1 ; ! ""
 marcher:march V1 ; ! ""
@@ -417,30 +446,30 @@ vouloir: V4c ; ! ""
 devoir: V13b ; ! ""
 
 LEXICON A1
-%<a%><%m>%<sg%>: # ;
-%<a%><%f>%<sg%>:e # ;
-%<a%><%m>%<pl%>:s # ;
-%<a%><%f>%<pl%>:es # ;
+%<adj%><%m>%<sg%>: # ;
+%<adj%><%f>%<sg%>:e # ;
+%<adj%><%m>%<pl%>:s # ;
+%<adj%><%f>%<pl%>:es # ;
 
 LEXICON A1a
-%<a%><%m>%<sg%>: # ;
-%<a%><%f>%<sg%>:se # ;
-%<a%><%m>%<pl%>: # ;
-%<a%><%f>%<pl%>:ses # ;
+%<adj%><%m>%<sg%>: # ;
+%<adj%><%f>%<sg%>:se # ;
+%<adj%><%m>%<pl%>: # ;
+%<adj%><%f>%<pl%>:ses # ;
 
 LEXICON A1b
-%<a%><%m>%<sg%>: # ;
-%<a%><%f>%<sg%>: # ;
-%<a%><%m>%<pl%>:s # ;
-%<a%><%f>%<pl%>:s # ;
+%<adj%><%m>%<sg%>: # ;
+%<adj%><%f>%<sg%>: # ;
+%<adj%><%m>%<pl%>:s # ;
+%<adj%><%f>%<pl%>:s # ;
 
 LEXICON A2m
-%<a%><%m>%<sg%>: # ;
-%<a%><%m>%<pl%>:x # ;
+%<adj%><%m>%<sg%>: # ;
+%<adj%><%m>%<pl%>:x # ;
 
 LEXICON A2f
-%<a%><%f>%<sg%>: # ;
-%<a%><%f>%<pl%>:s # ;
+%<adj%><%f>%<sg%>: # ;
+%<adj%><%f>%<pl%>:s # ;
 
 LEXICON Adjectives
 chaud A1 ; ! ""
@@ -452,7 +481,6 @@ froid A1 ; ! ""
 content A1 ; ! ""
 gros A1a ; ! ""
 vert A1 ; ! ""
-présent A1 ; ! ""
 aucun A1 ; ! ""
 autre A1a ; ! ""
 sûr A1 ; ! ""
@@ -479,41 +507,59 @@ huit NUM ; ! ""
 neuf NUM ; ! ""
 dix NUM ; ! ""
 
+1%<num%>:1 # ;
+2%<num%>:2 # ;
+3%<num%>:3 # ;
+4%<num%>:4 # ;
+5%<num%>:5 # ;
+6%<num%>:6 # ;
+7%<num%>:7 # ;
+8%<num%>:8 # ;
+9%<num%>:9 # ;
+1%0%<num%>:1%0 # ;
+11%<num%>:11 # ;
+12%<num%>:12 # ;
+13%<num%>:13 # ;
+14%<num%>:14 # ;
+15%<num%>:15 # ;
+16%<num%>:16 # ;
+17%<num%>:17 # ;
+18%<num%>:18 # ;
+19%<num%>:19 # ;
+2%0%<num%>:2%0 # ;
+21%<num%>:21 # ;
+22%<num%>:22 # ;
+23%<num%>:23 # ;
+24%<num%>:24 # ;
+25%<num%>:25 # ;
+
 LEXICON PP1-SG
 %<nom%>:je # ;
-%<refl%>:me # ;
-%<acc%>:me # ;
-%<dat%>:me # ;
+%<acc%>:m PRC ;
+%<dat%>:m PRC ;
 %<disj%>:moi # ;
 
 LEXICON PP1-PL
-%<nom%>:nous # ;
-%<refl%>:nous # ;
-%<acc%>:nous # ;
-%<dat%>:nous # ;
-%<disj%>:nous # ;
+%<nom%>: # ;
+%<acc%>: # ;
+%<dat%>: # ;
+%<disj%>: # ;
 
 LEXICON PP2-SG
 %<nom%>:tu # ;
-%<refl%>:te # ;
-%<acc%>:te # ;
-%<dat%>:te # ;
+%<acc%>:t PRC ;
+%<dat%>:t PRC ;
 %<disj%>:toi # ;
 
 LEXICON PP2-PL
-%<nom%>:vous # ;
-%<refl%>:vous # ;
-%<acc%>:vous # ;
-%<dat%>:vous # ;
-%<disj%>:vous # ;
-
-LEXICON PP3
-%<refl%>:se # ;
+%<nom%>: # ;
+%<acc%>: # ;
+%<dat%>: # ;
+%<disj%>: # ;
 
 LEXICON PP3m
-PP3 ;
 %<sg%>%<m%>%<nom%>:il # ;
-%<sg%>%<m%>%<acc%>:le # ;
+%<sg%>%<m%>%<acc%>:l PRC ;
 %<sg%>%<m%>%<dat%>:lui # ;
 %<sg%>%<m%>%<disj%>:lui # ;
 %<pl%>%<m%>%<nom%>:ils # ;
@@ -522,7 +568,6 @@ PP3 ;
 %<pl%>%<m%>%<eux%>:eux # ;
 
 LEXICON PP3f
-PP3 ;
 %<sg%>%<f%>%<nom%>:elle # ;
 %<sg%>%<f%>%<acc%>:la # ;
 %<sg%>%<f%>%<dat%>:lui # ;
@@ -532,13 +577,25 @@ PP3 ;
 %<pl%>%<f%>%<dat%>:leur # ;
 %<pl%>%<f%>%<eux%>:elles # ;
 
+LEXICON PRC
+%<prc%>:e # ;
+%<prc%>: # ;
+
 LEXICON PRONPERS
 je%<prn%>%<pers%>%<p1%>%<sg%>: PP1-SG ; ! ""
-nous%<prn%>%<pers%>%<p1%>%<pl%>: PP1-PL ; ! ""
+nous%<prn%>%<pers%>%<p1%>%<pl%>:nous PP1-PL ; ! ""
 tu%<prn%>%<pers%>%<p2%>%<sg%>: PP2-SG ; ! ""
-vous%<prn%>%<pers%>%<p2%>%<pl%>: PP2-PL ; ! ""
+vous%<prn%>%<pers%>%<p2%>%<pl%>:vous PP2-PL ; ! ""
 il%<prn%>%<pers%>%<p3%>: PP3m ; ! ""
 elle%<prn%>%<pers%>%<p3%>: PP3f ; ! ""
+
+LEXICON PRONREFL
+je%<prn%>%<refl%>%<p1%>%<sg%>:m PRC ; ! ""
+nous%<prn%>%<refl%>%<p1%>%<pl%>:nous # ! ""
+tu%<prn%>%<refl%>%<p2%>%<sg%>:t PRC ; ! ""
+vous%<prn%>%<refl%>%<p2%>%<pl%>:vous # ! ""
+il%<prn%>%<refl%>%<p3%>:s PRC ; ! ""
+elle%<prn%>%<refl%>%<p3%>:s PRC ; ! ""
 
 LEXICON PRN
 %<prn%>: # ;
@@ -552,6 +609,7 @@ LEXICON ITG
 
 LEXICON Pronouns
 PRONPERS ;
+PRONREFL ;
 qui ITG ; ! ""
 rien PRN ; ! ""
 quelque PRNa ; ! ""
@@ -560,72 +618,50 @@ y PRN ; ! ""
 cela PRN ; ! ""
 ça PRN ; ! ""
 
-LEXICON DET1
+LEXICON DET1 ! (un/e)
 %<det%>%<m%>: # ;
 %<det%>%<f%>:e # ;
 
-LEXICON DET2
-%<det%>%<m%>%<sg%>: # ;
-%<det%>%<m%>%<pl%>:s # ;
-%<det%>%<f%>:tte # ;
-%<det%>%<f%>%<pl%>:ttes # ;
+LEXICON DET2 ! (ce/tte)
+%<det%>%<m%>%<sg%>: PRC ;
+%<det%>%<m%>%<sg%>:et # ;
+%<det%>%<m%>%<pl%>:es # ;
+%<det%>%<f%>:ette # ;
+%<det%>%<f%>%<pl%>:ettes # ;
 
-LEXICON DET2a
-%<det%>%<m%>: # ;
+LEXICON  DET3 ! (le/la)
+%<det%>%<m%>: PRC ;
+%<det%>%<f%>:a # ;
+%<det%>%<pl%>:es # ;
 
-LEXICON  DETm
-%<det%>%<m%>: # ;
+LEXICON POSS-SG
+%<m%>:on # ;
+%<f%>:a # ;
+%<pl%>:es # ;
 
-LEXICON DETf
-%<det%>%<f%>: # ;
-
-LEXICON POSS1-SG
-%<m%>:mon # ;
-%<f%>:ma # ;
-%<pl%>: mes # ;
-
-LEXICON POSS2-SG
-%<m%>:ton # ;
-%<f%>:ta # ;
-%<pl%>: tes # ;
-
-LEXICON POSS3-SG
-%<m%>:son # ;
-%<f%>:sa # ;
-%<pl%>: ses # ;
-
-LEXICON POSS1-PL
-%<m%>:notre # ;
-%<f%>:notre # ;
-%<pl%>: nos # ;
-
-LEXICON POSS2-PL
-%<m%>:votre # ;
-%<f%>:votre # ;
-%<pl%>: vos # ;
+LEXICON POSS12-PL
+%<m%>:otre # ;
+%<f%>:otre # ;
+%<pl%>:os # ;
 
 LEXICON POSS3-PL
-%<m%>:leur # ;
-%<f%>:leur # ;
-%<pl%>: leurs # ;
+%<m%>: # ;
+%<f%>: # ;
+%<pl%>:s # ;
 
 LEXICON POSSESSIVES
-mon%<det%>%<poss%>%<p1%>%<sg%>: POSS1-SG ; ! ""
-ton%<det%>%<poss%>%<p2%>%<sg%>: POSS2-SG ; ! ""
-son%<det%>%<poss%>%<p3%>%<sg%>: POSS3-SG ; ! ""
-notre%<det%>%<poss%>%<p1%>%<pl%>: POSS1-PL ; ! ""
-votre%<det%>%<poss%>%<p2%>%<pl%>: POSS2-PL ; ! ""
-leus%<det%>%<poss%>%<p3%>%<pl%>: POSS3-PL ; ! ""
+mon%<det%>%<poss%>%<p1%>%<sg%>:m POSS-SG ; ! ""
+ton%<det%>%<poss%>%<p2%>%<sg%>:t POSS-SG ; ! ""
+son%<det%>%<poss%>%<p3%>%<sg%>:s POSS-SG ; ! ""
+notre%<det%>%<poss%>%<p1%>%<pl%>:n POSS12-PL ; ! ""
+votre%<det%>%<poss%>%<p2%>%<pl%>:v POSS12-PL ; ! ""
+leus%<det%>%<poss%>%<p3%>%<pl%>:leur POSS3-PL ; ! ""
 
 LEXICON Determiners
 POSSESSIVES ;
 un DET1 ; ! ""
-le DETm ; ! ""
-l DETm; ! ""
-la DETf ; ! ""
-ce DET2 ; ! ""
-cet DET2a ; ! ""
-c DET2a ; ! ""
+le:l DET3 ; ! ""
+ce:c DET2 ; ! ""
 
 LEXICON ADV
 %<adv%>: # ;
@@ -641,8 +677,8 @@ pas ADV ; ! ""
 toujours ADV ; ! ""
 ensemble ADV ; ! ""
 aussi ADV ; ! ""
-à% présent ADV ; ! ""
-à% travers ADV ; ! ""
+à% présent:à% présent ADV ; ! ""
+à% travers:à% travers ADV ; ! ""
 non ADV ; ! ""
 près ADV ; ! ""
 vite ADV ; ! ""
@@ -662,6 +698,9 @@ LEXICON ITG
 LEXICON PRE
 %<pre%>: # ;
 
+LEXICON PRE-PRC
+%<pre%>: PRC ;
+
 LEXICON Prepositions
 dans PRE ; ! ""
 devant PRE ; ! ""
@@ -670,31 +709,71 @@ en PRE ; ! ""
 par PRE ; ! ""
 vers PRE ; ! "" 
 à PRE ; ! ""
-de PRE ; ! ""
-d PRE ; ! ""
+de:d PRE-PRC ; ! ""
 derrière PRE ; ! ""
 sous PRE ; ! ""
 
-LEXICON CONJ
-%<conj%>: # ;
+LEXICON CNJCOO
+%<cnjcoo%>: # ;
+
+LEXICON CNJSUB
+%<cnjsub%>: # ;
+
+LEXICON CONJ-PRC
+%<cnjcoo%>: PRC ;
 
 LEXICON Conjunctions
-mais CONJ ; ! ""
-et CONJ ; ! ""
-que CONJ ; ! ""
-qu CONJ ; ! ""
-lorsque CONJ ; ! ""
-lorsqu CONJ ; ! ""
-pourquoi CONJ ; ! ""
-alors CONJ ; ! ""
-ou CONJ ; ! ""
+mais CNJSUB ; ! ""
+et CNJCOO ; ! ""
+que:qu CONJ-PRC ; ! ""
+lorsque:lorsqu CONJ-PRC ; ! ""
+pourquoi CNJCOO ; ! ""
+alors CNJCOO ; ! ""
+ou CNJCOO ; ! ""
 
-LEXICON PART
-%<part%>: # ;
+LEXICON PART-PRC
+%<part%>: PRC ;
 
 LEXICON Particles
-ne PART ; ! ""
-n PART ; ! ""
+ne:n PART-PRC ; ! ""
+
+LEXICON CONTR
+%<contr%>: # ;
+
+LEXICON Contractions
+à% le:au CONTR ; ! ""
+à% les:aux CONTR ; ! ""
+
+!===================!
+ LEXICON Punctuation
+!===================!
+
+
+%.%<sent%>:%. # ;
+%.%.%<sent%>:%.%. # ;
+%.%.%.%<sent%>:%.%.%. # ;
+%;%<sent%>:%; # ;
+%:%<sent%>:%: # ;
+%!%<sent%>:%! # ;
+%-%<guio%>:%- # ;
+%—%<guio%>:%— # ;
+,%<cm%>:, # ;
+%?%<sent%>:%? # ;
+%'%<apos%>:%' # ;
+%’%<apos%>:%’ # ;
+%"%<sent%>:%" # ;
+%«%<lquot%>:%« # ;
+%»%<rquot%>:%» # ;
+%»%<lquot%>:%» # ;
+%”%<rquot%>:%” # ;
+%”%<lquot%>:%” # ;
+%“%<lquot%>:%“ # ;
+%(%<lpar%>:%( # ;
+%]%<rpar%>:%] # ;
+%[%<lpar%>:%[ # ;
+%)%<rpar%>:%) # ;
+%\%<sent%>:%\ # ;
+%/%<sent%>:%/ # ;
 
 
 
