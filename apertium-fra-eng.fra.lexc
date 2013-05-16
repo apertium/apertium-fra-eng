@@ -2,6 +2,7 @@
 Multichar_Symbols
 
 %<n%>   ! Noun
+%<np%>   ! Proper noun
 %<vblex%> ! Lexical verb
 %<vaux%> ! Auxiliary verb
 %<adj%>	! Adjective
@@ -39,7 +40,6 @@ Multichar_Symbols
 %<ind%> ! Indicative
 %<imp%> ! Imperative
 %<subj%> ! Subjunctive
-%<ind%> ! Indicative
 %<pres%> ! Present tense
 %<past%> ! Past tense
 %<ple%> ! Participle
@@ -65,6 +65,7 @@ Multichar_Symbols
 LEXICON Root
 
 Nouns ; 
+Propers ;
 Verbs ;
 Adjectives ;
 Numerals ;
@@ -155,12 +156,18 @@ tête N1 ; ! ""
 chose N1 ; ! ""
 eau N7 ; ! ""
 heure N1 ; ! ""
-Jean N2 ; ! ""
-Marie N1 ; ! ""
 œuil:œuil N9s ; ! "" 
 œuil:yeux N9p ; ! ""
 an N2 ; ! ""
 gens N9p ; ! ""
+
+LEXICON NP
+%<sg%>: # ;
+%<pl%>:s # ;
+
+LEXICON Propers
+Jean%<np%>%<m%>:Jean NP ; ! ""
+Marie%<np%>%<f%>:Marie NP ; ! ""
 
 LEXICON V1 	! Conjugation 1 -er (aimer)
 %<vblex%>%<inf%>:er # ;
@@ -205,8 +212,8 @@ LEXICON V2b	! Conjugation 2 -ir (courir)
 
 %<vblex%>%<ind%>%<p1%>%<sg%>%<pres%>:s # ;
 %<vblex%>%<ind%>%<p2%>%<sg%>%<pres%>:s # ;
-%<v%<ind%>%>%<p3%>%<sg%>%<pres%>:t # ;
-%<v%<ind%>%>%<p1%>%<pl%>%<pres%>:ons # ;
+%<vblex%>%<ind%>%>%<p3%>%<sg%>%<pres%>:t # ;
+%<vblex%>%<ind%>%>%<p1%>%<pl%>%<pres%>:ons # ;
 %<vblex%>%<ind%>%<p2%>%<pl%>%<pres%>:ez # ;
 %<vblex%>%<ind%>%<p3%>%<pl%>%<pres%>:ent # ;
 
@@ -446,35 +453,33 @@ vouloir: V4c ; ! ""
 devoir: V13b ; ! ""
 
 LEXICON A1
-%<adj%><%m>%<sg%>: # ;
-%<adj%><%f>%<sg%>:e # ;
-%<adj%><%m>%<pl%>:s # ;
-%<adj%><%f>%<pl%>:es # ;
+%<adj%>%<sg%>%<m%>: # ;
+%<adj%>%<sg%>%<f%>:e # ;
+%<adj%>%<pl%>%<m%>:s # ;
+%<adj%>%<pl%>%<f%>:es # ;
 
 LEXICON A1a
-%<adj%><%m>%<sg%>: # ;
-%<adj%><%f>%<sg%>:se # ;
-%<adj%><%m>%<pl%>: # ;
-%<adj%><%f>%<pl%>:ses # ;
+%<adj%>%<sg%>%<m%>: # ;
+%<adj%>%<sg%>%<f%>:se # ;
+%<adj%>%<pl%>%<m%>: # ;
+%<adj%>%<pl%>%<f%>:ses # ;
 
 LEXICON A1b
-%<adj%><%m>%<sg%>: # ;
-%<adj%><%f>%<sg%>: # ;
-%<adj%><%m>%<pl%>:s # ;
-%<adj%><%f>%<pl%>:s # ;
+%<adj%>%<sg%>%<m%>: # ;
+%<adj%>%<sg%>%<f%>: # ;
+%<adj%>%<pl%>%<m%>:s # ;
+%<adj%>%<pl%>%<f%>:s # ;
 
-LEXICON A2m
-%<adj%><%m>%<sg%>: # ;
-%<adj%><%m>%<pl%>:x # ;
-
-LEXICON A2f
-%<adj%><%f>%<sg%>: # ;
-%<adj%><%f>%<pl%>:s # ;
+LEXICON A2 ! (beau)
+%<adj%>%<sg%>%<m%>:au # ;
+%<adj%>%<sg%>%<m%>:l # ;
+%<adj%>%<pl%>%<m%>:aux # ;
+%<adj%>%<sg%>%<f%>:lle # ;
+%<adj%>%<pl%>%<f%>:lles # ;
 
 LEXICON Adjectives
 chaud A1 ; ! ""
-beau A2m ; ! ""
-belle A2f ; ! ""
+beau:be A2 ; ! ""
 grand A1 ; ! ""
 petit A1 ; ! ""
 froid A1 ; ! ""
@@ -486,17 +491,10 @@ autre A1a ; ! ""
 sûr A1 ; ! ""
 
 LEXICON NUM
-%<num%>: # ;
-
-LEXICON NUMm
-%<num%>%<m%>: # ;
-
-LEXICON NUMf
-%<num%>%<f%>: # ;
+%<det%>%<num%>: # ;
 
 LEXICON Numerals 
-un NUMm ; ! ""
-une NUMf ; ! ""
+un NUM ; ! ""
 deux NUM ; ! ""
 trois NUM ; ! ""
 quatre NUM ; ! ""
@@ -507,31 +505,31 @@ huit NUM ; ! ""
 neuf NUM ; ! ""
 dix NUM ; ! ""
 
-1%<num%>:1 # ;
-2%<num%>:2 # ;
-3%<num%>:3 # ;
-4%<num%>:4 # ;
-5%<num%>:5 # ;
-6%<num%>:6 # ;
-7%<num%>:7 # ;
-8%<num%>:8 # ;
-9%<num%>:9 # ;
-1%0%<num%>:1%0 # ;
-11%<num%>:11 # ;
-12%<num%>:12 # ;
-13%<num%>:13 # ;
-14%<num%>:14 # ;
-15%<num%>:15 # ;
-16%<num%>:16 # ;
-17%<num%>:17 # ;
-18%<num%>:18 # ;
-19%<num%>:19 # ;
-2%0%<num%>:2%0 # ;
-21%<num%>:21 # ;
-22%<num%>:22 # ;
-23%<num%>:23 # ;
-24%<num%>:24 # ;
-25%<num%>:25 # ;
+1:1 NUM ;
+2:2 NUM ;
+3:3 NUM ;
+4:4 NUM ;
+5:5 NUM ;
+6:6 NUM ;
+7:7 NUM ;
+8:8 NUM ;
+9:9 NUM ;
+1%0:1%0 NUM ;
+11:11 NUM ;
+12:12 NUM ;
+13:13 NUM ;
+14:14 NUM ;
+15:15 NUM ;
+16:16 NUM ;
+17:17 NUM ;
+18:18 NUM ;
+19:19 NUM ;
+2%0:2%0 NUM ;
+21:21 NUM ;
+22:22 NUM ;
+23:23 NUM ;
+24:24 NUM ;
+25:25 NUM ;
 
 LEXICON PP1-SG
 %<nom%>:je # ;
@@ -604,13 +602,9 @@ LEXICON PRNa
 %<prn%>%<sg%>: # ;
 %<prn%>%<pl%>:s # ;
 
-LEXICON ITG
-%<prn%>%<itg%>: # ;
-
 LEXICON Pronouns
 PRONPERS ;
 PRONREFL ;
-qui ITG ; ! ""
 rien PRN ; ! ""
 quelque PRNa ; ! ""
 tous PRN ; ! ""
@@ -655,7 +649,7 @@ ton%<det%>%<poss%>%<p2%>%<sg%>:t POSS-SG ; ! ""
 son%<det%>%<poss%>%<p3%>%<sg%>:s POSS-SG ; ! ""
 notre%<det%>%<poss%>%<p1%>%<pl%>:n POSS12-PL ; ! ""
 votre%<det%>%<poss%>%<p2%>%<pl%>:v POSS12-PL ; ! ""
-leus%<det%>%<poss%>%<p3%>%<pl%>:leur POSS3-PL ; ! ""
+leur%<det%>%<poss%>%<p3%>%<pl%>:leur POSS3-PL ; ! ""
 
 LEXICON Determiners
 POSSESSIVES ;
@@ -666,11 +660,17 @@ ce:c DET2 ; ! ""
 LEXICON ADV
 %<adv%>: # ;
 
+LEXICON ADV-OU
+0:où ITG ; ! 
+0:ou ITG ; !
+
+LEXICON ITG
+%<adv%>%<itg%>: # ;
+
 LEXICON Adverbs
 aujourd%'hui ADV ; ! ""
 hier ADV ; ! ""
-où ITG ; ! ""
-ou ITG ; ! ""
+où: ADV-OU ; ! ""
 très ADV ; ! ""
 dehors ADV ; ! ""
 pas ADV ; ! ""
@@ -691,9 +691,9 @@ partout ADV ; ! ""
 maintenant ADV ; ! ""
 encore ADV ; ! ""
 autour ADV ; ! ""
-
-LEXICON ITG
-%<adv%>%<itg%>: # ;
+qui ITG ; ! ""
+pourquoi ITG ; ! ""
+quand ITG ; ! ""
 
 LEXICON PRE
 %<pre%>: # ;

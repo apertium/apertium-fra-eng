@@ -2,6 +2,7 @@
   <alphabet/>
   <sdefs>
     <sdef n="n"  c="Noun"/>
+    <sdef n="np"  c="Proper noun"/>
     <sdef n="vblex" c="Lexical verb"/>
     <sdef n="adj" c="Adjective"/>    
     <sdef n="num" c="Numeral"/>
@@ -14,6 +15,10 @@
     <sdef n="itg" c="Interrogative"/>
     <sdef n="part" c="Particle"/>
     <sdef n="contr" c="Contraction"/>
+    
+    <sdef n="nom" c="Pronoun"/>
+    <sdef n="acc" c="Pronoun"/>
+    <sdef n="gen" c="Pronoun"/>
     
     <sdef n="m" c="Masculine"/>
     <sdef n="f" c="Feminine"/>
@@ -50,15 +55,17 @@
     <e><p><l>chaise<s n="n"/><s n="f"/></l><r>chair<s n="n"/></r></p></e>
     <e><p><l>oiseau<s n="n"/><s n="m"/></l><r>bird<s n="n"/></r></p></e>
     <e><p><l>animal<s n="n"/><s n="m"/></l><r>animal<s n="n"/></r></p></e>
-    <e><p><l>tête<s n="n"/><s n="m"/></l><r>head<s n="n"/></r></p></e>
+    <e><p><l>tête<s n="n"/><s n="f"/></l><r>head<s n="n"/></r></p></e>
     <e><p><l>chose<s n="n"/><s n="f"/></l><r>thing<s n="n"/></r></p></e>
     <e><p><l>eau<s n="n"/><s n="f"/></l><r>water<s n="n"/></r></p></e>
     <e><p><l>heure<s n="n"/><s n="f"/></l><r>hour<s n="n"/></r></p></e>
-    <e><p><l>Jean<s n="n"/><s n="m"/></l><r>Jack<s n="n"/></r></p></e>
-    <e><p><l>Marie<s n="n"/><s n="f"/></l><r>Mary<s n="n"/></r></p></e>
     <e><p><l>œuil<s n="n"/><s n="m"/></l><r>eye<s n="n"/></r></p></e>
     <e><p><l>an<s n="n"/><s n="m"/></l><r>year<s n="n"/></r></p></e>
-    <e><p><l>gens<s n="n"/><s n="m"/><s n="pl"/></l><r>people<s n="n"/></r></p></e>
+    <e><p><l>gens<s n="n"/><s n="m"/></l><r>people<s n="n"/></r></p></e>
+    
+    <!-- Propers -->
+    <e><p><l>Jean<s n="np"/></l><r>Jack<s n="np"/></r></p></e>
+    <e><p><l>Marie<s n="np"/></l><r>Mary<s n="np"/></r></p></e>
     
     <!-- Adverbs -->
     <e><p><l>dehors<s n="adv"/></l><r>outside<s n="adv"/></r></p></e>
@@ -71,7 +78,7 @@
     <e><p><l>ensemble<s n="adv"/></l><r>together<s n="adv"/></r></p></e>
     <e><p><l>aussi<s n="adv"/></l><r>as well<s n="adv"/></r></p></e>
     <e><p><l>à présent<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
-    <e><p><l>no<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+    <e><p><l>non<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
     <e><p><l>près<s n="adv"/></l><r>near<s n="adv"/></r></p></e>
     <e><p><l>près<s n="adv"/></l><r>close<s n="adv"/></r></p></e>
     <e><p><l>vite<s n="adv"/></l><r>quickly<s n="adv"/></r></p></e>
@@ -85,6 +92,9 @@
     <e><p><l>maintenant<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
     <e><p><l>encore<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
     <e><p><l>autour<s n="adv"/></l><r>around<s n="adv"/></r></p></e>
+    <e><p><l>qui<s n="adv"/></l><r>who<s n="adv"/></r></p></e>
+    <e><p><l>pourquoi<s n="adv"/></l><r>why<s n="adv"/></r></p></e>
+    <e><p><l>quand<s n="adv"/></l><r>when<s n="adv"/></r></p></e>
 
     <!-- Verbs -->
     <e><p><l>être<s n="vblex"/></l><r>be<s n="vblex"/></r></p></e>
@@ -130,8 +140,7 @@
     <!--Adjectives -->
     <e><p><l>chaud<s n="adj"/></l><r>warm<s n="adj"/></r></p></e>
     <e><p><l>chaud<s n="adj"/></l><r>hot<s n="adj"/></r></p></e>
-    <e><p><l>beau<s n="adj"/><s n="m"/></l><r>beautiful<s n="adj"/></r></p></e>
-    <e><p><l>belle<s n="adj"/><s n="f"/></l><r>beautiful<s n="adj"/></r></p></e>
+    <e><p><l>beau<s n="adj"/></l><r>beautiful<s n="adj"/></r></p></e>
     <e><p><l>grand<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
     <e><p><l>grand<s n="adj"/></l><r>great<s n="adj"/></r></p></e>
     <e><p><l>grand<s n="adj"/></l><r>grand<s n="adj"/></r></p></e>
@@ -158,6 +167,7 @@
     <e><p><l>avec<s n="pre"/></l><r>with<s n="pre"/></r></p></e>
     <e><p><l>en<s n="pre"/></l><r>in<s n="pre"/></r></p></e>
     <e><p><l>par<s n="pre"/></l><r>through<s n="pre"/></r></p></e>
+    <e><p><l>vers<s n="pre"/></l><r>towards<s n="pre"/></r></p></e>
     <e><p><l>à<s n="pre"/></l><r>to<s n="pre"/></r></p></e>
     <e><p><l>à<s n="pre"/></l><r>at<s n="pre"/></r></p></e>
     <e><p><l>de<s n="pre"/></l><r>of<s n="pre"/></r></p></e>
@@ -166,17 +176,17 @@
     <e><p><l>sous<s n="pre"/></l><r>under<s n="pre"/></r></p></e>
     
     <!--Numerals -->
-    <e><p><l>un<s n="num"/><s n="m"/></l><r>one<s n="num"/></r></p></e>
-    <e><p><l>une<s n="num"/><s n="f"/></l><r>one<s n="num"/></r></p></e>
-    <e><p><l>deux<s n="num"/></l><r>two<s n="num"/></r></p></e>
-    <e><p><l>trois<s n="num"/></l><r>three<s n="num"/></r></p></e>
-    <e><p><l>quatre<s n="num"/></l><r>four<s n="num"/></r></p></e>
-    <e><p><l>cinq<s n="num"/></l><r>five<s n="num"/></r></p></e>
-    <e><p><l>six<s n="num"/></l><r>six<s n="num"/></r></p></e>
-    <e><p><l>sept<s n="num"/></l><r>seven<s n="num"/></r></p></e>
-    <e><p><l>huit<s n="num"/></l><r>eight<s n="num"/></r></p></e>
-    <e><p><l>neuf<s n="num"/></l><r>nine<s n="num"/></r></p></e>
-    <e><p><l>dix<s n="num"/></l><r>ten<s n="num"/></r></p></e>
+    <e><p><l>un<s n="det"/><s n="m"/></l><r>one<s n="det"/></r></p></e>
+    <e><p><l>une<s n="det"/><s n="f"/></l><r>one<s n="det"/></r></p></e>
+    <e><p><l>deux<s n="det"/></l><r>two<s n="det"/></r></p></e>
+    <e><p><l>trois<s n="det"/></l><r>three<s n="det"/></r></p></e>
+    <e><p><l>quatre<s n="det"/></l><r>four<s n="det"/></r></p></e>
+    <e><p><l>cinq<s n="det"/></l><r>five<s n="det"/></r></p></e>
+    <e><p><l>six<s n="det"/></l><r>six<s n="det"/></r></p></e>
+    <e><p><l>sept<s n="det"/></l><r>seven<s n="det"/></r></p></e>
+    <e><p><l>huit<s n="det"/></l><r>eight<s n="det"/></r></p></e>
+    <e><p><l>neuf<s n="det"/></l><r>nine<s n="det"/></r></p></e>
+    <e><p><l>dix<s n="det"/></l><r>ten<s n="det"/></r></p></e>
     
     <!--Pronouns -->
     <e><p><l>je<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l>
@@ -196,7 +206,6 @@
     <e><p><l>elles<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="f"/></l>
     	<r>they<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
     	
-    <e><p><l>qui<s n="prn"/></l><r>who<s n="prn"/></r></p></e>
     <e><p><l>rien<s n="prn"/></l><r>nothing<s n="prn"/></r></p></e>
     <e><p><l>rien<s n="prn"/></l><r>anything<s n="prn"/></r></p></e>
     <e><p><l>quelque<s n="prn"/></l><r>some<s n="prn"/></r></p></e>
@@ -230,6 +239,7 @@
     
     <!--Particles and contractions -->
     <e><p><l>ne<s n="part"/></l><r>no<s n="adv"/></r></p></e>
+    <e><p><l>ne<s n="part"/></l><r>not<s n="adv"/></r></p></e>
     <e><p><l>à le<s n="contr"/></l><r>to<s n="pre"/></r></p></e>
     <e><p><l>à les<s n="contr"/></l><r>to<s n="pre"/></r></p></e>
 
