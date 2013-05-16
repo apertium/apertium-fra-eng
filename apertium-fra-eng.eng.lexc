@@ -2,10 +2,13 @@
 Multichar_Symbols
 
 %<n%>   ! Noun
+%<np%>   ! Proper noun
 %<vblex%> ! lexical verb
 %<vaux%> ! auxiliary verb
 %<adj%> ! adjective
 %<adv%> ! adverb
+%<det%> ! determiner
+%<num%> ! numeral
 %<prn%> ! pronoun 
 %<pre%> ! adposition
 %<ij%> ! Interjection
@@ -19,14 +22,16 @@ Multichar_Symbols
 
 %<sint%>  ! Synthetic
 
-%<nom%>  !Nominative    
-%<acc%>  !Accusative    
+%<nom%>  ! Nominative    
+%<acc%>  ! Accusative    
+%<gen%>  ! Genitive    
 
 %<actv%> ! Active voice 
 %<pasv%> ! Passive voice
 %<pres%> !Present       
 %<past%> !Past  
-%<inf%> !Infinitive     
+%<inf%> ! Infinitive     
+%<ind%> ! Indicative     
 
 %<p1%> ! First person   
 %<p2%> ! Second person  
@@ -80,6 +85,12 @@ LEXICON N_CHILDREN
 %<pl%>:ren # ;
 %<pl%>%<gen%>:ren's # ;
 
+LEXICON N_PERSON
+:person N ; 
+%<pl%>:people # ;
+%<pl%>%<gen%>:people's # ;
+
+
 LEXICON Nouns
 
 dog%<n%>:dog N ; ! ""
@@ -98,7 +109,8 @@ table%<n%>:table N ; ! ""
 something%<n%>:something N ; ! ""
 sister%<n%>:sister N ; ! ""
 question%<n%>:question N ; ! ""
-people%<n%>:people N ; ! ""
+!people%<n%>:people N ; ! ""
+person%<n%>:0 N_PERSON ; ! ""
 head%<n%>:head N ; ! ""
 hand%<n%>:hand N ; ! ""
 girl%<n%>:girl N ; ! ""
@@ -352,8 +364,8 @@ LEXICON PROPN_JAMES
 %<sg%>%<gen%>:'s # ;
 
 LEXICON Propers
-James%<np%>%<ant%>%<m%>:James PROPN_JAMES ; ! ""
-Mary%<np%>%<ant%>%<f%>:Mary N ; ! ""
+James%<np%>%<m%>:James PROPN_JAMES ; ! ""
+Mary%<np%>%<f%>:Mary N ; ! ""
 
 LEXICON Conjunctions
 and%<cnjcoo%>:and # ; ! ""
@@ -362,6 +374,7 @@ or%<cnjcoo%>:or # ; ! ""
 
 LEXICON Prepositions
 to%<pre%>:to # ; ! ""
+towards%<pre%>:towards # ; ! ""
 in%<pre%>:in # ; ! ""
 that%<pre%>:that # ; ! ""
 now%<pre%>:now # ; ! ""
@@ -383,6 +396,8 @@ LEXICON Adverbs
 where%<adv%>%<itg%>:where # ; ! ""
 when%<adv%>%<itg%>:when # ; ! ""
 why%<adv%>%<itg%>:why # ; ! ""
+who%<adv%>%<itg%>:who # ; ! ""
+
 
 not%<adv%>:not # ; ! ""
 also%<adv%>:also # ; ! ""
@@ -447,46 +462,48 @@ green%<adj%>%<sint%>:green A_OLD ; ! ""
 beautiful%<adj%>:beautiful # ; ! ""
 sure%<adj%>%<sint%>:sur A_NICE ; ! ""
 
+LEXICON NUM
+%<det%>%<num%>: # ;
+
 LEXICON Numerals
 
-one%<num%>:one # ; ! ""
-two%<num%>:two # ; ! ""
-three%<num%>:three # ; ! ""
-four%<num%>:four # ; ! ""
-five%<num%>:five # ; ! ""
-six%<num%>:six # ; ! ""
-seven%<num%>:seven # ; ! ""
-eight%<num%>:eight # ; ! ""
-nine%<num%>:nine # ; ! ""
-ten%<num%>:ten # ; ! ""
+one:one NUM ; ! ""
+two:two NUM ; ! ""
+three:three NUM ; ! ""
+four:four NUM ; ! ""
+five:five NUM ; ! ""
+six:six NUM ; ! ""
+seven:seven NUM ; ! ""
+eight:eight NUM ; ! ""
+nine:nine NUM ; ! ""
+ten:ten NUM ; ! ""
 
+1:1 NUM ;
+2:2 NUM ;
+3:3 NUM ;
+4:4 NUM ;
+5:5 NUM ;
+6:6 NUM ;
+7:7 NUM ;
+8:8 NUM ;
+9:9 NUM ;
+1%0:1%0 NUM ;
+11:11 NUM ;
+12:12 NUM ;
+13:13 NUM ;
+14:14 NUM ;
+15:15 NUM ;
+16:16 NUM ;
+17:17 NUM ;
+18:18 NUM ;
+19:19 NUM ;
+2%0:2%0 NUM ;
+21:21 NUM ;
+22:22 NUM ;
+23:23 NUM ;
+24:24 NUM ;
+25:25 NUM ;
 
-
-1%<num%>:1 # ;
-2%<num%>:2 # ;
-3%<num%>:3 # ;
-4%<num%>:4 # ;
-5%<num%>:5 # ;
-6%<num%>:6 # ;
-7%<num%>:7 # ;
-8%<num%>:8 # ;
-9%<num%>:9 # ;
-1%0%<num%>:1%0 # ;
-11%<num%>:11 # ;
-12%<num%>:12 # ;
-13%<num%>:13 # ;
-14%<num%>:14 # ;
-15%<num%>:15 # ;
-16%<num%>:16 # ;
-17%<num%>:17 # ;
-18%<num%>:18 # ;
-19%<num%>:19 # ;
-2%0%<num%>:2%0 # ;
-21%<num%>:21 # ;
-22%<num%>:22 # ;
-23%<num%>:23 # ;
-24%<num%>:24 # ;
-25%<num%>:25 # ;
 
  LEXICON Punctuation
 !===================!

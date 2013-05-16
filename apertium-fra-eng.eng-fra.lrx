@@ -4,15 +4,4 @@
       <select lemma="chien" tags="n.*"/>
     </match>
   </rule>
-  <rule>
-  	<match lemma="entendre" tags="v.*">
-      <select lemma="hear" tags="v.*"/>
-    </match>
-  </rule>
-  <rule>
-    <match tags="*.refl" />
-  	<match lemma="entendre" tags="v.*">
-      <select lemma="get along" tags="v.*"/>
-    </match>
-  </rule>
 </rules>
