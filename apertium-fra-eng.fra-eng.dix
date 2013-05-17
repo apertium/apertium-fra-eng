@@ -30,6 +30,15 @@
     <sdef n="p3" c="Third person"/>
     <sdef n="pers" c="Personal"/>
     
+    <sdef n="guio" 	c="hyphen"/> 
+    <sdef n="cm" 	c="comma"/> 
+    <sdef n="sent" 	c="sentence marker"/> 
+    <sdef n="lpar" 	c="left parenthesis"/> 
+    <sdef n="rpar" 	c="right parenthesis"/> 
+    <sdef n="lquot" 	c="left quotation mark"/> 
+    <sdef n="rquot" 	c="right quotation mark"/> 
+    <sdef n="apos" 	c="apostrophe"/> 
+    
   </sdefs>
   <section id="main" type="standard">
     <!-- Nouns -->
@@ -47,7 +56,7 @@
     <e><p><l>sœur<s n="n"/><s n="f"/></l><r>sister<s n="n"/></r></p></e>
     <e><p><l>moment<s n="n"/><s n="m"/></l><r>moment<s n="n"/></r></p></e>
     <e><p><l>mère<s n="n"/><s n="f"/></l><r>mother<s n="n"/></r></p></e>
-    <e><p><l>fenêtre<s n="n"/><s n="m"/></l><r>window<s n="n"/></r></p></e>
+    <e><p><l>fenêtre<s n="n"/><s n="f"/></l><r>window<s n="n"/></r></p></e>
     <e><p><l>main<s n="n"/><s n="f"/></l><r>hand<s n="n"/></r></p></e>
     <e><p><l>réponse<s n="n"/><s n="f"/></l><r>reply<s n="n"/></r></p></e>
     <e><p><l>question<s n="n"/><s n="f"/></l><r>question<s n="n"/></r></p></e>
@@ -78,6 +87,8 @@
     <e><p><l>ensemble<s n="adv"/></l><r>together<s n="adv"/></r></p></e>
     <e><p><l>aussi<s n="adv"/></l><r>as well<s n="adv"/></r></p></e>
     <e><p><l>à présent<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
+    <e><p><l>à travers<s n="adv"/></l><r>through<s n="adv"/></r></p></e>
+    <e><p><l>à travers<s n="adv"/></l><r>across<s n="adv"/></r></p></e>
     <e><p><l>non<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
     <e><p><l>près<s n="adv"/></l><r>near<s n="adv"/></r></p></e>
     <e><p><l>près<s n="adv"/></l><r>close<s n="adv"/></r></p></e>
@@ -189,22 +200,14 @@
     <e><p><l>dix<s n="det"/></l><r>ten<s n="det"/></r></p></e>
     
     <!--Pronouns -->
-    <e><p><l>je<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l>
-    	<r>I<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>
-    <e><p><l>tu<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l>
-    	<r>you<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
-    <e><p><l>il<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/></l>
-    	<r>he<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
-    <e><p><l>elle<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/></l>
-    	<r>she<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/></r></p></e>
-    <e><p><l>nous<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l>
-    	<r>we<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
-    <e><p><l>vous<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l>
-    	<r>you<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
-    <e><p><l>ils<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="m"/></l>
-    	<r>they<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
-    <e><p><l>elles<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="f"/></l>
-    	<r>they<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+    <e><p><l>je<s n="prn"/></l><r>I<s n="prn"/></r></p></e>
+    <e><p><l>tu<s n="prn"/></l><r>you<s n="prn"/></r></p></e>
+    <e><p><l>il<s n="prn"/></l><r>he<s n="prn"/></r></p></e>
+    <e><p><l>elle<s n="prn"/></l><r>she<s n="prn"/></r></p></e>
+    <e><p><l>nous<s n="prn"/></l><r>we<s n="prn"/></r></p></e>
+    <e><p><l>vous<s n="prn"/></l><r>you<s n="prn"/></r></p></e>
+    <e><p><l>ils<s n="prn"/></l><r>they<s n="prn"/></r></p></e>
+    <e><p><l>elles<s n="prn"/></l><r>they<s n="prn"/></r></p></e>
     	
     <e><p><l>rien<s n="prn"/></l><r>nothing<s n="prn"/></r></p></e>
     <e><p><l>rien<s n="prn"/></l><r>anything<s n="prn"/></r></p></e>
@@ -242,6 +245,21 @@
     <e><p><l>ne<s n="part"/></l><r>not<s n="adv"/></r></p></e>
     <e><p><l>à le<s n="contr"/></l><r>to<s n="pre"/></r></p></e>
     <e><p><l>à les<s n="contr"/></l><r>to<s n="pre"/></r></p></e>
+    
+	<e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+	<e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
+	<e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
+	<e><p><l>[<s n="lpar"/></l><r>[<s n="lpar"/></r></p></e>
+	<e><p><l>]<s n="rpar"/></l><r>]<s n="rpar"/></r></p></e>	
+	<e><p><l>«<s n="lquot"/></l><r>«<s n="lquot"/></r></p></e>
+	<e><p><l>»<s n="rquot"/></l><r>»<s n="rquot"/></r></p></e>
+	<e><p><l>“<s n="lquot"/></l><r>“<s n="lquot"/></r></p></e>
+	<e><p><l>”<s n="rquot"/></l><r>”<s n="rquot"/></r></p></e>	
+	<e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+	<e><p><l>—<s n="guio"/></l><r>—<s n="guio"/></r></p></e>
+	<e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
+	<e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+	<e><re>[№%]?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="det"/></l><r><s n="det"/></r></p></e> 
 
   </section>
 </dictionary>

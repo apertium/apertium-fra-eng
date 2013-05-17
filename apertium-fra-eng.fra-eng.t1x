@@ -2,16 +2,55 @@
 <!-- -*- nxml -*- -->
 <transfer default="chunk">
   <section-def-cats>
-    <def-cat n="nom">
-      <cat-item tags="n.*"/>
+    <def-cat n="pronpers">
+      <cat-item tags="prn.pers.*"/>
+    </def-cat>
+    <def-cat n="det">
+      <cat-item tags="det.def.*"/>
+      <cat-item tags="det.indf.*"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
+    </def-cat>
+    <def-cat n="vblex">
+      <cat-item tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="actv">
+      <cat-item tags="vblex.actv.*"/>
+    </def-cat>
+    <def-cat n="ind">
+      <cat-item tags="vblex.ind.*"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+    </def-attr>
+    <def-attr n="a_det">
+      <attr-item tags="det"/>
+    </def-attr>
+    <def-attr n="a_def">
+      <attr-item tags="def"/>
+      <attr-item tags="indf"/>
+    </def-attr>
+    <def-attr n="gender">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+    </def-attr>
+    <def-attr n="voice">
+      <attr-item tags="actv"/>
+      <attr-item tags="pasv"/>
+    </def-attr>
+    <def-attr n="mood">
+      <attr-item tags="ind"/>
+      <attr-item tags="subj"/>
+      <attr-item tags="imp"/>
+    </def-attr>
+    <def-attr n="tense">
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+      <attr-item tags="imp"/>
     </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
@@ -22,16 +61,24 @@
       <attr-item tags="ins"/>
       <attr-item tags="abl"/>
     </def-attr>
+    <def-attr n="person">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+    </def-attr>
+    <def-attr n="number">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+    </def-attr>
 
   </section-def-attrs>
   <section-def-vars>
-    <def-var n="number"/>
     <def-var n="current_verb"/>
   </section-def-vars>
   <section-def-macros>
     <def-macro n="test" npar="1">
           <let>
-            <var n="number"/>
+            <var n="current_verb"/>
             <lit v=""/>
           </let>
     </def-macro>
@@ -47,6 +94,45 @@
           <chunk name="sent" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SENT"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule> 
+    
+    <rule comment="REGLA: DETERMINERS">
+      <pattern>
+        <pattern-item n="det"/>
+      </pattern>
+      <action>
+        <out>   
+        	<chunk name="det" case="caseFirstWord" >         
+            <tags>
+              <tag><lit-tag v="DET"/></tag>
+            </tags>
+	        	<lu>
+  	          <clip pos="1" side="tl" part="lem"/>
+  	          <clip pos="1" side="tl" part="a_det"/>
+  	          <clip pos="1" side="tl" part="a_def"/>
+  	        </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>    
+    
+    <rule comment="REGLA: IND TO ACTV">
+      <pattern>
+        <pattern-item n="ind"/>
+      </pattern>
+      <action>
+      	<let><clip pos="1" side="tl" part="mood"/><lit-tag v="actv"/></let>
+        <out>
+          <chunk name="ind" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="IND"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
