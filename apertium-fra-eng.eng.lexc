@@ -10,15 +10,20 @@ Multichar_Symbols
 %<det%> ! determiner
 %<num%> ! numeral
 %<prn%> ! pronoun 
+%<pers%> ! person 
 %<pre%> ! adposition
 %<ij%> ! Interjection
 %<cnjcoo%> ! Co-ordinating conjunction
 %<cnjsub%> ! Sub-ordinating conjunction 
-%<ind%> ! Indefinite
+%<indf%> ! Indefinite
 %<def%> ! Definite
 
 %<sg%> ! Singular       
 %<pl%> ! Plural
+%<m%> ! Masculine
+%<f%> ! Feminine
+%<mf%> ! Masculine or feminine
+
 
 %<sint%>  ! Synthetic
 
@@ -38,7 +43,7 @@ Multichar_Symbols
 %<p3%> ! Third person   
 
 %<pst%> ! Positive      
-%<comp%> ! Comparative  wikipedia
+%<comp%> ! Comparative 
 %<sup%> ! Sup
 
 ! Punctuation
@@ -328,9 +333,8 @@ count%<vblex%>:count V ; ! ""
 
 LEXICON Determiners
 the%<det%>%<def%>:the # ; ! ""
-a%<det%>%<ind%>:a # ; ! "" ! Dir/LR
-an%<det%>%<ind%>:an # ; ! "" ! Dir/LR
-a%<det%>%<ind%>:%~a # ; ! "" ! Dir/RL
+a%<det%>%<indf%>:a # ; ! "" ! Dir/LR
+an%<det%>%<indf%>:an # ; ! "" ! Dir/LR
 this%<det%>%<def%>:this # ; !
 
 her%<det%>%<pos%>%<sp%>:her # ; ! ""
@@ -356,15 +360,16 @@ theirs%<prn%>%<pos%>%<mf%>%<sp%>:theirs # ; ! ""
 his%<prn%>%<pos%>%<mf%>%<sp%>:his # ; ! ""
 
 
-both%<prn%>%<ind%>%<mf%>%<pl%>:both # ; ! ""
+both%<prn%>%<indf%>%<mf%>%<pl%>:both # ; ! ""
 
 LEXICON PROPN_JAMES
 
-%<sg%>%<nom%>:0 # ;
+%<sg%>:0 # ;
 %<sg%>%<gen%>:'s # ;
 
 LEXICON Propers
 James%<np%>%<m%>:James PROPN_JAMES ; ! ""
+Jack%<np%>%<m%>:Jack N ; ! ""
 Mary%<np%>%<f%>:Mary N ; ! ""
 
 LEXICON Conjunctions
