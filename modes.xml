@@ -1,209 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
-  <!-- fra → eng --> 
 
-  <mode name="fra-eng" install="yes">
+  <!-- fra → eng -->
+
+  <mode name="fra-eng" install="yes" gendebug="yes">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="fra-eng.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="fra-eng.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
-        <file name="fra-eng.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="fra-eng.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="fra-eng.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-fra-eng.fra-eng.t1x"/>
-        <file name="fra-eng.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-fra-eng.fra-eng.t2x"/>
-        <file name="fra-eng.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-fra-eng.fra-eng.t3x"/>
-        <file name="fra-eng.t3x.bin"/>
-      </program>
-      <program name="hfst-proc $1">
-        <file name="fra-eng.autogen.hfst"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="fra-eng-debug" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="fra-eng.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="fra-eng.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="fra-eng.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="fra-eng.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-fra-eng.fra-eng.t1x"/>
-        <file name="fra-eng.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-fra-eng.fra-eng.t2x"/>
-        <file name="fra-eng.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-fra-eng.fra-eng.t3x"/>
-        <file name="fra-eng.t3x.bin"/>
-      </program>
-      <program name="hfst-proc -d">
-        <file name="fra-eng.autogen.hfst"/>
-      </program>
-    </pipeline>
-  </mode>
- 
-  
-  <mode name="fra-eng-morph" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="fra-eng.automorf.hfst"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="fra-eng-disam" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="fra-eng.automorf.hfst"/>
-      </program>
-      <program name="cg-conv -a"/>
-      <program name="vislcg3 --trace --grammar">
-        <file name="fra-eng.rlx.bin"/>
-      </program>
-    </pipeline>
-  </mode>
 
 
-  <mode name="fra-eng-tagger" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="fra-eng.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="fra-eng.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="fra-eng.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-    </pipeline>
-  </mode>
-
-  <mode name="fra-eng-biltrans" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="fra-eng.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="fra-eng.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="fra-eng.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="fra-eng.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="fra-eng-lextor" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="fra-eng.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="fra-eng.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="fra-eng.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="fra-eng.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -t">
-        <file name="fra-eng.autolex.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-
-  <mode name="fra-eng-transfer" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="fra-eng.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="fra-eng.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="fra-eng.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="fra-eng.autobil.bin"/>
-      </program>
-      <program name="lrx-proc">
-        <file name="fra-eng.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-fra-eng.fra-eng.t1x"/>
-        <file name="fra-eng.t1x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="fra-eng-interchunk" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="fra-eng.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="fra-eng.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="fra-eng.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="fra-eng.autobil.bin"/>
-      </program>
-      <program name="lrx-proc">
-        <file name="fra-eng.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-fra-eng.fra-eng.t1x"/>
-        <file name="fra-eng.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-fra-eng.fra-eng.t2x"/>
-        <file name="fra-eng.t2x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="fra-eng-postchunk" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="fra-eng.automorf.hfst"/>
-      </program>
       <program name="cg-proc -w">
         <file name="fra-eng.rlx.bin"/>
       </program>
@@ -228,137 +34,26 @@
       <program name="apertium-postchunk">
         <file name="apertium-fra-eng.fra-eng.t3x"/>
         <file name="fra-eng.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="fra-eng.autogen.bin"/>
+      </program>
+
+      <program name="lt-proc -p">
+        <file name="fra-eng.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
   <!-- eng → fra -->
 
-  <mode name="eng-fra" install="yes">
+  <mode name="eng-fra" install="yes" gendebug="yes">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="eng-fra.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="eng-fra.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
-        <file name="eng-fra.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="eng-fra.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="eng-fra.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-fra-eng.eng-fra.t1x"/>
-        <file name="eng-fra.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-fra-eng.eng-fra.t2x"/>
-        <file name="eng-fra.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-fra-eng.eng-fra.t3x"/>
-        <file name="eng-fra.t3x.bin"/>
-      </program>
-      <program name="hfst-proc $1">
-        <file name="eng-fra.autogen.hfst"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="eng-fra-debug" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="eng-fra.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="eng-fra.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="eng-fra.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="eng-fra.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-fra-eng.eng-fra.t1x"/>
-        <file name="eng-fra.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-fra-eng.eng-fra.t2x"/>
-        <file name="eng-fra.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-fra-eng.eng-fra.t3x"/>
-        <file name="eng-fra.t3x.bin"/>
-      </program>
-      <program name="hfst-proc -d">
-        <file name="eng-fra.autogen.hfst"/>
-      </program>
-    </pipeline>
-  </mode>
-  
-  <mode name="eng-fra-morph" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="eng-fra.automorf.hfst"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="eng-fra-disam" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="eng-fra.automorf.hfst"/>
-      </program>
-      <program name="cg-conv -a"/>
-      <program name="vislcg3 --trace --grammar">
-        <file name="eng-fra.rlx.bin"/>
-      </program>
-    </pipeline>
-  </mode>
 
 
-  <mode name="eng-fra-tagger" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="eng-fra.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="eng-fra.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="eng-fra.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-    </pipeline>
-  </mode>
-
-  <mode name="eng-fra-biltrans" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="eng-fra.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="eng-fra.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="eng-fra.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="eng-fra.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="eng-fra-lextor" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="eng-fra.automorf.hfst"/>
-      </program>
       <program name="cg-proc -w">
         <file name="eng-fra.rlx.bin"/>
       </program>
@@ -372,72 +67,6 @@
       <program name="lrx-proc">
         <file name="eng-fra.autolex.bin"/>
       </program>
-    </pipeline>
-  </mode>
-
-  <mode name="eng-fra-transfer" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="eng-fra.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="eng-fra.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="eng-fra.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="eng-fra.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-fra-eng.eng-fra.t1x"/>
-        <file name="eng-fra.t1x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="eng-fra-interchunk" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="eng-fra.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="eng-fra.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="eng-fra.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="eng-fra.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-fra-eng.eng-fra.t1x"/>
-        <file name="eng-fra.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-fra-eng.eng-fra.t2x"/>
-        <file name="eng-fra.t2x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="eng-fra-postchunk" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="eng-fra.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="eng-fra.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="eng-fra.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="eng-fra.autobil.bin"/>
-      </program>
       <program name="apertium-transfer -b">
         <file name="apertium-fra-eng.eng-fra.t1x"/>
         <file name="eng-fra.t1x.bin"/>
@@ -450,12 +79,14 @@
         <file name="apertium-fra-eng.eng-fra.t3x"/>
         <file name="eng-fra.t3x.bin"/>
       </program>
+      <program name="lt-proc $1">
+        <file name="eng-fra.autogen.bin"/>
+      </program>
+
+      <program name="lt-proc -p">
+        <file name="eng-fra.autopgen.bin"/>
+      </program>
     </pipeline>
   </mode>
-
-
-
-
 </modes>
-
 
