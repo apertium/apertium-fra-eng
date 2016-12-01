@@ -1,16 +1,24 @@
 <rules>
+  <rule><match lemma="problème" tags="n.*"><select lemma="problem" tags="n.*"/></match></rule>
+
+  <rule><match lemma="maison" tags="n.*"><select lemma="house" tags="n.*"/></match></rule>
+
+  <rule><match lemma="père" tags="n.m.sg"><select lemma="father" tags="n.*"/></match></rule>
+
+  <rule><match lemma="père" tags="n.m.pl"><select lemma="parent" tags="n.*"/></match></rule>
+
+  <rule><match lemma="parent" tags="n.*.pl"><select lemma="parent" tags="n.*"/></match></rule>
+
   <rule>
-    <match lemma="chien" tags="n.*"><select lemma="dog" tags="n.*"/></match>
-  </rule>
-  <rule>
-  	<match lemma="entendre" tags="v.*">
-      <select lemma="hear" tags="v.*"/>
-    </match>
-  </rule>
-  <rule>
-    <match tags="*.refl" />
-  	<match lemma="entendre" tags="v.*">
-      <select lemma="get along" tags="v.*"/>
-    </match>
+    <match lemma="aller" tags="vblex.*"/>
+    <match lemma="à" tags="pr"><select lemma="to" tags="pr"/></match>
   </rule>
 </rules>
+
+<!--
+Resources:
+    http://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
+    http://wiki.apertium.org/wiki/Constraint-based_lexical_selection
+    http://wiki.apertium.org/wiki/Lexical_selection
+    http://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
+-->

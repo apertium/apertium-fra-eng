@@ -1,7 +1,13 @@
 <rules>
-  <rule>
-    <match lemma="dog" tags="n.*">
-      <select lemma="chien" tags="n.*"/>
-    </match>
-  </rule>
+  <rule><match lemma="parent" tags="n.pl"><select lemma="parent" tags="n.*"/></match></rule>
+  <rule><match lemma="house" tags="n.*"><select lemma="maison" tags="n.*"/></match></rule>
+  <rule><match lemma="go" tags="vblex.*"><select lemma="aller" tags="vblex.*"/></match></rule>
 </rules>
+
+<!--
+Resources:
+    http://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
+    http://wiki.apertium.org/wiki/Constraint-based_lexical_selection
+    http://wiki.apertium.org/wiki/Lexical_selection
+    http://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
+-->

@@ -1,59 +1,2472 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- -*- nxml -*- -->
+
 <interchunk>
   <section-def-cats>
+
     <def-cat n="SN">
-      <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
-    <def-cat n="SENT">
-      <cat-item tags="SENT"/>
+    
+    <def-cat n="negacio"><!-- BCN-->
+      <cat-item tags="SN.DET.*.*.negacio"/>
+    </def-cat>
+    
+    <def-cat n="pr"><!-- BCN-->
+      <cat-item tags="PREP"/>
+      <cat-item tags="PREP.*"/>
+    </def-cat>
+    
+    <!--
+	<def-cat n="SN_nopron">
+	<cat-item tags="SN.DET.*"/>
+	<cat-item tags="SN.UNDET.*"/>
+	<cat-item tags="SN.NUM.*"/>
+	</def-cat>-->
+
+    <def-cat n="SV">
+      <cat-item tags="SV.*"/>
+    </def-cat>
+
+    
+    <def-cat n="vbcop">
+      <cat-item tags="SV.vbcop.*"/>
+      <cat-item tags="SV.vbser.*"/>
+    </def-cat>
+    
+    <def-cat n="ADV">
+      <cat-item lemma="adv" tags="adv"/>
+      <cat-item lemma="adv" tags="adv.*"/>
+      <cat-item lemma="ne" tags="adv"/>
+    </def-cat>
+
+    <def-cat n="cnjsub">
+      <cat-item lemma="cnjsub" tags="cnjsub"/>
+    </def-cat>
+    <def-cat n="ne">
+      <cat-item lemma="ne" tags="adv"/>
+    </def-cat>
+
+    <def-cat n="PRNS">
+      <cat-item tags="PRN.subj.*"/>
+    </def-cat>
+
+    <def-cat n="SA">
+      <cat-item tags="SA.*"/>
+    </def-cat>
+
+    <def-cat n="pp">
+      <cat-item lemma="pp"  tags="SA.*"/>
+      <cat-item lemma="adj"  tags="SA.*"/><!-- BCN per que agafi bï¿½resolutions adopted -->
+    </def-cat>
+
+    <def-cat n="DET">
+      <cat-item tags="DET.*"/>
+    </def-cat>
+
+    <def-cat n="RELNN">
+      <cat-item tags="REL.nn.*"/>
+    </def-cat>
+
+    <def-cat n="RELAN">
+      <cat-item tags="REL.an.*"/>
+    </def-cat>
+    
+    <def-cat n="NUM">
+      <cat-item tags="NUM.*"/>
+    </def-cat>
+
+    <def-cat n="punt">
+      <cat-item tags="sent"/>
+    </def-cat>
+
+    <def-cat n="cnjcoo"> <!-- BCN-->
+      <cat-item tags="cnjcoo"/>
     </def-cat>
   </section-def-cats>
+
   <section-def-attrs>
-    <def-attr n="a_nbr">
+
+    <def-attr n="tverb">
+      <attr-item tags="vben"/>
+      <attr-item tags="vba"/>
+      <attr-item tags="nopart"/>
+    </def-attr>
+    <def-attr n="tnom">
+      <attr-item tags="loc"/>
+      <attr-item tags="part"/>
+    </def-attr>
+    <def-attr n="tprep">
+      <attr-item tags="a"/>
+      <attr-item tags="de"/>
+      <attr-item tags="en"/>
+      <attr-item tags="para"/>
+    </def-attr>
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
+      <attr-item tags="NP"/>
+    </def-attr>
+
+    <def-attr n="gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="GD"/>
+      <attr-item tags="nt"/>
+    </def-attr>
+
+    <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
       <attr-item tags="ND"/>
+      <attr-item tags="NN"/>
     </def-attr>
-    <def-attr n="a_cas">
-      <attr-item tags="nom"/>
-      <attr-item tags="acc"/>
-      <attr-item tags="dat"/>
-      <attr-item tags="gen"/>
-      <attr-item tags="ins"/>
-      <attr-item tags="loc"/>
-      <attr-item tags="abl"/>
+
+    <def-attr n="temps">
+      <attr-item tags="inf"/>
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+      <attr-item tags="pri"/>
+      <attr-item tags="ifip"/>
+      <attr-item tags="cni"/>
+      <attr-item tags="fti"/>
+      <attr-item tags="pp"/>
+      <attr-item tags="ger"/>
+      <attr-item tags="pprs"/>
+      <attr-item tags="subs"/>
+      
     </def-attr>
+
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>	  
+      <attr-item tags="vblex.pron"/>
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbmod"/>
+      <attr-item tags="HAVER"/>
+    </def-attr>
+    
+    <def-attr n="a_SN">
+      <attr-item tags="SN"/>
+    </def-attr>
+
   </section-def-attrs>
+
   <section-def-vars>
-    <def-var n="number"/>
-    <def-var n="POST"/>
+    <def-var n="uno"/>
+    <def-var n="nombre" v="&lt;sg&gt;"/>
+    <def-var n="genere" v="&lt;m&gt;"/>
   </section-def-vars>
+
   <section-def-macros>
-    <def-macro n="test1" npar="1">
-      <let>
-        <var n="POST"/>
-        <lit v=""/>
-      </let>
+
+    <def-macro n="assigna_gen_nbr" npar="1">
+      <choose><!--To determine value of variables of gender and
+                  number and propagate to other rules.  Variables are
+                  not used again in this rule -->
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="pl"/>
+	    </equal>
+	  </test>
+	  <let><var n="nombre"/><lit-tag v="pl"/></let>
+	</when>
+	<when>
+	  <test>
+	    <or>
+	      <equal>
+		<clip pos="1" part="nbr"/>
+		<lit-tag v="sg"/>
+	      </equal>
+	      <equal>
+		<var n="nombre"/>
+		<lit v=""/>
+	      </equal>
+	    </or>
+	  </test>
+	  <let><var n="nombre"/><lit-tag v="sg"/></let>
+	</when>
+      </choose> 
+      <choose>
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="1" part="gen"/>
+	      <lit-tag v="f"/>
+	    </equal>
+	  </test>
+	  <let><var n="genere"/><lit-tag v="f"/></let>
+	</when>
+	<when> 
+	  <test>
+	    <or>
+	      <equal>
+		<clip pos="1" part="gen"/>
+		<lit-tag v="m"/>
+	      </equal>
+	      <equal>
+		<var n="genere"/>
+		<lit v=""/>
+	      </equal>
+	    </or>
+	  </test>
+	  <let><var n="genere"/><lit-tag v="m"/></let>
+	</when>
+      </choose> 
+      <choose>
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="ND"/>
+	    </equal>
+	  </test>
+	  <let><clip pos="1" part="nbr"/><var n="nombre"/></let>
+	</when>
+      </choose>
+      <choose>
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="1" part="gen"/>
+	      <lit-tag v="GD"/>
+	    </equal>
+	  </test>
+	  <let><clip pos="1" part="gen"/><var n="genere"/></let>
+	</when>
+      </choose>
+
     </def-macro>
+
+    <def-macro n="concord_sa" npar="2"><!--assinga el gen i el nbr del sn en els sa en les frases amb verb copulatiu (p.ex "la perspectiva de tu tÃ­a es interesante" -> "interesante" concordarÃ  amb "aperÃ§u")-->
+      <choose>
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="1" part="gen"/>
+	      <lit-tag v="f"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="2" part="gen"/>
+	    <lit-tag v="f"/>
+	  </let>
+	</when>
+	<otherwise>
+	  <let>
+	    <clip pos="2" part="gen"/>
+	    <lit-tag v="m"/>
+	  </let>
+	</otherwise>
+      </choose>
+      
+      <choose>
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="pl"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="2" part="nbr"/>
+	    <lit-tag v="pl"/>
+	  </let>
+	</when>
+	<otherwise>
+	  <let>
+	    <clip pos="2" part="nbr"/>
+	    <lit-tag v="sg"/>
+	  </let>
+	</otherwise>
+      </choose>
+      
+    </def-macro>
+
+    <def-macro n="concord_sn" npar="2"> <!--asgina gen i nbr en els sn GD o ND quan van seguits de vcop. (p.ex. "esta chica es mi ayudante)-->
+      <choose>
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="2" part="gen"/>
+	      <lit-tag v="GD"/>
+	    </equal>
+	  </test>
+	  <choose>
+	    <when> 
+	      <test>
+		<equal>
+		  <clip pos="1" part="gen"/>
+		  <lit-tag v="f"/>
+		</equal>
+	      </test>
+	      <let>
+		<clip pos="2" part="gen"/>
+		<lit-tag v="f"/>
+	      </let>
+	    </when>
+	    <otherwise>
+	      <let>
+		<clip pos="2" part="gen"/>
+		<lit-tag v="m"/>
+	      </let>
+	    </otherwise>
+	  </choose>
+	</when>
+      </choose>
+      <choose>
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="2" part="nbr"/>
+	      <lit-tag v="ND"/>
+	    </equal>
+	  </test>
+	  <choose>
+	    <when> 
+	      <test>
+		<equal>
+		  <clip pos="1" part="nbr"/>
+		  <lit-tag v="pl"/>
+		</equal>
+	      </test>
+	      <let>
+		<clip pos="2" part="nbr"/>
+		<lit-tag v="pl"/>
+	      </let>
+	    </when>
+	    <otherwise>
+	      <let>
+		<clip pos="2" part="nbr"/>
+		<lit-tag v="sg"/>
+	      </let>
+	    </otherwise>
+	  </choose>
+	</when>
+      </choose>
+      <choose>
+     	<when>
+     	  <test>
+     	    <not>
+     	      <equal>
+     	        <clip pos="1" part="nbr"/>
+     	        <clip pos="2" part="nbr"/>
+     	      </equal>
+            </not>
+     	  </test>
+          <let>
+            <clip pos="2" part="nbr"/>
+            <clip pos="1" part="nbr"/>
+          </let>
+        </when>     	    
+      </choose>
+      <choose>
+     	<when>
+     	  <test>
+     	    <not>
+     	      <equal>
+     	        <clip pos="1" part="gen"/>
+     	        <clip pos="2" part="gen"/>
+     	      </equal>
+            </not>
+     	  </test>
+          <let>
+            <clip pos="2" part="gen"/>
+            <clip pos="1" part="gen"/>
+          </let>
+        </when>     	    
+      </choose>
+      <choose>
+     	<when>
+     	  <test>
+     	    <not>
+     	      <equal>
+     	        <clip pos="1" part="pers"/>
+     	        <clip pos="2" part="pers"/>
+     	      </equal>
+            </not>
+     	  </test>
+          <let>
+            <clip pos="2" part="pers"/>
+            <clip pos="1" part="pers"/>
+          </let>
+        </when>     	    
+      </choose>
+
+    </def-macro>
+    <def-macro n="f_bcond" npar="1"><!--Per mirar si el blanc contï¿½o no format. Cal posar aquesta funciï¿½en les regles en quï¿½desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si contï¿½format cal conservar-la, si no en contï¿½cal eliminar-la perquï¿½no apareguin dos espais seguits. -->
+      <choose>
+     	<when>
+     	  <test>
+     	    <not>
+     	      <equal>
+     	        <b pos="1"/>
+     	        <lit v=" "/>
+     	      </equal>
+            </not>
+     	  </test>
+          <out>
+            <b pos="1"/>
+          </out>
+        </when>     	    
+      </choose>
+    </def-macro>
+
+    <def-macro n="cv_prep" npar="3">
+      <choose> <!--canvia la prepo de lloc-->
+	<when>
+	  <test>
+	    <and>
+	      <equal>
+		<clip pos="3" part="tnom"/>
+		<lit-tag v="loc"/>
+	      </equal>
+	      <or>
+		<equal>
+		  <clip pos="2" part="tprep"/>
+		  <lit-tag v="a"/>
+		</equal>
+		<equal>
+		  <clip pos="2" part="tprep"/>
+		  <lit-tag v="en"/>
+		</equal>
+	      </or>
+	    </and>
+	  </test>
+	  <choose>
+	    <when>
+	      <test>
+		<equal>
+		  <clip pos="1" part="tverb"/>
+		  <lit-tag v="vba"/>
+		</equal>
+	      </test>
+	      <let>
+		<clip pos="2" part="tprep"/>
+		<lit-tag v="a"/>
+	      </let>
+	    </when>
+	    <otherwise>
+	      <let>
+		<clip pos="2" part="tprep"/>
+		<lit-tag v="en"/>
+	      </let>
+	    </otherwise>
+	  </choose>
+	</when>
+	<when><!--canvia SN Ã  inf per SN para inf-->
+	  <test>
+	    <and>
+	      <equal>
+		<clip pos="1" part="a_SN"/>
+		<lit-tag v="SN"/>
+	      </equal>
+	      <equal>
+		<clip pos="2" part="tprep"/>
+		<lit-tag v="a"/>
+	      </equal>
+	      <or>
+		<equal>
+		  <clip pos="3" part="lem"/>
+		  <lit v="inf"/>
+		</equal>
+		<equal>
+		  <clip pos="3" part="lem"/>
+		  <lit v="pro_inf"/>
+		</equal>
+		<equal>
+		  <clip pos="3" part="lem"/>
+		  <lit v="pro_pro_inf"/>
+		</equal>
+	      </or>
+	    </and>
+	  </test>
+	  <let>
+	    <clip pos="2" part="tprep"/>
+	    <lit-tag v="para"/>
+	  </let>
+	</when>	
+      </choose>
+    </def-macro>
+    <def-macro n="conj_verb1" npar="1"><!--conjuga un verb -->
+
+      <choose>
+        <when>
+          <test><!--Si és verb 'ser' p1 o p3 en present o passat (o subjuntiu) té una conjugació pròpia en anglès. Inclou 'ser' i 'estar', tots dos són 'vbser' en anglès (to be) -->
+            <and>
+              <equal>
+                <clip pos="1" part="a_verb"/>
+                <lit-tag v="vbser"/>
+              </equal>
+              <or>
+                <equal>
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="ifi"/>
+                </equal>
+                <equal>
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="pii"/>
+                </equal>
+                <equal>
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="pis"/>
+                </equal>
+                <equal>
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="fts"/>
+                </equal>
+                <equal>
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="prs"/>
+                </equal>
+              </or>
+              <or>
+                <equal>
+                  <clip pos="1" part="pers"/>
+                  <lit-tag v="p1"/>
+                </equal>
+                <equal>
+                  <clip pos="1" part="pers"/>
+                  <lit-tag v="p3"/>
+                </equal>
+              </or>
+              <equal>
+                <clip pos="1" part="nbr"/>
+                <lit-tag v="sg"/>
+              </equal>
+            </and>
+          </test>
+          <let>
+            <clip pos="1" part="temps"/>
+            <lit-tag v="past"/>
+          </let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal>
+                <clip pos="1" part="a_verb"/>
+                <lit-tag v="vbser"/>
+              </equal>
+              <equal>
+                <clip pos="1" part="temps"/>
+                <lit-tag v="pri"/>
+              </equal>
+              <or>
+                <equal>
+                  <clip pos="1" part="pers"/>
+                  <lit-tag v="p1"/>
+                </equal>
+                <equal>
+                  <clip pos="1" part="pers"/>
+                  <lit-tag v="p3"/>
+                </equal>
+              </or>
+              <equal>
+                <clip pos="1" part="nbr"/>
+                <lit-tag v="sg"/>
+              </equal>
+            </and>
+          </test>
+          <let> <!-- NOOP, but in case... -->
+            <clip pos="1" part="temps"/>
+            <lit-tag v="pri"/>
+          </let>
+        </when>
+
+        <when>
+          <test><!--La resta de verbs tenen també prs i nbr per a p3 sg, excepte auxiliars (can). -->
+            <and>
+              <equal>
+                <clip pos="1" part="temps"/>
+                <lit-tag v="pri"/>
+              </equal>
+              <equal>
+                <clip pos="1" part="pers"/>
+                <lit-tag v="p3"/>
+              </equal>
+              <equal>
+                <clip pos="1" part="nbr"/>
+                <lit-tag v="sg"/>
+              </equal>
+            </and>
+          </test>
+          <let> <!-- NOOP, but in case... -->
+            <clip pos="1" part="temps"/>
+            <lit-tag v="pri"/>
+          </let>
+        </when>
+        <otherwise><!--la resta de formes verbals no tenen pers i nbr en anglès -->
+          <choose>
+            <when>
+              <test>
+                <or>
+                  <equal>
+                    <clip pos="1" part="temps"/>
+                    <lit-tag v="pri"/><!--dic -->
+                  </equal>
+                  <equal>
+                    <clip pos="1" part="temps"/>
+                    <lit-tag v="prs"/><!--digui -->
+                  </equal>
+                  <equal>
+                    <clip pos="1" part="temps"/>
+                    <lit-tag v="imp"/>
+                  </equal>
+                </or>
+              </test>
+              <let>
+                <clip pos="1" part="temps"/>
+                <lit-tag v="pres"/>
+              </let>
+              <let>
+                <clip pos="1" part="pers"/>
+                <lit-tag v=""/>
+              </let>
+              <let>
+                <clip pos="1" part="nbr"/>
+                <lit-tag v=""/>
+              </let>
+            </when>
+            <when>
+              <test>
+                <or>
+                  <equal>
+                    <clip pos="1" part="temps"/>
+                    <lit-tag v="ifi"/><!--digué -->
+                  </equal>
+                  <equal>
+                    <clip pos="1" part="temps"/>
+                    <lit-tag v="pii"/><!--deia -->
+                  </equal>
+                  <equal>
+                    <clip pos="1" part="temps"/>
+                    <lit-tag v="pis"/><!--digués -->
+                  </equal>
+                  <equal>
+                    <clip pos="1" part="temps"/>
+                    <lit-tag v="fts"/><!--dijere -->
+                  </equal>
+                </or>
+              </test>
+              <let>
+                <clip pos="1" part="temps"/>
+                <lit-tag v="past"/>
+              </let>
+              <let>
+                <clip pos="1" part="pers"/>
+                <lit-tag v=""/>
+              </let>
+              <let>
+                <clip pos="1" part="nbr"/>
+                <lit-tag v=""/>
+              </let>
+            </when>
+          </choose>
+        </otherwise>
+      </choose>
+    </def-macro>
+
   </section-def-macros>
+
   <section-rules>
+    
+
+    <!--			<out> 
+	<chunk>
+	<lit v="pr"/>
+	<lit-tag v="PREP"/>
+	<lit v="{^"/>
+	<get-case-from pos="1">
+	<lit v="a"/>
+	</get-case-from>
+	<lit-tag v="pr"/>
+	<lit v="$}"/>
+	</chunk>
+	<b/>
+	<chunk><!-#-envio el chunk amb el SN-#->
+	<clip pos="1" part="lem"/>
+	<clip pos="1" part="tags"/>
+	<clip pos="1" part="chcontent"/>
+	</chunk>
+	<b pos="1"/>-->
+
+    <!--REGLES GENERALS -->
     <rule comment="REGLA: SN">
       <pattern>
-        <pattern-item n="SN"/>
+	<pattern-item n="SN"/>
       </pattern>
       <action>
-        <out>
-          <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
-          </chunk>
-        </out>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="lem"/>
+	    <clip pos="1" part="tags"/>
+	    <clip pos="1" part="chcontent"/>
+	  </chunk>
+	</out>
       </action>
     </rule>
+    <rule comment="REGLA: SA">
+      <pattern>
+	<pattern-item n="SA"/>
+      </pattern>
+      <action>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="lem"/>
+	    <clip pos="1" part="tags"/>
+	    <clip pos="1" part="chcontent"/>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+    <rule comment="REGLA: SV">
+      <pattern>
+	<pattern-item n="SV"/>
+      </pattern>
+      <action>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="lem"/>
+	    <clip pos="1" part="tags"/>
+	    <clip pos="1" part="chcontent"/>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: prep sprep">
+      <pattern>
+	<pattern-item n="pr"/>
+	<pattern-item n="pr"/>
+	<pattern-item n="SN"/>
+      </pattern>
+      <action>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="3"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<equal>
+		  <clip pos="2" part="tprep"/>
+		  <lit-tag v="de"/>
+		</equal>
+		<or>
+		  <equal>
+		    <clip pos="3" part="nbr"/>
+		    <lit-tag v="pl"/>
+		  </equal>
+		  <equal>
+		    <clip pos="3" part="tnom"/>
+		    <lit-tag v="part"/>
+		  </equal>
+		</or>
+	      </and>
+	    </test>
+	    <out>
+	      <chunk>
+		<clip pos="1" part="lem"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="1" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<lit-tag v="treu_det"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	    </out>
+	    <call-macro n="f_bcond">
+	      <with-param pos="2"/>
+	    </call-macro>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <chunk>
+		<clip pos="1" part="lem"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="1" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="2" part="lem"/>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="2"/>
+	      <chunk>
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SV sprep">
+      <pattern>
+	<pattern-item n="SV"/>
+	<pattern-item n="pr"/>
+	<pattern-item n="SN"/>
+      </pattern>
+      <action>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="cv_prep">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<not>
+		  <equal>
+		    <clip pos="1" part="tverb"/>
+		    <lit-tag v="nopart"/>
+		  </equal>
+		</not>
+		<equal>
+		  <clip pos="2" part="tprep"/>
+		  <lit-tag v="de"/>
+		</equal>
+		<or>
+		  <equal>
+		    <clip pos="3" part="nbr"/>
+		    <lit-tag v="pl"/>
+		  </equal>
+		  <equal>
+		    <clip pos="3" part="tnom"/>
+		    <lit-tag v="part"/>
+		  </equal>
+		</or>
+	      </and>
+	    </test>
+	    <out>
+	      <chunk>
+		<clip pos="1" part="lem"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="1" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<lit-tag v="treu_det"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	    </out>
+	    <call-macro n="f_bcond">
+	      <with-param pos="2"/>
+	    </call-macro>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <chunk>
+		<clip pos="1" part="lem"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="1" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="2" part="lem"/>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="2"/>
+	      <chunk>
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SV ADV sprep">
+      <pattern>
+	<pattern-item n="SV"/>
+	<pattern-item n="ADV"/>
+	<pattern-item n="pr"/>
+	<pattern-item n="SN"/>
+      </pattern>
+      <action>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="cv_prep">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<not>
+		  <equal>
+		    <clip pos="1" part="tverb"/>
+		    <lit-tag v="nopart"/>
+		  </equal>
+		</not>
+		<equal>
+		  <clip pos="3" part="tprep"/>
+		  <lit-tag v="de"/>
+		</equal>
+		<or>
+		  <equal>
+		    <clip pos="4" part="nbr"/>
+		    <lit-tag v="pl"/>
+		  </equal>
+		  <equal>
+		    <clip pos="4" part="tnom"/>
+		    <lit-tag v="part"/>
+		  </equal>
+		</or>
+	      </and>
+	    </test>
+	    <out>
+	      <chunk>
+		<clip pos="1" part="lem"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="1" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="2" part="lem"/>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="2"/>
+	      <chunk>
+		<clip pos="4" part="lem"/>
+		<clip pos="4" part="tags"/>
+		<lit-tag v="treu_det"/>
+		<clip pos="4" part="chcontent"/>
+	      </chunk>
+	    </out>
+	    <call-macro n="f_bcond">
+	      <with-param pos="3"/>
+	    </call-macro>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <chunk>
+		<clip pos="1" part="lem"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="1" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="2" part="lem"/>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="2"/>
+	      <chunk>
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	      <b pos="3"/>
+	      <chunk>
+		<clip pos="4" part="lem"/>
+		<clip pos="4" part="tags"/>
+		<clip pos="4" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: det">
+      <pattern>
+	<pattern-item n="DET"/>
+      </pattern>
+      <action>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="lem"/>
+	    <clip pos="1" part="tags"/>
+	    <clip pos="1" part="chcontent"/>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN SP">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="pr"/>
+	<pattern-item n="SN"/>
+      </pattern>
+      <action>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="cv_prep">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="lem"/>
+	    <clip pos="1" part="tags"/>
+	    <clip pos="1" part="chcontent"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+	    <clip pos="2" part="lem"/>
+	    <clip pos="2" part="tags"/>
+	    <clip pos="2" part="chcontent"/>
+	  </chunk>
+	  <b pos="2"/>
+	  <chunk>
+	    <clip pos="3" part="lem"/>
+	    <clip pos="3" part="tags"/>
+	    <clip pos="3" part="chcontent"/>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN SV">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="SV"/>
+      </pattern>
+      <action>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="concord_sn">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="conj_verb1">
+	  <with-param pos="2"/>
+	</call-macro>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="lem"/>
+	    <clip pos="1" part="tags"/>
+	    <clip pos="1" part="chcontent"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+	    <clip pos="2" part="lem"/>
+	    <clip pos="2" part="tags"/>
+	    <clip pos="2" part="chcontent"/>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN SV sprep">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="SV"/>
+	<pattern-item n="pr"/>
+	<pattern-item n="SN"/>
+      </pattern>
+      <action>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="concord_sn">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="cv_prep">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<equal caseless="yes">
+		  <clip pos="1" part="lem"/>
+		  <lit v="prnperssubj"/>
+		</equal>
+		<equal>
+		  <clip pos="2" part="pers"/>
+		  <clip pos="1" part="pers"/>
+		</equal>
+		<equal>
+		  <clip pos="2" part="nbr"/>
+		  <clip pos="1" part="nbr"/>
+		</equal>
+	      </and>
+	    </test>
+	    <out>
+	      <chunk><!--el pronom no l'envio, nomï¿½ el 2n chunk -->
+		<get-case-from pos="1">
+		  <clip pos="2" part="lem"/>
+		</get-case-from>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	    </out>
+	    <call-macro n="f_bcond">
+	      <with-param pos="2"/>
+	    </call-macro>
+	  </when>
+	  <otherwise><!--Quan SN no ï¿½ pronom subjecte, per tant, quan ï¿½ qualsevol altre SN -->
+	    <out>
+	      <chunk>
+		<clip pos="1" part="lem"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="1" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="2" part="lem"/>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	    </out>
+	  </otherwise>
+	</choose>	
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<not>
+		  <equal>
+		    <clip pos="2" part="tverb"/>
+		    <lit-tag v="nopart"/>
+		  </equal>
+		</not>
+		<equal>
+		  <clip pos="3" part="tprep"/>
+		  <lit-tag v="de"/>
+		</equal>
+		<or>
+		  <equal>
+		    <clip pos="4" part="nbr"/>
+		    <lit-tag v="pl"/>
+		  </equal>
+		  <equal>
+		    <clip pos="4" part="tnom"/>
+		    <lit-tag v="part"/>
+		  </equal>
+		</or>
+	      </and>
+	    </test>
+	    <out>
+	      <chunk>
+		<clip pos="4" part="lem"/>
+		<clip pos="4" part="tags"/>
+		<lit-tag v="treu_det"/>
+		<clip pos="4" part="chcontent"/>
+	      </chunk>
+	    </out>
+	    <call-macro n="f_bcond">
+	      <with-param pos="3"/>
+	    </call-macro>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <chunk>
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	      <b pos="3"/>
+	      <chunk>
+		<clip pos="4" part="lem"/>
+		<clip pos="4" part="tags"/>
+		<clip pos="4" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN adv SV">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="ADV"/>
+	<pattern-item n="SV"/>
+      </pattern>
+      <action>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<equal caseless="yes">
+		  <clip pos="1" part="lem"/>
+		  <lit v="prnperssubj"/>
+		</equal>
+		<equal>
+		  <clip pos="3" part="pers"/>
+		  <clip pos="1" part="pers"/>
+		</equal>
+		<equal>
+		  <clip pos="3" part="nbr"/>
+		  <clip pos="1" part="nbr"/>
+		</equal>
+	      </and>
+	    </test>
+	    <out>
+	      <chunk>
+		<get-case-from pos="1">
+		  <clip pos="2" part="lem"/>
+		</get-case-from>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="2"/>
+	      <chunk><!--el pronom no l'envio, nomï¿½ el 2n chunk -->
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </when>
+	  <otherwise><!--Quan SN no ï¿½ pronom subjecte, per tant, quan ï¿½ qualsevol altre SN -->
+	    <out>
+	      <chunk>
+		<clip pos="1" part="lem"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="1" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="2" part="lem"/>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="2"/>
+	      <chunk>
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>	
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN adv SV sprep">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="ADV"/>
+	<pattern-item n="SV"/>
+	<pattern-item n="pr"/>
+	<pattern-item n="SN"/>
+      </pattern>
+      <action>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="5"/>
+	</call-macro>
+	<call-macro n="cv_prep">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	  <with-param pos="5"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<equal caseless="yes">
+		  <clip pos="1" part="lem"/>
+		  <lit v="prnperssubj"/>
+		</equal>
+		<equal>
+		  <clip pos="3" part="pers"/>
+		  <clip pos="1" part="pers"/>
+		</equal>
+		<equal>
+		  <clip pos="3" part="nbr"/>
+		  <clip pos="1" part="nbr"/>
+		</equal>
+	      </and>
+	    </test>
+	    <out>
+	      <chunk>
+		<get-case-from pos="1">
+		  <clip pos="2" part="lem"/>
+		</get-case-from>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk><!--el pronom no l'envio, nomï¿½ el 2n chunk -->
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	      <b pos="2"/>
+	    </out>
+	    <call-macro n="f_bcond">
+	      <with-param pos="3"/>
+	    </call-macro>
+	  </when>
+	  <otherwise><!--Quan SN no ï¿½ pronom subjecte, per tant, quan ï¿½ qualsevol altre SN -->
+	    <out>
+	      <chunk>
+		<clip pos="1" part="lem"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="1" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="2" part="lem"/>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="2"/>
+	      <chunk>
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	      <b pos="3"/>
+	    </out>
+	  </otherwise>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<not>
+		  <equal>
+		    <clip pos="3" part="tverb"/>
+		    <lit-tag v="nopart"/>
+		  </equal>
+		</not>
+		<equal>
+		  <clip pos="4" part="tprep"/>
+		  <lit-tag v="de"/>
+		</equal>
+		<or>
+		  <equal>
+		    <clip pos="5" part="nbr"/>
+		    <lit-tag v="pl"/>
+		  </equal>
+		  <equal>
+		    <clip pos="5" part="tnom"/>
+		    <lit-tag v="part"/>
+		  </equal>
+		</or>
+	      </and>
+	    </test>
+	    <out>
+	      <chunk>
+		<clip pos="5" part="lem"/>
+		<clip pos="5" part="tags"/>
+		<lit-tag v="treu_det"/>
+		<clip pos="5" part="chcontent"/>
+	      </chunk>
+	    </out>
+	    <call-macro n="f_bcond">
+	      <with-param pos="3"/>
+	    </call-macro>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <chunk>
+		<clip pos="4" part="lem"/>
+		<clip pos="4" part="tags"/>
+		<clip pos="4" part="chcontent"/>
+	      </chunk>
+	      <b pos="4"/>
+	      <chunk>
+		<clip pos="5" part="lem"/>
+		<clip pos="5" part="tags"/>
+		<clip pos="5" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN adv SV sprep">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="SV"/>
+	<pattern-item n="ADV"/>
+	<pattern-item n="pr"/>
+	<pattern-item n="SN"/>
+      </pattern>
+      <action>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="5"/>
+	</call-macro>
+	<call-macro n="cv_prep">
+	  <with-param pos="2"/>
+	  <with-param pos="4"/>
+	  <with-param pos="5"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<equal caseless="yes">
+		  <clip pos="1" part="lem"/>
+		  <lit v="prnperssubj"/>
+		</equal>
+		<equal>
+		  <clip pos="2" part="pers"/>
+		  <clip pos="1" part="pers"/>
+		</equal>
+		<equal>
+		  <clip pos="2" part="nbr"/>
+		  <clip pos="1" part="nbr"/>
+		</equal>
+	      </and>
+	    </test>
+	    <out>
+	      <chunk>
+		<get-case-from pos="1">
+		  <clip pos="2" part="lem"/>
+		</get-case-from>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk><!--el pronom no l'envio, nomï¿½ el 2n chunk -->
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	      <b pos="2"/>
+	    </out>
+	    <call-macro n="f_bcond">
+	      <with-param pos="3"/>
+	    </call-macro>
+	  </when>
+	  <otherwise><!--Quan SN no ï¿½ pronom subjecte, per tant, quan ï¿½ qualsevol altre SN -->
+	    <out>
+	      <chunk>
+		<clip pos="1" part="lem"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="1" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="2" part="lem"/>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="2"/>
+	      <chunk>
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	      <b pos="3"/>
+	    </out>
+	  </otherwise>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<not>
+		  <equal>
+		    <clip pos="2" part="tverb"/>
+		    <lit-tag v="nopart"/>
+		  </equal>
+		</not>
+		<equal>
+		  <clip pos="4" part="tprep"/>
+		  <lit-tag v="de"/>
+		</equal>
+		<or>
+		  <equal>
+		    <clip pos="5" part="nbr"/>
+		    <lit-tag v="pl"/>
+		  </equal>
+		  <equal>
+		    <clip pos="5" part="tnom"/>
+		    <lit-tag v="part"/>
+		  </equal>
+		</or>
+	      </and>
+	    </test>
+	    <out>
+	      <chunk>
+		<clip pos="5" part="lem"/>
+		<clip pos="5" part="tags"/>
+		<lit-tag v="treu_det"/>
+		<clip pos="5" part="chcontent"/>
+	      </chunk>
+	    </out>
+	    <call-macro n="f_bcond">
+	      <with-param pos="3"/>
+	    </call-macro>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <chunk>
+		<clip pos="4" part="lem"/>
+		<clip pos="4" part="tags"/>
+		<clip pos="4" part="chcontent"/>
+	      </chunk>
+	      <b pos="4"/>
+	      <chunk>
+		<clip pos="5" part="lem"/>
+		<clip pos="5" part="tags"/>
+		<clip pos="5" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN SV SN pr SN">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="SV"/>
+	<pattern-item n="SN"/>
+	<pattern-item n="pr"/>
+	<pattern-item n="SN"/>
+      </pattern>
+      <action>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="5"/>
+	</call-macro>
+	<call-macro n="cv_prep">
+	  <with-param pos="2"/>
+	  <with-param pos="4"/>
+	  <with-param pos="5"/>
+	</call-macro>
+	<call-macro n="cv_prep">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	  <with-param pos="5"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<equal caseless="yes">
+		  <clip pos="1" part="lem"/>
+		  <lit v="prnperssubj"/>
+		</equal>
+		<equal>
+		  <clip pos="2" part="pers"/>
+		  <clip pos="1" part="pers"/>
+		</equal>
+		<equal>
+		  <clip pos="2" part="nbr"/>
+		  <clip pos="1" part="nbr"/>
+		</equal>
+	      </and>
+	    </test>
+	    <out>
+	      <chunk><!--el pronom no l'envio, nomï¿½ el 2n chunk -->
+		<get-case-from pos="1">
+		  <clip pos="2" part="lem"/>
+		</get-case-from>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </when>
+	  <otherwise><!--Quan SN no ï¿½ pronom subjecte, per tant, quan ï¿½ qualsevol altre SN -->
+	    <out>
+	      <chunk>
+		<clip pos="1" part="lem"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="1" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="2" part="lem"/>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>
+	<out>
+	  <b pos="2"/>
+	  <chunk>
+	    <clip pos="3" part="lem"/>
+	    <clip pos="3" part="tags"/>
+	    <clip pos="3" part="chcontent"/>
+	  </chunk>
+	  <b pos="3"/>
+	  <chunk>
+	    <clip pos="4" part="lem"/>
+	    <clip pos="4" part="tags"/>
+	    <clip pos="4" part="chcontent"/>
+	  </chunk>
+	  <b pos="4"/>
+	  <chunk>
+	    <clip pos="5" part="lem"/>
+	    <clip pos="5" part="tags"/>
+	    <clip pos="5" part="chcontent"/>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN ne SV que pr SN">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="ne"/>
+	<pattern-item n="SV"/>
+	<pattern-item n="cnjsub"/>
+	<pattern-item n="pr"/>
+	<pattern-item n="SN"/>
+      </pattern>
+      <action>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="6"/>
+	</call-macro>
+	<call-macro n="cv_prep">
+	  <with-param pos="2"/>
+	  <with-param pos="5"/>
+	  <with-param pos="6"/>
+	</call-macro>
+	<let>
+	  <clip pos="2" part="lem"/>
+	  <lit v="solo"/>
+	</let>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<equal caseless="yes">
+		  <clip pos="1" part="lem"/>
+		  <lit v="prnperssubj"/>
+		</equal>
+		<equal>
+		  <clip pos="3" part="pers"/>
+		  <clip pos="1" part="pers"/>
+		</equal>
+		<equal>
+		  <clip pos="3" part="nbr"/>
+		  <clip pos="1" part="nbr"/>
+		</equal>
+	      </and>
+	    </test>
+	    <out>
+	      <chunk>
+		<get-case-from pos="1">
+		  <clip pos="2" part="lem"/>
+		</get-case-from>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk><!--el pronom no l'envio -->
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	    </out>
+	    <call-macro n="f_bcond">
+	      <with-param pos="2"/>
+	    </call-macro>
+	  </when>
+	  <otherwise><!--Quan SN no ï¿½ pronom subjecte, per tant, quan ï¿½ qualsevol altre SN -->
+	    <out>
+	      <chunk>
+		<clip pos="1" part="lem"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="1" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="2" part="lem"/>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="2"/>
+	      <chunk>
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<equal caseless="yes">
+		  <clip pos="6" part="lem"/>
+		  <lit v="inf"/>
+		</equal>
+		<equal caseless="yes">
+		  <clip pos="6" part="lem"/>
+		  <lit v="inf_enc"/>
+		</equal>
+		<equal caseless="yes">
+		  <clip pos="6" part="lem"/>
+		  <lit v="inf_enc_enc"/>
+		</equal>
+	      </or>
+	    </test>
+	    <out>
+	      <b pos="3"/>
+	      <chunk>
+		<clip pos="4" part="lem"/>
+		<clip pos="4" part="tags"/>
+		<clip pos="4" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </when>
+	  <otherwise>
+	    <call-macro n="f_bcond">
+	      <with-param pos="3"/>
+	    </call-macro>
+	  </otherwise>
+	</choose>
+	<out>
+	  <b pos="4"/>
+	  <chunk>
+	    <clip pos="5" part="lem"/>
+	    <clip pos="5" part="tags"/>
+	    <clip pos="5" part="chcontent"/>
+	  </chunk>
+	  <b pos="5"/>
+	  <chunk>
+	    <clip pos="6" part="lem"/>
+	    <clip pos="6" part="tags"/>
+	    <clip pos="6" part="chcontent"/>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN ne SV que SN">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="ne"/>
+	<pattern-item n="SV"/>
+	<pattern-item n="cnjsub"/>
+	<pattern-item n="SN"/>
+      </pattern>
+      <action>
+	<let>
+	  <clip pos="2" part="lem"/>
+	  <lit v="solo"/>
+	</let>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="5"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<equal caseless="yes">
+		  <clip pos="1" part="lem"/>
+		  <lit v="prnperssubj"/>
+		</equal>
+		<equal>
+		  <clip pos="3" part="pers"/>
+		  <clip pos="1" part="pers"/>
+		</equal>
+		<equal>
+		  <clip pos="3" part="nbr"/>
+		  <clip pos="1" part="nbr"/>
+		</equal>
+	      </and>
+	    </test>
+	    <out>
+	      <chunk>
+		<get-case-from pos="1">
+		  <clip pos="2" part="lem"/>
+		</get-case-from>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<get-case-from pos="1">
+		  <clip pos="3" part="lem"/>
+		</get-case-from>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	    </out>
+	    <call-macro n="f_bcond">
+	      <with-param pos="2"/>
+	    </call-macro>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <chunk>
+		<clip pos="1" part="lem"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="1" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="2" part="lem"/>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="2"/>
+	      <chunk>
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<equal caseless="yes">
+		  <clip pos="5" part="lem"/>
+		  <lit v="inf"/>
+		</equal>
+		<equal caseless="yes">
+		  <clip pos="5" part="lem"/>
+		  <lit v="inf_enc"/>
+		</equal>
+		<equal caseless="yes">
+		  <clip pos="5" part="lem"/>
+		  <lit v="inf_enc_enc"/>
+		</equal>
+	      </or>
+	    </test>
+	    <out>
+	      <b pos="3"/>
+	      <chunk>
+		<clip pos="4" part="lem"/>
+		<clip pos="4" part="tags"/>
+		<clip pos="4" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </when>
+	  <otherwise>
+	    <call-macro n="f_bcond">
+	      <with-param pos="3"/>
+	    </call-macro>
+	  </otherwise>
+	</choose>
+	<out>
+	  <b pos="4"/>	
+	  <chunk>
+	    <clip pos="5" part="lem"/>
+	    <clip pos="5" part="tags"/>
+	    <clip pos="5" part="chcontent"/>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN ne SV que SN pr SN">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="ne"/>
+	<pattern-item n="SV"/>
+	<pattern-item n="cnjsub"/>
+	<pattern-item n="SN"/>
+	<pattern-item n="pr"/>
+	<pattern-item n="SN"/>
+      </pattern>
+      <action>
+	<let>
+	  <clip pos="2" part="lem"/>
+	  <lit v="solo"/>
+	</let>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="5"/>
+	</call-macro>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="7"/>
+	</call-macro>
+	<call-macro n="cv_prep">
+	  <with-param pos="3"/>
+	  <with-param pos="6"/>
+	  <with-param pos="7"/>
+	</call-macro>
+	<call-macro n="cv_prep">
+	  <with-param pos="5"/>
+	  <with-param pos="6"/>
+	  <with-param pos="7"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<equal caseless="yes">
+		  <clip pos="1" part="lem"/>
+		  <lit v="prnperssubj"/>
+		</equal>
+		<equal>
+		  <clip pos="3" part="pers"/>
+		  <clip pos="1" part="pers"/>
+		</equal>
+		<equal>
+		  <clip pos="3" part="nbr"/>
+		  <clip pos="1" part="nbr"/>
+		</equal>
+	      </and>
+	    </test>
+	    <out>
+	      <chunk>
+		<get-case-from pos="1">
+		  <clip pos="2" part="lem"/>
+		</get-case-from>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<get-case-from pos="1">
+		  <clip pos="3" part="lem"/>
+		</get-case-from>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	    </out>
+	    <call-macro n="f_bcond">
+	      <with-param pos="3"/>
+	    </call-macro>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <chunk>
+		<clip pos="1" part="lem"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="1" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="2" part="lem"/>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="2"/>
+	      <chunk>
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<equal caseless="yes">
+		  <clip pos="5" part="lem"/>
+		  <lit v="inf"/>
+		</equal>
+		<equal caseless="yes">
+		  <clip pos="5" part="lem"/>
+		  <lit v="inf_enc"/>
+		</equal>
+		<equal caseless="yes">
+		  <clip pos="5" part="lem"/>
+		  <lit v="inf_enc_enc"/>
+		</equal>
+	      </or>
+	    </test>
+	    <out>
+	      <b pos="3"/>
+	      <chunk>
+		<clip pos="4" part="lem"/>
+		<clip pos="4" part="tags"/>
+		<clip pos="4" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </when>
+	  <otherwise>
+	    <call-macro n="f_bcond">
+	      <with-param pos="3"/>
+	    </call-macro>
+	  </otherwise>
+	</choose>
+	<out>
+	  <b pos="4"/>	
+	  <chunk>
+	    <clip pos="5" part="lem"/>
+	    <clip pos="5" part="tags"/>
+	    <clip pos="5" part="chcontent"/>
+	  </chunk>
+	  <b pos="5"/>
+	  <chunk>
+	    <clip pos="6" part="lem"/>
+	    <clip pos="6" part="tags"/>
+	    <clip pos="6" part="chcontent"/>
+	  </chunk>
+	  <b pos="6"/>
+	  <chunk>
+	    <clip pos="7" part="lem"/>
+	    <clip pos="7" part="tags"/>
+	    <clip pos="7" part="chcontent"/>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN SV pr SN">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="SV"/>
+	<pattern-item n="ADV"/>
+	<pattern-item n="SN"/>
+      </pattern>
+      <action>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="4"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<equal caseless="yes">
+		  <clip pos="1" part="lem"/>
+		  <lit v="prnperssubj"/>
+		</equal>
+		<equal>
+		  <clip pos="2" part="pers"/>
+		  <clip pos="1" part="pers"/>
+		</equal>
+		<equal>
+		  <clip pos="2" part="nbr"/>
+		  <clip pos="1" part="nbr"/>
+		</equal>
+	      </and>
+	    </test>
+	    <out>
+	      <chunk><!--el pronom no l'envio, nomï¿½ el 2n chunk -->
+		<get-case-from pos="1">
+		  <clip pos="2" part="lem"/>
+		</get-case-from>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </when>
+	  <otherwise><!--Quan SN no ï¿½ pronom subjecte, per tant, quan ï¿½ qualsevol altre SN -->
+	    <out>
+	      <chunk>
+		<clip pos="1" part="lem"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="1" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="2" part="lem"/>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<equal>
+		  <clip pos="4" part="lem"/>
+		  <lit v="inf"/>
+		</equal>
+		<equal>
+		  <clip pos="4" part="lem"/>
+		  <lit v="inf_enc"/>
+		</equal>
+	      </or>
+	    </test>
+	    <out>
+	      <b pos="2"/>
+	      <chunk>
+		<clip pos="4" part="lem"/>
+		<clip pos="4" part="tags"/>
+		<clip pos="4" part="chcontent"/>
+	      </chunk>
+	      <b pos="3"/>
+	      <chunk>
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <b pos="2"/>
+	      <chunk>
+		<clip pos="3" part="lem"/>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	      <b pos="3"/>
+	      <chunk>
+		<clip pos="4" part="lem"/>
+		<clip pos="4" part="tags"/>
+		<clip pos="4" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN vbcop SA">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="vbcop"/>
+	<pattern-item n="SA"/>
+      </pattern>
+      <action>
+	<call-macro n="concord_sa">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<equal caseless="yes">
+		  <clip pos="1" part="lem"/>
+		  <lit v="prnperssubj"/>
+		</equal>
+		<equal>
+		  <clip pos="2" part="pers"/>
+		  <clip pos="1" part="pers"/>
+		</equal>
+		<equal>
+		  <clip pos="2" part="nbr"/>
+		  <clip pos="1" part="nbr"/>
+		</equal>
+	      </and>
+	    </test>
+	    <out>
+	      <chunk>
+		<get-case-from pos="1">
+		  <clip pos="2" part="lem"/>
+		</get-case-from>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <chunk>
+		<clip pos="1" part="lem"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="1" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="2" part="lem"/>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>	
+	<out>
+	  <b pos="2"/>
+	  <chunk>
+	    <clip pos="3" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+    </rule>	
+
+    <rule comment="REGLA: SN vbcop SN">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="vbcop"/>
+	<pattern-item n="SN"/>
+      </pattern>
+      <action>
+	<call-macro n="concord_sn">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<equal caseless="yes">
+		  <clip pos="1" part="lem"/>
+		  <lit v="prnperssubj"/>
+		</equal>
+		<equal>
+		  <clip pos="2" part="pers"/>
+		  <clip pos="1" part="pers"/>
+		</equal>
+		<equal>
+		  <clip pos="2" part="nbr"/>
+		  <clip pos="1" part="nbr"/>
+		</equal>
+	      </and>
+	    </test>
+	    <out>
+	      <chunk>
+		<get-case-from pos="1">
+		  <clip pos="2" part="lem"/>
+		</get-case-from>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <chunk>
+		<clip pos="1" part="lem"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="1" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="2" part="lem"/>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>	
+	<out>
+	  <b pos="2"/>
+	  <chunk>
+	    <clip pos="3" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+    </rule>	
+
+    <rule comment="REGLA: SN SP vbcop SA">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="pr"/>
+	<pattern-item n="SN"/>
+	<pattern-item n="vbcop"/>
+	<pattern-item n="SA"/>
+      </pattern>
+      <action>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="concord_sa">
+	  <with-param pos="1"/>
+	  <with-param pos="5"/>
+	</call-macro>
+	<call-macro n="cv_prep">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="lem"/>
+	    <clip pos="1" part="tags"/>
+	    <clip pos="1" part="chcontent"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+	    <clip pos="2" part="lem"/>
+	    <clip pos="2" part="tags"/>
+	    <clip pos="2" part="chcontent"/>
+	  </chunk>
+	  <b pos="2"/>
+	  <chunk>
+	    <clip pos="3" part="lem"/>
+	    <clip pos="3" part="tags"/>
+	    <clip pos="3" part="chcontent"/>
+	  </chunk>
+	  <b pos="3"/>
+	  <chunk>
+	    <clip pos="4" part="lem"/>
+	    <clip pos="4" part="tags"/>
+	    <clip pos="4" part="chcontent"/>
+	  </chunk>
+	  <b pos="4"/>
+	  <chunk>
+	    <clip pos="5" part="lem"/>
+	    <clip pos="5" part="tags"/>
+	    <clip pos="5" part="chcontent"/>
+	  </chunk>
+
+	</out>
+      </action>
+    </rule>
+    
+
+    <rule comment="REGLA: SN SP vbcop SN">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="pr"/>
+	<pattern-item n="SN"/>
+	<pattern-item n="vbcop"/>
+	<pattern-item n="SN"/>
+      </pattern>
+      <action>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="assigna_gen_nbr">
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="concord_sn">
+	  <with-param pos="1"/>
+	  <with-param pos="5"/>
+	</call-macro>
+	<call-macro n="cv_prep">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="lem"/>
+	    <clip pos="1" part="tags"/>
+	    <clip pos="1" part="chcontent"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+	    <clip pos="2" part="lem"/>
+	    <clip pos="2" part="tags"/>
+	    <clip pos="2" part="chcontent"/>
+	  </chunk>
+	  <b pos="2"/>
+	  <chunk>
+	    <clip pos="3" part="lem"/>
+	    <clip pos="3" part="tags"/>
+	    <clip pos="3" part="chcontent"/>
+	  </chunk>
+	  <b pos="3"/>
+	  <chunk>
+	    <clip pos="4" part="lem"/>
+	    <clip pos="4" part="tags"/>
+	    <clip pos="4" part="chcontent"/>
+	  </chunk>
+	  <b pos="4"/>
+	  <chunk>
+	    <clip pos="5" part="lem"/>
+	    <clip pos="5" part="tags"/>
+	    <clip pos="5" part="chcontent"/>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+    
+
+
+
+
+    <rule> <!-- REGLA: reset variables-->
+      <pattern>
+	<pattern-item n="punt"/>
+      </pattern>
+      <action>
+	<let>
+	  <var n="nombre"/>
+	  <lit-tag v="sg"/>
+	</let>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+
+
   </section-rules>
 </interchunk>
 
+<!--
+    Resources:
+    http://wiki.apertium.org/wiki/Chunking:_A_full_example
+    http://wiki.apertium.org/wiki/Chunking
+    http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Transfer_rules
+    http://wiki.apertium.org/wiki/A_long_introduction_to_transfer_rules
+    http://wiki.apertium.org/wiki/Transfer#Adding_structural_transfer_.28grammar.29_rules
+-->
