@@ -36,8 +36,8 @@
     <def-cat n="nompropi">
       <cat-item tags="np.*"/>
     </def-cat>
-    <def-cat n="nploc">
-      <cat-item tags="np.loc.*"/>
+    <def-cat n="nptop">
+      <cat-item tags="np.top.*"/>
     </def-cat>
 
     <def-cat n="adj">
@@ -623,7 +623,7 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
-      <attr-item tags="np.loc"/>
+      <attr-item tags="np.top"/>
       <attr-item tags="np.ant"/>
       <attr-item tags="np.cog"/>
       <attr-item tags="np.al"/>	
@@ -16508,9 +16508,9 @@
     </rule> 
 
 
-    <rule comment="REGLA: NPLOC-PP (London-based)">
+    <rule comment="REGLA: NPTOP-PP (London-based)">
       <pattern>
-	<pattern-item n="nploc"/>
+	<pattern-item n="nptop"/>
 	<pattern-item n="guio"/>
 	<pattern-item n="pp"/>
       </pattern>
@@ -16546,10 +16546,10 @@
     </rule>
 
 
-    <rule comment="REGLA: DET NPLOC-PP (a London-based)">
+    <rule comment="REGLA: DET NPTOP-PP (a London-based)">
       <pattern>
 	<pattern-item n="det"/>
-	<pattern-item n="nploc"/>
+	<pattern-item n="nptop"/>
 	<pattern-item n="guio"/>
 	<pattern-item n="pp"/>
       </pattern>

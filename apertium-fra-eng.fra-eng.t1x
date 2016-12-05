@@ -5,7 +5,7 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <!--Falten els altres np (antroponims) que tenen gen i nbr, revisar regles.-->
-      <cat-item tags="np.loc"/>
+      <cat-item tags="np.top"/>
     </def-cat>
     <def-cat n="ant">
       <cat-item tags="np.ant"/>
@@ -281,12 +281,13 @@
       <cat-item tags="cm"/>
     </def-cat>
   </section-def-cats>
+
   <section-def-attrs>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
       <attr-item tags="n.unc"/>
-      <attr-item tags="np.loc"/>
+      <attr-item tags="np.top"/>
       <attr-item tags="np.ant"/>
     </def-attr>
     <def-attr n="a_np_acr">
@@ -397,7 +398,7 @@
       <attr-item tags="nt"/>
     </def-attr>
     <def-attr n="tipus_np">
-      <attr-item tags="loc"/>
+      <attr-item tags="top"/>
       <attr-item tags="al"/>
       <attr-item tags="ant"/>
     </def-attr>
@@ -443,6 +444,7 @@
       <attr-item tags="NEG"/>
     </def-attr>
   </section-def-attrs>
+
   <section-def-vars>
     <def-var n="tipusprep"/>
     <def-var n="tipusverb"/>
@@ -471,8 +473,9 @@
     <def-var n="lema_SV"/>
     <def-var n="haverhi_pp"/>
   </section-def-vars>
+
   <section-def-lists>
-    <def-list n="nloc">
+    <def-list n="ntop">
       <list-item v="maison"/>
       <list-item v="monde"/>
       <list-item v="rue"/>
@@ -578,6 +581,7 @@
       <list-item v="Sunday"/>
     </def-list>
   </section-def-lists>
+
   <section-def-macros>
     <def-macro n="f_lexicadj" npar="1">
       <choose>
@@ -1212,17 +1216,17 @@
             <or>
               <in caseless="yes">
                 <clip pos="1" side="sl" part="lem"/>
-                <list n="nloc"/>
+                <list n="ntop"/>
               </in>
               <equal>
                 <clip pos="1" side="sl" part="tipus_np"/>
-                <lit-tag v="loc"/>
+                <lit-tag v="top"/>
               </equal>
             </or>
           </test>
           <let>
             <var n="tipusnom"/>
-            <lit-tag v="loc"/>
+            <lit-tag v="top"/>
           </let>
         </when>
         <when>
@@ -2709,8 +2713,8 @@
 	</when>
       </choose>
     </def-macro>
-
   </section-def-macros>
+
   <section-rules>
     <!--*************************************** REGLES DE SN ******************************************** -->
     <rule comment="REGLA: NOM (per a col·locar la cua en les multiparaules amb g">
@@ -2784,7 +2788,7 @@
               <or>
                 <equal>
                   <clip pos="2" side="tl" part="a_nom"/>
-                  <lit-tag v="np.loc"/>
+                  <lit-tag v="np.top"/>
                 </equal>
                 <equal>
                   <clip pos="2" side="tl" part="a_nom"/>

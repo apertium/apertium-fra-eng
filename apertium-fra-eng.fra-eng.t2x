@@ -92,7 +92,7 @@
       <attr-item tags="nopart"/>
     </def-attr>
     <def-attr n="tnom">
-      <attr-item tags="loc"/>
+      <attr-item tags="top"/>
       <attr-item tags="part"/>
     </def-attr>
     <def-attr n="tprep">
@@ -418,13 +418,13 @@
     </def-macro>
 
     <def-macro n="cv_prep" npar="3">
-      <choose> <!--canvia la prepo de lloc-->
+      <choose> <!--canvia la prepo de ltop-->
 	<when>
 	  <test>
 	    <and>
 	      <equal>
 		<clip pos="3" part="tnom"/>
-		<lit-tag v="loc"/>
+		<lit-tag v="top"/>
 	      </equal>
 	      <or>
 		<equal>
