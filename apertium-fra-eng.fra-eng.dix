@@ -1025,6 +1025,7 @@
     <e><p><l>balcon<s n="n"/><s n="m"/></l><r>balcony<s n="n"/></r></p></e>
     <e><p><l>balkanisation<s n="n"/><s n="f"/></l><r>balkanisation<s n="n"/></r></p></e>
     <e><p><l>lest<s n="n"/><s n="m"/></l><r>ballast<s n="n"/></r></p></e>
+    <e><p><l>bal<s n="n"/><s n="m"/></l><r>ball<s n="n"/></r></p></e>
     <e><p><l>ballon<s n="n"/><s n="m"/></l><r>balloon<s n="n"/></r></p></e>
     <e><p><l>balle<s n="n"/><s n="f"/></l><r>ball<s n="n"/></r></p></e>
     <e><p><l>ballon<s n="n"/><s n="m"/></l><r>ball<s n="n"/></r></p></e>
@@ -1064,6 +1065,7 @@
     <e><p><l>corbeille<s n="n"/><s n="f"/></l><r>basket<s n="n"/></r></p></e>
     <e><p><l>basque<s n="n"/><s n="m"/><s n="pl"/></l><r>Basque<s n="n"/></r></p></e>
     <e><p><l>basque<s n="n"/><s n="m"/><s n="sg"/></l><r>Basque<s n="n"/></r></p></e>
+    <e><p><l>bataillon<s n="n"/><s n="m"/></l><r>battalion<s n="n"/></r></p></e>
     <e><p><l>lot<s n="n"/><s n="m"/></l><r>batch<s n="n"/></r></p></e>
     <e><p><l>baignade<s n="n"/><s n="f"/></l><r>bathroom<s n="n"/></r></p></e>
     <e><p><l>bain<s n="n"/><s n="m"/></l><r>bathroom<s n="n"/></r></p></e>
@@ -1094,6 +1096,7 @@
     <e><p><l>veau<s n="n"/><s n="m"/></l><r>beef<s n="n"/></r></p></e>
     <e><p><l>bière<s n="n"/><s n="f"/></l><r>beer<s n="n"/></r></p></e>
     <e><p><l>abeille<s n="n"/><s n="f"/></l><r>bee<s n="n"/></r></p></e>
+    <e><p><l>mendiant<s n="n"/><s n="m"/></l><r>beggar<s n="n"/></r></p></e>   
     <e><p><l>mendicité<s n="n"/><s n="f"/></l><r>begging<s n="n"/></r></p></e>
     <e><p><l>début<s n="n"/><s n="m"/></l><r>beginning<s n="n"/></r></p></e>
     <e><p><l>comportement<s n="n"/><s n="m"/></l><r>behaviour<s n="n"/></r></p></e>
@@ -1112,6 +1115,7 @@
     <e><p><l>performance<s n="n"/><s n="f"/></l><r>benefit<s n="n"/></r></p></e>
     <e><p><l>prestation<s n="n"/><s n="f"/></l><r>benefit<s n="n"/></r></p></e>
     <e><p><l>essence<s n="n"/><s n="f"/></l><r>benzine<s n="n"/></r></p></e>
+    <e><p><l>béret<s n="n"/><s n="m"/></l><r>beret<s n="n"/></r></p></e>
     <e><p><l>best-seller<s n="n"/><s n="m"/></l><r>bestseller<s n="n"/></r></p></e>
     <e><p><l>trahison<s n="n"/><s n="f"/></l><r>betrayal<s n="n"/></r></p></e>
     <e><p><l>gageure<s n="n"/><s n="f"/></l><r>bet<s n="n"/></r></p></e>
@@ -1154,6 +1158,7 @@
     <e><p><l>panne<g><b/>d'électricité</g><s n="n"/><s n="f"/></l><r>blackout<s n="n"/></r></p></e>
     <e><p><l>feuille<s n="n"/><s n="f"/></l><r>blade<s n="n"/></r></p></e>
     <e><p><l>tort<s n="n"/><s n="m"/></l><r>blame<s n="n"/></r></p></e>
+    <e><p><l>blanchiment<s n="n"/><s n="m"/></l><r>blanking<s n="n"/></r></p></e>
     <e><p><l>couverture<s n="n"/><s n="f"/></l><r>blanket<s n="n"/></r></p></e>
     <e><p><l>espace<s n="n"/><s n="m"/></l><r>blank<s n="n"/></r></p></e>
     <e><p><l>explosion<s n="n"/><s n="f"/></l><r>blast<s n="n"/></r></p></e>
@@ -1296,6 +1301,7 @@
     <e><p><l>calamité<s n="n"/><s n="f"/></l><r>calamity<s n="n"/></r></p></e>
     <e><p><l>calcul<s n="n"/><s n="m"/></l><r>calculation<s n="n"/></r></p></e>
     <e><p><l>calendrier<s n="n"/><s n="m"/></l><r>calendar<s n="n"/></r></p></e>
+    <e><p><l>mollet<s n="n"/><s n="m"/></l><r>calf<s n="n"/></r></p></e>
     <e><p><l>appel<s n="n"/><s n="m"/></l><r>call<s n="n"/></r></p></e>
     <e><p><l>calme<s n="n"/><s n="m"/></l><r>calm<s n="n"/></r></p></e>
     <e><p><l>steward<s n="n"/><s n="mf"/></l><r>camarero<s n="n"/></r></p></e>
@@ -1318,6 +1324,7 @@
     <e><p><l>étoffe<s n="n"/><s n="f"/></l><r>canvas<s n="n"/></r></p></e>
     <e><p><l>capacité<s n="n"/><s n="f"/></l><r>capability<s n="n"/></r></p></e>
     <e><p><l>capacité<s n="n"/><s n="f"/></l><r>capacity<s n="n"/></r></p></e>
+    <e><p><l>contenance<s n="n"/><s n="f"/></l><r>capacity<s n="n"/></r></p></e>
     <e><p><l>cap<s n="n"/><s n="m"/></l><r>cape<s n="n"/></r></p></e>
     <e><p><l>majuscule<s n="n"/><s n="f"/></l><r>capital<b/>letter<s n="n"/></r></p></e>
     <e><p><l>capitalisation<s n="n"/><s n="f"/></l><r>capitalisation<s n="n"/></r></p></e>
@@ -1592,6 +1599,7 @@
     <e><p><l>mandat<s n="n"/><s n="m"/></l><r>command<s n="n"/></r></p></e>
     <e><p><l>ordre<s n="n"/><s n="m"/></l><r>command<s n="n"/></r></p></e>
     <e><p><l>commentaire<s n="n"/><s n="m"/></l><r>comment<s n="n"/></r></p></e>
+    <e><p><l>commentateur<s n="n"/><s n="m"/></l><r>commentator<s n="n"/></r></p></e>
     <e><p><l>commerce<s n="n"/><s n="m"/></l><r>commerce<s n="n"/></r></p></e>
     <e><p><l>commercialisation<s n="n"/><s n="f"/></l><r>commercialisation<s n="n"/></r></p></e>
     <e><p><l>annonce<s n="n"/><s n="m"/></l><r>commercial<s n="n"/></r></p></e>
@@ -1793,6 +1801,7 @@
     <e><p><l>grue<s n="n"/><s n="f"/></l><r>crane<s n="n"/></r></p></e>
     <e><p><l>accident<s n="n"/><s n="m"/></l><r>crash<s n="n"/></r></p></e>
     <e><p><l>choc<s n="n"/><s n="m"/></l><r>crash<s n="n"/></r></p></e>
+    <e><p><l>engouement<s n="n"/><s n="m"/></l><r>craze<s n="n"/></r></p></e>
     <e><p><l>créateur<s n="n"/><s n="mf"/></l><r>creador<s n="n"/></r></p></e>
     <e><p><l>crème<s n="n"/><s n="f"/></l><r>cream<s n="n"/></r></p></e>
     <e><p><l>création<s n="n"/><s n="f"/></l><r>creation<s n="n"/></r></p></e>
@@ -1974,6 +1983,7 @@
     <e><p><l>désir<s n="n"/><s n="m"/></l><r>desire<s n="n"/></r></p></e>
     <e><p><l>désolation<s n="n"/><s n="f"/></l><r>desolation<s n="n"/></r></p></e>
     <e><p><l>désespoir<s n="n"/><s n="m"/></l><r>despair<s n="n"/></r></p></e>
+    <e><p><l>despote<s n="n"/><s n="mf"/></l><r>despot<s n="n"/></r></p></e>
     <e><p><l>dessert<s n="n"/><s n="m"/></l><r>dessert<s n="n"/></r></p></e>
     <e><p><l>destination<s n="n"/><s n="f"/></l><r>destination<s n="n"/></r></p></e>
     <e><p><l>destin<s n="n"/><s n="m"/></l><r>destination<s n="n"/></r></p></e>
@@ -2230,6 +2240,7 @@
     <e><p><l>choix<s n="n"/><s n="m"/></l><r>election<s n="n"/></r></p></e>
     <e><p><l>election<s n="n"/><s n="f"/></l><r>election<s n="n"/></r></p></e>
     <e><p><l>élection<s n="n"/><s n="f"/></l><r>election<s n="n"/></r></p></e>
+    <e><p><l>électeur<s n="n"/><s n="m"/></l><r>elector<s n="n"/></r></p></e>
     <e><p><l>électorat<s n="n"/><s n="m"/></l><r>electorate<s n="n"/></r></p></e>
     <e><p><l>électricité<s n="n"/><s n="f"/></l><r>electricity<s n="n"/></r></p></e>
     <e><p><l>électrocution<s n="n"/><s n="f"/></l><r>electrocution<s n="n"/></r></p></e>
@@ -2305,6 +2316,7 @@
     <e><p><l>environnement<s n="n"/><s n="m"/></l><r>environment<s n="n"/></r></p></e>
     <e><p><l>envie<s n="n"/><s n="f"/></l><r>envy<s n="n"/></r></p></e>
     <e><p><l>épidémie<s n="n"/><s n="f"/></l><r>epidemic<s n="n"/></r></p></e>
+    <e><p><l>épilepsie<s n="n"/><s n="f"/></l><r>epilepsy<s n="n"/></r></p></e>
     <e><p><l>épisode<s n="n"/><s n="m"/></l><r>episode<s n="n"/></r></p></e>
     <e><p><l>égalité<s n="n"/><s n="f"/></l><r>equality<s n="n"/></r></p></e>
     <e><p><l>équation<s n="n"/><s n="f"/></l><r>equation<s n="n"/></r></p></e>
@@ -2342,6 +2354,7 @@
     <e><p><l>évacuation<s n="n"/><s n="f"/></l><r>evacuation<s n="n"/></r></p></e>
     <e><p><l>évaluation<s n="n"/><s n="f"/></l><r>evaluation<s n="n"/></r></p></e>
     <e><p><l>évaporation<s n="n"/><s n="f"/></l><r>evaporation<s n="n"/></r></p></e>
+    <e><p><l>veille<s n="n"/><s n="f"/></l><r>eve<s n="n"/></r></p></e>
     <e><p><l>tombée<g><b/>de<b/>la<b/>nuit</g><s n="n"/><s n="f"/></l><r>evening<s n="n"/></r></p></e>
     <e><p><l>événement<s n="n"/><s n="m"/></l><r>event<s n="n"/></r></p></e>
     <e><p><l>éventualité<s n="n"/><s n="f"/></l><r>eventuality<s n="n"/></r></p></e>
@@ -2471,6 +2484,8 @@
     <e><p><l>farse<s n="n"/><s n="f"/></l><r>farce<s n="n"/></r></p></e>
     <e><p><l>agriculture<s n="n"/><s n="f"/></l><r>farming<s n="n"/></r></p></e>
     <e><p><l>ferme<s n="n"/><s n="f"/></l><r>farm<s n="n"/></r></p></e>
+    <e><p><l>fermier<s n="n"/><s n="m"/></l><r>farmer<s n="n"/></r></p></e>
+
     <e><p><l>cahier<s n="n"/><s n="m"/></l><r>fascicle<s n="n"/></r></p></e>
     <e><p><l>fascination<s n="n"/><s n="f"/></l><r>fascination<s n="n"/></r></p></e>
     <e><p><l>mode<s n="n"/><s n="f"/></l><r>fashion<s n="n"/></r></p></e>
@@ -2539,6 +2554,7 @@
     <e><p><l>pêcheur<s n="n"/><s n="f"/></l><r>fisherwoman<s n="n"/></r></p></e>
     <e><p><l>pêche<s n="n"/><s n="f"/></l><r>fishing<s n="n"/></r></p></e>
     <e><p><l>poisson<s n="n"/><s n="m"/></l><r>fish<s n="n"/></r></p></e>
+    <e><p><l>poing<s n="n"/><s n="m"/></l><r>fist<s n="n"/></r></p></e>
     <e><p><l>fixation<s n="n"/><s n="f"/></l><r>fixation<s n="n"/></r></p></e>
     <e><p><l>bannière<s n="n"/><s n="f"/></l><r>flag<s n="n"/></r></p></e>
     <e><p><l>drapeau<s n="n"/><s n="m"/></l><r>flag<s n="n"/></r></p></e>
@@ -2833,6 +2849,7 @@
     <e><p><l>habitude<s n="n"/><s n="f"/></l><r>habit<s n="n"/></r></p></e>
     <e><p><l>moeurs<s n="n"/><s n="f"/></l><r>habit<s n="n"/></r></p></e>
     <e><p><l>cheveu<s n="n"/><s n="m"/></l><r>hair<s n="n"/></r></p></e>
+    <e><p><l>poil<s n="n"/><s n="m"/></l><r>hair<s n="n"/></r></p></e>
     <e><p><l>colin<s n="n"/><s n="m"/></l><r>hake<s n="n"/></r></p></e>
     <e><p><l>demi<s n="n"/><s n="m"/></l><r>half<s n="n"/></r></p></e>
     <e><p><l>moitié<s n="n"/><s n="f"/></l><r>half<s n="n"/></r></p></e>
@@ -2859,6 +2876,7 @@
     <e><p><l>haine<s n="n"/><s n="f"/></l><r>hate<s n="n"/></r></p></e>
     <e><p><l>aversion<s n="n"/><s n="f"/></l><r>hatred<s n="n"/></r></p></e>
     <e><p><l>chapeau<s n="n"/><s n="m"/></l><r>hat<s n="n"/></r></p></e>
+    <e><p><l>haubert<s n="n"/><s n="m"/></l><r>hauberk<s n="n"/></r></p></e>
     <e><p><l>ruban<s n="n"/><s n="m"/></l><r>headband<s n="n"/></r></p></e>
     <e><p><l>dénombrement<s n="n"/><s n="m"/></l><r>headcount<s n="n"/></r></p></e>
     <e><p><l>titulaire<s n="n"/><s n="mf"/></l><r>headline<s n="n"/></r></p></e>
@@ -3123,6 +3141,7 @@
     <e><p><l>lésion<s n="n"/><s n="f"/></l><r>injury<s n="n"/></r></p></e>
     <e><p><l>injustice<s n="n"/><s n="f"/></l><r>injustice<s n="n"/></r></p></e>
     <e><p><l>encre<s n="n"/><s n="f"/></l><r>ink<s n="n"/></r></p></e>
+    <e><p><l>hôtellerie<s n="n"/><s n="f"/></l><r>inn<s n="n"/></r></p></e>
     <e><p><l>innocence<s n="n"/><s n="f"/></l><r>innocence<s n="n"/></r></p></e>
     <e><p><l>innovation<s n="n"/><s n="f"/></l><r>innovation<s n="n"/></r></p></e>
     <e><p><l>entrée<s n="n"/><s n="f"/></l><r>input<s n="n"/></r></p></e>
@@ -3240,6 +3259,7 @@
     <e><p><l>isobare<s n="n"/><s n="f"/></l><r>isobar<s n="n"/></r></p></e>
     <e><p><l>sujet<s n="n"/><s n="m"/></l><r>issue<s n="n"/></r></p></e>
     <e><p><l>élément<s n="n"/><s n="m"/></l><r>item<s n="n"/></r></p></e>
+    <e><p><l>itinéraire<s n="n"/><s n="m"/></l><r>itinerary<s n="n"/></r></p></e>
     <e><p><l>ivoire<s n="n"/><s n="m"/></l><r>ivory<s n="n"/></r></p></e>
     <e><p><l>jaquette<s n="n"/><s n="f"/></l><r>jacket<s n="n"/></r></p></e>
     <e><p><l>prison<s n="n"/><s n="f"/></l><r>jail<s n="n"/></r></p></e>
@@ -3708,6 +3728,8 @@
     <e><p><l>modération<s n="n"/><s n="f"/></l><r>moderation<s n="n"/></r></p></e>
     <e><p><l>modernisation<s n="n"/><s n="f"/></l><r>modernisation<s n="n"/></r></p></e>
     <e><p><l>façon<s n="n"/><s n="f"/></l><r>mode<s n="n"/></r></p></e>
+    <e><p><l>modèle<s n="n"/><s n="m"/></l><r>model<s n="n"/></r></p></e>
+
     <e><p><l>modestie<s n="n"/><s n="f"/></l><r>modesty<s n="n"/></r></p></e>
     <e><p><l>modification<s n="n"/><s n="f"/></l><r>modification<s n="n"/></r></p></e>
     <e><p><l>modulation<s n="n"/><s n="f"/></l><r>modulation<s n="n"/></r></p></e>
@@ -3785,6 +3807,7 @@
     <e><p><l>musée<s n="n"/><s n="m"/></l><r>museum<s n="n"/></r></p></e>
     <e><p><l>champignon<s n="n"/><s n="m"/></l><r>mushroom<s n="n"/></r></p></e>
     <e><p><l>musique<s n="n"/><s n="f"/></l><r>music<s n="n"/></r></p></e>
+    <e><p><l>mousquet<s n="n"/><s n="m"/></l><r>musket<s n="n"/></r></p></e>
     <e><p><l>moule<s n="n"/><s n="f"/></l><r>mussel<s n="n"/></r></p></e>
     <e><p><l>mutation<s n="n"/><s n="f"/></l><r>mutation<s n="n"/></r></p></e>
     <e><p><l>mutilation<s n="n"/><s n="f"/></l><r>mutilation<s n="n"/></r></p></e>
@@ -3926,6 +3949,7 @@
     <e><p><l>fonctionnement<s n="n"/><s n="m"/></l><r>operation<s n="n"/></r></p></e>
     <e><p><l>opinion<s n="n"/><s n="f"/></l><r>opinion<s n="n"/></r></p></e>
     <e><p><l>adversaire<s n="n"/><s n="mf"/></l><r>opponent<s n="n"/></r></p></e>
+    <e><p><l>opposant<s n="n"/><s n="m"/></l><r>opponent<s n="n"/></r></p></e>
     <e><p><l>occasion<s n="n"/><s n="f"/></l><r>opportunity<s n="n"/></r></p></e>
     <e><p><l>opportunité<s n="n"/><s n="f"/></l><r>opportunity<s n="n"/></r></p></e>
     <e><p><l>opposition<s n="n"/><s n="f"/></l><r>opposition<s n="n"/></r></p></e>
@@ -3935,6 +3959,7 @@
     <e><p><l>orbite<s n="n"/><s n="f"/></l><r>orbit<s n="n"/></r></p></e>
     <e><p><l>verger<s n="n"/><s n="m"/></l><r>orchard<s n="n"/></r></p></e>
     <e><p><l>orchestre<s n="n"/><s n="m"/></l><r>orchestra<s n="n"/></r></p></e>
+    <e><p><l>calvaire<s n="n"/><s n="m"/></l><r>ordeal<s n="n"/></r></p></e>
     <e><p><l>mandat<s n="n"/><s n="m"/></l><r>order<s n="n"/></r></p></e>
     <e><p><l>ordre<s n="n"/><s n="m"/></l><r>order<s n="n"/></r></p></e>
     <e><p><l>organisation<s n="n"/><s n="f"/></l><r>organisation<s n="n"/></r></p></e>
@@ -4057,6 +4082,7 @@
     <e><p><l>patrouille<s n="n"/><s n="f"/></l><r>patrol<s n="n"/></r></p></e>
     <e><p><l>patron<s n="n"/><s n="f"/></l><r>patron<b/>saint<s n="n"/></r></p></e>
     <e><p><l>patron<s n="n"/><s n="m"/></l><r>patron<b/>saint<s n="n"/></r></p></e>
+    <e><p><l>parrainage<s n="n"/><s n="m"/></l><r>patronage<s n="n"/></r></p></e>
     <e><p><l>patron<s n="n"/><s n="m"/></l><r>pattern<s n="n"/></r></p></e>
     <e><p><l>pause<s n="n"/><s n="f"/></l><r>pause<s n="n"/></r></p></e>
     <e><p><l>paiement<s n="n"/><s n="m"/></l><r>payment<s n="n"/></r></p></e>
@@ -4190,6 +4216,7 @@
     <e><p><l>plaque<s n="n"/><s n="f"/></l><r>plate<s n="n"/></r></p></e>
     <e><p><l>tranche<s n="n"/><s n="f"/></l><r>plate<s n="n"/></r></p></e>
     <e><p><l>plate-forme<s n="n"/><s n="f"/></l><r>platform<s n="n"/></r></p></e>
+    <e><p><l>quai<s n="n"/><s n="m"/></l><r>platform<s n="n"/></r></p></e>
     <e><p><l>platine<s n="n"/><s n="m"/></l><r>platinum<s n="n"/></r></p></e>
     <e><p><l>équipier<s n="n"/></l><r>player<s n="n"/></r></p></e>
     <e><p><l>interprète<s n="n"/><s n="mf"/></l><r>player<s n="n"/></r></p></e>
@@ -4302,6 +4329,7 @@
     <e><p><l>prédiction<s n="n"/><s n="f"/></l><r>prediction<s n="n"/></r></p></e>
     <e><p><l>prédilection<s n="n"/><s n="f"/></l><r>predilection<s n="n"/></r></p></e>
     <e><p><l>prédisposition<s n="n"/><s n="f"/></l><r>predisposition<s n="n"/></r></p></e>
+    <e><p><l>préfecture<s n="n"/><s n="f"/></l><r>prefecture<s n="n"/></r></p></e>
     <e><p><l>préférence<s n="n"/><s n="f"/></l><r>preference<s n="n"/></r></p></e>
     <e><p><l>préhistoire<s n="n"/><s n="f"/></l><r>prehistory<s n="n"/></r></p></e>
     <e><p><l>préjugé<s n="n"/><s n="m"/></l><r>prejudice<s n="n"/></r></p></e>
@@ -4486,6 +4514,7 @@
     <e><p><l>racisme<s n="n"/><s n="m"/></l><r>racism<s n="n"/></r></p></e>
     <e><p><l>radar<s n="n"/><s n="m"/></l><r>radar<s n="n"/></r></p></e>
     <e><p><l>radiation<s n="n"/><s n="f"/></l><r>radiation<s n="n"/></r></p></e>
+    <e><p><l>rayonnement<s n="n"/><s n="m"/></l><r>radiation<s n="n"/></r></p></e>
     <e><p><l>radicalisme<s n="n"/><s n="m"/></l><r>radicalism<s n="n"/></r></p></e>
     <e><p><l>radio<s n="n"/><s n="f"/></l><r>radio<s n="n"/></r></p></e>
     <e><p><l>radio<s n="n"/><s n="m"/></l><r>radium<s n="n"/></r></p></e>
@@ -4541,6 +4570,7 @@
     <e><p><l>tranquillité<s n="n"/><s n="f"/></l><r>reassurance<s n="n"/></r></p></e>
     <e><p><l>rébellion<s n="n"/><s n="f"/></l><r>rebellion<s n="n"/></r></p></e>
     <e><p><l>rebond<s n="n"/><s n="m"/></l><r>rebound<s n="n"/></r></p></e>
+    <e><p><l>rebondissement<s n="n"/><s n="m"/></l><r>rebound<s n="n"/></r></p></e>
     <e><p><l>acquit<s n="n"/><s n="m"/></l><r>receipt<s n="n"/></r></p></e>
     <e><p><l>réception<s n="n"/><s n="f"/></l><r>receipt<s n="n"/></r></p></e>
     <e><p><l>reçu<s n="n"/><s n="m"/></l><r>receipt<s n="n"/></r></p></e>
@@ -4564,6 +4594,7 @@
     <e><p><l>récupération<s n="n"/><s n="f"/></l><r>recovery<s n="n"/></r></p></e>
     <e><p><l>relance<s n="n"/><s n="f"/></l><r>recovery<s n="n"/></r></p></e>
     <e><p><l>reprise<s n="n"/><s n="f"/></l><r>recovery<s n="n"/></r></p></e>
+    <e><p><l>guérison<s n="n"/><s n="f"/></l><r>recovery<s n="n"/></r></p></e>
     <e><p><l>recréation<s n="n"/><s n="f"/></l><r>recreation<s n="n"/></r></p></e>
     <e><p><l>récréation<s n="n"/><s n="f"/></l><r>recreation<s n="n"/></r></p></e>
     <e><p><l>récrimination<s n="n"/><s n="f"/></l><r>recrimination<s n="n"/></r></p></e>
@@ -4586,6 +4617,7 @@
     <e><p><l>réactivation<s n="n"/><s n="f"/></l><r>reflation<s n="n"/></r></p></e>
     <e><p><l>réflexion<s n="n"/><s n="f"/></l><r>reflection<s n="n"/></r></p></e>
     <e><p><l>réforme<s n="n"/><s n="f"/></l><r>reform<s n="n"/></r></p></e>
+    <e><p><l>réformiste<s n="n"/><s n="mf"/></l><r>reformist<s n="n"/></r></p></e>
     <e><p><l>réfrigérateur<s n="n"/><s n="m"/></l><r>refrigerator<s n="n"/></r></p></e>
     <e><p><l>remboursement<s n="n"/><s n="m"/></l><r>refund<s n="n"/></r></p></e>
     <e><p><l>négative<s n="n"/><s n="f"/></l><r>refusal<s n="n"/></r></p></e>
@@ -4640,6 +4672,7 @@
     <e><p><l>extraction<s n="n"/><s n="f"/></l><r>removal<s n="n"/></r></p></e>
     <e><p><l>renouvellement<s n="n"/><s n="m"/></l><r>renewal<s n="n"/></r></p></e>
     <e><p><l>rénovation<s n="n"/><s n="f"/></l><r>renewal<s n="n"/></r></p></e>
+    <e><p><l>renoncement<s n="n"/><s n="m"/></l><r>renouncement<s n="n"/></r></p></e>
     <e><p><l>rénovation<s n="n"/><s n="f"/></l><r>renovation<s n="n"/></r></p></e>
     <e><p><l>loyer<s n="n"/><s n="m"/></l><r>rental<s n="n"/></r></p></e>
     <e><p><l>loyer<s n="n"/><s n="m"/></l><r>rent<s n="n"/></r></p></e>
@@ -4922,6 +4955,8 @@
     <e><p><l>demi-finale<s n="n"/><s n="f"/></l><r>semifinal<s n="n"/></r></p></e>
     <e><p><l>séminaire<s n="n"/><s n="m"/></l><r>seminar<s n="n"/></r></p></e>
     <e><p><l>sénat<s n="n"/><s n="m"/></l><r>senate<s n="n"/></r></p></e>
+    <e><p><l>sénateur<s n="n"/><s n="m"/></l><r>senator<s n="n"/></r></p></e>
+    <e><p><l>sénatrice<s n="n"/><s n="f"/></l><r>senator<s n="n"/></r></p></e>
     <e><p><l>envoi<s n="n"/><s n="m"/></l><r>sending<s n="n"/></r></p></e>
     <e><p><l>sensibilisation<s n="n"/><s n="f"/></l><r>sensitisation<s n="n"/></r></p></e>
     <e><p><l>sensibilité<s n="n"/><s n="f"/></l><r>sensitivity<s n="n"/></r></p></e>
@@ -5022,6 +5057,7 @@
     <e><p><l>panneau<s n="n"/><s n="m"/></l><r>sign<s n="n"/></r></p></e>
     <e><p><l>signal<s n="n"/><s n="m"/></l><r>sign<s n="n"/></r></p></e>
     <e><p><l>signe<s n="n"/><s n="m"/></l><r>sign<s n="n"/></r></p></e>
+    <e><p><l>signataire<s n="n"/><s n="mf"/></l><r>signer<s n="n"/></r></p></e>
     <e><p><l>silence<s n="n"/><s n="m"/></l><r>silence<s n="n"/></r></p></e>
     <e><p><l>silhouette<s n="n"/><s n="f"/></l><r>silhouette<s n="n"/></r></p></e>
     <e><p><l>silice<s n="n"/><s n="m"/></l><r>silica<s n="n"/></r></p></e>
@@ -5052,6 +5088,7 @@
     <e><p><l>peau<s n="n"/><s n="f"/></l><r>skin<s n="n"/></r></p></e>
     <e><p><l>jupe<s n="n"/><s n="f"/></l><r>skirt<s n="n"/></r></p></e>
     <e><p><l>ski<s n="n"/><s n="m"/></l><r>ski<s n="n"/></r></p></e>
+    <e><p><l>écrémage<s n="n"/><s n="m"/></l><r>skimming<s n="n"/></r></p></e>
     <e><p><l>gratte-ciel<s n="n"/><s n="m"/></l><r>skyscraper<s n="n"/></r></p></e>
     <e><p><l>ciel<s n="n"/><s n="m"/></l><r>sky<s n="n"/></r></p></e>
     <e><p><l>argot<s n="n"/><s n="m"/></l><r>slang<s n="n"/></r></p></e>
@@ -5222,6 +5259,7 @@
     <e><p><l>volant<s n="n"/><s n="m"/></l><r>steering<b/>wheel<s n="n"/></r></p></e>
     <e><p><l>racine<s n="n"/><s n="f"/></l><r>stem<s n="n"/></r></p></e>
     <e><p><l>stérilisation<s n="n"/><s n="f"/></l><r>sterilisation<s n="n"/></r></p></e>
+    <e><p><l>stérilité<s n="n"/><s n="f"/></l><r>sterility<s n="n"/></r></p></e>
     <e><p><l>poupe<s n="n"/><s n="f"/></l><r>stern<s n="n"/></r></p></e>
     <e><p><l>autocollant<s n="n"/><s n="m"/></l><r>sticker<s n="n"/></r></p></e>
     <e><p><l>bâton<s n="n"/><s n="m"/></l><r>stick<s n="n"/></r></p></e>
@@ -5246,6 +5284,7 @@
     <e><p><l>passager<b/>clandestin<s n="n"/><s n="m"/></l><r>stowaway<s n="n"/></r></p></e>
     <e><p><l>passagère<b/>clandestine<s n="n"/><s n="f"/></l><r>stowaway<s n="n"/></r></p></e>
     <e><p><l>tension<s n="n"/><s n="f"/></l><r>strain<s n="n"/></r></p></e>
+    <e><p><l>souche<s n="n"/><s n="f"/></l><r>strain<s n="n"/></r></p></e>
     <e><p><l>tacticien<s n="n"/><s n="m"/></l><r>strategist<s n="n"/></r></p></e>
     <e><p><l>stratégie<s n="n"/><s n="f"/></l><r>strategy<s n="n"/></r></p></e>
     <e><p><l>paille<s n="n"/><s n="f"/></l><r>straw<s n="n"/></r></p></e>
@@ -5363,6 +5402,7 @@
     <e><p><l>épée<s n="n"/><s n="f"/></l><r>sword<s n="n"/></r></p></e>
     <e><p><l>symbolisme<s n="n"/><s n="m"/></l><r>symbolism<s n="n"/></r></p></e>
     <e><p><l>symbole<s n="n"/><s n="m"/></l><r>symbol<s n="n"/></r></p></e>
+    <e><p><l>sympathisant<s n="n"/><s n="m"/></l><r>sympathizer<s n="n"/></r></p></e>
     <e><p><l>symptôme<s n="n"/><s n="m"/></l><r>symptom<s n="n"/></r></p></e>
     <e><p><l>synchronisme<s n="n"/><s n="m"/></l><r>synchronism<s n="n"/></r></p></e>
     <e><p><l>syndrome<s n="n"/><s n="m"/></l><r>syndrome<s n="n"/></r></p></e>
@@ -5728,6 +5768,7 @@
     <e><p><l>local<s n="n"/><s n="m"/></l><r>venue<s n="n"/></r></p></e>
     <e><p><l>verbe<s n="n"/><s n="m"/></l><r>verb<s n="n"/></r></p></e>
     <e><p><l>verdict<s n="n"/><s n="m"/></l><r>verdict<s n="n"/></r></p></e>
+    <e><p><l>vérification<s n="n"/><s n="f"/></l><r>verification<s n="n"/></r></p></e>
     <e><p><l>version<s n="n"/><s n="f"/></l><r>version<s n="n"/></r></p></e>
     <e><p><l>vertèbre<s n="n"/><s n="f"/></l><r>vertebra<s n="n"/></r></p></e>
     <e><p><l>bateau<s n="n"/><s n="m"/></l><r>vessel<s n="n"/></r></p></e>
@@ -5855,6 +5896,7 @@
     <e><p><l>volant<s n="n"/><s n="m"/></l><r>wheel<s n="n"/></r></p></e>
     <e><p><l>moment<s n="n"/><s n="m"/></l><r>while<s n="n"/></r></p></e>
     <e><p><l>caprice<s n="n"/><s n="m"/></l><r>whim<s n="n"/></r></p></e>
+    <e><p><l>lubie<s n="n"/><s n="f"/></l><r>whim<s n="n"/></r></p></e>
     <e><p><l>whisky<s n="n"/><s n="m"/></l><r>whisky<s n="n"/></r></p></e>
     <e><p><l>blanc<s n="n"/><s n="m"/></l><r>white<s n="n"/></r></p></e>
     <e><p><l>cible<s n="n"/><s n="f"/></l><r>white<s n="n"/></r></p></e>
@@ -5935,6 +5977,164 @@
     <e><p><l>zoom<s n="n"/><s n="m"/></l><r>zoom<s n="n"/></r></p></e>
     <e><p><l>zoologique<s n="n"/><s n="m"/></l><r>zoo<s n="n"/></r></p></e>
     <e><p><l>zoo<s n="n"/><s n="m"/></l><r>zoo<s n="n"/></r></p></e>
+      
+    <e><p><l>abbesse<s n="n"/><s n="f"/></l><r>abbess<s n="n"/></r></p></e>
+    <e><p><l>abréviation<s n="n"/><s n="f"/></l><r>abbreviation<s n="n"/></r></p></e>
+    <e><p><l>abducteur<s n="n"/><s n="m"/></l><r>abductor<s n="n"/></r></p></e>
+    <e><p><l>abolition<s n="n"/><s n="f"/></l><r>abolition<s n="n"/></r></p></e>
+    <e><p><l>absorption<s n="n"/><s n="f"/></l><r>absorption<s n="n"/></r></p></e>
+    <e><p><l>absurdité<s n="n"/><s n="f"/></l><r>absurdity<s n="n"/></r></p></e>
+    <e><p><l>acacia<s n="n"/><s n="m"/></l><r>acacia<s n="n"/></r></p></e>
+    <e><p><l>accélérateur<s n="n"/><s n="m"/></l><r>accelerator<s n="n"/></r></p></e>
+    <e><p><l>acception<s n="n"/><s n="f"/></l><r>acceptation<s n="n"/></r></p></e>
+    <e><p><l>accessoire<s n="n"/><s n="m"/></l><r>accessory<s n="n"/></r></p></e>
+    <e><p><l>accordéon<s n="n"/><s n="m"/></l><r>accordion<s n="n"/></r></p></e>
+    <e><p><l>accordéoniste<s n="n"/><s n="mf"/></l><r>accordionist<s n="n"/></r></p></e>
+    <e><p><l>accréditation<s n="n"/><s n="f"/></l><r>accreditation<s n="n"/></r></p></e>
+    <e><p><l>actinomètre<s n="n"/><s n="m"/></l><r>actinometer<s n="n"/></r></p></e>
+    <e><p><l>activation<s n="n"/><s n="f"/></l><r>activation<s n="n"/></r></p></e>
+    <e><p><l>actionnement<s n="n"/><s n="m"/></l><r>actuation<s n="n"/></r></p></e>
+    <e><p><l>adaptabilité<s n="n"/><s n="f"/></l><r>adaptability<s n="n"/></r></p></e>
+    <e><p><l>ajustage<s n="n"/><s n="m"/></l><r>adaptation<s n="n"/></r></p></e>
+    <e><p><l>adéquation<s n="n"/><s n="f"/></l><r>adequacy<s n="n"/></r></p></e>
+    <e><p><l>adhérence<s n="n"/><s n="f"/></l><r>adherence<s n="n"/></r></p></e>
+    <e><p><l>adhérent<s n="n"/><s n="m"/></l><r>adherent<s n="n"/></r></p></e>
+    <e><p><l>ajournement<s n="n"/><s n="m"/></l><r>adjournment<s n="n"/></r></p></e>
+    <e><p><l>ajustement<s n="n"/><s n="m"/></l><r>adjustment<s n="n"/></r></p></e>
+    <e><p><l>amiral<s n="n"/><s n="m"/></l><r>admiral<s n="n"/></r></p></e>
+    <e><p><l>admirateur<s n="n"/><s n="m"/></l><r>admirer<s n="n"/></r></p></e>
+    <e><p><l>admission<s n="n"/><s n="f"/></l><r>admission<s n="n"/></r></p></e>
+    <e><p><l>admonestation<s n="n"/><s n="f"/></l><r>admonition<s n="n"/></r></p></e>
+    <e><p><l>advection<s n="n"/><s n="f"/></l><r>advection<s n="n"/></r></p></e>
+    <e><p><l>aérobiologie<s n="n"/><s n="f"/></l><r>aerobiology<s n="n"/></r></p></e>
+    <e><p><l>aérogramme<s n="n"/><s n="f"/></l><r>aerogram<s n="n"/></r></p></e>
+    <e><p><l>aéronomie<s n="n"/><s n="f"/></l><r>aeronomy<s n="n"/></r></p></e>
+    <e><p><l>afforestation<s n="n"/><s n="f"/></l><r>afforestation<s n="n"/></r></p></e>
+    <e><p><l>agglomération<s n="n"/><s n="f"/></l><r>agglomeration<s n="n"/></r></p></e>
+    <e><p><l>agilité<s n="n"/><s n="f"/></l><r>agility<s n="n"/></r></p></e>
+    <e><p><l>acquiescement<s n="n"/><s n="m"/></l><r>agreement<s n="n"/></r></p></e>
+    <e><p><l>agrochimie<s n="n"/><s n="f"/></l><r>agrochemistry<s n="n"/></r></p></e>
+    <e><p><l>aéroplane<s n="n"/><s n="m"/></l><r>airplane<s n="n"/></r></p></e>
+    <e><p><l>alarmiste<s n="n"/><s n="mf"/></l><r>alarmist<s n="n"/></r></p></e>
+    <e><p><l>alchimiste<s n="n"/><s n="m"/></l><r>alchemist<s n="n"/></r></p></e>
+    <e><p><l>alcoolémie<s n="n"/><s n="f"/></l><r>alcoholaemia<s n="n"/></r></p></e>
+    <e><p><l>alambic<s n="n"/><s n="m"/></l><r>alembic<s n="n"/></r></p></e>
+    <e><p><l>algorithme<s n="n"/><s n="m"/></l><r>algorithm<s n="n"/></r></p></e>
+    <e><p><l>alignement<s n="n"/><s n="m"/></l><r>alignment<s n="n"/></r></p></e>
+    <e><p><l>allegro<s n="n"/><s n="m"/></l><r>allegro<s n="n"/></r></p></e>
+    <e><p><l>alligator<s n="n"/><s n="m"/></l><r>alligator<s n="n"/></r></p></e>
+    <e><p><l>affectation<s n="n"/><s n="f"/></l><r>allocation<s n="n"/></r></p></e>
+    <e><p><l>allocation<s n="n"/><s n="f"/></l><r>allocation<s n="n"/></r></p></e>
+    <e><p><l>altimètre<s n="n"/><s n="m"/></l><r>altimeter<s n="n"/></r></p></e>
+    <e><p><l>altostratus<s n="n"/><s n="m"/></l><r>altostratus<s n="n"/></r></p></e>
+    <e><p><l>amarante<s n="n"/><s n="f"/></l><r>amaranth<s n="n"/></r></p></e>
+    <e><p><l>amateur<s n="n"/><s n="mf"/></l><r>amateur<s n="n"/></r></p></e>
+    <e><p><l>ambiance<s n="n"/><s n="f"/></l><r>ambiance<s n="n"/></r></p></e>
+    <e><p><l>ambiguïté<s n="n"/><s n="f"/></l><r>ambiguity<s n="n"/></r></p></e>
+    <e><p><l>américanisation<s n="n"/><s n="f"/></l><r>Americanization<s n="n"/></r></p></e>
+    <e><p><l>américanité<s n="n"/><s n="f"/></l><r>Americanness<s n="n"/></r></p></e>
+    <e><p><l>ammonal<s n="n"/><s n="m"/></l><r>ammonal<s n="n"/></r></p></e>
+    <e><p><l>amoralité<s n="n"/><s n="f"/></l><r>amorality<s n="n"/></r></p></e>
+    <e><p><l>amortissement<s n="n"/><s n="m"/></l><r>amortizement<s n="n"/></r></p></e>
+    <e><p><l>amphétamine<s n="n"/><s n="f"/></l><r>amphetamine<s n="n"/></r></p></e>
+    <e><p><l>anagramme<s n="n"/><s n="f"/></l><r>anagram<s n="n"/></r></p></e>
+    <e><p><l>analogie<s n="n"/><s n="f"/></l><r>analogy<s n="n"/></r></p></e>
+    <e><p><l>ancrage<s n="n"/><s n="m"/></l><r>anchoring<s n="n"/></r></p></e>
+    <e><p><l>angélus<s n="n"/><s n="m"/></l><r>angelus<s n="n"/></r></p></e>
+    <e><p><l>angulation<s n="n"/><s n="f"/></l><r>angulation<s n="n"/></r></p></e>
+    <e><p><l>animalité<s n="n"/><s n="f"/></l><r>animality<s n="n"/></r></p></e>
+    <e><p><l>anéantissement<s n="n"/><s n="m"/></l><r>annihilation<s n="n"/></r></p></e>
+    <e><p><l>annihilation<s n="n"/><s n="f"/></l><r>annihilation<s n="n"/></r></p></e>
+    <e><p><l>annotation<s n="n"/><s n="f"/></l><r>annotation<s n="n"/></r></p></e>
+    <e><p><l>annonciation<s n="n"/><s n="f"/></l><r>announcement<s n="n"/></r></p></e>
+    <e><p><l>annonceur<s n="n"/><s n="m"/></l><r>announcer<s n="n"/></r></p></e>
+    <e><p><l>annualité<s n="n"/><s n="f"/></l><r>annuality<s n="n"/></r></p></e>
+    <e><p><l>annuité<s n="n"/><s n="f"/></l><r>annuity<s n="n"/></r></p></e>
+    <e><p><l>anorak<s n="n"/><s n="m"/></l><r>anorak<s n="n"/></r></p></e>
+    <e><p><l>anorgasmie<s n="n"/><s n="f"/></l><r>anorgasmia<s n="n"/></r></p></e>
+    <e><p><l>antichambre<s n="n"/><s n="f"/></l><r>antechamber<s n="n"/></r></p></e>
+    <e><p><l>anthropométrie<s n="n"/><s n="f"/></l><r>anthropometry<s n="n"/></r></p></e>
+    <e><p><l>anticorruption<s n="n"/><s n="f"/></l><r>anti-corruption<s n="n"/></r></p></e>
+    <e><p><l>antimondialisation<s n="n"/><s n="f"/></l><r>anti-globalization<s n="n"/></r></p></e>
+    <e><p><l>antimonarchiste<s n="n"/><s n="mf"/></l><r>anti-monarchist<s n="n"/></r></p></e>
+    <e><p><l>anticyclone<s n="n"/><s n="m"/></l><r>anticyclone<s n="n"/></r></p></e>
+    <e><p><l>antimilitariste<s n="n"/><s n="mf"/></l><r>antimilitarist<s n="n"/></r></p></e>
+    <e><p><l>antipathie<s n="n"/><s n="f"/></l><r>antipathy<s n="n"/></r></p></e>
+    <e><p><l>antipode<s n="n"/><s n="m"/></l><r>antipode<s n="n"/></r></p></e>
+    <e><p><l>antipollution<s n="n"/><s n="f"/></l><r>antipollution<s n="n"/></r></p></e>
+    <e><p><l>antiquaire<s n="n"/><s n="mf"/></l><r>antiquer<s n="n"/></r></p></e>
+    <e><p><l>antiterrorisme<s n="n"/><s n="m"/></l><r>antiterrorism<s n="n"/></r></p></e>
+    <e><p><l>antiviolence<s n="n"/><s n="f"/></l><r>antiviolence<s n="n"/></r></p></e>
+    <e><p><l>apéritif<s n="n"/><s n="m"/></l><r>apéritif<s n="n"/></r></p></e>
+    <e><p><l>apocalypse<s n="n"/><s n="f"/></l><r>apocalypse<s n="n"/></r></p></e>
+    <e><p><l>apogée<s n="n"/><s n="m"/></l><r>apogee<s n="n"/></r></p></e>
+    <e><p><l>apostat<s n="n"/><s n="m"/></l><r>apostate<s n="n"/></r></p></e>
+    <e><p><l>appendicite<s n="n"/><s n="f"/></l><r>appendicitis<s n="n"/></r></p></e>
+    <e><p><l>applicabilité<s n="n"/><s n="f"/></l><r>applicability<s n="n"/></r></p></e>
+    <e><p><l>appréciation<s n="n"/><s n="f"/></l><r>appreciation<s n="n"/></r></p></e>
+    <e><p><l>apprenti<s n="n"/><s n="m"/></l><r>apprentice<s n="n"/></r></p></e>
+    <e><p><l>abricot<s n="n"/><s n="m"/></l><r>apricot<s n="n"/></r></p></e>
+    <e><p><l>aquarium<s n="n"/><s n="m"/></l><r>aquarium<s n="n"/></r></p></e>
+    <e><p><l>arbitrage<s n="n"/><s n="m"/></l><r>arbitrage<s n="n"/></r></p></e>
+    <e><p><l>archéologie<s n="n"/><s n="f"/></l><r>archaeology<s n="n"/></r></p></e>
+    <e><p><l>archevêché<s n="n"/><s n="m"/></l><r>archbishopric<s n="n"/></r></p></e>
+    <e><p><l>archétype<s n="n"/><s n="m"/></l><r>archetype<s n="n"/></r></p></e>
+    <e><p><l>archiviste<s n="n"/><s n="mf"/></l><r>archivist<s n="n"/></r></p></e>
+    <e><p><l>archiprêtre<s n="n"/><s n="m"/></l><r>archpriest<s n="n"/></r></p></e>
+    <e><p><l>aromatisation<s n="n"/><s n="f"/></l><r>aromatization<s n="n"/></r></p></e>
+    <e><p><l>arrangement<s n="n"/><s n="m"/></l><r>arrangement<s n="n"/></r></p></e>
+    <e><p><l>arrogance<s n="n"/><s n="f"/></l><r>arrogance<s n="n"/></r></p></e>
+    <e><p><l>arrondissement<s n="n"/><s n="m"/></l><r>arrondissement<s n="n"/></r></p></e>
+    <e><p><l>artifice<s n="n"/><s n="m"/></l><r>artifice<s n="n"/></r></p></e>
+    <e><p><l>adjonction<s n="n"/><s n="f"/></l><r>attachment<s n="n"/></r></p></e>
+    <e><p><l>apiculteur<s n="n"/><s n="m"/></l><r>beekeeper<s n="n"/></r></p></e>
+    <e><p><l>arbrisseau<s n="n"/><s n="m"/></l><r>bush<s n="n"/></r></p></e>
+    <e><p><l>accessit<s n="n"/><s n="m"/></l><r>certificate<s n="n"/></r></p></e>
+    <e><p><l>achèvement<s n="n"/><s n="m"/></l><r>completion<s n="n"/></r></p></e>
+    <e><p><l>affrontement<s n="n"/><s n="m"/></l><r>confrontation<s n="n"/></r></p></e>
+    <e><p><l>agrément<s n="n"/><s n="m"/></l><r>congeniality<s n="n"/></r></p></e>
+    <e><p><l>affermissement<s n="n"/><s n="m"/></l><r>consolidation<s n="n"/></r></p></e>
+    <e><p><l>accablement<s n="n"/><s n="m"/></l><r>consternation<s n="n"/></r></p></e>
+    <e><p><l>accouplement<s n="n"/><s n="m"/></l><r>coupling<s n="n"/></r></p></e>
+    <e><p><l>affichage<s n="n"/><s n="m"/></l><r>display<s n="n"/></r></p></e>
+    <e><p><l>amaigrissement<s n="n"/><s n="m"/></l><r>emaciation<s n="n"/></r></p></e>
+    <e><p><l>aplomb<s n="n"/><s n="m"/></l><r>equilibrium<s n="n"/></r></p></e>
+    <e><p><l>abattement<s n="n"/><s n="m"/></l><r>exhaustion<s n="n"/></r></p></e>
+    <e><p><l>agrafe<s n="n"/><s n="f"/></l><r>fastener<s n="n"/></r></p></e>
+    <e><p><l>alimentation<s n="n"/><s n="f"/></l><r>food<s n="n"/></r></p></e>
+    <e><p><l>aliment<s n="n"/><s n="m"/></l><r>food<s n="n"/></r></p></e>
+    <e><p><l>armature<s n="n"/><s n="f"/></l><r>framework<s n="n"/></r></p></e>
+    <e><p><l>armurier<s n="n"/><s n="m"/></l><r>gunsmith<s n="n"/></r></p></e>
+    <e><p><l>aléa<s n="n"/><s n="m"/></l><r>hazard<s n="n"/></r></p></e>
+    <e><p><l>altesse<s n="n"/><s n="f"/></l><r>highness<s n="n"/></r></p></e>
+    <e><p><l>alpinisme<s n="n"/><s n="m"/></l><r>hiking<s n="n"/></r></p></e>
+    <e><p><l>appauvrissement<s n="n"/><s n="m"/></l><r>impoverishment<s n="n"/></r></p></e>
+    <e><p><l>apport<s n="n"/><s n="m"/></l><r>input<s n="n"/></r></p></e>
+    <e><p><l>aplanissement<s n="n"/><s n="m"/></l><r>leveling<s n="n"/></r></p></e>
+    <e><p><l>appât<s n="n"/><s n="m"/></l><r>lure<s n="n"/></r></p></e>
+    <e><p><l>aggloméré<s n="n"/><s n="m"/></l><r>masonite<s n="n"/></r></p></e>
+    <e><p><l>accoutrement<s n="n"/><s n="m"/></l><r>outfit<s n="n"/></r></p></e>
+    <e><p><l>alinéa<s n="n"/><s n="m"/></l><r>paragraph<s n="n"/></r></p></e>
+    <e><p><l>ardeur<s n="n"/><s n="f"/></l><r>passion<s n="n"/></r></p></e>
+    <e><p><l>amas<s n="n"/><s n="m"/></l><r>pile<s n="n"/></r></p></e>
+    <e><p><l>ananas<s n="n"/><s n="m"/></l><r>pineapple<s n="n"/></r></p></e>
+    <e><p><l>antériorité<s n="n"/><s n="f"/></l><r>precedence<s n="n"/></r></p></e>
+    <e><p><l>animateur<s n="n"/><s n="m"/></l><r>presenter<s n="n"/></r></p></e>
+    <e><p><l>apprêt<s n="n"/><s n="m"/></l><r>primer<s n="n"/></r></p></e>
+    <e><p><l>actionnariat<s n="n"/><s n="m"/></l><r>shareholding<s n="n"/></r></p></e>
+    <e><p><l>armateur<s n="n"/><s n="m"/></l><r>shipowner<s n="n"/></r></p></e>
+    <e><p><l>accotement<s n="n"/><s n="m"/></l><r>shoulder<s n="n"/></r></p></e>
+    <e><p><l>acolyte<s n="n"/><s n="m"/></l><r>sidekick<s n="n"/></r></p></e>
+    <e><p><l>argenterie<s n="n"/><s n="f"/></l><r>silverware<s n="n"/></r></p></e>
+    <e><p><l>ardoise<s n="n"/><s n="f"/></l><r>slate<s n="n"/></r></p></e>
+    <e><p><l>allocution<s n="n"/><s n="f"/></l><r>speech<s n="n"/></r></p></e>
+    <e><p><l>appui<s n="n"/><s n="m"/></l><r>support<s n="n"/></r></p></e>
+    <e><p><l>amygdalite<s n="n"/><s n="f"/></l><r>tonsillitis<s n="n"/></r></p></e>
+    <e><p><l>actualisation<s n="n"/><s n="f"/></l><r>update<s n="n"/></r></p></e>
+    <e><p><l>aération<s n="n"/><s n="f"/></l><r>ventilation<s n="n"/></r></p></e>
+    <e><p><l>affaiblissement<s n="n"/><s n="m"/></l><r>weakening<s n="n"/></r></p></e>
+    <e><p><l>absinthe<s n="n"/><s n="f"/></l><r>wormwood<s n="n"/></r></p></e>
+
     <e><re>[A-Z][A-Z][A-Z][A-Z][A-Z]</re><p><l><s n="n"/><s n="acr"/><s n="sp"/></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><re>[A-Z][A-Z][A-Z][A-Z]</re><p><l><s n="n"/><s n="acr"/><s n="sp"/></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><re>[A-Z][A-Z][A-Z]</re><p><l><s n="n"/><s n="acr"/><s n="sp"/></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -9598,6 +9798,7 @@
     <e><p><l>classique<s n="adj"/><s n="mf"/></l><r>classical<s n="adj"/></r></p></e>
     <e><p><l>net<s n="adj"/></l><r>clean<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>clair<s n="adj"/></l><r>clear<s n="adj"/><s n="sint"/></r></p></e>
+
     <e><p><l>prêt<s n="adj"/></l><r>clever<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>climatique<s n="adj"/><s n="mf"/></l><r>climatic<s n="adj"/></r></p></e>
     <e><p><l>climatologique<s n="adj"/><s n="mf"/></l><r>climatological<s n="adj"/></r></p></e>
@@ -11310,6 +11511,8 @@
     <e><p><l>enfin<s n="adv"/></l><r>finally<s n="adv"/></r></p></e>
     <e><p><l>en<b/>somme<s n="adv"/></l><r>finally<s n="adv"/></r></p></e>
     <e><p><l>bien<s n="adv"/></l><r>fine<s n="adv"/></r></p></e>
+    <e><p><l>finement<s n="adv"/></l><r>finely<s n="adv"/></r></p></e>
+
     <e><p><l>d'abord<s n="adv"/></l><r>first<s n="adv"/></r></p></e>
     <e><p><l>premièrement<s n="adv"/></l><r>first<s n="adv"/></r></p></e>
     <e><p><l>tout<b/>d'abord<s n="adv"/></l><r>firstly<s n="adv"/></r></p></e>
@@ -11799,8 +12002,177 @@
     <e><p><l>hier<s n="adv"/></l><r>yesterday<s n="adv"/></r></p></e>
     <e><p><l>encore<s n="adv"/></l><r>yet<s n="adv"/></r></p></e>
 
-    <!-- SECTION: Verbs -->
 
+    <e><p><l>confusément<s n="adv"/></l><r>abashedly<s n="adv"/></r></p></e>
+    <e><p><l>abominablement<s n="adv"/></l><r>abominably<s n="adv"/></r></p></e>
+    <e><p><l>soudainement<s n="adv"/></l><r>abruptly<s n="adv"/></r></p></e>
+    <e><p><l>lamentablement<s n="adv"/></l><r>abysmally<s n="adv"/></r></p></e>
+    <e><p><l>accessoirement<s n="adv"/></l><r>accessorily<s n="adv"/></r></p></e>
+    <e><p><l>acoustiquement<s n="adv"/></l><r>acoustically<s n="adv"/></r></p></e>
+    <e><p><l>vraiment<s n="adv"/></l><r>actually<s n="adv"/></r></p></e>
+    <e><p><l>convenablement<s n="adv"/></l><r>adequately<s n="adv"/></r></p></e>
+    <e><p><l>admirablement<s n="adv"/></l><r>admirably<s n="adv"/></r></p></e>
+    <e><p><l>esthétiquement<s n="adv"/></l><r>aesthetically<s n="adv"/></r></p></e>
+    <e><p><l>lestement<s n="adv"/></l><r>agilely<s n="adv"/></r></p></e>
+    <e><p><l>agréablement<s n="adv"/></l><r>agreeably<s n="adv"/></r></p></e>
+    <e><p><l>plaisamment<s n="adv"/></l><r>amusingly<s n="adv"/></r></p></e>
+    <e><p><l>anonymement<s n="adv"/></l><r>anonymously<s n="adv"/></r></p></e>
+    <e><p><l>effroyablement<s n="adv"/></l><r>appallingly<s n="adv"/></r></p></e>
+    <e><p><l>épouvantablement<s n="adv"/></l><r>appallingly<s n="adv"/></r></p></e>
+    <e><p><l>artificiellement<s n="adv"/></l><r>artificially<s n="adv"/></r></p></e>
+    <e><p><l>authentiquement<s n="adv"/></l><r>authentically<s n="adv"/></r></p></e>
+    <e><p><l>avidement<s n="adv"/></l><r>avidly<s n="adv"/></r></p></e>
+    <e><p><l>merveilleusement<s n="adv"/></l><r>beautifully<s n="adv"/></r></p></e>
+    <e><p><l>prodigieusement<s n="adv"/></l><r>beguilingly<s n="adv"/></r></p></e>
+    <e><p><l>tardivement<s n="adv"/></l><r>belatedly<s n="adv"/></r></p></e>
+    <e><p><l>semestriellement<s n="adv"/></l><r>biannually<s n="adv"/></r></p></e>
+    <e><p><l>froidement<s n="adv"/></l><r>blankly<s n="adv"/></r></p></e>
+    <e><p><l>effrontément<s n="adv"/></l><r>brashly<s n="adv"/></r></p></e>
+    <e><p><l>bravement<s n="adv"/></l><r>bravely<s n="adv"/></r></p></e>
+    <e><p><l>courageusement<s n="adv"/></l><r>bravely<s n="adv"/></r></p></e>
+    <e><p><l>brillamment<s n="adv"/></l><r>brilliantly<s n="adv"/></r></p></e>
+    <e><p><l>capricieusement<s n="adv"/></l><r>capriciously<s n="adv"/></r></p></e>
+    <e><p><l>prudemment<s n="adv"/></l><r>cautiously<s n="adv"/></r></p></e>
+    <e><p><l>certes<s n="adv"/></l><r>certainly<s n="adv"/></r></p></e>
+    <e><p><l>volontiers<s n="adv"/></l><r>cheerfully<s n="adv"/></r></p></e>
+    <e><p><l>circulairement<s n="adv"/></l><r>circularly<s n="adv"/></r></p></e>
+    <e><p><l>commercialement<s n="adv"/></l><r>commercially<s n="adv"/></r></p></e>
+    <e><p><l>contrairement<s n="adv"/></l><r>contrarily<s n="adv"/></r></p></e>
+    <e><p><l>copieusement<s n="adv"/></l><r>copiously<s n="adv"/></r></p></e>
+    <e><p><l>conformément<s n="adv"/></l><r>correspondingly<s n="adv"/></r></p></e>
+    <e><p><l>chèrement<s n="adv"/></l><r>dearly<s n="adv"/></r></p></e>
+    <e><p><l>proprement<s n="adv"/></l><r>decently<s n="adv"/></r></p></e>
+    <e><p><l>decidément<s n="adv"/></l><r>definitely<s n="adv"/></r></p></e>
+    <e><p><l>exprès<s n="adv"/></l><r>deliberately<s n="adv"/></r></p></e>
+    <e><p><l>résolument<s n="adv"/></l><r>determinedly<s n="adv"/></r></p></e>
+    <e><p><l>autrement<s n="adv"/></l><r>differently<s n="adv"/></r></p></e>
+    <e><p><l>indignement<s n="adv"/></l><r>disgracefully<s n="adv"/></r></p></e>
+    <e><p><l>distinctement<s n="adv"/></l><r>distinctly<s n="adv"/></r></p></e>
+    <e><p><l>idem<s n="adv"/></l><r>ditto<s n="adv"/></r></p></e>
+    <e><p><l>dogmatiquement<s n="adv"/></l><r>dogmatically<s n="adv"/></r></p></e>
+    <e><p><l>doublement<s n="adv"/></l><r>doubly<s n="adv"/></r></p></e>
+    <e><p><l>durement<s n="adv"/></l><r>dourly<s n="adv"/></r></p></e>
+    <e><p><l>excellemment<s n="adv"/></l><r>excellently<s n="adv"/></r></p></e>
+    <e><p><l>exceptionnellement<s n="adv"/></l><r>exceptionally<s n="adv"/></r></p></e>
+    <e><p><l>fébrilement<s n="adv"/></l><r>excitedly<s n="adv"/></r></p></e>
+    <e><p><l>catégoriquement<s n="adv"/></l><r>explicitly<s n="adv"/></r></p></e>
+    <e><p><l>exquisément<s n="adv"/></l><r>exquisitely<s n="adv"/></r></p></e>
+    <e><p><l>fatalement<s n="adv"/></l><r>fatally<s n="adv"/></r></p></e>
+    <e><p><l>favorablement<s n="adv"/></l><r>favorably<s n="adv"/></r></p></e>
+    <e><p><l>solidement<s n="adv"/></l><r>firmly<s n="adv"/></r></p></e>
+    <e><p><l>fiscalement<s n="adv"/></l><r>fiscally<s n="adv"/></r></p></e>
+    <e><p><l>longuement<s n="adv"/></l><r>for<b/>a<b/>long<b/>time<s n="adv"/></r></p></e>
+    <e><p><l>autrefois<s n="adv"/></l><r>formerly<s n="adv"/></r></p></e>
+    <e><p><l>fortuitement<s n="adv"/></l><r>fortuitously<s n="adv"/></r></p></e>
+    <e><p><l>gratuitement<s n="adv"/></l><r>freely<s n="adv"/></r></p></e>
+    <e><p><l>frontalement<s n="adv"/></l><r>frontally<s n="adv"/></r></p></e>
+    <e><p><l>généreusement<s n="adv"/></l><r>generously<s n="adv"/></r></p></e>
+    <e><p><l>joyeusement<s n="adv"/></l><r>gladly<s n="adv"/></r></p></e>
+    <e><p><l>gracieusement<s n="adv"/></l><r>graciously<s n="adv"/></r></p></e>
+    <e><p><l>mortellement<s n="adv"/></l><r>grindingly<s n="adv"/></r></p></e>
+    <e><p><l>grossièrement<s n="adv"/></l><r>grossly<s n="adv"/></r></p></e>
+    <e><p><l>harmonieusement<s n="adv"/></l><r>harmoniously<s n="adv"/></r></p></e>
+    <e><p><l>désormais<s n="adv"/></l><r>henceforth<s n="adv"/></r></p></e>
+    <e><p><l>héroïquement<s n="adv"/></l><r>heroically<s n="adv"/></r></p></e>
+    <e><p><l>honnêtement<s n="adv"/></l><r>honestly<s n="adv"/></r></p></e>
+    <e><p><l>horriblement<s n="adv"/></l><r>horribly<s n="adv"/></r></p></e>
+    <e><p><l>idéologiquement<s n="adv"/></l><r>ideologically<s n="adv"/></r></p></e>
+    <e><p><l>incessamment<s n="adv"/></l><r>imminently<s n="adv"/></r></p></e>
+    <e><p><l>impartialement<s n="adv"/></l><r>impartially<s n="adv"/></r></p></e>
+    <e><p><l>improprement<s n="adv"/></l><r>improperly<s n="adv"/></r></p></e>
+    <e><p><l>graduellement<s n="adv"/></l><r>incrementally<s n="adv"/></r></p></e>
+    <e><p><l>forcément<s n="adv"/></l><r>inevitably<s n="adv"/></r></p></e>
+    <e><p><l>inévitablement<s n="adv"/></l><r>inevitably<s n="adv"/></r></p></e>
+    <e><p><l>obligatoirement<s n="adv"/></l><r>inevitably<s n="adv"/></r></p></e>
+    <e><p><l>infiniment<s n="adv"/></l><r>infinitely<s n="adv"/></r></p></e>
+    <e><p><l>démesurément<s n="adv"/></l><r>inordinately<s n="adv"/></r></p></e>
+    <e><p><l>instantanément<s n="adv"/></l><r>instantaneously<s n="adv"/></r></p></e>
+    <e><p><l>instamment<s n="adv"/></l><r>instantly<s n="adv"/></r></p></e>
+    <e><p><l>instinctivement<s n="adv"/></l><r>instinctively<s n="adv"/></r></p></e>
+    <e><p><l>intimement<s n="adv"/></l><r>intimately<s n="adv"/></r></p></e>
+    <e><p><l>invariablement<s n="adv"/></l><r>invariably<s n="adv"/></r></p></e>
+    <e><p><l>inversement<s n="adv"/></l><r>inversely<s n="adv"/></r></p></e>
+    <e><p><l>ironiquement<s n="adv"/></l><r>ironically<s n="adv"/></r></p></e>
+    <e><p><l>irréfutablement<s n="adv"/></l><r>irrefutably<s n="adv"/></r></p></e>
+    <e><p><l>irrégulièrement<s n="adv"/></l><r>irregularly<s n="adv"/></r></p></e>
+    <e><p><l>irrésistiblement<s n="adv"/></l><r>irresistibly<s n="adv"/></r></p></e>
+    <e><p><l>irrémédiablement<s n="adv"/></l><r>irretrievably<s n="adv"/></r></p></e>
+    <e><p><l>irrévocablement<s n="adv"/></l><r>irrevocably<s n="adv"/></r></p></e>
+    <e><p><l>isolément<s n="adv"/></l><r>isolatedly<s n="adv"/></r></p></e>
+    <e><p><l>laconiquement<s n="adv"/></l><r>laconically<s n="adv"/></r></p></e>
+    <e><p><l>judiciairement<s n="adv"/></l><r>legally<s n="adv"/></r></p></e>
+    <e><p><l>juridiquement<s n="adv"/></l><r>legally<s n="adv"/></r></p></e>
+    <e><p><l>paisiblement<s n="adv"/></l><r>leisurely<s n="adv"/></r></p></e>
+    <e><p><l>bruyamment<s n="adv"/></l><r>loudly<s n="adv"/></r></p></e>
+    <e><p><l>loyalement<s n="adv"/></l><r>loyally<s n="adv"/></r></p></e>
+    <e><p><l>magistralement<s n="adv"/></l><r>magnificently<s n="adv"/></r></p></e>
+    <e><p><l>matériellement<s n="adv"/></l><r>materially<s n="adv"/></r></p></e>
+    <e><p><l>mathématiquement<s n="adv"/></l><r>mathematically<s n="adv"/></r></p></e>
+    <e><p><l>méthodiquement<s n="adv"/></l><r>methodically<s n="adv"/></r></p></e>
+    <e><p><l>moyennement<s n="adv"/></l><r>moderately<s n="adv"/></r></p></e>
+    <e><p><l>momentanément<s n="adv"/></l><r>momentarily<s n="adv"/></r></p></e>
+    <e><p><l>mensuellement<s n="adv"/></l><r>monthly<s n="adv"/></r></p></e>
+    <e><p><l>musicalement<s n="adv"/></l><r>musically<s n="adv"/></r></p></e>
+    <e><p><l>mutuellement<s n="adv"/></l><r>mutually<s n="adv"/></r></p></e>
+    <e><p><l>mystérieusement<s n="adv"/></l><r>mysteriously<s n="adv"/></r></p></e>
+    <e><p><l>inutilement<s n="adv"/></l><r>needlessly<s n="adv"/></r></p></e>
+    <e><p><l>néanmoins<s n="adv"/></l><r>nonetheless<s n="adv"/></r></p></e>
+    <e><p><l>nullement<s n="adv"/></l><r>not<b/>at<b/>all<s n="adv"/></r></p></e>
+    <e><p><l>perpendiculairement<s n="adv"/></l><r>perpendicularly<s n="adv"/></r></p></e>
+    <e><p><l>philosophiquement<s n="adv"/></l><r>philosophically<s n="adv"/></r></p></e>
+    <e><p><l>éventuellement<s n="adv"/></l><r>possibly<s n="adv"/></r></p></e>
+    <e><p><l>quasi<s n="adv"/></l><r>practically<s n="adv"/></r></p></e>
+    <e><p><l>précipitamment<s n="adv"/></l><r>precipitously<s n="adv"/></r></p></e>
+    <e><p><l>préventivement<s n="adv"/></l><r>preemptively<s n="adv"/></r></p></e>
+    <e><p><l>mieux<s n="adv"/></l><r>preferably<s n="adv"/></r></p></e>
+    <e><p><l>plutôt<s n="adv"/></l><r>preferably<s n="adv"/></r></p></e>
+    <e><p><l>prématurément<s n="adv"/></l><r>prematurely<s n="adv"/></r></p></e>
+    <e><p><l>prioritairement<s n="adv"/></l><r>primarily<s n="adv"/></r></p></e>
+    <e><p><l>rentablement<s n="adv"/></l><r>profitably<s n="adv"/></r></p></e>
+    <e><p><l>fièrement<s n="adv"/></l><r>proudly<s n="adv"/></r></p></e>
+    <e><p><l>psychiquement<s n="adv"/></l><r>psychically<s n="adv"/></r></p></e>
+    <e><p><l>quantitativement<s n="adv"/></l><r>quantitatively<s n="adv"/></r></p></e>
+    <e><p><l>trimestriellement<s n="adv"/></l><r>quarterly<s n="adv"/></r></p></e>
+    <e><p><l>rationnellement<s n="adv"/></l><r>rationally<s n="adv"/></r></p></e>
+    <e><p><l>réciproquement<s n="adv"/></l><r>reciprocally<s n="adv"/></r></p></e>
+    <e><p><l>malheureusement<s n="adv"/></l><r>regrettably<s n="adv"/></r></p></e>
+    <e><p><l>religieusement<s n="adv"/></l><r>religiously<s n="adv"/></r></p></e>
+    <e><p><l>richement<s n="adv"/></l><r>richly<s n="adv"/></r></p></e>
+    <e><p><l>sauvagement<s n="adv"/></l><r>savagely<s n="adv"/></r></p></e>
+    <e><p><l>scrupuleusement<s n="adv"/></l><r>scrupulously<s n="adv"/></r></p></e>
+    <e><p><l>secrètement<s n="adv"/></l><r>secretly<s n="adv"/></r></p></e>
+    <e><p><l>silencieusement<s n="adv"/></l><r>silently<s n="adv"/></r></p></e>
+    <e><p><l>singulièrement<s n="adv"/></l><r>singularly<s n="adv"/></r></p></e>
+    <e><p><l>jadis<s n="adv"/></l><r>sometime<s n="adv"/></r></p></e>
+    <e><p><l>quelquefois<s n="adv"/></l><r>sometimes<s n="adv"/></r></p></e>
+    <e><p><l>prochainement<s n="adv"/></l><r>soon<s n="adv"/></r></p></e>
+    <e><p><l>spontanément<s n="adv"/></l><r>spontaneously<s n="adv"/></r></p></e>
+    <e><p><l>statistiquement<s n="adv"/></l><r>statistically<s n="adv"/></r></p></e>
+    <e><p><l>réglementairement<s n="adv"/></l><r>statutorily<s n="adv"/></r></p></e>
+    <e><p><l>statutairement<s n="adv"/></l><r>statutorily<s n="adv"/></r></p></e>
+    <e><p><l>subitement<s n="adv"/></l><r>suddenly<s n="adv"/></r></p></e>
+    <e><p><l>symétriquement<s n="adv"/></l><r>symmetrically<s n="adv"/></r></p></e>
+    <e><p><l>téléphoniquement<s n="adv"/></l><r>telephonically<s n="adv"/></r></p></e>
+    <e><p><l>terriblement<s n="adv"/></l><r>terribly<s n="adv"/></r></p></e>
+    <e><p><l>tranquillement<s n="adv"/></l><r>tranquilly<s n="adv"/></r></p></e>
+    <e><p><l>transitoirement<s n="adv"/></l><r>transiently<s n="adv"/></r></p></e>
+    <e><p><l>désagréablement<s n="adv"/></l><r>uncomfortably<s n="adv"/></r></p></e>
+    <e><p><l>inconditionnellement<s n="adv"/></l><r>unconditionally<s n="adv"/></r></p></e>
+    <e><p><l>inconsciemment<s n="adv"/></l><r>unconsciously<s n="adv"/></r></p></e>
+    <e><p><l>inégalement<s n="adv"/></l><r>unequally<s n="adv"/></r></p></e>
+    <e><p><l>vainement<s n="adv"/></l><r>vainly<s n="adv"/></r></p></e>
+    <e><p><l>validement<s n="adv"/></l><r>validly<s n="adv"/></r></p></e>
+    <e><p><l>verbalement<s n="adv"/></l><r>verbally<s n="adv"/></r></p></e>
+    <e><p><l>vigoureusement<s n="adv"/></l><r>vigorously<s n="adv"/></r></p></e>
+    <e><p><l>violemment<s n="adv"/></l><r>violently<s n="adv"/></r></p></e>
+    <e><p><l>visuellement<s n="adv"/></l><r>visually<s n="adv"/></r></p></e>
+    <e><p><l>vivement<s n="adv"/></l><r>vividly<s n="adv"/></r></p></e>
+    <e><p><l>intégralement<s n="adv"/></l><r>wholly<s n="adv"/></r></p></e>
+    <e><p><l>pourquoi<s n="adv"/></l><r>why<s n="adv"/></r></p></e>
+    <e><p><l>dignement<s n="adv"/></l><r>worthily<s n="adv"/></r></p></e>
+
+
+    <!-- SECTION: Verbs -->
     <e><p><l>quitter<s n="vblex"/></l><r>abandon<s n="vblex"/></r></p></e>
     <e><p><l>abandonner<s n="vblex"/></l><r>abandon<s n="vblex"/></r></p></e>
     <e><p><l>abréger<s n="vblex"/></l><r>abbreviate<s n="vblex"/></r></p></e>
@@ -11998,6 +12370,7 @@
     <e><p><l>souffler<s n="vblex"/></l><r>blow<s n="vblex"/></r></p></e>
     <e><p><l>intenter<s n="vblex"/></l><r>board<s n="vblex"/></r></p></e>
     <e><p><l>présumer<s n="vblex"/></l><r>boast<s n="vblex"/></r></p></e>
+    <e><p><l>bouillir<s n="vblex"/></l><r>boil<s n="vblex"/></r></p></e>
     <e><p><l>bombarder<s n="vblex"/></l><r>bomb<s n="vblex"/></r></p></e>
     <e><p><l>réserver<s n="vblex"/></l><r>book<s n="vblex"/></r></p></e>
     <e><p><l>augmenter<s n="vblex"/></l><r>boost<s n="vblex"/></r></p></e>
@@ -12040,6 +12413,7 @@
     <e><p><l>demander<s n="vblex"/></l><r>call<g><b/>for</g><s n="vblex"/></r></p></e>
     <e><p><l>calmer<s n="vblex"/></l><r>calm<s n="vblex"/></r></p></e>
     <e><p><l>camper<s n="vblex"/></l><r>camp<s n="vblex"/></r></p></e>
+    <e><p><l>pouvoir<s n="vblex"/></l><r>can<s n="vblex"/></r></p></e>
     <e><p><l>annuler<s n="vblex"/></l><r>cancel<s n="vblex"/></r></p></e>
     <e><p><l>changer<s n="vblex"/></l><r>capsize<s n="vblex"/></r></p></e>
     <e><p><l>capturer<s n="vblex"/></l><r>capture<s n="vblex"/></r></p></e>
@@ -12464,6 +12838,7 @@
     <e><p><l>éluder<s n="vblex"/></l><r>evade<s n="vblex"/></r></p></e>
     <e><p><l>évaluer<s n="vblex"/></l><r>evaluate<s n="vblex"/></r></p></e>
     <e><p><l>évoquer<s n="vblex"/></l><r>evoke<s n="vblex"/></r></p></e>
+    <e><p><l>susciter<s n="vblex"/></l><r>evoke<s n="vblex"/></r></p></e>
     <e><p><l>évoluer<s n="vblex"/></l><r>evolve<s n="vblex"/></r></p></e>
     <e><p><l>exagérer<s n="vblex"/></l><r>exaggerate<s n="vblex"/></r></p></e>
     <e><p><l>examiner<s n="vblex"/></l><r>examine<s n="vblex"/></r></p></e>
@@ -12475,6 +12850,7 @@
     <e><p><l>écrier<s n="vblex"/></l><r>exclaim<s n="vblex"/></r></p></e>
     <e><p><l>exclure<s n="vblex"/></l><r>exclude<s n="vblex"/></r></p></e>
     <e><p><l>exécuter<s n="vblex"/></l><r>execute<s n="vblex"/></r></p></e>
+    <e><p><l>exempter<s n="vblex"/></l><r>exempt<s n="vblex"/></r></p></e>
     <e><p><l>exercer<s n="vblex"/></l><r>exercise<s n="vblex"/></r></p></e>
     <e><p><l>exercer<s n="vblex"/></l><r>exert<s n="vblex"/></r></p></e>
     <e><p><l>harasser<s n="vblex"/></l><r>exhaust<s n="vblex"/></r></p></e>
@@ -12716,6 +13092,7 @@
     <e><p><l>comprendre<s n="vblex"/></l><r>include<s n="vblex"/></r></p></e>
     <e><p><l>incorporer<s n="vblex"/></l><r>incorporate<s n="vblex"/></r></p></e>
     <e><p><l>augmenter<s n="vblex"/></l><r>increase<s n="vblex"/></r></p></e>
+    <e><p><l>grossir<s n="vblex"/></l><r>increase<s n="vblex"/></r></p></e>
     <e><p><l>incriminer<s n="vblex"/></l><r>incriminate<s n="vblex"/></r></p></e>
     <e><p><l>indemniser<s n="vblex"/></l><r>indemnify<s n="vblex"/></r></p></e>
     <e><p><l>indiquer<s n="vblex"/></l><r>indicate<s n="vblex"/></r></p></e>
@@ -13183,6 +13560,7 @@
     <e><p><l>rechercher<s n="vblex"/></l><r>research<s n="vblex"/></r></p></e>
     <e><p><l>réserver<s n="vblex"/></l><r>reserve<s n="vblex"/></r></p></e>
     <e><p><l>démissionner<s n="vblex"/></l><r>resign<s n="vblex"/></r></p></e>
+    <e><p><l>renoncer<s n="vblex"/></l><r>resign<s n="vblex"/></r></p></e>
     <e><p><l>résister<s n="vblex"/></l><r>resist<s n="vblex"/></r></p></e>
     <e><p><l>résoudre<s n="vblex"/></l><r>resolve<s n="vblex"/></r></p></e>
     <e><p><l>faire<g><b/>appel</g><s n="vblex"/></l><r>resort<s n="vblex"/></r></p></e>
@@ -13273,6 +13651,7 @@
     <e><p><l>sembler<s n="vblex"/></l><r>seem<s n="vblex"/></r></p></e>
     <e><p><l>ressembler<s n="vblex"/></l><r>seem<s n="vblex"/></r></p></e>
     <e><p><l>prendre<s n="vblex"/></l><r>seize<s n="vblex"/></r></p></e>
+    <e><p><l>emparer<s n="vblex"/></l><r>seize<s n="vblex"/></r></p></e>
     <e><p><l>sélectionner<s n="vblex"/></l><r>select<s n="vblex"/></r></p></e>
     <e><p><l>débiter<s n="vblex"/></l><r>sell<s n="vblex"/></r></p></e>
     <e><p><l>vendre<s n="vblex"/></l><r>sell<s n="vblex"/></r></p></e>
@@ -13395,6 +13774,7 @@
     <e><p><l>étendre<s n="vblex"/></l><r>stretch<s n="vblex"/></r></p></e>
     <e c="Mil."><p><l>attaquer<s n="vblex"/></l><r>strike<s n="vblex"/></r></p></e>
     <e><p><l>frapper<s n="vblex"/></l><r>strike<s n="vblex"/></r></p></e>
+    <e><p><l>marteler<s n="vblex"/></l><r>strike<s n="vblex"/></r></p></e>
     <e><p><l>rayer<s n="vblex"/></l><r>stripe<s n="vblex"/></r></p></e>
     <e><p><l>caresser<s n="vblex"/></l><r>stroke<s n="vblex"/></r></p></e>
     <e><p><l>promener<s n="vblex"/></l><r>stroll<s n="vblex"/></r></p></e>
@@ -13465,6 +13845,7 @@
     <e><p><l>intervenir<s n="vblex"/></l><r>take<g><b/>part</g><s n="vblex"/></r></p></e>
     <e><p><l>participer<s n="vblex"/></l><r>take<g><b/>part</g><s n="vblex"/></r></p></e>
     <e><p><l>parler<s n="vblex"/></l><r>talk<s n="vblex"/></r></p></e>
+    <e><p><l>domestiquer<s n="vblex"/></l><r>tame<s n="vblex"/></r></p></e>
     <e c="no sé si és bona trad"><p><l>toucher<s n="vblex"/></l><r>tap<s n="vblex"/></r></p></e>
     <e><p><l>viser<s n="vblex"/></l><r>target<s n="vblex"/></r></p></e>
     <e><p><l>essayer<s n="vblex"/></l><r>taste<s n="vblex"/></r></p></e>
@@ -13616,6 +13997,687 @@
     <e><p><l>écrire<s n="vblex"/></l><r>write<s n="vblex"/></r></p></e>
     <e><p><l>céder<s n="vblex"/></l><r>yield<s n="vblex"/></r></p></e>
     <e><p><l>qualifier<s n="vblex"/></l><r>zone<s n="vblex"/></r></p></e>
+
+      
+    <e><p><l>faiblir<s n="vblex"/></l><r>abate<s n="vblex"/></r></p></e>
+    <e><p><l>abolir<s n="vblex"/></l><r>abolish<s n="vblex"/></r></p></e>
+    <e><p><l>abonder<s n="vblex"/></l><r>abound<s n="vblex"/></r></p></e>
+    <e><p><l>foisonner<s n="vblex"/></l><r>abound<s n="vblex"/></r></p></e>
+    <e><p><l>écrouler<s n="vblex"/></l><r>abrade<s n="vblex"/></r></p></e>
+    <e><p><l>innocenter<s n="vblex"/></l><r>absolve<s n="vblex"/></r></p></e>
+    <e><p><l>absoudre<s n="vblex"/></l><r>absolve<s n="vblex"/></r></p></e>
+    <e><p><l>border<s n="vblex"/></l><r>abut<s n="vblex"/></r></p></e>
+    <e><p><l>agréer<s n="vblex"/></l><r>accept<s n="vblex"/></r></p></e>
+    <e><p><l>accoster<s n="vblex"/></l><r>accost<s n="vblex"/></r></p></e>
+    <e><p><l>interpeller<s n="vblex"/></l><r>accost<s n="vblex"/></r></p></e>
+    <e><p><l>accroître<s n="vblex"/></l><r>accrue<s n="vblex"/></r></p></e>
+    <e><p><l>habituer<s n="vblex"/></l><r>accustom<s n="vblex"/></r></p></e>
+    <e><p><l>acquiescer<s n="vblex"/></l><r>acquiesce<s n="vblex"/></r></p></e>
+    <e><p><l>consentir<s n="vblex"/></l><r>acquiesce<s n="vblex"/></r></p></e>
+    <e><p><l>feindre<s n="vblex"/></l><r>act<s n="vblex"/></r></p></e>
+    <e><p><l>actionner<s n="vblex"/></l><r>activate<s n="vblex"/></r></p></e>
+    <e><p><l>annexer<s n="vblex"/></l><r>add<s n="vblex"/></r></p></e>
+    <e><p><l>adhérer<s n="vblex"/></l><r>adhere<s n="vblex"/></r></p></e>
+    <e><p><l>adjuger<s n="vblex"/></l><r>adjudge<s n="vblex"/></r></p></e>
+    <e><p><l>gérer<s n="vblex"/></l><r>administer<s n="vblex"/></r></p></e>
+    <e><p><l>orner<s n="vblex"/></l><r>adorn<s n="vblex"/></r></p></e>
+    <e><p><l>parer<s n="vblex"/></l><r>adorn<s n="vblex"/></r></p></e>
+    <e><p><l>aventurer<s n="vblex"/></l><r>adventure<s n="vblex"/></r></p></e>
+    <e><p><l>préconiser<s n="vblex"/></l><r>advocate<s n="vblex"/></r></p></e>
+    <e><p><l>désoler<s n="vblex"/></l><r>afflict<s n="vblex"/></r></p></e>
+    <e><p><l>offenser<s n="vblex"/></l><r>affront<s n="vblex"/></r></p></e>
+    <e><p><l>agrandir<s n="vblex"/></l><r>aggrandize<s n="vblex"/></r></p></e>
+    <e><p><l>exaspérer<s n="vblex"/></l><r>aggravate<s n="vblex"/></r></p></e>
+    <e><p><l>indigner<s n="vblex"/></l><r>aggravate<s n="vblex"/></r></p></e>
+    <e><p><l>agacer<s n="vblex"/></l><r>aggravate<s n="vblex"/></r></p></e>
+    <e><p><l>agréger<s n="vblex"/></l><r>aggregate<s n="vblex"/></r></p></e>
+    <e><p><l>troubler<s n="vblex"/></l><r>agitate<s n="vblex"/></r></p></e>
+    <e><p><l>agoniser<s n="vblex"/></l><r>agonize<s n="vblex"/></r></p></e>
+    <e><p><l>pointer<s n="vblex"/></l><r>aim<s n="vblex"/></r></p></e>
+    <e><p><l>éventer<s n="vblex"/></l><r>air<s n="vblex"/></r></p></e>
+    <e><p><l>ailler<s n="vblex"/></l><r>alienate<s n="vblex"/></r></p></e>
+    <e><p><l>affréter<s n="vblex"/></l><r>allure<s n="vblex"/></r></p></e>
+    <e><p><l>airer<s n="vblex"/></l><r>ally<s n="vblex"/></r></p></e>
+    <e><p><l>allonger<s n="vblex"/></l><r>amalgate<s n="vblex"/></r></p></e>
+    <e><p><l>assembler<s n="vblex"/></l><r>amass<s n="vblex"/></r></p></e>
+    <e><p><l>stupéfier<s n="vblex"/></l><r>amaze<s n="vblex"/></r></p></e>
+    <e><p><l>amalgamer<s n="vblex"/></l><r>amble<s n="vblex"/></r></p></e>
+    <e><p><l>amnistier<s n="vblex"/></l><r>amnesty<s n="vblex"/></r></p></e>
+    <e><p><l>amputer<s n="vblex"/></l><r>amputate<s n="vblex"/></r></p></e>
+    <e><p><l>mouiller<s n="vblex"/></l><r>anchor<s n="vblex"/></r></p></e>
+    <e><p><l>fâcher<s n="vblex"/></l><r>anger<s n="vblex"/></r></p></e>
+    <e><p><l>orienter<s n="vblex"/></l><r>angle<s n="vblex"/></r></p></e>
+    <e><p><l>angoisser<s n="vblex"/></l><r>anguish<s n="vblex"/></r></p></e>
+    <e><p><l>anéantir<s n="vblex"/></l><r>annihilate<s n="vblex"/></r></p></e>
+    <e><p><l>oindre<s n="vblex"/></l><r>anoint<s n="vblex"/></r></p></e>
+    <e><p><l>contrarier<s n="vblex"/></l><r>antagonize<s n="vblex"/></r></p></e>
+    <e><p><l>anticiper<s n="vblex"/></l><r>anticipate<s n="vblex"/></r></p></e>
+    <e><p><l>apostiller<s n="vblex"/></l><r>apostille<s n="vblex"/></r></p></e>
+    <e><p><l>révolter<s n="vblex"/></l><r>appal<s n="vblex"/></r></p></e>
+    <e><p><l>écoeurer<s n="vblex"/></l><r>appall<s n="vblex"/></r></p></e>
+    <e><p><l>comparaître<s n="vblex"/></l><r>appear<s n="vblex"/></r></p></e>
+    <e><p><l>adjoindre<s n="vblex"/></l><r>appoint<s n="vblex"/></r></p></e>
+    <e><p><l>taxer<s n="vblex"/></l><r>appraise<s n="vblex"/></r></p></e>
+    <e><p><l>appréhender<s n="vblex"/></l><r>apprehend<s n="vblex"/></r></p></e>
+    <e><p><l>approprier<s n="vblex"/></l><r>appropriate<s n="vblex"/></r></p></e>
+    <e><p><l>jumeler<s n="vblex"/></l><r>arrange<s n="vblex"/></r></p></e>
+    <e><p><l>assaillir<s n="vblex"/></l><r>assail<s n="vblex"/></r></p></e>
+    <e><p><l>secourir<s n="vblex"/></l><r>assist<s n="vblex"/></r></p></e>
+    <e><p><l>fréquenter<s n="vblex"/></l><r>associate<s n="vblex"/></r></p></e>
+    <e><p><l>grouper<s n="vblex"/></l><r>assort<s n="vblex"/></r></p></e>
+    <e><p><l>agresser<s n="vblex"/></l><r>attack<s n="vblex"/></r></p></e>
+    <e><p><l>augurer<s n="vblex"/></l><r>augur<s n="vblex"/></r></p></e>
+    <e><p><l>pondérer<s n="vblex"/></l><r>balance<s n="vblex"/></r></p></e>
+    <e><p><l>lester<s n="vblex"/></l><r>ballast<s n="vblex"/></r></p></e>
+    <e><p><l>bander<s n="vblex"/></l><r>bandage<s n="vblex"/></r></p></e>
+    <e><p><l>cogner<s n="vblex"/></l><r>bang<s n="vblex"/></r></p></e>
+    <e><p><l>garnir<s n="vblex"/></l><r>barb<s n="vblex"/></r></p></e>
+    <e><p><l>aboyer<s n="vblex"/></l><r>bark<s n="vblex"/></r></p></e>
+    <e><p><l>caserner<s n="vblex"/></l><r>barrack<s n="vblex"/></r></p></e>
+    <e><p><l>barricader<s n="vblex"/></l><r>barricade<s n="vblex"/></r></p></e>
+    <e><p><l>heurter<s n="vblex"/></l><r>beat<s n="vblex"/></r></p></e>
+    <e><p><l>rosser<s n="vblex"/></l><r>beat<s n="vblex"/></r></p></e>
+    <e><p><l>embellir<s n="vblex"/></l><r>beautify<s n="vblex"/></r></p></e>
+    <e><p><l>aveugler<s n="vblex"/></l><r>bedazzle<s n="vblex"/></r></p></e>
+    <e><p><l>salir<s n="vblex"/></l><r>befoul<s n="vblex"/></r></p></e>
+    <e><p><l>engendrer<s n="vblex"/></l><r>beget<s n="vblex"/></r></p></e>
+    <e><p><l>mendier<s n="vblex"/></l><r>beget<s n="vblex"/></r></p></e>
+    <e><p><l>injurier<s n="vblex"/></l><r>belabor<s n="vblex"/></r></p></e>
+    <e><p><l>alourdir<s n="vblex"/></l><r>belay<s n="vblex"/></r></p></e>
+    <e><p><l>roter<s n="vblex"/></l><r>belch<s n="vblex"/></r></p></e>
+    <e><p><l>raire<s n="vblex"/></l><r>bellow<s n="vblex"/></r></p></e>
+    <e><p><l>courber<s n="vblex"/></l><r>bend<s n="vblex"/></r></p></e>
+    <e><p><l>plier<s n="vblex"/></l><r>bend<s n="vblex"/></r></p></e>
+    <e><p><l>profiter<s n="vblex"/></l><r>benefit<s n="vblex"/></r></p></e>
+    <e><p><l>enjamber<s n="vblex"/></l><r>bestride<s n="vblex"/></r></p></e>
+    <e><p><l>gager<s n="vblex"/></l><r>bet<s n="vblex"/></r></p></e>
+    <e><p><l>advenir<s n="vblex"/></l><r>betide<s n="vblex"/></r></p></e>
+    <e><p><l>enchérir<s n="vblex"/></l><r>bid<s n="vblex"/></r></p></e>
+    <e><p><l>brocher<s n="vblex"/></l><r>bind<s n="vblex"/></r></p></e>
+    <e><p><l>mordre<s n="vblex"/></l><r>bite<s n="vblex"/></r></p></e>
+    <e><p><l>bavarder<s n="vblex"/></l><r>blabber<s n="vblex"/></r></p></e>
+    <e><p><l>étioler<s n="vblex"/></l><r>blanch<s n="vblex"/></r></p></e>
+    <e><p><l>voiler<s n="vblex"/></l><r>blanket<s n="vblex"/></r></p></e>
+    <e><p><l>blasphémer<s n="vblex"/></l><r>blaspheme<s n="vblex"/></r></p></e>
+    <e><p><l>dynamiter<s n="vblex"/></l><r>blast<s n="vblex"/></r></p></e>
+    <e><p><l>blanchir<s n="vblex"/></l><r>bleach<s n="vblex"/></r></p></e>
+    <e><p><l>bêler<s n="vblex"/></l><r>bleat<s n="vblex"/></r></p></e>
+    <e><p><l>saigner<s n="vblex"/></l><r>bleed<s n="vblex"/></r></p></e>
+    <e><p><l>cligner<s n="vblex"/></l><r>blink<s n="vblex"/></r></p></e>
+    <e><p><l>cloquer<s n="vblex"/></l><r>blister<s n="vblex"/></r></p></e>
+    <e><p><l>barrer<s n="vblex"/></l><r>block<s n="vblex"/></r></p></e>
+    <e><p><l>boucher<s n="vblex"/></l><r>block<s n="vblex"/></r></p></e>
+    <e><p><l>ensanglanter<s n="vblex"/></l><r>bloody<s n="vblex"/></r></p></e>
+    <e><p><l>sucer<s n="vblex"/></l><r>blow<s n="vblex"/></r></p></e>
+    <e><p><l>bluffer<s n="vblex"/></l><r>bluff<s n="vblex"/></r></p></e>
+    <e><p><l>errer<s n="vblex"/></l><r>blunder<s n="vblex"/></r></p></e>
+    <e><p><l>abrutir<s n="vblex"/></l><r>blunt<s n="vblex"/></r></p></e>
+    <e><p><l>embuer<s n="vblex"/></l><r>blur<s n="vblex"/></r></p></e>
+    <e><p><l>tempêter<s n="vblex"/></l><r>bluster<s n="vblex"/></r></p></e>
+    <e><p><l>relancer<s n="vblex"/></l><r>boost<s n="vblex"/></r></p></e>
+    <e><p><l>fatiguer<s n="vblex"/></l><r>bore<s n="vblex"/></r></p></e>
+    <e><p><l>emprunter<s n="vblex"/></l><r>borrow<s n="vblex"/></r></p></e>
+    <e><p><l>rafistoler<s n="vblex"/></l><r>botch<s n="vblex"/></r></p></e>
+    <e><p><l>tresser<s n="vblex"/></l><r>braid<s n="vblex"/></r></p></e>
+    <e><p><l>brandir<s n="vblex"/></l><r>brandish<s n="vblex"/></r></p></e>
+    <e><p><l>braver<s n="vblex"/></l><r>brave<s n="vblex"/></r></p></e>
+    <e><p><l>violer<s n="vblex"/></l><r>break<s n="vblex"/></r></p></e>
+    <e><p><l>brider<s n="vblex"/></l><r>bridle<s n="vblex"/></r></p></e>
+    <e><p><l>réprimer<s n="vblex"/></l><r>bridle<s n="vblex"/></r></p></e>
+    <e><p><l>agrémenter<s n="vblex"/></l><r>brighten<s n="vblex"/></r></p></e>
+    <e><p><l>surfer<s n="vblex"/></l><r>browse<s n="vblex"/></r></p></e>
+    <e><p><l>meurtrir<s n="vblex"/></l><r>bruise<s n="vblex"/></r></p></e>
+    <e><p><l>brosser<s n="vblex"/></l><r>brush<s n="vblex"/></r></p></e>
+    <e><p><l>budgétiser<s n="vblex"/></l><r>budget<s n="vblex"/></r></p></e>
+    <e><p><l>allier<s n="vblex"/></l><r>burden<s n="vblex"/></r></p></e>
+    <e><p><l>arder<s n="vblex"/></l><r>burn<s n="vblex"/></r></p></e>
+    <e><p><l>creuser<s n="vblex"/></l><r>burrow<s n="vblex"/></r></p></e>
+    <e><p><l>ensevelir<s n="vblex"/></l><r>bury<s n="vblex"/></r></p></e>
+    <e><p><l>bâtonner<s n="vblex"/></l><r>cane<s n="vblex"/></r></p></e>
+    <e><p><l>castrer<s n="vblex"/></l><r>caponize<s n="vblex"/></r></p></e>
+    <e><p><l>chavirer<s n="vblex"/></l><r>capsize<s n="vblex"/></r></p></e>
+    <e><p><l>carboniser<s n="vblex"/></l><r>carbonize<s n="vblex"/></r></p></e>
+    <e><p><l>veiller<s n="vblex"/></l><r>care<s n="vblex"/></r></p></e>
+    <e><p><l>transporter<s n="vblex"/></l><r>carry<s n="vblex"/></r></p></e>
+    <e><p><l>encaisser<s n="vblex"/></l><r>cash<s n="vblex"/></r></p></e>
+    <e><p><l>occasionner<s n="vblex"/></l><r>cause<s n="vblex"/></r></p></e>
+    <e><p><l>cimenter<s n="vblex"/></l><r>cement<s n="vblex"/></r></p></e>
+    <e><p><l>centraliser<s n="vblex"/></l><r>centralize<s n="vblex"/></r></p></e>
+    <e><p><l>frictionner<s n="vblex"/></l><r>chafe<s n="vblex"/></r></p></e>
+    <e><p><l>irriter<s n="vblex"/></l><r>chafe<s n="vblex"/></r></p></e>
+    <e><p><l>enchaîner<s n="vblex"/></l><r>chain<s n="vblex"/></r></p></e>
+    <e><p><l>affrioler<s n="vblex"/></l><r>charter<s n="vblex"/></r></p></e>
+    <e><p><l>fréter<s n="vblex"/></l><r>charter<s n="vblex"/></r></p></e>
+    <e><p><l>jaser<s n="vblex"/></l><r>chat<s n="vblex"/></r></p></e>
+    <e><p><l>frauder<s n="vblex"/></l><r>cheat<s n="vblex"/></r></p></e>
+    <e><p><l>mastiquer<s n="vblex"/></l><r>chew<s n="vblex"/></r></p></e>
+    <e><p><l>glacer<s n="vblex"/></l><r>chill<s n="vblex"/></r></p></e>
+    <e><p><l>tremper<s n="vblex"/></l><r>chill<s n="vblex"/></r></p></e>
+    <e><p><l>suffoquer<s n="vblex"/></l><r>choke<s n="vblex"/></r></p></e>
+    <e><p><l>chorégraphier<s n="vblex"/></l><r>choreograph<s n="vblex"/></r></p></e>
+    <e><p><l>cailler<s n="vblex"/></l><r>clabber<s n="vblex"/></r></p></e>
+    <e><p><l>cliqueter<s n="vblex"/></l><r>clack<s n="vblex"/></r></p></e>
+    <e><p><l>clamer<s n="vblex"/></l><r>clamor<s n="vblex"/></r></p></e>
+    <e><p><l>clarifier<s n="vblex"/></l><r>clarify<s n="vblex"/></r></p></e>
+    <e><p><l>sérier<s n="vblex"/></l><r>classify<s n="vblex"/></r></p></e>
+    <e><p><l>desservir<s n="vblex"/></l><r>clear<s n="vblex"/></r></p></e>
+    <e><p><l>solder<s n="vblex"/></l><r>clear<s n="vblex"/></r></p></e>
+    <e><p><l>vider<s n="vblex"/></l><r>clear<s n="vblex"/></r></p></e>
+    <e><p><l>fendre<s n="vblex"/></l><r>cleave<s n="vblex"/></r></p></e>
+    <e><p><l>jouir<s n="vblex"/></l><r>climax<s n="vblex"/></r></p></e>
+    <e><p><l>gravir<s n="vblex"/></l><r>climb<s n="vblex"/></r></p></e>
+    <e><p><l>grimper<s n="vblex"/></l><r>climb<s n="vblex"/></r></p></e>
+    <e><p><l>river<s n="vblex"/></l><r>clinch<s n="vblex"/></r></p></e>
+    <e><p><l>coaguler<s n="vblex"/></l><r>clot<s n="vblex"/></r></p></e>
+    <e><p><l>revêtir<s n="vblex"/></l><r>clothe<s n="vblex"/></r></p></e>
+    <e><p><l>étoiler<s n="vblex"/></l><r>cluster<s n="vblex"/></r></p></e>
+    <e><p><l>cohabiter<s n="vblex"/></l><r>cohabit<s n="vblex"/></r></p></e>
+    <e><p><l>enrôler<s n="vblex"/></l><r>coil<s n="vblex"/></r></p></e>
+    <e><p><l>écumer<s n="vblex"/></l><r>collapse<s n="vblex"/></r></p></e>
+    <e><p><l>recouvrer<s n="vblex"/></l><r>collect<s n="vblex"/></r></p></e>
+    <e><p><l>colorer<s n="vblex"/></l><r>color<s n="vblex"/></r></p></e>
+    <e><p><l>peigner<s n="vblex"/></l><r>comb<s n="vblex"/></r></p></e>
+    <e><p><l>conjuguer<s n="vblex"/></l><r>combine<s n="vblex"/></r></p></e>
+    <e><p><l>édulcorer<s n="vblex"/></l><r>combine<s n="vblex"/></r></p></e>
+    <e><p><l>compatir<s n="vblex"/></l><r>commiserate<s n="vblex"/></r></p></e>
+    <e><p><l>compiler<s n="vblex"/></l><r>compile<s n="vblex"/></r></p></e>
+    <e><p><l>confectionner<s n="vblex"/></l><r>concoct<s n="vblex"/></r></p></e>
+    <e><p><l>confronter<s n="vblex"/></l><r>confront<s n="vblex"/></r></p></e>
+    <e><p><l>congestionner<s n="vblex"/></l><r>congest<s n="vblex"/></r></p></e>
+    <e><p><l>confluer<s n="vblex"/></l><r>converge<s n="vblex"/></r></p></e>
+    <e><p><l>converger<s n="vblex"/></l><r>converge<s n="vblex"/></r></p></e>
+    <e><p><l>copier<s n="vblex"/></l><r>copy<s n="vblex"/></r></p></e>
+    <e><p><l>clôturer<s n="vblex"/></l><r>corral<s n="vblex"/></r></p></e>
+    <e><p><l>rectifier<s n="vblex"/></l><r>correct<s n="vblex"/></r></p></e>
+    <e><p><l>redresser<s n="vblex"/></l><r>correct<s n="vblex"/></r></p></e>
+    <e><p><l>tousser<s n="vblex"/></l><r>cough<s n="vblex"/></r></p></e>
+    <e><p><l>accoupler<s n="vblex"/></l><r>couple<s n="vblex"/></r></p></e>
+    <e><p><l>recouvrir<s n="vblex"/></l><r>cover<s n="vblex"/></r></p></e>
+    <e><p><l>bourser<s n="vblex"/></l><r>cradle<s n="vblex"/></r></p></e>
+    <e><p><l>bourrer<s n="vblex"/></l><r>cram<s n="vblex"/></r></p></e>
+    <e><p><l>colorier<s n="vblex"/></l><r>crayon<s n="vblex"/></r></p></e>
+    <e><p><l>criminaliser<s n="vblex"/></l><r>criminalize<s n="vblex"/></r></p></e>
+    <e><p><l>découper<s n="vblex"/></l><r>crop<s n="vblex"/></r></p></e>
+    <e><p><l>rogner<s n="vblex"/></l><r>crop<s n="vblex"/></r></p></e>
+    <e><p><l>chérir<s n="vblex"/></l><r>cuddle<s n="vblex"/></r></p></e>
+    <e><p><l>refréner<s n="vblex"/></l><r>curb<s n="vblex"/></r></p></e>
+    <e><p><l>saler<s n="vblex"/></l><r>cure<s n="vblex"/></r></p></e>
+    <e><p><l>transir<s n="vblex"/></l><r>cut<s n="vblex"/></r></p></e>
+    <e><p><l>endommager<s n="vblex"/></l><r>damage<s n="vblex"/></r></p></e>
+    <e><p><l>assombrir<s n="vblex"/></l><r>darken<s n="vblex"/></r></p></e>
+    <e><p><l>rembrunir<s n="vblex"/></l><r>darken<s n="vblex"/></r></p></e>
+    <e><p><l>élancer<s n="vblex"/></l><r>dash<s n="vblex"/></r></p></e>
+    <e><p><l>étourdir<s n="vblex"/></l><r>daze<s n="vblex"/></r></p></e>
+    <e><p><l>hébéter<s n="vblex"/></l><r>daze<s n="vblex"/></r></p></e>
+    <e><p><l>engourdir<s n="vblex"/></l><r>deaden<s n="vblex"/></r></p></e>
+    <e><p><l>assourdir<s n="vblex"/></l><r>deafen<s n="vblex"/></r></p></e>
+    <e><p><l>transvaser<s n="vblex"/></l><r>decant<s n="vblex"/></r></p></e>
+    <e><p><l>ralentir<s n="vblex"/></l><r>decelerate<s n="vblex"/></r></p></e>
+    <e><p><l>déchiffrer<s n="vblex"/></l><r>decipher<s n="vblex"/></r></p></e>
+    <e><p><l>médailler<s n="vblex"/></l><r>decorate<s n="vblex"/></r></p></e>
+    <e><p><l>défigurer<s n="vblex"/></l><r>deface<s n="vblex"/></r></p></e>
+    <e><p><l>décaler<s n="vblex"/></l><r>delay<s n="vblex"/></r></p></e>
+    <e><p><l>délibérer<s n="vblex"/></l><r>deliberate<s n="vblex"/></r></p></e>
+    <e><p><l>démarquer<s n="vblex"/></l><r>demarcate<s n="vblex"/></r></p></e>
+    <e><p><l>dénaturer<s n="vblex"/></l><r>denature<s n="vblex"/></r></p></e>
+    <e><p><l>dénigrer<s n="vblex"/></l><r>denigrate<s n="vblex"/></r></p></e>
+    <e><p><l>dénier<s n="vblex"/></l><r>deny<s n="vblex"/></r></p></e>
+    <e><p><l>épuiser<s n="vblex"/></l><r>deplete<s n="vblex"/></r></p></e>
+    <e><p><l>dépeupler<s n="vblex"/></l><r>depopulate<s n="vblex"/></r></p></e>
+    <e><p><l>dépourvoir<s n="vblex"/></l><r>deprive<s n="vblex"/></r></p></e>
+    <e><p><l>dédaigner<s n="vblex"/></l><r>despise<s n="vblex"/></r></p></e>
+    <e><p><l>destiner<s n="vblex"/></l><r>destine<s n="vblex"/></r></p></e>
+    <e><p><l>détacher<s n="vblex"/></l><r>detach<s n="vblex"/></r></p></e>
+    <e><p><l>détester<s n="vblex"/></l><r>detest<s n="vblex"/></r></p></e>
+    <e><p><l>dévaster<s n="vblex"/></l><r>devastate<s n="vblex"/></r></p></e>
+    <e><p><l>dévorer<s n="vblex"/></l><r>devour<s n="vblex"/></r></p></e>
+    <e><p><l>dialoguer<s n="vblex"/></l><r>dialogue<s n="vblex"/></r></p></e>
+    <e><p><l>diffuser<s n="vblex"/></l><r>diffuse<s n="vblex"/></r></p></e>
+    <e><p><l>caver<s n="vblex"/></l><r>dig<s n="vblex"/></r></p></e>
+    <e><p><l>numériser<s n="vblex"/></l><r>digitize<s n="vblex"/></r></p></e>
+    <e><p><l>anoblir<s n="vblex"/></l><r>dignify<s n="vblex"/></r></p></e>
+    <e><p><l>proscrire<s n="vblex"/></l><r>disallow<s n="vblex"/></r></p></e>
+    <e><p><l>désordonner<s n="vblex"/></l><r>disarray<s n="vblex"/></r></p></e>
+    <e><p><l>désavouer<s n="vblex"/></l><r>disavow<s n="vblex"/></r></p></e>
+    <e><p><l>apercevoir<s n="vblex"/></l><r>discern<s n="vblex"/></r></p></e>
+    <e><p><l>destituer<s n="vblex"/></l><r>discharge<s n="vblex"/></r></p></e>
+    <e><p><l>dévoiler<s n="vblex"/></l><r>disclose<s n="vblex"/></r></p></e>
+    <e><p><l>décolorer<s n="vblex"/></l><r>discolor<s n="vblex"/></r></p></e>
+    <e><p><l>discréditer<s n="vblex"/></l><r>discredit<s n="vblex"/></r></p></e>
+    <e><p><l>débarquer<s n="vblex"/></l><r>disembark<s n="vblex"/></r></p></e>
+    <e><p><l>défavoriser<s n="vblex"/></l><r>disfavor<s n="vblex"/></r></p></e>
+    <e><p><l>déparer<s n="vblex"/></l><r>disfigure<s n="vblex"/></r></p></e>
+    <e><p><l>mécontenter<s n="vblex"/></l><r>disgruntle<s n="vblex"/></r></p></e>
+    <e><p><l>costumer<s n="vblex"/></l><r>disguise<s n="vblex"/></r></p></e>
+    <e><p><l>déguiser<s n="vblex"/></l><r>disguise<s n="vblex"/></r></p></e>
+    <e><p><l>économiser<s n="vblex"/></l><r>disgust<s n="vblex"/></r></p></e>
+    <e><p><l>désinhiber<s n="vblex"/></l><r>disinhibit<s n="vblex"/></r></p></e>
+    <e><p><l>déloger<s n="vblex"/></l><r>dislodge<s n="vblex"/></r></p></e>
+    <e><p><l>congédier<s n="vblex"/></l><r>dismiss<s n="vblex"/></r></p></e>
+    <e><p><l>enfreindre<s n="vblex"/></l><r>disobey<s n="vblex"/></r></p></e>
+    <e><p><l>désorganiser<s n="vblex"/></l><r>disorganize<s n="vblex"/></r></p></e>
+    <e><p><l>désorienter<s n="vblex"/></l><r>disorient<s n="vblex"/></r></p></e>
+    <e><p><l>disperser<s n="vblex"/></l><r>disperse<s n="vblex"/></r></p></e>
+    <e><p><l>dissocier<s n="vblex"/></l><r>dissociate<s n="vblex"/></r></p></e>
+    <e><p><l>distancer<s n="vblex"/></l><r>distance<s n="vblex"/></r></p></e>
+    <e><p><l>attrister<s n="vblex"/></l><r>distress<s n="vblex"/></r></p></e>
+    <e><p><l>diversifier<s n="vblex"/></l><r>diversify<s n="vblex"/></r></p></e>
+    <e><p><l>départir<s n="vblex"/></l><r>divest<s n="vblex"/></r></p></e>
+    <e><p><l>glander<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
+    <e><p><l>doubler<s n="vblex"/></l><r>double<s n="vblex"/></r></p></e>
+    <e><p><l>dramatiser<s n="vblex"/></l><r>dramatize<s n="vblex"/></r></p></e>
+    <e><p><l>appâter<s n="vblex"/></l><r>draw<s n="vblex"/></r></p></e>
+    <e><p><l>draguer<s n="vblex"/></l><r>dredge<s n="vblex"/></r></p></e>
+    <e><p><l>percer<s n="vblex"/></l><r>drill<s n="vblex"/></r></p></e>
+    <e><p><l>goutter<s n="vblex"/></l><r>drip<s n="vblex"/></r></p></e>
+    <e><p><l>chauffer<s n="vblex"/></l><r>drive<s n="vblex"/></r></p></e>
+    <e><p><l>noyer<s n="vblex"/></l><r>drown<s n="vblex"/></r></p></e>
+    <e><p><l>abasourdir<s n="vblex"/></l><r>dumbfound<s n="vblex"/></r></p></e>
+    <e><p><l>amarrer<s n="vblex"/></l><r>dwindle<s n="vblex"/></r></p></e>
+    <e><p><l>amenuiser<s n="vblex"/></l><r>dwindle<s n="vblex"/></r></p></e>
+    <e><p><l>écorcher<s n="vblex"/></l><r>economize<s n="vblex"/></r></p></e>
+    <e><p><l>éduquer<s n="vblex"/></l><r>educate<s n="vblex"/></r></p></e>
+    <e><p><l>édulcorer<s n="vblex"/></l><r>edulcorate<s n="vblex"/></r></p></e>
+    <e><p><l>émaner<s n="vblex"/></l><r>emanate<s n="vblex"/></r></p></e>
+    <e><p><l>embaumer<s n="vblex"/></l><r>embalm<s n="vblex"/></r></p></e>
+    <e><p><l>encercler<s n="vblex"/></l><r>embattle<s n="vblex"/></r></p></e>
+    <e><p><l>incrémenter<s n="vblex"/></l><r>embed<s n="vblex"/></r></p></e>
+    <e><p><l>maquiller<s n="vblex"/></l><r>embellish<s n="vblex"/></r></p></e>
+    <e><p><l>survenir<s n="vblex"/></l><r>emerge<s n="vblex"/></r></p></e>
+    <e><p><l>émailler<s n="vblex"/></l><r>enamel<s n="vblex"/></r></p></e>
+    <e><p><l>englober<s n="vblex"/></l><r>encompass<s n="vblex"/></r></p></e>
+    <e><p><l>encrasser<s n="vblex"/></l><r>encrust<s n="vblex"/></r></p></e>
+    <e><p><l>avaliser<s n="vblex"/></l><r>endorse<s n="vblex"/></r></p></e>
+    <e><p><l>cautionner<s n="vblex"/></l><r>endorse<s n="vblex"/></r></p></e>
+    <e><p><l>perdurer<s n="vblex"/></l><r>endure<s n="vblex"/></r></p></e>
+    <e><p><l>enjoindre<s n="vblex"/></l><r>enjoin<s n="vblex"/></r></p></e>
+    <e><p><l>enrouler<s n="vblex"/></l><r>enroll<s n="vblex"/></r></p></e>
+    <e><p><l>inscrire<s n="vblex"/></l><r>enroll<s n="vblex"/></r></p></e>
+    <e><p><l>comptabiliser<s n="vblex"/></l><r>enter<s n="vblex"/></r></p></e>
+    <e><p><l>fasciner<s n="vblex"/></l><r>enthrall<s n="vblex"/></r></p></e>
+    <e><p><l>passionner<s n="vblex"/></l><r>enthrall<s n="vblex"/></r></p></e>
+    <e><p><l>égaliser<s n="vblex"/></l><r>equal<s n="vblex"/></r></p></e>
+    <e><p><l>équivaloir<s n="vblex"/></l><r>equal<s n="vblex"/></r></p></e>
+    <e><p><l>arracher<s n="vblex"/></l><r>eradicate<s n="vblex"/></r></p></e>
+    <e><p><l>escalader<s n="vblex"/></l><r>escalade<s n="vblex"/></r></p></e>
+    <e><p><l>enfuir<s n="vblex"/></l><r>escape<s n="vblex"/></r></p></e>
+    <e><p><l>escorter<s n="vblex"/></l><r>escort<s n="vblex"/></r></p></e>
+    <e><p><l>exalter<s n="vblex"/></l><r>exalt<s n="vblex"/></r></p></e>
+    <e><p><l>scruter<s n="vblex"/></l><r>examine<s n="vblex"/></r></p></e>
+    <e><p><l>déterrer<s n="vblex"/></l><r>excavate<s n="vblex"/></r></p></e>
+    <e><p><l>fouiller<s n="vblex"/></l><r>excavate<s n="vblex"/></r></p></e>
+    <e><p><l>excepter<s n="vblex"/></l><r>except<s n="vblex"/></r></p></e>
+    <e><p><l>hérisser<s n="vblex"/></l><r>excite<s n="vblex"/></r></p></e>
+    <e><p><l>excuser<s n="vblex"/></l><r>excuse<s n="vblex"/></r></p></e>
+    <e><p><l>exhaler<s n="vblex"/></l><r>exhale<s n="vblex"/></r></p></e>
+    <e><p><l>expirer<s n="vblex"/></l><r>exhale<s n="vblex"/></r></p></e>
+    <e><p><l>éreinter<s n="vblex"/></l><r>exhaust<s n="vblex"/></r></p></e>
+    <e><p><l>subsister<s n="vblex"/></l><r>exist<s n="vblex"/></r></p></e>
+    <e><p><l>explorer<s n="vblex"/></l><r>explore<s n="vblex"/></r></p></e>
+    <e><p><l>répandre<s n="vblex"/></l><r>express<s n="vblex"/></r></p></e>
+    <e><p><l>exproprier<s n="vblex"/></l><r>expropriate<s n="vblex"/></r></p></e>
+    <e><p><l>aliéner<s n="vblex"/></l><r>extend<s n="vblex"/></r></p></e>
+    <e><p><l>gratifier<s n="vblex"/></l><r>extend<s n="vblex"/></r></p></e>
+    <e><p><l>vanter<s n="vblex"/></l><r>extol<s n="vblex"/></r></p></e>
+    <e><p><l>extrader<s n="vblex"/></l><r>extradite<s n="vblex"/></r></p></e>
+    <e><p><l>extrapoler<s n="vblex"/></l><r>extrapolate<s n="vblex"/></r></p></e>
+    <e><p><l>omettre<s n="vblex"/></l><r>fail<s n="vblex"/></r></p></e>
+    <e><p><l>défaillir<s n="vblex"/></l><r>faint<s n="vblex"/></r></p></e>
+    <e><p><l>familiariser<s n="vblex"/></l><r>familiarize<s n="vblex"/></r></p></e>
+    <e><p><l>fédérer<s n="vblex"/></l><r>federate<s n="vblex"/></r></p></e>
+    <e><p><l>palper<s n="vblex"/></l><r>feel<s n="vblex"/></r></p></e>
+    <e><p><l>batailler<s n="vblex"/></l><r>fight<s n="vblex"/></r></p></e>
+    <e><p><l>finaliser<s n="vblex"/></l><r>finalize<s n="vblex"/></r></p></e>
+    <e><p><l>apprêter<s n="vblex"/></l><r>finish<s n="vblex"/></r></p></e>
+    <e><p><l>mitrailler<s n="vblex"/></l><r>fire<s n="vblex"/></r></p></e>
+    <e><p><l>renvoyer<s n="vblex"/></l><r>fire<s n="vblex"/></r></p></e>
+    <e><p><l>tirer<s n="vblex"/></l><r>fire<s n="vblex"/></r></p></e>
+    <e><p><l>incendier<s n="vblex"/></l><r>flame<s n="vblex"/></r></p></e>
+    <e><p><l>aplanir<s n="vblex"/></l><r>flatten<s n="vblex"/></r></p></e>
+    <e><p><l>parfumer<s n="vblex"/></l><r>flavor<s n="vblex"/></r></p></e>
+    <e><p><l>fluctuer<s n="vblex"/></l><r>fluctuate<s n="vblex"/></r></p></e>
+    <e><p><l>axer<s n="vblex"/></l><r>focus<s n="vblex"/></r></p></e>
+    <e><p><l>focaliser<s n="vblex"/></l><r>focus<s n="vblex"/></r></p></e>
+    <e><p><l>embrumer<s n="vblex"/></l><r>fog<s n="vblex"/></r></p></e>
+    <e><p><l>fomenter<s n="vblex"/></l><r>foment<s n="vblex"/></r></p></e>
+    <e><p><l>pressentir<s n="vblex"/></l><r>foresee<s n="vblex"/></r></p></e>
+    <e><p><l>vaticiner<s n="vblex"/></l><r>foreshadow<s n="vblex"/></r></p></e>
+    <e><p><l>forger<s n="vblex"/></l><r>forge<s n="vblex"/></r></p></e>
+    <e><p><l>officialiser<s n="vblex"/></l><r>formalize<s n="vblex"/></r></p></e>
+    <e><p><l>formater<s n="vblex"/></l><r>format<s n="vblex"/></r></p></e>
+    <e><p><l>fragmenter<s n="vblex"/></l><r>fragment<s n="vblex"/></r></p></e>
+    <e><p><l>fraterniser<s n="vblex"/></l><r>fraternize<s n="vblex"/></r></p></e>
+    <e><p><l>dégager<s n="vblex"/></l><r>free<s n="vblex"/></r></p></e>
+    <e><p><l>fraîchir<s n="vblex"/></l><r>freshen<s n="vblex"/></r></p></e>
+    <e><p><l>fructifier<s n="vblex"/></l><r>fructify<s n="vblex"/></r></p></e>
+    <e><p><l>jauger<s n="vblex"/></l><r>gage<s n="vblex"/></r></p></e>
+    <e><p><l>galvaniser<s n="vblex"/></l><r>galvanize<s n="vblex"/></r></p></e>
+    <e><p><l>déchirer<s n="vblex"/></l><r>gash<s n="vblex"/></r></p></e>
+    <e><p><l>froncer<s n="vblex"/></l><r>gather<s n="vblex"/></r></p></e>
+    <e><p><l>ceinturer<s n="vblex"/></l><r>girdle<s n="vblex"/></r></p></e>
+    <e><p><l>luire<s n="vblex"/></l><r>gleam<s n="vblex"/></r></p></e>
+    <e><p><l>ronger<s n="vblex"/></l><r>gnaw<s n="vblex"/></r></p></e>
+    <e><p><l>gorger<s n="vblex"/></l><r>gorge<s n="vblex"/></r></p></e>
+    <e><p><l>régir<s n="vblex"/></l><r>govern<s n="vblex"/></r></p></e>
+    <e><p><l>enter<s n="vblex"/></l><r>graft<s n="vblex"/></r></p></e>
+    <e><p><l>exaucer<s n="vblex"/></l><r>grant<s n="vblex"/></r></p></e>
+    <e><p><l>moudre<s n="vblex"/></l><r>grind<s n="vblex"/></r></p></e>
+    <e><p><l>râler<s n="vblex"/></l><r>groan<s n="vblex"/></r></p></e>
+    <e><p><l>classifier<s n="vblex"/></l><r>group<s n="vblex"/></r></p></e>
+    <e><p><l>regrouper<s n="vblex"/></l><r>group<s n="vblex"/></r></p></e>
+    <e><p><l>gronder<s n="vblex"/></l><r>grumble<s n="vblex"/></r></p></e>
+    <e><p><l>halluciner<s n="vblex"/></l><r>hallucinate<s n="vblex"/></r></p></e>
+    <e><p><l>récolter<s n="vblex"/></l><r>harvest<s n="vblex"/></r></p></e>
+    <e><p><l>hâter<s n="vblex"/></l><r>hasten<s n="vblex"/></r></p></e>
+    <e><p><l>presser<s n="vblex"/></l><r>hasten<s n="vblex"/></r></p></e>
+    <e><p><l>remorquer<s n="vblex"/></l><r>haul<s n="vblex"/></r></p></e>
+    <e><p><l>hanter<s n="vblex"/></l><r>haunt<s n="vblex"/></r></p></e>
+    <e><p><l>tapir<s n="vblex"/></l><r>hide<s n="vblex"/></r></p></e>
+    <e><p><l>hisser<s n="vblex"/></l><r>hoist<s n="vblex"/></r></p></e>
+    <e><p><l>évider<s n="vblex"/></l><r>hollow<s n="vblex"/></r></p></e>
+    <e><p><l>homologuer<s n="vblex"/></l><r>homologate<s n="vblex"/></r></p></e>
+    <e><p><l>crocher<s n="vblex"/></l><r>hook<s n="vblex"/></r></p></e>
+    <e><p><l>hospitaliser<s n="vblex"/></l><r>hospitalize<s n="vblex"/></r></p></e>
+    <e><p><l>humilier<s n="vblex"/></l><r>humble<s n="vblex"/></r></p></e>
+    <e><p><l>hydrogéner<s n="vblex"/></l><r>hydrogenate<s n="vblex"/></r></p></e>
+    <e><p><l>méconnaître<s n="vblex"/></l><r>ignore<s n="vblex"/></r></p></e>
+    <e><p><l>immigrer<s n="vblex"/></l><r>immigrate<s n="vblex"/></r></p></e>
+    <e><p><l>immobiliser<s n="vblex"/></l><r>immobilize<s n="vblex"/></r></p></e>
+    <e><p><l>implorer<s n="vblex"/></l><r>implore<s n="vblex"/></r></p></e>
+    <e><p><l>féconder<s n="vblex"/></l><r>impregnate<s n="vblex"/></r></p></e>
+    <e><p><l>emprisonner<s n="vblex"/></l><r>imprison<s n="vblex"/></r></p></e>
+    <e><p><l>bonifier<s n="vblex"/></l><r>improve<s n="vblex"/></r></p></e>
+    <e><p><l>inaugurer<s n="vblex"/></l><r>inaugurate<s n="vblex"/></r></p></e>
+    <e><p><l>incruster<s n="vblex"/></l><r>increment<s n="vblex"/></r></p></e>
+    <e><p><l>endetter<s n="vblex"/></l><r>indebt<s n="vblex"/></r></p></e>
+    <e><p><l>indexer<s n="vblex"/></l><r>index<s n="vblex"/></r></p></e>
+    <e><p><l>individualiser<s n="vblex"/></l><r>individualize<s n="vblex"/></r></p></e>
+    <e><p><l>infliger<s n="vblex"/></l><r>inflict<s n="vblex"/></r></p></e>
+    <e><p><l>influer<s n="vblex"/></l><r>influence<s n="vblex"/></r></p></e>
+    <e><p><l>initialiser<s n="vblex"/></l><r>initialize<s n="vblex"/></r></p></e>
+    <e><p><l>accidenter<s n="vblex"/></l><r>injure<s n="vblex"/></r></p></e>
+    <e><p><l>innover<s n="vblex"/></l><r>innovate<s n="vblex"/></r></p></e>
+    <e><p><l>instrumenter<s n="vblex"/></l><r>instrument<s n="vblex"/></r></p></e>
+    <e><p><l>entrecouper<s n="vblex"/></l><r>intersect<s n="vblex"/></r></p></e>
+    <e><p><l>parsemer<s n="vblex"/></l><r>intersperse<s n="vblex"/></r></p></e>
+    <e><p><l>intimider<s n="vblex"/></l><r>intimidate<s n="vblex"/></r></p></e>
+    <e><p><l>entonner<s n="vblex"/></l><r>intone<s n="vblex"/></r></p></e>
+    <e><p><l>enivrer<s n="vblex"/></l><r>intoxicate<s n="vblex"/></r></p></e>
+    <e><p><l>intriguer<s n="vblex"/></l><r>intrigue<s n="vblex"/></r></p></e>
+    <e><p><l>repasser<s n="vblex"/></l><r>iron<s n="vblex"/></r></p></e>
+    <e><p><l>ironiser<s n="vblex"/></l><r>ironize<s n="vblex"/></r></p></e>
+    <e><p><l>irriguer<s n="vblex"/></l><r>irrigate<s n="vblex"/></r></p></e>
+    <e><p><l>impatienter<s n="vblex"/></l><r>irritate<s n="vblex"/></r></p></e>
+    <e><p><l>huer<s n="vblex"/></l><r>jeer<s n="vblex"/></r></p></e>
+    <e><p><l>blaguer<s n="vblex"/></l><r>joke<s n="vblex"/></r></p></e>
+    <e><p><l>plaisanter<s n="vblex"/></l><r>joke<s n="vblex"/></r></p></e>
+    <e><p><l>pétrir<s n="vblex"/></l><r>knead<s n="vblex"/></r></p></e>
+    <e><p><l>référencer<s n="vblex"/></l><r>label<s n="vblex"/></r></p></e>
+    <e><p><l>besogner<s n="vblex"/></l><r>labor<s n="vblex"/></r></p></e>
+    <e><p><l>peiner<s n="vblex"/></l><r>labor<s n="vblex"/></r></p></e>
+    <e><p><l>fustiger<s n="vblex"/></l><r>lampoon<s n="vblex"/></r></p></e>
+    <e><p><l>retomber<s n="vblex"/></l><r>lapse<s n="vblex"/></r></p></e>
+    <e><p><l>adosser<s n="vblex"/></l><r>lean<s n="vblex"/></r></p></e>
+    <e><p><l>absenter<s n="vblex"/></l><r>leave<s n="vblex"/></r></p></e>
+    <e><p><l>niveler<s n="vblex"/></l><r>level<s n="vblex"/></r></p></e>
+    <e><p><l>gésir<s n="vblex"/></l><r>lie<s n="vblex"/></r></p></e>
+    <e><p><l>mentir<s n="vblex"/></l><r>lie<s n="vblex"/></r></p></e>
+    <e><p><l>chemiser<s n="vblex"/></l><r>line<s n="vblex"/></r></p></e>
+    <e><p><l>coffrer<s n="vblex"/></l><r>lock<s n="vblex"/></r></p></e>
+    <e><p><l>soutirer<s n="vblex"/></l><r>lug<s n="vblex"/></r></p></e>
+    <e><p><l>tituber<s n="vblex"/></l><r>lurch<s n="vblex"/></r></p></e>
+    <e><p><l>manoeuvrer<s n="vblex"/></l><r>maneuver<s n="vblex"/></r></p></e>
+    <e><p><l>coupler<s n="vblex"/></l><r>match<s n="vblex"/></r></p></e>
+    <e><p><l>maximiser<s n="vblex"/></l><r>maximize<s n="vblex"/></r></p></e>
+    <e><p><l>vagabonder<s n="vblex"/></l><r>meander<s n="vblex"/></r></p></e>
+    <e><p><l>méditer<s n="vblex"/></l><r>meditate<s n="vblex"/></r></p></e>
+    <e><p><l>réfléchir<s n="vblex"/></l><r>meditate<s n="vblex"/></r></p></e>
+    <e><p><l>mémoriser<s n="vblex"/></l><r>memorize<s n="vblex"/></r></p></e>
+    <e><p><l>militer<s n="vblex"/></l><r>militate<s n="vblex"/></r></p></e>
+    <e><p><l>traire<s n="vblex"/></l><r>milk<s n="vblex"/></r></p></e>
+    <e><p><l>miner<s n="vblex"/></l><r>mine<s n="vblex"/></r></p></e>
+    <e><p><l>égarer<s n="vblex"/></l><r>misplace<s n="vblex"/></r></p></e>
+    <e><p><l>mobiliser<s n="vblex"/></l><r>mobilize<s n="vblex"/></r></p></e>
+    <e><p><l>moquer<s n="vblex"/></l><r>mock<s n="vblex"/></r></p></e>
+    <e><p><l>conformer<s n="vblex"/></l><r>model<s n="vblex"/></r></p></e>
+    <e><p><l>moderniser<s n="vblex"/></l><r>modernize<s n="vblex"/></r></p></e>
+    <e><p><l>modeler<s n="vblex"/></l><r>mold<s n="vblex"/></r></p></e>
+    <e><p><l>mouler<s n="vblex"/></l><r>mold<s n="vblex"/></r></p></e>
+    <e><p><l>muer<s n="vblex"/></l><r>mold<s n="vblex"/></r></p></e>
+    <e><p><l>mollir<s n="vblex"/></l><r>mollify<s n="vblex"/></r></p></e>
+    <e><p><l>accaparer<s n="vblex"/></l><r>monopolize<s n="vblex"/></r></p></e>
+    <e><p><l>taire<s n="vblex"/></l><r>mute<s n="vblex"/></r></p></e>
+    <e><p><l>museler<s n="vblex"/></l><r>muzzle<s n="vblex"/></r></p></e>
+    <e><p><l>narrer<s n="vblex"/></l><r>narrate<s n="vblex"/></r></p></e>
+    <e><p><l>hennir<s n="vblex"/></l><r>neigh<s n="vblex"/></r></p></e>
+    <e><p><l>nicher<s n="vblex"/></l><r>nest<s n="vblex"/></r></p></e>
+    <e><p><l>surnommer<s n="vblex"/></l><r>nickname<s n="vblex"/></r></p></e>
+    <e><p><l>objecter<s n="vblex"/></l><r>object<s n="vblex"/></r></p></e>
+    <e><p><l>obséder<s n="vblex"/></l><r>obsess<s n="vblex"/></r></p></e>
+    <e><p><l>désobliger<s n="vblex"/></l><r>offend<s n="vblex"/></r></p></e>
+    <e><p><l>huiler<s n="vblex"/></l><r>oil<s n="vblex"/></r></p></e>
+    <e><p><l>opposer<s n="vblex"/></l><r>oppose<s n="vblex"/></r></p></e>
+    <e><p><l>graviter<s n="vblex"/></l><r>orbit<s n="vblex"/></r></p></e>
+    <e><p><l>orchestrer<s n="vblex"/></l><r>orchestrate<s n="vblex"/></r></p></e>
+    <e><p><l>provenir<s n="vblex"/></l><r>originate<s n="vblex"/></r></p></e>
+    <e><p><l>ébaucher<s n="vblex"/></l><r>outline<s n="vblex"/></r></p></e>
+    <e><p><l>outrer<s n="vblex"/></l><r>outrage<s n="vblex"/></r></p></e>
+    <e><p><l>surcharger<s n="vblex"/></l><r>overcharge<s n="vblex"/></r></p></e>
+    <e><p><l>tapisser<s n="vblex"/></l><r>overlay<s n="vblex"/></r></p></e>
+    <e><p><l>oxyder<s n="vblex"/></l><r>oxidize<s n="vblex"/></r></p></e>
+    <e><p><l>emballer<s n="vblex"/></l><r>pack<s n="vblex"/></r></p></e>
+    <e><p><l>empaqueter<s n="vblex"/></l><r>package<s n="vblex"/></r></p></e>
+    <e><p><l>patrouiller<s n="vblex"/></l><r>patrol<s n="vblex"/></r></p></e>
+    <e><p><l>rétribuer<s n="vblex"/></l><r>pay<s n="vblex"/></r></p></e>
+    <e><p><l>lapider<s n="vblex"/></l><r>pelt<s n="vblex"/></r></p></e>
+    <e><p><l>périr<s n="vblex"/></l><r>perish<s n="vblex"/></r></p></e>
+    <e><p><l>permuter<s n="vblex"/></l><r>permutate<s n="vblex"/></r></p></e>
+    <e><p><l>perpétrer<s n="vblex"/></l><r>perpetrate<s n="vblex"/></r></p></e>
+    <e><p><l>persécuter<s n="vblex"/></l><r>persecute<s n="vblex"/></r></p></e>
+    <e><p><l>acharner<s n="vblex"/></l><r>persevere<s n="vblex"/></r></p></e>
+    <e><p><l>persistir<s n="vblex"/></l><r>persist<s n="vblex"/></r></p></e>
+    <e><p><l>persuader<s n="vblex"/></l><r>persuade<s n="vblex"/></r></p></e>
+    <e><p><l>philosopher<s n="vblex"/></l><r>philosophize<s n="vblex"/></r></p></e>
+    <e><p><l>phraser<s n="vblex"/></l><r>phrase<s n="vblex"/></r></p></e>
+    <e><p><l>empiler<s n="vblex"/></l><r>pile<s n="vblex"/></r></p></e>
+    <e><p><l>plaindre<s n="vblex"/></l><r>pity<s n="vblex"/></r></p></e>
+    <e><p><l>pivoter<s n="vblex"/></l><r>pivot<s n="vblex"/></r></p></e>
+    <e><p><l>accoler<s n="vblex"/></l><r>place<s n="vblex"/></r></p></e>
+    <e><p><l>concerter<s n="vblex"/></l><r>plan<s n="vblex"/></r></p></e>
+    <e><p><l>plumer<s n="vblex"/></l><r>pluck<s n="vblex"/></r></p></e>
+    <e><p><l>cirer<s n="vblex"/></l><r>polish<s n="vblex"/></r></p></e>
+    <e><p><l>ruminer<s n="vblex"/></l><r>ponder<s n="vblex"/></r></p></e>
+    <e><p><l>positionner<s n="vblex"/></l><r>position<s n="vblex"/></r></p></e>
+    <e><p><l>timbrer<s n="vblex"/></l><r>postmark<s n="vblex"/></r></p></e>
+    <e><p><l>préétablir<s n="vblex"/></l><r>pre-establish<s n="vblex"/></r></p></e>
+    <e><p><l>présager<s n="vblex"/></l><r>predict<s n="vblex"/></r></p></e>
+    <e><p><l>pressurer<s n="vblex"/></l><r>press<s n="vblex"/></r></p></e>
+    <e><p><l>prévenir<s n="vblex"/></l><r>prevent<s n="vblex"/></r></p></e>
+    <e><p><l>privilégier<s n="vblex"/></l><r>privilege<s n="vblex"/></r></p></e>
+    <e><p><l>procurer<s n="vblex"/></l><r>procure<s n="vblex"/></r></p></e>
+    <e><p><l>professer<s n="vblex"/></l><r>profess<s n="vblex"/></r></p></e>
+    <e><p><l>promulguer<s n="vblex"/></l><r>promulgate<s n="vblex"/></r></p></e>
+    <e><p><l>réfugier<s n="vblex"/></l><r>protect<s n="vblex"/></r></p></e>
+    <e><p><l>approvisionner<s n="vblex"/></l><r>provision<s n="vblex"/></r></p></e>
+    <e><p><l>rôder<s n="vblex"/></l><r>prowl<s n="vblex"/></r></p></e>
+    <e><p><l>purger<s n="vblex"/></l><r>purge<s n="vblex"/></r></p></e>
+    <e><p><l>assainir<s n="vblex"/></l><r>purify<s n="vblex"/></r></p></e>
+    <e><p><l>enfoncer<s n="vblex"/></l><r>push<s n="vblex"/></r></p></e>
+    <e><p><l>nuancer<s n="vblex"/></l><r>qualify<s n="vblex"/></r></p></e>
+    <e><p><l>quereller<s n="vblex"/></l><r>quarrel<s n="vblex"/></r></p></e>
+    <e><p><l>cantonner<s n="vblex"/></l><r>quarter<s n="vblex"/></r></p></e>
+    <e><p><l>questionner<s n="vblex"/></l><r>query<s n="vblex"/></r></p></e>
+    <e><p><l>coter<s n="vblex"/></l><r>quote<s n="vblex"/></r></p></e>
+    <e><p><l>rayonner<s n="vblex"/></l><r>radiate<s n="vblex"/></r></p></e>
+    <e><p><l>radicaliser<s n="vblex"/></l><r>radicalize<s n="vblex"/></r></p></e>
+    <e><p><l>ériger<s n="vblex"/></l><r>raise<s n="vblex"/></r></p></e>
+    <e><p><l>raréfier<s n="vblex"/></l><r>rarefy<s n="vblex"/></r></p></e>
+    <e><p><l>rationner<s n="vblex"/></l><r>ration<s n="vblex"/></r></p></e>
+    <e><p><l>rationaliser<s n="vblex"/></l><r>rationalize<s n="vblex"/></r></p></e>
+    <e><p><l>rapprocher<s n="vblex"/></l><r>re-approach<s n="vblex"/></r></p></e>
+    <e><p><l>réapproprier<s n="vblex"/></l><r>re-appropriate<s n="vblex"/></r></p></e>
+    <e><p><l>recapturer<s n="vblex"/></l><r>re-capture<s n="vblex"/></r></p></e>
+    <e><p><l>redonner<s n="vblex"/></l><r>re-give<s n="vblex"/></r></p></e>
+    <e><p><l>revoter<s n="vblex"/></l><r>re-vote<s n="vblex"/></r></p></e>
+    <e><p><l>renaître<s n="vblex"/></l><r>reappear<s n="vblex"/></r></p></e>
+    <e><p><l>rasséréner<s n="vblex"/></l><r>reassure<s n="vblex"/></r></p></e>
+    <e><p><l>tranquilliser<s n="vblex"/></l><r>reassure<s n="vblex"/></r></p></e>
+    <e><p><l>recalculer<s n="vblex"/></l><r>recalculate<s n="vblex"/></r></p></e>
+    <e><p><l>rattraper<s n="vblex"/></l><r>recapture<s n="vblex"/></r></p></e>
+    <e><p><l>rapatrier<s n="vblex"/></l><r>reconcile<s n="vblex"/></r></p></e>
+    <e><p><l>replier<s n="vblex"/></l><r>refold<s n="vblex"/></r></p></e>
+    <e><p><l>rafraîchir<s n="vblex"/></l><r>refresh<s n="vblex"/></r></p></e>
+    <e><p><l>rembourser<s n="vblex"/></l><r>refund<s n="vblex"/></r></p></e>
+    <e><p><l>restituer<s n="vblex"/></l><r>refund<s n="vblex"/></r></p></e>
+    <e><p><l>régulariser<s n="vblex"/></l><r>regularize<s n="vblex"/></r></p></e>
+    <e><p><l>réglementer<s n="vblex"/></l><r>regulate<s n="vblex"/></r></p></e>
+    <e><p><l>réhabiliter<s n="vblex"/></l><r>rehabilitate<s n="vblex"/></r></p></e>
+    <e><p><l>reloger<s n="vblex"/></l><r>rehouse<s n="vblex"/></r></p></e>
+    <e><p><l>réincorporer<s n="vblex"/></l><r>reincorporate<s n="vblex"/></r></p></e>
+    <e><p><l>réintégrer<s n="vblex"/></l><r>reinstate<s n="vblex"/></r></p></e>
+    <e><p><l>réinvestir<s n="vblex"/></l><r>reinvest<s n="vblex"/></r></p></e>
+    <e><p><l>attiser<s n="vblex"/></l><r>rekindle<s n="vblex"/></r></p></e>
+    <e><p><l>retransmettre<s n="vblex"/></l><r>relay<s n="vblex"/></r></p></e>
+    <e><p><l>réléguer<s n="vblex"/></l><r>relegate<s n="vblex"/></r></p></e>
+    <e><p><l>renégocier<s n="vblex"/></l><r>renegotiate<s n="vblex"/></r></p></e>
+    <e><p><l>rouvrir<s n="vblex"/></l><r>reopen<s n="vblex"/></r></p></e>
+    <e><p><l>redoubler<s n="vblex"/></l><r>repeat<s n="vblex"/></r></p></e>
+    <e><p><l>rejouer<s n="vblex"/></l><r>replay<s n="vblex"/></r></p></e>
+    <e><p><l>retraiter<s n="vblex"/></l><r>reprocess<s n="vblex"/></r></p></e>
+    <e><p><l>revendre<s n="vblex"/></l><r>resell<s n="vblex"/></r></p></e>
+    <e><p><l>apparenter<s n="vblex"/></l><r>resemble<s n="vblex"/></r></p></e>
+    <e><p><l>réinitialiser<s n="vblex"/></l><r>reset<s n="vblex"/></r></p></e>
+    <e><p><l>domicilier<s n="vblex"/></l><r>reside<s n="vblex"/></r></p></e>
+    <e><p><l>résider<s n="vblex"/></l><r>reside<s n="vblex"/></r></p></e>
+    <e><p><l>reformuler<s n="vblex"/></l><r>restate<s n="vblex"/></r></p></e>
+    <e><p><l>recommencer<s n="vblex"/></l><r>resume<s n="vblex"/></r></p></e>
+    <e><p><l>fidéliser<s n="vblex"/></l><r>retain<s n="vblex"/></r></p></e>
+    <e><p><l>repenser<s n="vblex"/></l><r>rethink<s n="vblex"/></r></p></e>
+    <e><p><l>retoucher<s n="vblex"/></l><r>retouch<s n="vblex"/></r></p></e>
+    <e><p><l>rétrocéder<s n="vblex"/></l><r>retrocede<s n="vblex"/></r></p></e>
+    <e><p><l>réutiliser<s n="vblex"/></l><r>reuse<s n="vblex"/></r></p></e>
+    <e><p><l>revoir<s n="vblex"/></l><r>revise<s n="vblex"/></r></p></e>
+    <e><p><l>chevaucher<s n="vblex"/></l><r>ride<s n="vblex"/></r></p></e>
+    <e><p><l>sillonner<s n="vblex"/></l><r>ridge<s n="vblex"/></r></p></e>
+    <e><p><l>gréer<s n="vblex"/></l><r>rig<s n="vblex"/></r></p></e>
+    <e><p><l>ceindre<s n="vblex"/></l><r>rim<s n="vblex"/></r></p></e>
+    <e><p><l>baguer<s n="vblex"/></l><r>ring<s n="vblex"/></r></p></e>
+    <e><p><l>griller<s n="vblex"/></l><r>roast<s n="vblex"/></r></p></e>
+    <e><p><l>rôtir<s n="vblex"/></l><r>roast<s n="vblex"/></r></p></e>
+    <e><p><l>bouler<s n="vblex"/></l><r>roll<s n="vblex"/></r></p></e>
+    <e><p><l>ambler<s n="vblex"/></l><r>rouse<s n="vblex"/></r></p></e>
+    <e><p><l>ameuter<s n="vblex"/></l><r>rouse<s n="vblex"/></r></p></e>
+    <e><p><l>router<s n="vblex"/></l><r>route<s n="vblex"/></r></p></e>
+    <e><p><l>gâcher<s n="vblex"/></l><r>ruin<s n="vblex"/></r></p></e>
+    <e><p><l>ruiner<s n="vblex"/></l><r>ruin<s n="vblex"/></r></p></e>
+    <e><p><l>ensacher<s n="vblex"/></l><r>sack<s n="vblex"/></r></p></e>
+    <e><p><l>goûter<s n="vblex"/></l><r>sample<s n="vblex"/></r></p></e>
+    <e><p><l>saturer<s n="vblex"/></l><r>saturate<s n="vblex"/></r></p></e>
+    <e><p><l>sauvegarder<s n="vblex"/></l><r>save<s n="vblex"/></r></p></e>
+    <e><p><l>houspiller<s n="vblex"/></l><r>scold<s n="vblex"/></r></p></e>
+    <e><p><l>calciner<s n="vblex"/></l><r>scorch<s n="vblex"/></r></p></e>
+    <e><p><l>gratter<s n="vblex"/></l><r>scrape<s n="vblex"/></r></p></e>
+    <e><p><l>plomber<s n="vblex"/></l><r>seal<s n="vblex"/></r></p></e>
+    <e><p><l>sceller<s n="vblex"/></l><r>seal<s n="vblex"/></r></p></e>
+    <e><p><l>épicer<s n="vblex"/></l><r>season<s n="vblex"/></r></p></e>
+    <e><p><l>sélecter<s n="vblex"/></l><r>select<s n="vblex"/></r></p></e>
+    <e><p><l>conscientiser<s n="vblex"/></l><r>sensitize<s n="vblex"/></r></p></e>
+    <e><p><l>instaurer<s n="vblex"/></l><r>set<s n="vblex"/></r></p></e>
+    <e><p><l>ombrager<s n="vblex"/></l><r>shade<s n="vblex"/></r></p></e>
+    <e><p><l>ombrer<s n="vblex"/></l><r>shade<s n="vblex"/></r></p></e>
+    <e><p><l>aiguiser<s n="vblex"/></l><r>sharpen<s n="vblex"/></r></p></e>
+    <e><p><l>tondre<s n="vblex"/></l><r>shear<s n="vblex"/></r></p></e>
+    <e><p><l>vibrer<s n="vblex"/></l><r>shiver<s n="vblex"/></r></p></e>
+    <e><p><l>fusiller<s n="vblex"/></l><r>shoot<s n="vblex"/></r></p></e>
+    <e><p><l>cribler<s n="vblex"/></l><r>sift<s n="vblex"/></r></p></e>
+    <e><p><l>parapher<s n="vblex"/></l><r>sign<s n="vblex"/></r></p></e>
+    <e><p><l>soussigner<s n="vblex"/></l><r>sign<s n="vblex"/></r></p></e>
+    <e><p><l>naufrager<s n="vblex"/></l><r>sink<s n="vblex"/></r></p></e>
+    <e><p><l>skier<s n="vblex"/></l><r>ski<s n="vblex"/></r></p></e>
+    <e><p><l>pencher<s n="vblex"/></l><r>slant<s n="vblex"/></r></p></e>
+    <e><p><l>maigrir<s n="vblex"/></l><r>slim<s n="vblex"/></r></p></e>
+    <e><p><l>chuchoter<s n="vblex"/></l><r>smear<s n="vblex"/></r></p></e>
+    <e><p><l>enduire<s n="vblex"/></l><r>smear<s n="vblex"/></r></p></e>
+    <e><p><l>neiger<s n="vblex"/></l><r>snow<s n="vblex"/></r></p></e>
+    <e><p><l>souiller<s n="vblex"/></l><r>soil<s n="vblex"/></r></p></e>
+    <e><p><l>spécifier<s n="vblex"/></l><r>specify<s n="vblex"/></r></p></e>
+    <e><p><l>tacheter<s n="vblex"/></l><r>speckle<s n="vblex"/></r></p></e>
+    <e><p><l>éclabousser<s n="vblex"/></l><r>splatter<s n="vblex"/></r></p></e>
+    <e><p><l>scinder<s n="vblex"/></l><r>split<s n="vblex"/></r></p></e>
+    <e><p><l>repérer<s n="vblex"/></l><r>spot<s n="vblex"/></r></p></e>
+    <e><p><l>poignarder<s n="vblex"/></l><r>stab<s n="vblex"/></r></p></e>
+    <e><p><l>stabiliser<s n="vblex"/></l><r>stabilize<s n="vblex"/></r></p></e>
+    <e><p><l>étager<s n="vblex"/></l><r>stagger<s n="vblex"/></r></p></e>
+    <e><p><l>traquer<s n="vblex"/></l><r>stalk<s n="vblex"/></r></p></e>
+    <e><p><l>caler<s n="vblex"/></l><r>stall<s n="vblex"/></r></p></e>
+    <e><p><l>juguler<s n="vblex"/></l><r>stem<s n="vblex"/></r></p></e>
+    <e><p><l>ankyloser<s n="vblex"/></l><r>stiffen<s n="vblex"/></r></p></e>
+    <e><p><l>stigmatiser<s n="vblex"/></l><r>stigmatize<s n="vblex"/></r></p></e>
+    <e><p><l>puer<s n="vblex"/></l><r>stink<s n="vblex"/></r></p></e>
+    <e><p><l>assener<s n="vblex"/></l><r>strike<s n="vblex"/></r></p></e>
+    <e><p><l>oeuvrer<s n="vblex"/></l><r>strive<s n="vblex"/></r></p></e>
+    <e><p><l>architecturer<s n="vblex"/></l><r>structure<s n="vblex"/></r></p></e>
+    <e><p><l>balbutier<s n="vblex"/></l><r>stutter<s n="vblex"/></r></p></e>
+    <e><p><l>subroger<s n="vblex"/></l><r>subrogate<s n="vblex"/></r></p></e>
+    <e><p><l>retrancher<s n="vblex"/></l><r>subtract<s n="vblex"/></r></p></e>
+    <e><p><l>succomber<s n="vblex"/></l><r>succumb<s n="vblex"/></r></p></e>
+    <e><p><l>résumer<s n="vblex"/></l><r>summarize<s n="vblex"/></r></p></e>
+    <e><p><l>étayer<s n="vblex"/></l><r>support<s n="vblex"/></r></p></e>
+    <e><p><l>quadriller<s n="vblex"/></l><r>surround<s n="vblex"/></r></p></e>
+    <e><p><l>survivre<s n="vblex"/></l><r>survive<s n="vblex"/></r></p></e>
+    <e><p><l>fourmiller<s n="vblex"/></l><r>swarm<s n="vblex"/></r></p></e>
+    <e><p><l>guinder<s n="vblex"/></l><r>sway<s n="vblex"/></r></p></e>
+    <e><p><l>balancer<s n="vblex"/></l><r>swing<s n="vblex"/></r></p></e>
+    <e><p><l>aiguiller<s n="vblex"/></l><r>switch<s n="vblex"/></r></p></e>
+    <e><p><l>synchroniser<s n="vblex"/></l><r>synchronize<s n="vblex"/></r></p></e>
+    <e><p><l>synthétiser<s n="vblex"/></l><r>synthesize<s n="vblex"/></r></p></e>
+    <e><p><l>dompter<s n="vblex"/></l><r>tame<s n="vblex"/></r></p></e>
+    <e><p><l>bronzer<s n="vblex"/></l><r>tan<s n="vblex"/></r></p></e>
+    <e><p><l>emmêler<s n="vblex"/></l><r>tangle<s n="vblex"/></r></p></e>
+    <e><p><l>déguster<s n="vblex"/></l><r>taste<s n="vblex"/></r></p></e>
+    <e><p><l>lainer<s n="vblex"/></l><r>tease<s n="vblex"/></r></p></e>
+    <e><p><l>tonner<s n="vblex"/></l><r>thunder<s n="vblex"/></r></p></e>
+    <e><p><l>tourmenter<s n="vblex"/></l><r>torment<s n="vblex"/></r></p></e>
+    <e><p><l>pister<s n="vblex"/></l><r>track<s n="vblex"/></r></p></e>
+    <e><p><l>commercer<s n="vblex"/></l><r>trade<s n="vblex"/></r></p></e>
+    <e><p><l>transiter<s n="vblex"/></l><r>transit<s n="vblex"/></r></p></e>
+    <e><p><l>affluer<s n="vblex"/></l><r>trickle<s n="vblex"/></r></p></e>
+    <e><p><l>tripler<s n="vblex"/></l><r>triple<s n="vblex"/></r></p></e>
+    <e><p><l>triompher<s n="vblex"/></l><r>triumph<s n="vblex"/></r></p></e>
+    <e><p><l>banaliser<s n="vblex"/></l><r>trivialize<s n="vblex"/></r></p></e>
+    <e><p><l>tronquer<s n="vblex"/></l><r>truncate<s n="vblex"/></r></p></e>
+    <e><p><l>déséquilibrer<s n="vblex"/></l><r>unbalance<s n="vblex"/></r></p></e>
+    <e><p><l>minimiser<s n="vblex"/></l><r>understate<s n="vblex"/></r></p></e>
+    <e><p><l>énerver<s n="vblex"/></l><r>unnerve<s n="vblex"/></r></p></e>
+    <e><p><l>déballer<s n="vblex"/></l><r>unpack<s n="vblex"/></r></p></e>
+    <e><p><l>décompresser<s n="vblex"/></l><r>unpack<s n="vblex"/></r></p></e>
+    <e><p><l>désabonner<s n="vblex"/></l><r>unsubscribe<s n="vblex"/></r></p></e>
+    <e><p><l>désajuster<s n="vblex"/></l><r>untidy<s n="vblex"/></r></p></e>
+    <e><p><l>revaloriser<s n="vblex"/></l><r>upgrade<s n="vblex"/></r></p></e>
+    <e><p><l>valoriser<s n="vblex"/></l><r>upgrade<s n="vblex"/></r></p></e>
+    <e><p><l>proférer<s n="vblex"/></l><r>utter<s n="vblex"/></r></p></e>
+    <e><p><l>vernir<s n="vblex"/></l><r>varnish<s n="vblex"/></r></p></e>
+    <e><p><l>vénérer<s n="vblex"/></l><r>venerate<s n="vblex"/></r></p></e>
+    <e><p><l>oser<s n="vblex"/></l><r>venture<s n="vblex"/></r></p></e>
+    <e><p><l>tester<s n="vblex"/></l><r>verify<s n="vblex"/></r></p></e>
+    <e><p><l>vexer<s n="vblex"/></l><r>vex<s n="vblex"/></r></p></e>
+    <e><p><l>vociférer<s n="vblex"/></l><r>vociferate<s n="vblex"/></r></p></e>
+    <e><p><l>gerber<s n="vblex"/></l><r>vomit<s n="vblex"/></r></p></e>
+    <e><p><l>vomir<s n="vblex"/></l><r>vomit<s n="vblex"/></r></p></e>
+    <e><p><l>vaguer<s n="vblex"/></l><r>wander<s n="vblex"/></r></p></e>
+    <e><p><l>prodiguer<s n="vblex"/></l><r>waste<s n="vblex"/></r></p></e>
+    <e><p><l>saliver<s n="vblex"/></l><r>water<s n="vblex"/></r></p></e>
+    <e><p><l>faner<s n="vblex"/></l><r>wilt<s n="vblex"/></r></p></e>
+    <e><p><l>essuyer<s n="vblex"/></l><r>wipe<s n="vblex"/></r></p></e>
+    <e><p><l>retraire<s n="vblex"/></l><r>withdraw<s n="vblex"/></r></p></e>
+
+    <e><p><l>rémunérer<s n="vblex"/></l><r>pay<g><b/>back</g><s n="vblex"/></r></p></e>
+    <e><p><l>décoller<s n="vblex"/></l><r>take<g><b/>off</g><s n="vblex"/></r></p></e>
+    <e><p><l>ressortir<s n="vblex"/></l><r>stand<g><b/>out</g><s n="vblex"/></r></p></e>
+    <e><p><l>accourir<s n="vblex"/></l><r>rush<g><b/>over</g><s n="vblex"/></r></p></e>
+    <e><p><l>coucher<s n="vblex"/></l><r>lie<g><b/>down</g><s n="vblex"/></r></p></e>
+    <e><p><l>échouer<s n="vblex"/></l><r>break<g><b/>down</g><s n="vblex"/></r></p></e> 
+
 
     <!-- SECTION: Interjections -->
 
