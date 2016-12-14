@@ -109,6 +109,7 @@
     <sdef n="obj" />
     <sdef n="aa" />
     <sdef n="rel" />
+    <sdef n="subj"/>
   </sdefs>
 
   <section id="main" type="standard">
@@ -299,12 +300,9 @@
 
     <!-- SECTION: Pronouns -->
 
-    <!-- FIXME: temporal direct translations for personal pronouns -->
-    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>I<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>he<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>she<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>they<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>they<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/><s n="subj"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="tn"/></l><r>prpers<s n="prn"/><s n="obj"/></r></p></e>
+
     <!-- "l' USA PATRIOT" -->
     <e><p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r><s n="prn"/><s n="pro"/></r></p></e>
 
@@ -385,7 +383,6 @@
     <e><p><l>qui<b/>est-ce<b/>qui<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>who<s n="prn"/><s n="itg"/><s n="m"/></r></p></e>
     <e><p><l>qui<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>who<s n="prn"/><s n="itg"/><s n="m"/></r></p></e>
     <e><p><l>n'importe<b/>qui<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>whoever<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
-    <!-- <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e> -->
 
     <e><p><l>qui<s n="rel"/></l><r>that<s n="rel"/></r></p></e>
     <e><p><l>que<s n="rel"/></l><r>that<s n="rel"/></r></p></e>
