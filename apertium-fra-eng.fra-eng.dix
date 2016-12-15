@@ -12410,7 +12410,7 @@
     <e><p><l>demander<s n="vblex"/></l><r>call<g><b/>for</g><s n="vblex"/></r></p></e>
     <e><p><l>calmer<s n="vblex"/></l><r>calm<s n="vblex"/></r></p></e>
     <e><p><l>camper<s n="vblex"/></l><r>camp<s n="vblex"/></r></p></e>
-    <e><p><l>pouvoir<s n="vblex"/></l><r>can<s n="vblex"/></r></p></e>
+    <e><p><l>pouvoir<s n="vbmod"/></l><r>can<s n="vbmod"/></r></p></e>
     <e><p><l>annuler<s n="vblex"/></l><r>cancel<s n="vblex"/></r></p></e>
     <e><p><l>changer<s n="vblex"/></l><r>capsize<s n="vblex"/></r></p></e>
     <e><p><l>capturer<s n="vblex"/></l><r>capture<s n="vblex"/></r></p></e>
