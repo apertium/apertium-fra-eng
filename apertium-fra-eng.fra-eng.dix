@@ -303,6 +303,16 @@
     <e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/><s n="subj"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="tn"/></l><r>prpers<s n="prn"/><s n="obj"/></r></p></e>
 
+    <!-- TODO: examples? -->
+    <e r="LR"><p><l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+
     <!-- "l' USA PATRIOT" -->
     <e><p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r><s n="prn"/><s n="pro"/></r></p></e>
 
@@ -344,15 +354,6 @@
     <e><p><l>rien<s n="prn"/><s n="tn"/><s n="nt"/></l><r>nothing<s n="prn"/></r></p></e>
     <e><p><l>un<s n="prn"/></l><r>one<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
     <e><p><l>autrui<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>others<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e r="LR"><p><l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>moi<s n="prn"/><s n="tn"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e c="frases afirmatives"><p><l>quelqu'un<s n="prn"/><s n="tn"/></l><r>some<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
     <e c="He fet que la traducció ca-en de 'algun' en plural sigui 'some', i en singular, 'any'. Cal repassar-ho"><p><l>certains<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></l><r>some<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
     <e c="He fet que la traducció ca-en de 'algun' en plural sigui 'some', i en singular, 'any'. Cal repassar-ho"><p><l>certains<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></l><r>some<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -997,7 +998,6 @@
     <e><p><l>avant-garde<s n="n"/><s n="m"/></l><r>avant-garde<s n="n"/></r></p></e>
     <e><p><l>avatar<s n="n"/><s n="m"/></l><r>avatar<s n="n"/></r></p></e>
     <e><p><l>avenue<s n="n"/><s n="f"/></l><r>avenue<s n="n"/></r></p></e>
-    <e><p><l>mail<s n="n"/><s n="m"/></l><r>avenue<s n="n"/></r></p></e>
     <e><p><l>moyenne<s n="n"/><s n="f"/></l><r>average<s n="n"/></r></p></e>
     <e><p><l>animosité<s n="n"/><s n="f"/></l><r>aversion<s n="n"/></r></p></e>
     <e><p><l>aversion<s n="n"/><s n="f"/></l><r>aversion<s n="n"/></r></p></e>
@@ -2248,7 +2248,7 @@
     <e><p><l>élite<s n="n"/><s n="f"/></l><r>elite<s n="n"/></r></p></e>
     <e><p><l>prolongement<s n="n"/><s n="m"/></l><r>elongation<s n="n"/></r></p></e>
     <e><p><l>civelle<s n="n"/><s n="f"/></l><r>elver<s n="n"/></r></p></e>
-    <e><p><l>email<s n="n"/><s n="m"/></l><r>email<s n="n"/></r></p></e>
+    <e><p><l>e-mail<s n="n"/><s n="m"/></l><r>e-mail<s n="n"/></r></p></e>
     <e><p><l>émanation<s n="n"/><s n="f"/></l><r>emanation<s n="n"/></r></p></e>
     <e><p><l>émancipation<s n="n"/><s n="f"/></l><r>emancipation<s n="n"/></r></p></e>
     <e><p><l>saisie<s n="n"/><s n="f"/></l><r>embargo<s n="n"/></r></p></e>
@@ -3306,9 +3306,9 @@
     <e><p><l>saut<s n="n"/><s n="m"/></l><r>jump<s n="n"/></r></p></e>
     <e><p><l>croisement<s n="n"/><s n="m"/></l><r>junction<s n="n"/></r></p></e>
     <e><p><l>juin<s n="n"/><s n="m"/></l><r>June<s n="n"/></r></p></e>
+    <e r="RL"><p><l>juin<s n="n"/><s n="m"/></l><r>jun.<s n="n"/></r></p></e>
     <e><p><l>jungle<s n="n"/><s n="f"/></l><r>jungle<s n="n"/></r></p></e>
     <e><p><l>jeune<s n="n"/><s n="mf"/></l><r>junior<s n="n"/></r></p></e>
-    <e><p><l>juin<s n="n"/><s n="m"/></l><r>jun.<s n="n"/></r></p></e>
     <e><p><l>personne<b/>morale<s n="n"/><s n="f"/></l><r>juridic<b/>person<s n="n"/></r></p></e>
     <e><p><l>juridiction<s n="n"/><s n="f"/></l><r>jurisdiction<s n="n"/></r></p></e>
     <e><p><l>jurisprudence<s n="n"/><s n="f"/></l><r>jurisprudence<s n="n"/></r></p></e>
@@ -3561,8 +3561,7 @@
     <e><p><l>mammifère<s n="n"/><s n="m"/></l><r>mammal<s n="n"/></r></p></e>
     <e><p><l>administration<s n="n"/><s n="f"/></l><r>management<s n="n"/></r></p></e>
     <e><p><l>gestion<s n="n"/></l><r>management<s n="n"/><s n="sg"/></r></p></e>
-    <e><p><l>gérent<s n="n"/><s n="f"/></l><r>manager<s n="n"/></r></p></e>
-    <e><p><l>gérent<s n="n"/><s n="m"/></l><r>manager<s n="n"/></r></p></e>
+    <e><p><l>gérant<s n="n"/><s n="m"/></l><r>manager<s n="n"/></r></p></e>
     <e><p><l>responsable<s n="n"/><s n="mf"/></l><r>manager<s n="n"/></r></p></e>
     <e><p><l>mandataire<s n="n"/><s n="mf"/></l><r>mandatario<s n="n"/></r></p></e>
     <e><p><l>mandat<s n="n"/><s n="m"/></l><r>mandate<s n="n"/></r></p></e>
