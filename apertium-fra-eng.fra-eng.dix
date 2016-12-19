@@ -2208,7 +2208,7 @@
     <e><p><l>excentricité<s n="n"/><s n="f"/></l><r>eccentricity<s n="n"/></r></p></e>
     <e><p><l>écho<s n="n"/><s n="m"/></l><r>echo<s n="n"/></r></p></e>
     <e><p><l>écologie<s n="n"/><s n="f"/></l><r>ecology<s n="n"/></r></p></e>
-    <e><p><l>économie<s n="n"/><s n="f"/><s n="sg"/></l><r>economics<s n="n"/><s n="pl"/></r></p></e>
+    <e><p><l>économie<s n="n"/><s n="f"/><s n="sg"/></l><r>economics<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>économiste<s n="n"/><s n="mf"/></l><r>economist<s n="n"/></r></p></e>
     <e><p><l>économie<s n="n"/><s n="f"/></l><r>economy<s n="n"/></r></p></e>
     <e><p><l>tourbillon<s n="n"/><s n="m"/></l><r>eddy<s n="n"/></r></p></e>
@@ -10352,7 +10352,8 @@
     <e><p><l>compréhensible<s n="adj"/><s n="mf"/></l><r>comprehensible<s n="adj"/></r></p></e>
     <e><p><l>compréhensible<s n="adj"/><s n="mf"/></l><r>comprehensive<s n="adj"/></r></p></e>
     <e><p><l>obligatoire<s n="adj"/><s n="mf"/></l><r>compulsory<s n="adj"/></r></p></e>
-    <e><p><l>informatique<s n="adj"/><s n="mf"/></l><r>computer<s n="adj"/></r></p></e>
+    <!-- TODO: there must be a lexical transfer rule to transfer an adjective into a noun in the attributive position, and back - I'd rather not add "computer" as adjective. -->
+    <e r="LR"><p><l>informatique<s n="adj"/><s n="mf"/></l><r>computer<s n="n"/></r></p></e>
     <e><p><l>concret<s n="adj"/></l><r>concrete<s n="adj"/></r></p></e>
     <e><p><l>condamnable<s n="adj"/><s n="mf"/></l><r>condemnable<s n="adj"/></r></p></e>
     <e><p><l>passible<s n="adj"/><s n="mf"/></l><r>condemnable<s n="adj"/></r></p></e>
@@ -10722,7 +10723,7 @@
     <e><p><l>gigantesque<s n="adj"/><s n="mf"/></l><r>gigantic<s n="adj"/></r></p></e>
     <e><p><l>heureux<s n="adj"/><s n="f"/></l><r>glad<s n="adj"/></r></p></e>
     <e><p><l>heureux<s n="adj"/><s n="m"/></l><r>glad<s n="adj"/></r></p></e>
-    <e><p><l>globale<s n="adj"/><s n="mf"/></l><r>global<s n="adj"/></r></p></e>
+    <e><p><l>global<s n="adj"/></l><r>global<s n="adj"/></r></p></e>
     <e><p><l>glorieux<s n="adj"/><s n="m"/><s n="sp"/></l><r>glorious<s n="adj"/></r></p></e>
     <e><p><l>glorieux<s n="adj"/><s n="f"/></l><r>glorious<s n="adj"/></r></p></e>
     <e><p><l>magnifique<s n="adj"/><s n="mf"/></l><r>glorious<s n="adj"/></r></p></e>
