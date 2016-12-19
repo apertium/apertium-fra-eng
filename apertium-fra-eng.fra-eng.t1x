@@ -1209,6 +1209,7 @@
            </when>
 	   </choose>-->
     </def-macro>
+
     <def-macro n="tipus_nom" npar="1">
       <choose>
         <when>
@@ -1243,6 +1244,7 @@
         </when>
       </choose>
     </def-macro>
+
     <def-macro n="firstWord" npar="1"><!--nova versió 8-febr-08, comprovar si va bé. Si va bé, posar-la també en en-ca -->
       <choose>
 	<when>
