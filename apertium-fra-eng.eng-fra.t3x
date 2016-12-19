@@ -348,6 +348,7 @@
     </def-macro>
 
     <def-macro n="gen_nbr_determinante" npar="1">
+      <!-- if gender is "mf", make it "m"; otherwise keep the gender -->
       <choose>
 	<when>
 	  <test>
@@ -370,6 +371,7 @@
 	  </let>
 	</otherwise>
       </choose>
+      <!-- if number is "sp", make it "sg"; otherwise keep the number -->
       <choose>
 	<when>
 	  <test>
