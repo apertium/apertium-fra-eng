@@ -209,11 +209,16 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "house" | apertium -d . fra-eng | tee .test-mt
+	echo "maison" | apertium -d . fra-eng | tee .test-mt
 	@echo "house" > .test-ref
 	@diff .test-ref .test-mt
 	echo "house" | apertium -d . eng-fra | tee .test-mt
 	@echo "house" > .test-ref
 	@diff .test-ref .test-mt
+	echo "I love apples." | apertium -d . eng-fra | tee .test-mt
+	@echo "J'aime pommes." > .test-ref
+	@diff .test-ref .test-mt
+	echo "J'aime pommes." | apertium -d . fra-eng | tee .test-mt
+	@echo "I love apples." > .test-ref
+	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
-
