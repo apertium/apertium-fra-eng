@@ -12832,13 +12832,13 @@
 		<list n="numeros25"/>
 	      </in>
 	    </test>
-	    <let>
-	      <var n="paraula1"/>
-	      <concat>
-		<lit v="niño"/>
-		<lit-tag v="n.3.4"/>
-	      </concat>
-	    </let>
+	    <!-- <let> -->
+	    <!--   <var n="paraula1"/> -->
+	    <!--   <concat> -->
+	    <!-- 	<lit v="niño"/> -->
+	    <!-- 	<lit-tag v="n.3.4"/> -->
+	    <!--   </concat> -->
+	    <!-- </let> -->
 	    <let>
 	      <var n="gen_chunk"/>
 	      <lit-tag v="GD"/>
@@ -12849,13 +12849,13 @@
 	    </let>
 	  </when>
 	  <otherwise>
-	    <let>
-	      <var n="paraula1"/>
-	      <concat>
-		<lit v="persona"/>
-		<lit-tag v="n.f.sg"/>
-	      </concat>
-	    </let>
+	    <!-- <let> -->
+	    <!--   <var n="paraula1"/> -->
+	    <!--   <concat> -->
+	    <!-- 	<lit v="persona"/> -->
+	    <!-- 	<lit-tag v="n.f.sg"/> -->
+	    <!--   </concat> -->
+	    <!-- </let> -->
 	    <let>
 	      <var n="gen_chunk"/>
 	      <lit-tag v="f"/>
@@ -13038,13 +13038,13 @@
 		<list n="numeros25"/>
 	      </in>
 	    </test>
-	    <let>
-	      <var n="paraula1"/>
-	      <concat>
-		<lit v="niño"/>
-		<lit-tag v="n.3.4"/>
-	      </concat>
-	    </let>
+	    <!-- <let> -->
+	    <!--   <var n="paraula1"/> -->
+	    <!--   <concat> -->
+	    <!-- 	<lit v="niño"/> -->
+	    <!-- 	<lit-tag v="n.3.4"/> -->
+	    <!--   </concat> -->
+	    <!-- </let> -->
 	    <let>
 	      <var n="gen_chunk"/>
 	      <lit-tag v="GD"/>
@@ -13055,13 +13055,13 @@
 	    </let>
 	  </when>
 	  <otherwise>
-	    <let>
-	      <var n="paraula1"/>
-	      <concat>
-		<lit v="persona"/>
-		<lit-tag v="n.f.sg"/>
-	      </concat>
-	    </let>
+	    <!-- <let> -->
+	    <!--   <var n="paraula1"/> -->
+	    <!--   <concat> -->
+	    <!-- 	<lit v="persona"/> -->
+	    <!-- 	<lit-tag v="n.f.sg"/> -->
+	    <!--   </concat> -->
+	    <!-- </let> -->
 	    <let>
 	      <var n="gen_chunk"/>
 	      <lit-tag v="f"/>
@@ -13417,10 +13417,10 @@
 	      <tag><var n="nbr_chunk"/></tag>
 	      <tag><var n="negative"/></tag> 
 	    </tags>
-	    <lu>	      
-	      <lit v="dentro de"/>
-	      <lit-tag v="pr"/>
-	    </lu>
+	    <!-- <lu>	       -->
+	    <!--   <lit v="dentro de"/> -->
+	    <!--   <lit-tag v="pr"/> -->
+	    <!-- </lu> -->
 	    <b pos="1"/>	    
 	    <lu>
 	      <clip pos="1" side="tl" part="lem"/> 
@@ -13475,10 +13475,10 @@
 	      <tag><var n="gen_chunk"/></tag>
 	      <tag><var n="nbr_chunk"/></tag>
 	    </tags>
-	    <lu>	   	      
-	      <lit v="dentro de"/>
-	      <lit-tag v="pr"/>
-	    </lu>
+	    <!-- <lu>	   	       -->
+	    <!--   <lit v="dentro de"/> -->
+	    <!--   <lit-tag v="pr"/> -->
+	    <!-- </lu> -->
 	    <b pos="1"/>  
 	    <lu>   
 	      <clip pos="1" side="tl" part="lem"/> 
@@ -13886,7 +13886,7 @@
 	    </test>
 	    <let>
 	      <clip pos="2" side="tl" part="lem"/>
-	      <lit v="mí"/>
+	      <lit v="moi"/>
 	    </let>
 	  </when>
 	  <when>
@@ -13904,7 +13904,7 @@
 	    </test>
 	    <let>
 	      <clip pos="2" side="tl" part="lem"/>
-	      <lit v="ti"/>
+	      <lit v="toi"/>
 	    </let>
 	  </when>
 	  <when>
@@ -17057,7 +17057,7 @@ Previous commit: r4197
 	    </test>
 	    <let>
 	      <clip pos="1" side="tl" part="lem"/>
-	      <lit v="antes de"/>
+	      <lit v="avant de"/>
 	    </let>
 	  </when>
 	  <when>
@@ -17069,7 +17069,7 @@ Previous commit: r4197
 	    </test>
 	    <let>
 	      <clip pos="1" side="tl" part="lem"/>
-	      <lit v="después de"/>
+	      <lit v="après de"/>
 	    </let>
 	  </when>
 	</choose>
@@ -17173,7 +17173,7 @@ Previous commit: r4197
 	    </test>
 	    <let>
 	      <clip pos="1" side="tl" part="lem"/>
-	      <lit v="antes de"/>
+	      <lit v="avant de"/>
 	    </let>
 	  </when>
 	  <when>
@@ -17185,7 +17185,7 @@ Previous commit: r4197
 	    </test>
 	    <let>
 	      <clip pos="1" side="tl" part="lem"/>
-	      <lit v="después de"/>
+	      <lit v="après de"/>
 	    </let>
 	  </when>
 	</choose>
