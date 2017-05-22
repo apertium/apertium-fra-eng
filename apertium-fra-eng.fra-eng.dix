@@ -299,9 +299,39 @@
     <e><p><l>sans<s n="pr"/></l><r>without<s n="pr"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
+    <!-- See also: <https://en.wikipedia.org/wiki/French_personal_pronouns> -->
 
-    <e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/><s n="subj"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="tn"/></l><r>prpers<s n="prn"/><s n="obj"/></r></p></e>
+    <e><p><l>je<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>me<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>moi<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+
+    <!-- TODO: eng.automorph.bin produces "you/you<prn><pers><p2><mf><sg>", FIXME: use "prpers" -->
+    <e><p><l>tu<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>te<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>toi<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+
+    <e><p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>lui<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <!-- NOTE: "elle" = "il:f:sg" -->
+    <e><p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <!-- TODO: add "elle->il:pro" to monodict? -->
+    <e><p><l>il<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+
+    <e><p><l>nous<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>nous<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>vous<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>vous<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
+
+    <e><p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <!-- TODO: add "eux" = "il:pro:pl" to monodict? -->
+    <!-- TODO: shouldn't "eux" be ":mf"? -->
+    <e><p><l>il<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>eux<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+
+    <!-- NOTE: "elles" = "il:f:pl" -->
+    <e><p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <!-- TODO: add "il:pro:pl" to monodict? -->
+    <e><p><l>il<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
     <!-- TODO: examples? -->
     <e r="LR"><p><l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -314,7 +344,7 @@
     <e r="LR"><p><l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
 
     <!-- "l' USA PATRIOT" -->
-    <e><p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r><s n="prn"/><s n="pro"/></r></p></e>
+    <e><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r><s n="prn"/><s n="pro"/></r></p></e>
 
     <e r="RL"><p><l>tout<s n="prn"/><s n="tn"/><s n="m"/><s n="ND"/></l><r>all<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>autrui<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>another<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>

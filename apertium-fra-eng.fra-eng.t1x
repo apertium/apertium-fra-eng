@@ -72,11 +72,9 @@
       <cat-item lemma="tout" tags="prn"/>
     </def-cat>
     <def-cat n="prnperssubj">
-      <cat-item lemma="prpers" tags="prn.*.p1.mf.sg"/>
-      <cat-item lemma="prpers" tags="prn.*.p2.mf.sg"/>
-      <cat-item lemma="prpers" tags="prn.*.p3.*.*"/>
-      <cat-item lemma="prpers" tags="prn.*.p1.mf.pl"/>
-      <cat-item lemma="prpers" tags="prn.*.p2.mf.pl"/>
+      <cat-item tags="prn.tn.p1.*"/>
+      <cat-item tags="prn.tn.p2.*"/>
+      <cat-item tags="prn.tn.p3.*"/>
       <cat-item lemma="on" tags="prn.*"/>
     </def-cat>
     <def-cat n="prnsubj">
@@ -85,7 +83,12 @@
       <cat-item lemma="qui" tags="prn.itg.*"/>
       <cat-item lemma="lequel" tags="prn.itg.*"/>
       <!--falta afegir als dicos-->
-      <cat-item tags="prn.tn.*"/>
+      <cat-item tags="prn.tn.m.*"/>
+      <cat-item tags="prn.tn.f.*"/>
+      <cat-item tags="prn.tn.mf.*"/>
+      <cat-item tags="prn.tn.nt.*"/>
+      <cat-item tags="prn.tn.pos.*"/>
+      <cat-item tags="prn.tn.ref.*"/>
     </def-cat>
     <def-cat n="prnitg">
       <cat-item tags="prn.itg.*"/>
@@ -4755,7 +4758,7 @@
 <b/>
 <lu>
 <clip pos="1" side="tl" part="lem"/> 
-<lit-tag v="prn.pro"/>
+<lit-tag v="prn.obj"/>
 <clip pos="1" side="tl" part="tipoenc_pro"/>
 </lu>
 <b pos="1"/>
@@ -4868,7 +4871,7 @@
                   <get-case-from pos="1">
                     <clip pos="2" side="tl" part="lem"/>
                   </get-case-from>
-                  <lit-tag v="prn.pro"/>
+                  <lit-tag v="prn.obj"/>
                   <clip pos="2" side="tl" part="tipoenc_pro"/>
                 </lu>
                 <b/>
@@ -5403,7 +5406,7 @@
                   <get-case-from pos="1">
                     <clip pos="2" side="tl" part="lem"/>
                   </get-case-from>
-                  <lit-tag v="prn.pro"/>
+                  <lit-tag v="prn.obj"/>
                   <clip pos="2" side="tl" part="tipoenc_pro"/>
                 </lu>
                 <b/>
@@ -5488,6 +5491,8 @@
           <with-param pos="1"/>
         </call-macro>
         <choose>
+	  <!-- test whether it is "en" or "y" pronoun -->
+	  <!-- FIXME: and do nothing? (call-macro below has been commented out) -->
           <when>
             <test>
               <or>
@@ -5505,6 +5510,7 @@
 		<with-param pos="1"/>
 		</call-macro>-->
           </when>
+	  <!-- as for the rest of pronouns... -->
           <otherwise>
             <out>
               <chunk name="pro" case="caseFirstWord">
@@ -5518,7 +5524,7 @@
                 </tags>
                 <lu>
                   <clip pos="1" side="tl" part="lem"/>
-                  <lit-tag v="prn.pro"/>
+                  <lit-tag v="prn.obj"/>
                   <clip pos="1" side="tl" part="tipoenc_pro"/>
                 </lu>
               </chunk>
@@ -5695,7 +5701,7 @@
                       <get-case-from pos="1">
                         <clip pos="3" side="tl" part="lem"/>
                       </get-case-from>
-                      <lit-tag v="prn.pro"/>
+                      <lit-tag v="prn.obj"/>
                       <clip pos="3" side="tl" part="tipoenc_pro"/>
                     </lu>
                     <b/>
@@ -5729,13 +5735,13 @@
                       <get-case-from pos="1">
                         <clip pos="3" side="tl" part="lem"/>
                       </get-case-from>
-                      <lit-tag v="prn.pro"/>
+                      <lit-tag v="prn.obj"/>
                       <clip pos="3" side="tl" part="tipoenc_pro"/>
                     </lu>
                     <b/>
                     <lu>
                       <clip pos="1" side="tl" part="lem"/>
-                      <lit-tag v="prn.pro"/>
+                      <lit-tag v="prn.obj"/>
                       <clip pos="1" side="tl" part="tipoenc_pro"/>
                     </lu>
                     <b pos="1"/>
@@ -5814,7 +5820,7 @@
                     <b pos="1"/>
                     <lu>
                       <clip pos="1" side="tl" part="lem"/>
-                      <lit-tag v="prn.pro"/>
+                      <lit-tag v="prn.obj"/>
                       <clip pos="1" side="tl" part="tipoenc_pro"/>
                     </lu>
                   </chunk>
@@ -6672,7 +6678,7 @@
                       <get-case-from pos="1">
                         <clip pos="2" side="tl" part="lem"/>
                       </get-case-from>
-                      <lit-tag v="prn.pro"/>
+                      <lit-tag v="prn.obj"/>
                       <clip pos="2" side="tl" part="tipoenc_pro"/>
                     </lu>
                     <b/>
@@ -6722,7 +6728,7 @@
                       <get-case-from pos="1">
                         <clip pos="2" side="tl" part="lem"/>
                       </get-case-from>
-                      <lit-tag v="prn.pro"/>
+                      <lit-tag v="prn.obj"/>
                       <clip pos="2" side="tl" part="tipoenc_pro"/>
                     </lu>
                     <b/>
@@ -8579,7 +8585,7 @@
                   <get-case-from pos="1">
                     <clip pos="2" side="tl" part="lem"/>
                   </get-case-from>
-                  <lit-tag v="prn.pro"/>
+                  <lit-tag v="prn.obj"/>
                   <clip pos="2" side="tl" part="tipoenc_pro"/>
                 </lu>
                 <b/>
@@ -8883,7 +8889,7 @@
                       <get-case-from pos="1">
                         <clip pos="2" side="tl" part="lem"/>
                       </get-case-from>
-                      <lit-tag v="prn.pro"/>
+                      <lit-tag v="prn.obj"/>
                       <clip pos="2" side="tl" part="tipoenc_pro"/>
                     </lu>
                     <b/>
@@ -8944,7 +8950,7 @@
                       <get-case-from pos="1">
                         <clip pos="2" side="tl" part="lem"/>
                       </get-case-from>
-                      <lit-tag v="prn.pro"/>
+                      <lit-tag v="prn.obj"/>
                       <clip pos="2" side="tl" part="tipoenc_pro"/>
                     </lu>
                     <b/>
@@ -10410,7 +10416,7 @@
                   <get-case-from pos="1">
                     <clip pos="2" side="tl" part="lem"/>
                   </get-case-from>
-                  <lit-tag v="prn.pro"/>
+                  <lit-tag v="prn.obj"/>
                   <clip pos="2" side="tl" part="tipoenc_pro"/>
                 </lu>
                 <b/>
@@ -10551,7 +10557,7 @@
                       <get-case-from pos="1">
                         <clip pos="2" side="tl" part="lem"/>
                       </get-case-from>
-                      <lit-tag v="prn.pro"/>
+                      <lit-tag v="prn.obj"/>
                       <clip pos="2" side="tl" part="tipoenc_pro"/>
                     </lu>
                     <b/>
@@ -10610,7 +10616,7 @@
                       <get-case-from pos="1">
                         <clip pos="2" side="tl" part="lem"/>
                       </get-case-from>
-                      <lit-tag v="prn.pro"/>
+                      <lit-tag v="prn.obj"/>
                       <clip pos="2" side="tl" part="tipoenc_pro"/>
                     </lu>
                     <b/>
@@ -12585,7 +12591,7 @@
                   <get-case-from pos="1">
                     <clip pos="2" side="tl" part="lem"/>
                   </get-case-from>
-                  <lit-tag v="prn.pro"/>
+                  <lit-tag v="prn.obj"/>
                   <clip pos="2" side="tl" part="tipoenc_pro"/>
                 </lu>
                 <b/>
@@ -12697,7 +12703,7 @@
                   <get-case-from pos="1">
                     <clip pos="2" side="tl" part="lem"/>
                   </get-case-from>
-                  <lit-tag v="prn.pro"/>
+                  <lit-tag v="prn.obj"/>
                   <clip pos="2" side="tl" part="tipoenc_pro"/>
                 </lu>
                 <b/>
@@ -12891,7 +12897,7 @@
                   <get-case-from pos="1">
                     <clip pos="2" side="tl" part="lem"/>
                   </get-case-from>
-                  <lit-tag v="prn.pro"/>
+                  <lit-tag v="prn.obj"/>
                   <clip pos="2" side="tl" part="tipoenc_pro"/>
                 </lu>
                 <b/>
@@ -13164,7 +13170,7 @@
                   <get-case-from pos="1">
                     <clip pos="2" side="tl" part="lem"/>
                   </get-case-from>
-                  <lit-tag v="prn.pro"/>
+                  <lit-tag v="prn.obj"/>
                   <clip pos="2" side="tl" part="tipoenc_pro"/>
                 </lu>
                 <b/>
@@ -13489,7 +13495,7 @@
                       <get-case-from pos="1">
                         <clip pos="3" side="tl" part="lem"/>
                       </get-case-from>
-                      <lit-tag v="prn.pro"/>
+                      <lit-tag v="prn.obj"/>
                       <clip pos="3" side="tl" part="tipoenc_pro"/>
                     </lu>
                     <b pos="1"/>
@@ -13538,7 +13544,7 @@
                       <get-case-from pos="1">
                         <clip pos="3" side="tl" part="lem"/>
                       </get-case-from>
-                      <lit-tag v="prn.pro"/>
+                      <lit-tag v="prn.obj"/>
                       <clip pos="3" side="tl" part="tipoenc_pro"/>
                     </lu>
                     <b pos="1"/>
@@ -13546,7 +13552,7 @@
                       <get-case-from pos="2">
                         <clip pos="1" side="tl" part="lem"/>
                       </get-case-from>
-                      <lit-tag v="prn.pro"/>
+                      <lit-tag v="prn.obj"/>
                       <clip pos="1" side="tl" part="tipoenc_pro"/>
                     </lu>
                     <b pos="3"/>
@@ -13928,7 +13934,7 @@
                       <get-case-from pos="1">
                         <clip pos="3" side="tl" part="lem"/>
                       </get-case-from>
-                      <lit-tag v="prn.pro"/>
+                      <lit-tag v="prn.obj"/>
                       <clip pos="3" side="tl" part="tipoenc_pro"/>
                     </lu>
                     <b/>
@@ -13976,7 +13982,7 @@
                       <get-case-from pos="1">
                         <clip pos="3" side="tl" part="lem"/>
                       </get-case-from>
-                      <lit-tag v="prn.pro"/>
+                      <lit-tag v="prn.obj"/>
                       <clip pos="3" side="tl" part="tipoenc_pro"/>
                     </lu>
                     <b/>
@@ -13984,7 +13990,7 @@
                       <get-case-from pos="2">
                         <clip pos="1" side="tl" part="lem"/>
                       </get-case-from>
-                      <lit-tag v="prn.pro"/>
+                      <lit-tag v="prn.obj"/>
                       <clip pos="1" side="tl" part="tipoenc_pro"/>
                     </lu>
                     <b pos="1"/>
