@@ -16774,14 +16774,13 @@
     <e><p><l>ah<s n="ij"/></l><r>wow<s n="ij"/></r></p></e>
   </section>
 
-  <section id="regex" type="inconditional">
+<!--  <section id="regex" type="inconditional">-->
     <!-- Catch-all rules for all non-translatable chunks.
 	 TODO: being too generic, they slow down the compilation IMMENSELY;
 	 perhaps, it still would make sense to sync the regexps between
 	 the monodicts and the bidict... unless there's a more sane solution.
 	 If the dicts are not sync'ed, `lt-trim` will remove entries
 	 that do not appear BOTH in the mono- and bi-dict :-(
-    -->
     <e><re>[^ ]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[^ ]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><re>[^ ]+</re><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>
@@ -16790,7 +16789,9 @@
     <e><re>[^ ]+</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
     <e><re>[^ ]+</re><p><l><s n="apos"/></l><r><s n="apos"/></r></p></e>
     <e><re>[^ ]+</re><p><l><s n="guio"/></l><r><s n="guio"/></r></p></e>
-  </section>
+    -->
+<!-- FMT: This is hideous, just add the entries or turn off trimming -->
+<!--  </section>-->
 </dictionary>
 
 <!--
