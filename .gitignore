@@ -24,3 +24,7 @@
 /install-sh
 /missing
 /modes
+/ap_include.am
+/*.bin
+/*.prob
+/.test-*
