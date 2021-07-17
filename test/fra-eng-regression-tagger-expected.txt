@@ -1,0 +1,16 @@
+[20j_tRmqh487#0] ^Son<det><pos><f><sg>$ ^école<n><f><sg>$.
+[/20j_tRmqh487]
+[608xWcBeLUwN#0] ^Son<det><pos><mf><pl>$ ^frère<n><m><pl>$.
+[/608xWcBeLUwN]
+[6ypPMftNyjzO#0] ^Mon<det><pos><mf><pl>$ ^*sœurs$.
+[/6ypPMftNyjzO]
+[9W6xBO9qeGE0#0] ^Mon<det><pos><m><sg>$ ^livre<n><m><sg>$.
+[/9W6xBO9qeGE0]
+[I-c-lniIaLjS#0] ^Ton<det><pos><mf><pl>$ ^grand-père<n><m><pl>$.
+[/I-c-lniIaLjS]
+[gVc4qSk2qwCt#0] ^Ton<det><pos><f><sg>$ ^fleur<n><f><sg>$.
+[/gVc4qSk2qwCt]
+[oJMLyXK5VcjH#0] ^Mon<det><pos><mf><pl>$ ^parent<n><m><pl>$.
+[/oJMLyXK5VcjH]
+[wZeA-9W9Acpu#0] ^Ton<det><pos><mf><pl>$ ^problème<n><m><pl>$.
+[/wZeA-9W9Acpu]

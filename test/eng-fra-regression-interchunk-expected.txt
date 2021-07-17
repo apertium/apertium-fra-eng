@@ -1,0 +1,6 @@
+[Hd95MZGvr2Xp#0] ^Det_nom<SN><DET><m><sg>{^mon<det><pos><3><4>$ ^livre<n><3><4>$}$.
+[/Hd95MZGvr2Xp]
+[aPrEO12THnce#0] ^det_nom<SN><DET><f><sg>{^Ton<det><pos><3><4>$ ^fleur<n><3><4>$}$.
+[/aPrEO12THnce]
+[dUN9uYV1kb0Z#0] ^det_nom<SN><DET><m><pl>{^Mon<det><pos><3><4>$ ^parent<n><3><4>$}$.
+[/dUN9uYV1kb0Z]

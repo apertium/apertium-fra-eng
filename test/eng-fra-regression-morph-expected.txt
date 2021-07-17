@@ -1,0 +1,6 @@
+[Hd95MZGvr2Xp#0] ^My/my<det><pos><sp>$ ^book/book<n><sg>/book<vblex><inf>/book<vblex><pres>/book<vblex><imp>$.
+[/Hd95MZGvr2Xp]
+[aPrEO12THnce#0] ^Your/your<det><pos><sp>$ ^flower/flower<n><sg>$.
+[/aPrEO12THnce]
+[dUN9uYV1kb0Z#0] ^My/my<det><pos><sp>$ ^parents/parent<n><pl>$.
+[/dUN9uYV1kb0Z]

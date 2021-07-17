@@ -1,0 +1,16 @@
+[20j_tRmqh487#0] ^Son/Son<det><pos><f><sg>$ ^école/école<n><f><sg>$.
+[/20j_tRmqh487]
+[608xWcBeLUwN#0] ^Ses/Son<det><pos><mf><pl>$ ^frères/frère<n><m><pl>$.
+[/608xWcBeLUwN]
+[6ypPMftNyjzO#0] ^Mes/Mon<det><pos><mf><pl>$ ^sœurs/*sœurs$.
+[/6ypPMftNyjzO]
+[9W6xBO9qeGE0#0] ^Mon/Mon<det><pos><m><sg>$ ^livre/livre<n><m><sg>$.
+[/9W6xBO9qeGE0]
+[I-c-lniIaLjS#0] ^Tes/Ton<det><pos><mf><pl>$ ^grands-parents/grand-père<n><m><pl>$.
+[/I-c-lniIaLjS]
+[gVc4qSk2qwCt#0] ^Ta/Ton<det><pos><f><sg>$ ^fleur/fleur<n><f><sg>$.
+[/gVc4qSk2qwCt]
+[oJMLyXK5VcjH#0] ^Mes/Mon<det><pos><mf><pl>$ ^parents/parent<n><m><pl>$.
+[/oJMLyXK5VcjH]
+[wZeA-9W9Acpu#0] ^Tes/Ton<det><pos><mf><pl>$ ^problèmes/problème<n><m><pl>$.
+[/wZeA-9W9Acpu]

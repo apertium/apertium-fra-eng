@@ -1,0 +1,6 @@
+[Hd95MZGvr2Xp#0] ^My<det><pos><sp>$ ^book<n><sg>$.
+[/Hd95MZGvr2Xp]
+[aPrEO12THnce#0] ^Your<det><pos><sp>$ ^flower<n><sg>$.
+[/aPrEO12THnce]
+[dUN9uYV1kb0Z#0] ^My<det><pos><sp>$ ^parent<n><pl>$.
+[/dUN9uYV1kb0Z]

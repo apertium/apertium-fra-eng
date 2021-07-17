@@ -1,0 +1,16 @@
+[20j_tRmqh487#0] ^Son<det><pos><f><sg>/His<det><pos><sp>$ ^école<n><f><sg>/school<n><sg>$.
+[/20j_tRmqh487]
+[608xWcBeLUwN#0] ^Son<det><pos><mf><pl>/Her<det><pos><sp>/His<det><pos><sp>/Its<det><pos><sp>/Their<det><pos><sp>$ ^frère<n><m><pl>/brother<n><pl>$.
+[/608xWcBeLUwN]
+[6ypPMftNyjzO#0] ^Mon<det><pos><mf><pl>/My<det><pos><sp>$ ^*sœurs/*sœurs$.
+[/6ypPMftNyjzO]
+[9W6xBO9qeGE0#0] ^Mon<det><pos><m><sg>/My<det><pos><sp>$ ^livre<n><m><sg>/book<n><sg>$.
+[/9W6xBO9qeGE0]
+[I-c-lniIaLjS#0] ^Ton<det><pos><mf><pl>/Your<det><pos><sp>$ ^grand-père<n><m><pl>/grandparent<n><pl>$.
+[/I-c-lniIaLjS]
+[gVc4qSk2qwCt#0] ^Ton<det><pos><f><sg>/Your<det><pos><sp><sg>$ ^fleur<n><f><sg>/flower<n><sg>$.
+[/gVc4qSk2qwCt]
+[oJMLyXK5VcjH#0] ^Mon<det><pos><mf><pl>/My<det><pos><sp>$ ^parent<n><m><pl>/parent<n><pl>$.
+[/oJMLyXK5VcjH]
+[wZeA-9W9Acpu#0] ^Ton<det><pos><mf><pl>/Your<det><pos><sp>$ ^problème<n><m><pl>/problem<n><pl>$.
+[/wZeA-9W9Acpu]

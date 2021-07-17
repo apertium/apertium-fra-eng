@@ -1,0 +1,118 @@
+[-Qmh8Ffitn4I#0] ^Tu<prn><tn><p2><mf><sg>/Prpers<prn><p2><mf><sg>$ ^aimer<vblex><pri><p2><sg>/love<vblex><pri><p2><sg>$
+[/-Qmh8Ffitn4I]
+[-Qr-XxXV7A0z#0] ^Chat<n><m><sg>/Chat<n><sg>$ ^noir<adj><m><sg>/black<adj><m><sg>$.
+[/-Qr-XxXV7A0z]
+[20j_tRmqh487#0] ^Son<det><pos><f><sg>/His<det><pos><sp>$ ^école<n><f><sg>/school<n><sg>$.
+[/20j_tRmqh487]
+[4isRh4CRZsqK#0] ^Un<det><ind><m><sg>/A<det><ind><sg>/Some<det><qnt><pl>$ ^*citrouille/*citrouille$ ^orange<n><f><sg>/orange<n><sg>$.
+[/4isRh4CRZsqK]
+[4rDyRacZg9Ws#0] ^Un<det><ind><m><sg>/A<det><ind><sg>/Some<det><qnt><pl>$ ^étudiant<n><m><sg>/student<n><sg>$ ^bon<adj><m><sg>/good<adj><sint><m><sg>/nice<adj><sint><m><sg>/fine<adj><sint><m><sg>$.
+[/4rDyRacZg9Ws]
+[608xWcBeLUwN#0] ^Son<det><pos><mf><pl>/Her<det><pos><sp>/His<det><pos><sp>/Its<det><pos><sp>/Their<det><pos><sp>$ ^frère<n><m><pl>/brother<n><pl>$.
+[/608xWcBeLUwN]
+[66YdzYOaNRw-#0] ^Pouvoir<vbmod><pri><p1><sg>/Can<vbmod><pri><p1><sg>$^je<prn><tn><p1><mf><sg>/prpers<prn><subj><p1><mf><sg>$ ^jouer<vblex><inf>/play<vblex><inf>/act<vblex><inf>/perform<vblex><inf>$ ^avec<pr>/with<pr>$ ^vous<prn><tn><p2><mf><pl>/prpers<prn><subj><p2><mf><sp>$ ^demain<adv>/tomorrow<adv>$?
+[/66YdzYOaNRw-]
+[6CQUsMgL5bsS#0] ^Il<prn><tn><p3><m><pl>/Prpers<prn><subj><p3><mf><pl>$ ^aimer<vblex><pri><p3><pl>/love<vblex><pri><p3><pl>$
+[/6CQUsMgL5bsS]
+[6aKC76wdUlBj#0] ^Le<det><def><f><sg>/The<det><def><sp>$ ^plage<n><f><sg>/beach<n><sg>$
+[/6aKC76wdUlBj]
+[6vvs8nPq8NIO#0] ^Un<det><ind><f><sg>/A<det><ind><sg>/Some<det><qnt><pl>$ ^maison<n><f><sg>/house<n><sg>$.
+[/6vvs8nPq8NIO]
+[6ypPMftNyjzO#0] ^Mon<det><pos><mf><pl>/My<det><pos><sp>$ ^*sœurs/*sœurs$.
+[/6ypPMftNyjzO]
+[7Bk4M0Yw9gx6#0] ^Arbre<n><m><sg>/Tree<n><sg>$.
+[/7Bk4M0Yw9gx6]
+[9W6xBO9qeGE0#0] ^Mon<det><pos><m><sg>/My<det><pos><sp>$ ^livre<n><m><sg>/book<n><sg>$.
+[/9W6xBO9qeGE0]
+[An76e450ilGh#0] ^Le<det><def><f><sg>/The<det><def><sp>$ ^guerre<n><f><sg>/war<n><sg>$
+[/An76e450ilGh]
+[BbLx47ngEYn4#0] ^*Quatre/*Quatre$-^*vingt/*vingt$ ^gomme<n><f><sg>/rubber<n><sg>$
+[/BbLx47ngEYn4]
+[BgBpP5i6QBJj#0] ^Un<det><ind><m><sg>/A<det><ind><sg>/Some<det><qnt><pl>$ ^arbre<n><m><sg>/tree<n><sg>$.
+[/BgBpP5i6QBJj]
+[I-c-lniIaLjS#0] ^Ton<det><pos><mf><pl>/Your<det><pos><sp>$ ^grand-père<n><m><pl>/grandparent<n><pl>$.
+[/I-c-lniIaLjS]
+[IwG624Nl55Hv#0] ^Où<adv><itg>/Where<adv><itg>$ ^aller<vblex><pri><p2><pl>/go<vblex><pri><p2><pl>$^vous<prn><tn><p2><mf><pl>/prpers<prn><subj><p2><mf><sp>$?
+[/IwG624Nl55Hv]
+[K4BvT16ThVei#0] ^Il<prn><tn><p3><m><sg>/Prpers<prn><subj><p3><m><sg>$ ^aimer<vblex><pri><p3><sg>/love<vblex><pri><p3><sg>$
+[/K4BvT16ThVei]
+[PBAQGuylx913#0] ^Capitale<n><f><sg>/Capital<n><sg>$ ^de<pr>/of<pr>/off<pr>/from<pr>$ ^le<det><def><f><sg>/the<det><def><sp>$ ^France<np><top><f><sg>/France<np><top><sg>$.
+[/PBAQGuylx913]
+[Qp4dHR9Z621t#0] ^Avoir<vblex><inf>/Have<vblex><inf>/Have got<vblex><inf>/Have# got<vblex><inf>$
+[/Qp4dHR9Z621t]
+[RzA9U0H2LmkS#0] ^Un<det><ind><m><sg>/A<det><ind><sg>/Some<det><qnt><pl>$ ^bon<adj><m><sg>/good<adj><sint><m><sg>/nice<adj><sint><m><sg>/fine<adj><sint><m><sg>$ ^étudiant<n><m><sg>/student<n><sg>$.
+[/RzA9U0H2LmkS]
+[SGc1e7lRDALp#0] ^Que<cnjsub>/That<cnjsub>$ ^être<vbser><pri><p3><sg>/be<vbser><pri><p3><sg>$-^ce<prn><tn><nt>/this<prn><tn><mf><sg><tn><nt>$-^que<cnjsub>/that<cnjsub>$ ^il<prn><tn><p3><m><sg>/prpers<prn><subj><p3><m><sg>$ ^aimer<vblex><pri><p3><sg>/love<vblex><pri><p3><sg>$?
+[/SGc1e7lRDALp]
+[SxafW7QhUUMo#0] ^Le<det><def><mf><sg>/The<det><def><sp>$ ^arbre<n><m><sg>/tree<n><sg>$.
+[/SxafW7QhUUMo]
+[T5_Fc3e6XxES#0] ^Bon<adj><f><sg>/Good<adj><sint><f><sg>/Nice<adj><sint><f><sg>/Fine<adj><sint><f><sg>$ ^nuit<n><f><sg>/night<n><sg>$
+[/T5_Fc3e6XxES]
+[T84AsE4zOITX#0] ^Aimer<vblex><inf>/Love<vblex><inf>$
+[/T84AsE4zOITX]
+[TBHZSZCLZt0s#0] ^Avec<pr>/With<pr>$
+[/TBHZSZCLZt0s]
+[U--BmtInTnp2#0] ^Le<det><def><mf><sg>/The<det><def><sp>$ ^anglais<adj><m><sp>/english<adj>$
+[/U--BmtInTnp2]
+[U2Wgsnd6hADa#0] ^Un<det><ind><f><sg>/A<det><ind><sg>/Some<det><qnt><pl>$ ^maison<n><f><sg>/house<n><sg>$ ^grand<adj><f><sg>/big<adj><sint><sg>$.
+[/U2Wgsnd6hADa]
+[UH3oB1ZBkmf6#0] ^Si<cnjadv>/If<cnjadv>$ ^il<prn><tn><p3><m><sg>/prpers<prn><subj><p3><m><sg>$ ^vous<prn><pro><p2><mf><pl>/prpers<prn><obj><p2><mf><sp>$ ^plaire<vblex><pri><p3><sg>/fancy<vblex><pri><p3><sg>/enjoy<vblex><pri><p3><sg>/like<vblex><pri><p3><sg>$, ^asseoir<vblex><pri><p2><pl>/sit<vblex><pri><p2><pl>/seat<vblex><pri><p2><pl>/sit# down<vblex><pri><p2><pl>$^vous<prn><tn><p2><mf><pl>/prpers<prn><subj><p2><mf><sp>$.
+[/UH3oB1ZBkmf6]
+[WAD-Wof8bW0t#0] ^Je<prn><tn><p1><mf><sg>/Prpers<prn><subj><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>/have<vbhaver><pri><p1><sg>$ ^traduire<vblex><pp><m><sg>/translate<vblex><pp><m><sg>$ ^un<det><ind><m><sg>/a<det><ind><sg>/some<det><qnt><pl>$ ^mot<n><m><sg>/word<n><sg>$.
+[/WAD-Wof8bW0t]
+[XSmk4voSHo1a#0] ^Nettoyer<vblex><inf>/Clean<vblex><inf>$ ^le<det><def><f><sg>/the<det><def><sp>$ ^maison<n><f><sg>/house<n><sg>$.
+[/XSmk4voSHo1a]
+[ZNrMoPchm8_F#0] ^Le<det><def><mf><sg>/The<det><def><sp>$ ^allemand<adj><m><sg>/german<adj><m><sg>$
+[/ZNrMoPchm8_F]
+[ZgaLkX_jfCi6#0] ^Je<prn><tn><p1><mf><sg>/Prpers<prn><subj><p1><mf><sg>$ ^aimer<vblex><pri><p1><sg>/love<vblex><pri><p1><sg>$ ^le<det><def><f><sg>/the<det><def><sp>$ ^pizza<n><f><sg>/pizza<n><sg>$.
+[/ZgaLkX_jfCi6]
+[a7oTGbuiWScG#0] ^Le<det><def><f><sg>/The<det><def><sp>$ ^port<n><m><sg>/port<n><sg>/harbour<n><sg>$
+[/a7oTGbuiWScG]
+[dDxWQwpDQsWB#0] ^Un<det><ind><m><sg>/A<det><ind><sg>/Some<det><qnt><pl>$ ^jeune<adj><mf><sg>/young<adj><sint><sg>$ ^garçon<n><m><sg>/girl<n><sg>/boy<n><sg>/lad<n><sg>$ ^devoir<vbmod><pri><p3><sg>/have# to<vbmod><pri><p3><sg>$ ^*se/*se$ ^trouver<vblex><inf>/find<vblex><inf>/encounter<vblex><inf>/come# across<vblex><inf>$ ^avant que<cnjadv>/before<cnjadv>$ ^il<prn><tn><p3><m><sg>/prpers<prn><subj><p3><m><sg>$ ^ne<adv>/no<adv>/not<adv>/non<adv>$ ^devenir<vblex><prs><p3><sg>/become<vblex><prs><p3><sg>$ ^un<det><ind><m><sg>/a<det><ind><sg>/some<det><qnt><pl>$ ^homme<n><m><sg>/male<n><sg>/man<n><sg>$.
+[/dDxWQwpDQsWB]
+[gVc4qSk2qwCt#0] ^Ton<det><pos><f><sg>/Your<det><pos><sp><sg>$ ^fleur<n><f><sg>/flower<n><sg>$.
+[/gVc4qSk2qwCt]
+[gYXIrEZWIZ9K#0] ^*Super/*Super$
+[/gYXIrEZWIZ9K]
+[gyePvK_EAjXc#0] ^Je<prn><tn><p1><mf><sg>/Prpers<prn><subj><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>/have<vbhaver><pri><p1><sg>$ ^envoyer<vblex><pp><m><sg>/forward<vblex><pp><m><sg>/send<vblex><pp><m><sg>/send# in<vblex><pp><m><sg>$ ^le<det><def><f><sg>/the<det><def><sp>$ ^liste<n><f><sg>/list<n><sg>$ ^vous<prn><pro><p2><mf><pl>/prpers<prn><obj><p2><mf><sp>$.
+[/gyePvK_EAjXc]
+[hj-9XqT94zA3#0] ^Le<det><def><f><sg>/The<det><def><sp>$ ^maison<n><f><sg>/house<n><sg>$.
+[/hj-9XqT94zA3]
+[huRredkE0v91#0] ^Le<det><def><f><sg>/The<det><def><sp>$ ^*magnétophone/*magnétophone$
+[/huRredkE0v91]
+[i_2-9aKPUOn3#0] ^Ouvrir<vblex><pri><p2><pl>/Open<vblex><pri><p2><pl>$ ^le<det><def><f><sg>/the<det><def><sp>$ ^porte<n><f><sg>/door<n><sg>/gate<n><sg>/gateway<n><sg>$.
+[/i_2-9aKPUOn3]
+[jDJc7aIUiRSY#0] ^*Deux/*Deux$ ^enfant<n><mf><pl>/girl<n><pl>/infant<n><pl>/child<n><pl>/boy<n><pl>/kid<n><pl>$.
+[/jDJc7aIUiRSY]
+[kXLo7smfFE9y#0] ^Bonjour<n><m><sg>/Greeting<n><sg>$
+[/kXLo7smfFE9y]
+[l2kFrwy3ktpS#0] ^Maison<n><f><sg>/House<n><sg>$.
+[/l2kFrwy3ktpS]
+[mG6f0hDOAAE9#0] ^Venir<vblex><pp><m><sg>/Come<vblex><pp><m><sg>$ ^pour<pr>/for<pr>/in order to<pr>$ ^souper<vblex><inf>/dine<vblex><inf>$!
+[/mG6f0hDOAAE9]
+[mvpao6Q4sUVh#0] ^Jouer<vblex><inf>/Play<vblex><inf>/Act<vblex><inf>/Perform<vblex><inf>$
+[/mvpao6Q4sUVh]
+[nNs8hUm7JL-Z#0] ^Passionner<vblex><ger>/Enthrall<vblex><ger>$
+[/nNs8hUm7JL-Z]
+[nzl3Y5uylF-e#0] ^Je<prn><tn><p1><mf><sg>/Prpers<prn><subj><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>/have<vbhaver><pri><p1><sg>$ ^boire<vblex><pp><m><sg>/drink<vblex><pp><m><sg>$ ^un<det><ind><m><sg>/a<det><ind><sg>/some<det><qnt><pl>$ ^verre<n><m><sg>/glass<n><sg>$ ^de<pr>/of<pr>/off<pr>/from<pr>$ ^jus<n><m><sp>/juice<n><sp>$ ^de<pr>/of<pr>/off<pr>/from<pr>$ ^pomme<n><f><sg>/apple<n><sg>$.
+[/nzl3Y5uylF-e]
+[oJMLyXK5VcjH#0] ^Mon<det><pos><mf><pl>/My<det><pos><sp>$ ^parent<n><m><pl>/parent<n><pl>/relative<n><pl>$.
+[/oJMLyXK5VcjH]
+[qlV54nCIyP3S#0] ^Le<det><def><m><sg>/The<det><def><sp>$ ^bon<adj><m><sg>/good<adj><sint><m><sg>/nice<adj><sint><m><sg>/fine<adj><sint><m><sg>$ ^étudiant<n><m><sg>/student<n><sg>$.
+[/qlV54nCIyP3S]
+[sA3rm8h0GIHH#0] ^Je<prn><tn><p1><mf><sg>/Prpers<prn><subj><p1><mf><sg>$ ^avoir<vblex><pri><p1><sg>/have<vblex><pri><p1><sg>/have got<vblex><pri><p1><sg>/have# got<vblex><pri><p1><sg>$ ^*vingt/*vingt$-^et<cnjcoo>/and<cnjcoo>$-^un<det><ind><m><sg>/a<det><ind><sg>/some<det><qnt><pl>$ ^an<n><m><pl>/year<n><pl>$
+[/sA3rm8h0GIHH]
+[t39NfUjEINgU#0] ^*Cent/*Cent$ ^*trente/*trente$ ^enfant<n><mf><pl>/girl<n><pl>/infant<n><pl>/child<n><pl>/boy<n><pl>/kid<n><pl>$.
+[/t39NfUjEINgU]
+[tPLzkWxEuE_N#0] ^Le<det><def><m><sg>/The<det><def><sp>$ ^latin<adj><m><sg>/latin<adj><m><sg>$
+[/tPLzkWxEuE_N]
+[tyu7Wr5zmoUg#0] ^Mon<det><pos><m><sg>/My<det><pos><sp>$ ^nom<n><m><sg>/name<n><sg>/lineage<n><sg>/surname<n><sg>$ ^être<vbser><pri><p3><sg>/be<vbser><pri><p3><sg>$ ^Julien<np><ant><m><sg>/Julien<np><ant><m><sg>$.
+[/tyu7Wr5zmoUg]
+[ux0ejoeMNHfG#0] ^Un<det><ind><m><sg>/A<det><ind><sg>/Some<det><qnt><pl>$ ^cochon<n><m><sg>/swine<n><sg>/pork<n><sg>/pig<n><sg>$ ^rose<adj><mf><sg>/pink<adj><sint><sg>$.
+[/ux0ejoeMNHfG]
+[wSsxQRENujaM#0] ^Je<prn><tn><p1><mf><sg>/Prpers<prn><subj><p1><mf><sg>$ ^aimer<vblex><pri><p1><sg>/love<vblex><pri><p1><sg>$
+[/wSsxQRENujaM]
+[wZeA-9W9Acpu#0] ^Ton<det><pos><mf><pl>/Your<det><pos><sp>$ ^problème<n><m><pl>/trouble<n><pl>/problem<n><pl>$.
+[/wZeA-9W9Acpu]
+[xcTYhieR9MxV#0] ^Nous<prn><tn><p1><mf><pl>/Prpers<prn><subj><p1><mf><pl>$ ^aimer<vblex><pri><p1><pl>/love<vblex><pri><p1><pl>$
+[/xcTYhieR9MxV]

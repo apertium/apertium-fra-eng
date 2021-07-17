@@ -1,0 +1,4 @@
+[1uIShmIahYb3#0] ^house/house<n><sg>$
+[/1uIShmIahYb3]
+[kQ7VXBlbNyLd#0] ^I/Prpers<prn><subj><p1><mf><sg>$ ^love/love<vblex><inf>/love<vblex><pres>$ ^apples/apple<n><pl>$.
+[/kQ7VXBlbNyLd]

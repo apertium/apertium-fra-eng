@@ -1,0 +1,4 @@
+[5XabQ2UQv84k#0] ^prnperssubj<SN><tn><p1><mf><sg>{^Prpers<prn><subj><p1><4><5>$}$ ^verbcj<SV><vblex><pres>{^love<vblex><pres>$}$ ^nom<SN><f><pl>{^apple<n><3>$}$.
+[/5XabQ2UQv84k]
+[_9c9a66077eS#0] ^nom<SN><f><sg><top>{^house<n><3>$}$
+[/_9c9a66077eS]

@@ -1,0 +1,4 @@
+[1uIShmIahYb3#0] ^house<n><sg>/logis<n><m><sp>/maison<n><f><sg>$
+[/1uIShmIahYb3]
+[kQ7VXBlbNyLd#0] ^Prpers<prn><subj><p1><mf><sg>/Je<prn><tn><p1><mf><sg>$ ^love<vblex><pres>/aimer<vblex><pres>/ravir<vblex><pres>/charmer<vblex><pres>/vouloir<vblex><pres>/enchanter<vblex><pres>/avoir# envie de<vblex><pres>$ ^apple<n><pl>/pomme<n><f><pl>$.
+[/kQ7VXBlbNyLd]

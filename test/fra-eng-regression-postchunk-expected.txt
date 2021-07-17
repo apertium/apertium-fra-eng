@@ -1,0 +1,16 @@
+[20j_tRmqh487#0] ^His<det><pos><sg>$ ^school<n><sg>$.
+[/20j_tRmqh487]
+[608xWcBeLUwN#0] ^Her<det><pos><pl>$ ^brother<n><pl>$.
+[/608xWcBeLUwN]
+[6ypPMftNyjzO#0] ^My<det><pos><sp>$ ^*sœurs$.
+[/6ypPMftNyjzO]
+[9W6xBO9qeGE0#0] ^My<det><pos><sg>$ ^book<n><sg>$.
+[/9W6xBO9qeGE0]
+[I-c-lniIaLjS#0] ^Your<det><pos><pl>$ ^grandparent<n><pl>$.
+[/I-c-lniIaLjS]
+[gVc4qSk2qwCt#0] ^Your<det><pos><sg>$ ^flower<n><sg>$.
+[/gVc4qSk2qwCt]
+[oJMLyXK5VcjH#0] ^My<det><pos><pl>$ ^parent<n><pl>$.
+[/oJMLyXK5VcjH]
+[wZeA-9W9Acpu#0] ^Your<det><pos><pl>$ ^problem<n><pl>$.
+[/wZeA-9W9Acpu]

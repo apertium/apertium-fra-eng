@@ -1,0 +1,22 @@
+{
+    "eng-fra-regression": {
+        "input": "eng-fra-regression-input.txt",
+        "mode": "eng-fra"
+    },
+    "fra-eng-pending": {
+        "input": "fra-eng-pending-input.txt",
+        "mode": "fra-eng"
+    },
+    "fra-eng-regression": {
+        "input": "fra-eng-regression-input.txt",
+        "mode": "fra-eng"
+    },
+    "eng-fra": {
+        "input": "eng-fra-input.txt",
+        "mode": "eng-fra"
+    },
+    "fra-eng": {
+        "input": "fra-eng-input.txt",
+        "mode": "fra-eng"
+    }
+}

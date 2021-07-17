@@ -1,0 +1,4 @@
+[1uIShmIahYb3#0] ^Nom<SN><UNDET><f><sg>{^maison<n><3><4>$}$
+[/1uIShmIahYb3]
+[kQ7VXBlbNyLd#0] ^prnsubj<SN><tn><p1><mf><sg>{^Je<prn><2><p1><3><sg>$}$ ^verbcj<SV><vblex><pri><PD><ND>{^aimer<vblex><3><4><5>$}$ ^nom<SN><UNDET><f><pl>{^pomme<n><3><4>$}$.
+[/kQ7VXBlbNyLd]

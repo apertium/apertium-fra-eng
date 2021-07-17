@@ -1,0 +1,6 @@
+[Hd95MZGvr2Xp#0] ^My<det><pos><sp>/Mon<det><pos><GD><ND>$ ^book<n><sg>/livre<n><m><sg>$.
+[/Hd95MZGvr2Xp]
+[aPrEO12THnce#0] ^Your<det><pos><sp>/Ton<det><pos><f>/Ton<det><pos><m>/Ton<det><pos><mf><pl>/Votre<det><pos><mf>$ ^flower<n><sg>/fleur<n><f><sg>$.
+[/aPrEO12THnce]
+[dUN9uYV1kb0Z#0] ^My<det><pos><sp>/Mon<det><pos><GD><ND>$ ^parent<n><pl>/parent<n><m><pl>$.
+[/dUN9uYV1kb0Z]

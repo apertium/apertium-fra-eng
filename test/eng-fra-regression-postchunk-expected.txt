@@ -1,0 +1,6 @@
+[Hd95MZGvr2Xp#0] ^Mon<det><pos><m><sg>$ ^livre<n><m><sg>$.
+[/Hd95MZGvr2Xp]
+[aPrEO12THnce#0] ^Ton<det><pos><f><sg>$ ^fleur<n><f><sg>$.
+[/aPrEO12THnce]
+[dUN9uYV1kb0Z#0] ^Mon<det><pos><m><pl>$ ^parent<n><m><pl>$.
+[/dUN9uYV1kb0Z]

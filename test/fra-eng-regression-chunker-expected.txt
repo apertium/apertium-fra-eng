@@ -1,0 +1,16 @@
+[20j_tRmqh487#0] ^det_nom<SN><f><sg>{^His<det><pos><3>$ ^school<n><3>$}$.
+[/20j_tRmqh487]
+[608xWcBeLUwN#0] ^det_nom<SN><m><pl>{^Her<det><pos><3>$ ^brother<n><3>$}$.
+[/608xWcBeLUwN]
+[6ypPMftNyjzO#0] ^det<DET><mf><pl>{^My<det><pos><sp>$}$ ^unknown<unknown>{^*sœurs$}$.
+[/6ypPMftNyjzO]
+[9W6xBO9qeGE0#0] ^det_nom<SN><m><sg>{^My<det><pos><3>$ ^book<n><3>$}$.
+[/9W6xBO9qeGE0]
+[I-c-lniIaLjS#0] ^det_nom<SN><m><pl>{^Your<det><pos><3>$ ^grandparent<n><3>$}$.
+[/I-c-lniIaLjS]
+[gVc4qSk2qwCt#0] ^det_nom<SN><f><sg>{^Your<det><pos><3>$ ^flower<n><3>$}$.
+[/gVc4qSk2qwCt]
+[oJMLyXK5VcjH#0] ^det_nom<SN><m><pl>{^My<det><pos><3>$ ^parent<n><3>$}$.
+[/oJMLyXK5VcjH]
+[wZeA-9W9Acpu#0] ^det_nom<SN><m><pl>{^Your<det><pos><3>$ ^problem<n><3>$}$.
+[/wZeA-9W9Acpu]

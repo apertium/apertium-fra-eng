@@ -1,0 +1,118 @@
+[-Qmh8Ffitn4I#0] ^prnperssubj<SN><tn><p2><mf><sg>{^Prpers<prn><p2><4><5>$}$ ^verbcj<SV><vblex><pri><p2><sg>{^love<vblex><pres>$}$
+[/-Qmh8Ffitn4I]
+[-Qr-XxXV7A0z#0] ^nom_adj<SN><m><sg>{^black<adj>$ ^Chat<n><3>$}$.
+[/-Qr-XxXV7A0z]
+[20j_tRmqh487#0] ^det_nom<SN><f><sg>{^His<det><pos><3>$ ^school<n><3>$}$.
+[/20j_tRmqh487]
+[4isRh4CRZsqK#0] ^det<DET><m><sg>{^A<det><ind><3>$}$ ^unknown<unknown>{^*citrouille$}$ ^nom<SN><f><sg>{^orange<n><3>$}$.
+[/4isRh4CRZsqK]
+[4rDyRacZg9Ws#0] ^det_adj_nom<SN><m><sg>{^A<det><ind><3>$ ^good<adj><sint>$ ^student<n><3>$}$.
+[/4rDyRacZg9Ws]
+[608xWcBeLUwN#0] ^det_nom<SN><m><pl>{^Her<det><pos><3>$ ^brother<n><3>$}$.
+[/608xWcBeLUwN]
+[66YdzYOaNRw-#0] ^verb<SV><vbmod><pri><p1><sg><nodef>{^Can<vbmod><pri><p1><sg>$^play<vblex><inf>$}$ ^pr<PREP><>{^with<pr>$}$ ^prnperssubj<SN><tn><p2><mf><sp>{^prpers<prn><subj><p2><4><5>$}$ ^adv<adv>{^tomorrow<adv>$}$?
+[/66YdzYOaNRw-]
+[6CQUsMgL5bsS#0] ^prnperssubj<SN><tn><p3><mf><pl>{^Prpers<prn><subj><p3><4><5>$}$ ^verbcj<SV><vblex><pri><p3><pl>{^love<vblex><pres>$}$
+[/6CQUsMgL5bsS]
+[6aKC76wdUlBj#0] ^det_nom<SN><f><sg>{^The<det><def><3>$ ^beach<n><3>$}$
+[/6aKC76wdUlBj]
+[6vvs8nPq8NIO#0] ^det_nom<SN><f><sg>{^A<det><ind><3>$ ^house<n><3>$}$.
+[/6vvs8nPq8NIO]
+[6ypPMftNyjzO#0] ^det<DET><mf><pl>{^My<det><pos><sp>$}$ ^unknown<unknown>{^*sœurs$}$.
+[/6ypPMftNyjzO]
+[7Bk4M0Yw9gx6#0] ^nom<SN><m><sg>{^Tree<n><3>$}$.
+[/7Bk4M0Yw9gx6]
+[9W6xBO9qeGE0#0] ^det_nom<SN><m><sg>{^My<det><pos><3>$ ^book<n><3>$}$.
+[/9W6xBO9qeGE0]
+[An76e450ilGh#0] ^det_nom<SN><f><sg>{^The<det><def><3>$ ^war<n><3>$}$
+[/An76e450ilGh]
+[BbLx47ngEYn4#0] ^unknown<unknown>{^*Quatre$}$-^unknown<unknown>{^*vingt$}$ ^nom<SN><f><sg>{^rubber<n><3>$}$
+[/BbLx47ngEYn4]
+[BgBpP5i6QBJj#0] ^det_nom<SN><m><sg>{^A<det><ind><3>$ ^tree<n><3>$}$.
+[/BgBpP5i6QBJj]
+[I-c-lniIaLjS#0] ^det_nom<SN><m><pl>{^Your<det><pos><3>$ ^grandparent<n><3>$}$.
+[/I-c-lniIaLjS]
+[IwG624Nl55Hv#0] ^default<default>{^Where<adv><itg>$}$ ^verb<SV><vblex><pri><p2><sp><vba>{^go<vblex><pri><p2><pl>$}$?
+[/IwG624Nl55Hv]
+[K4BvT16ThVei#0] ^prnperssubj<SN><tn><p3><m><sg>{^Prpers<prn><subj><p3><4><5>$}$ ^verbcj<SV><vblex><pri><p3><sg>{^love<vblex><pri><p3><sg>$}$
+[/K4BvT16ThVei]
+[PBAQGuylx913#0] ^nom<SN><f><sg>{^Capital<n><3>$}$ ^pr<PREP><of>{^of<pr>$}$ ^det<DET><f><sg>{^the<det><def><sp>$}$ ^default<default>{^France<np><top><sg>$}$.
+[/PBAQGuylx913]
+[Qp4dHR9Z621t#0] ^inf<SV><vblex><inf><nodef>{^Have<vblex><inf>$}$
+[/Qp4dHR9Z621t]
+[RzA9U0H2LmkS#0] ^det_adj_nom<SN><m><sg>{^A<det><ind><3>$ ^good<adj><sint>$ ^student<n><3>$}$.
+[/RzA9U0H2LmkS]
+[SGc1e7lRDALp#0] ^cnjsub<cnjsub>{^That<cnjsub>$}$ ^verbcj<SV><vbser><pri><p3><sg>{^be<vbser><pri><p3><sg>$}$-^default<default>{^this<prn><tn><mf><sg><tn><nt>$}$-^cnjsub<cnjsub>{^that<cnjsub>$}$ ^prnperssubj<SN><tn><p3><m><sg>{^prpers<prn><subj><p3><4><5>$}$ ^verbcj<SV><vblex><pri><p3><sg>{^love<vblex><pri><p3><sg>$}$?
+[/SGc1e7lRDALp]
+[SxafW7QhUUMo#0] ^det_nom<SN><m><sg>{^The<det><def><3>$ ^tree<n><3>$}$.
+[/SxafW7QhUUMo]
+[T5_Fc3e6XxES#0] ^adj_nom<SN><f><sg>{^Good<adj><sint>$ ^night<n><3>$}$
+[/T5_Fc3e6XxES]
+[T84AsE4zOITX#0] ^inf<SV><vblex><inf><nodef>{^Love<vblex><inf>$}$
+[/T84AsE4zOITX]
+[TBHZSZCLZt0s#0] ^pr<PREP><>{^With<pr>$}$
+[/TBHZSZCLZt0s]
+[U--BmtInTnp2#0] ^det_adj<SN><m>{^The<det><def><sp>$ ^english<adj>$}$
+[/U--BmtInTnp2]
+[U2Wgsnd6hADa#0] ^det_adj_nom<SN><f><sg><top>{^A<det><ind><3>$ ^big<adj><sint>$ ^house<n><3>$}$.
+[/U2Wgsnd6hADa]
+[UH3oB1ZBkmf6#0] ^cnjadv<cnjadv>{^If<cnjadv>$}$ ^prnperssubj<SN><tn><p3><m><sg>{^prpers<prn><subj><p3><4><5>$}$ ^pro_verb<SV><vblex><pri><p3><sg><nodef>{^fancy<vblex><3><4><5>$ ^prpers<prn><obj><p2><mf><sp>$}$, ^verb<SV><vblex><pri><p2><sp><nodef>{^sit<vblex><pri><p2><pl>$}$.
+[/UH3oB1ZBkmf6]
+[WAD-Wof8bW0t#0] ^prnperssubj<SN><tn><p1><mf><sg>{^Prpers<prn><subj><p1><4><5>$}$ ^aux_pp<SV><vblex><pri><p1><sg><nodef>{^have<vbhaver><pri><p1><5>$ ^translate<vblex><pp>$}$ ^det_nom<SN><m><sg>{^a<det><ind><3>$ ^word<n><3>$}$.
+[/WAD-Wof8bW0t]
+[XSmk4voSHo1a#0] ^inf<SV><vblex><inf><nodef>{^Clean<vblex><inf>$}$ ^det_nom<SN><f><sg>{^the<det><def><3>$ ^house<n><3>$}$.
+[/XSmk4voSHo1a]
+[ZNrMoPchm8_F#0] ^det_adj<SN><m><sg>{^The<det><def><sp>$ ^german<adj><m><sg>$}$
+[/ZNrMoPchm8_F]
+[ZgaLkX_jfCi6#0] ^prnperssubj<SN><tn><p1><mf><sg>{^Prpers<prn><subj><p1><4><5>$}$ ^verbcj<SV><vblex><pri><p1><sg>{^love<vblex><pres>$}$ ^det_nom<SN><f><sg>{^the<det><def><3>$ ^pizza<n><3>$}$.
+[/ZgaLkX_jfCi6]
+[a7oTGbuiWScG#0] ^det_nom<SN><m><sg>{^The<det><def><3>$ ^port<n><3>$}$
+[/a7oTGbuiWScG]
+[dDxWQwpDQsWB#0] ^det_adj_nom<SN><m><sg>{^A<det><ind><3>$ ^young<adj><sint>$ ^girl<n><3>$}$ ^verbcj<SV><vbmod><pri><p3><sg>{^have<vbmod><pri><p3><sg># to$}$ ^unknown<unknown>{^*se$}$ ^inf<SV><vblex><inf><nodef>{^find<vblex><inf>$}$ ^cnjadv<cnjadv>{^before<cnjadv>$}$ ^prnperssubj<SN><tn><p3><m><sg>{^prpers<prn><subj><p3><4><5>$}$ ^ne<adv>{^no<adv>$}$ ^verbcj<SV><vblex><prs><p3><sg>{^become<vblex><pres>$}$ ^det_nom<SN><m><sg>{^a<det><ind><3>$ ^male<n><3>$}$.
+[/dDxWQwpDQsWB]
+[gVc4qSk2qwCt#0] ^det_nom<SN><f><sg>{^Your<det><pos><3>$ ^flower<n><3>$}$.
+[/gVc4qSk2qwCt]
+[gYXIrEZWIZ9K#0] ^unknown<unknown>{^*Super$}$
+[/gYXIrEZWIZ9K]
+[gyePvK_EAjXc#0] ^prnperssubj<SN><tn><p1><mf><sg>{^Prpers<prn><subj><p1><4><5>$}$ ^aux_pp<SV><vblex><pri><p1><sg><nodef>{^have<vbhaver><pri><p1><5>$ ^forward<vblex><pp>$}$ ^det_nom<SN><f><sg>{^the<det><def><3>$ ^list<n><3>$}$ ^pro<prnpro><p2><mf><sp>{^prpers<prn><obj><p2><mf><sp>$}$.
+[/gyePvK_EAjXc]
+[hj-9XqT94zA3#0] ^det_nom<SN><f><sg>{^The<det><def><3>$ ^house<n><3>$}$.
+[/hj-9XqT94zA3]
+[huRredkE0v91#0] ^det<DET><f><sg>{^The<det><def><sp>$}$ ^unknown<unknown>{^*magnétophone$}$
+[/huRredkE0v91]
+[i_2-9aKPUOn3#0] ^verbcj<SV><vblex><pri><p2><pl>{^Open<vblex><pres>$}$ ^det_nom<SN><f><sg>{^the<det><def><3>$ ^door<n><3>$}$.
+[/i_2-9aKPUOn3]
+[jDJc7aIUiRSY#0] ^unknown<unknown>{^*Deux$}$ ^nom<SN><mf><pl>{^girl<n><3>$}$.
+[/jDJc7aIUiRSY]
+[kXLo7smfFE9y#0] ^nom<SN><m><sg>{^Greeting<n><3>$}$
+[/kXLo7smfFE9y]
+[l2kFrwy3ktpS#0] ^nom<SN><f><sg><top>{^House<n><3>$}$.
+[/l2kFrwy3ktpS]
+[mG6f0hDOAAE9#0] ^adj<SA><m><sg>{^Come<vblex><pp>$}$ ^pr<PREP><>{^for<pr>$}$ ^inf<SV><vblex><inf><nodef>{^dine<vblex><inf>$}$!
+[/mG6f0hDOAAE9]
+[mvpao6Q4sUVh#0] ^inf<SV><vblex><inf><nodef>{^Play<vblex><inf>$}$
+[/mvpao6Q4sUVh]
+[nNs8hUm7JL-Z#0] ^ger<ger><vblex><ger><nodef>{^Enthrall<vblex><ger>$}$
+[/nNs8hUm7JL-Z]
+[nzl3Y5uylF-e#0] ^prnperssubj<SN><tn><p1><mf><sg>{^Prpers<prn><subj><p1><4><5>$}$ ^aux_pp<SV><vblex><pri><p1><sg><nodef>{^have<vbhaver><pri><p1><5>$ ^drink<vblex><pp>$}$ ^det_nom<SN><m><sg>{^a<det><ind><3>$ ^glass<n><3>$}$ ^pr<PREP><of>{^of<pr>$}$ ^nom<SN><m><sp>{^juice<n><3>$}$ ^pr<PREP><of>{^of<pr>$}$ ^nom<SN><f><sg>{^apple<n><3>$}$.
+[/nzl3Y5uylF-e]
+[oJMLyXK5VcjH#0] ^det_nom<SN><m><pl>{^My<det><pos><3>$ ^parent<n><3>$}$.
+[/oJMLyXK5VcjH]
+[qlV54nCIyP3S#0] ^det_adj_nom<SN><m><sg>{^The<det><def><sp>$ ^good<adj><sint>$ ^student<n><3>$}$.
+[/qlV54nCIyP3S]
+[sA3rm8h0GIHH#0] ^prnperssubj<SN><tn><p1><mf><sg>{^Prpers<prn><subj><p1><4><5>$}$ ^verbcj<SV><vblex><pri><p1><sg>{^have<vblex><pres>$}$ ^unknown<unknown>{^*vingt$}$-^cnjcoo<cnjcoo>{^and<cnjcoo>$}$-^det_nom<SN><m><pl>{^a<det><ind><3>$ ^year<n><3>$}$
+[/sA3rm8h0GIHH]
+[t39NfUjEINgU#0] ^unknown<unknown>{^*Cent$}$ ^unknown<unknown>{^*trente$}$ ^nom<SN><mf><pl>{^girl<n><3>$}$.
+[/t39NfUjEINgU]
+[tPLzkWxEuE_N#0] ^det_adj<SN><m><sg>{^The<det><def><sp>$ ^latin<adj><m><sg>$}$
+[/tPLzkWxEuE_N]
+[tyu7Wr5zmoUg#0] ^det_nom<SN><m><sg>{^My<det><pos><3>$ ^name<n><3>$}$ ^verbcj<SV><vbser><pri><p3><sg>{^be<vbser><pri><p3><sg>$}$ ^default<default>{^Julien<np><ant><m><sg>$}$.
+[/tyu7Wr5zmoUg]
+[ux0ejoeMNHfG#0] ^det_adj_nom<SN><mf><sg>{^A<det><ind><3>$ ^pink<adj><sint>$ ^swine<n><3>$}$.
+[/ux0ejoeMNHfG]
+[wSsxQRENujaM#0] ^prnperssubj<SN><tn><p1><mf><sg>{^Prpers<prn><subj><p1><4><5>$}$ ^verbcj<SV><vblex><pri><p1><sg>{^love<vblex><pres>$}$
+[/wSsxQRENujaM]
+[wZeA-9W9Acpu#0] ^det_nom<SN><m><pl>{^Your<det><pos><3>$ ^problem<n><3>$}$.
+[/wZeA-9W9Acpu]
+[xcTYhieR9MxV#0] ^prnperssubj<SN><tn><p1><mf><pl>{^Prpers<prn><subj><p1><4><5>$}$ ^verbcj<SV><vblex><pri><p1><pl>{^love<vblex><pres>$}$
+[/xcTYhieR9MxV]

@@ -1,0 +1,118 @@
+[-Qmh8Ffitn4I#0] ^Tu<prn><tn><p2><mf><sg>$ ^aimer<vblex><pri><p2><sg>$
+[/-Qmh8Ffitn4I]
+[-Qr-XxXV7A0z#0] ^Chat<n><m><sg>$ ^noir<adj><m><sg>$.
+[/-Qr-XxXV7A0z]
+[20j_tRmqh487#0] ^Son<det><pos><f><sg>$ ^école<n><f><sg>$.
+[/20j_tRmqh487]
+[4isRh4CRZsqK#0] ^Un<det><ind><m><sg>$ ^*citrouille$ ^orange<n><f><sg>$.
+[/4isRh4CRZsqK]
+[4rDyRacZg9Ws#0] ^Un<det><ind><m><sg>$ ^étudiant<n><m><sg>$ ^bon<adj><m><sg>$.
+[/4rDyRacZg9Ws]
+[608xWcBeLUwN#0] ^Son<det><pos><mf><pl>$ ^frère<n><m><pl>$.
+[/608xWcBeLUwN]
+[66YdzYOaNRw-#0] ^Pouvoir<vbmod><pri><p1><sg>$^je<prn><tn><p1><mf><sg>$ ^jouer<vblex><inf>$ ^avec<pr>$ ^vous<prn><tn><p2><mf><pl>$ ^demain<adv>$?
+[/66YdzYOaNRw-]
+[6CQUsMgL5bsS#0] ^Il<prn><tn><p3><m><pl>$ ^aimer<vblex><pri><p3><pl>$
+[/6CQUsMgL5bsS]
+[6aKC76wdUlBj#0] ^Le<det><def><f><sg>$ ^plage<n><f><sg>$
+[/6aKC76wdUlBj]
+[6vvs8nPq8NIO#0] ^Un<det><ind><f><sg>$ ^maison<n><f><sg>$.
+[/6vvs8nPq8NIO]
+[6ypPMftNyjzO#0] ^Mon<det><pos><mf><pl>$ ^*sœurs$.
+[/6ypPMftNyjzO]
+[7Bk4M0Yw9gx6#0] ^Arbre<n><m><sg>$.
+[/7Bk4M0Yw9gx6]
+[9W6xBO9qeGE0#0] ^Mon<det><pos><m><sg>$ ^livre<n><m><sg>$.
+[/9W6xBO9qeGE0]
+[An76e450ilGh#0] ^Le<det><def><f><sg>$ ^guerre<n><f><sg>$
+[/An76e450ilGh]
+[BbLx47ngEYn4#0] ^*Quatre$-^*vingt$ ^gomme<n><f><sg>$
+[/BbLx47ngEYn4]
+[BgBpP5i6QBJj#0] ^Un<det><ind><m><sg>$ ^arbre<n><m><sg>$.
+[/BgBpP5i6QBJj]
+[I-c-lniIaLjS#0] ^Ton<det><pos><mf><pl>$ ^grand-père<n><m><pl>$.
+[/I-c-lniIaLjS]
+[IwG624Nl55Hv#0] ^Où<adv><itg>$ ^aller<vblex><pri><p2><pl>$^vous<prn><tn><p2><mf><pl>$?
+[/IwG624Nl55Hv]
+[K4BvT16ThVei#0] ^Il<prn><tn><p3><m><sg>$ ^aimer<vblex><pri><p3><sg>$
+[/K4BvT16ThVei]
+[PBAQGuylx913#0] ^Capitale<n><f><sg>$ ^de<pr>$ ^le<det><def><f><sg>$ ^France<np><top><f><sg>$.
+[/PBAQGuylx913]
+[Qp4dHR9Z621t#0] ^Avoir<vblex><inf>$
+[/Qp4dHR9Z621t]
+[RzA9U0H2LmkS#0] ^Un<det><ind><m><sg>$ ^bon<adj><m><sg>$ ^étudiant<n><m><sg>$.
+[/RzA9U0H2LmkS]
+[SGc1e7lRDALp#0] ^Que<cnjsub>$ ^être<vbser><pri><p3><sg>$-^ce<prn><tn><nt>$-^que<cnjsub>$ ^il<prn><tn><p3><m><sg>$ ^aimer<vblex><pri><p3><sg>$?
+[/SGc1e7lRDALp]
+[SxafW7QhUUMo#0] ^Le<det><def><mf><sg>$ ^arbre<n><m><sg>$.
+[/SxafW7QhUUMo]
+[T5_Fc3e6XxES#0] ^Bon<adj><f><sg>$ ^nuit<n><f><sg>$
+[/T5_Fc3e6XxES]
+[T84AsE4zOITX#0] ^Aimer<vblex><inf>$
+[/T84AsE4zOITX]
+[TBHZSZCLZt0s#0] ^Avec<pr>$
+[/TBHZSZCLZt0s]
+[U--BmtInTnp2#0] ^Le<det><def><mf><sg>$ ^anglais<adj><m><sp>$
+[/U--BmtInTnp2]
+[U2Wgsnd6hADa#0] ^Un<det><ind><f><sg>$ ^maison<n><f><sg>$ ^grand<adj><f><sg>$.
+[/U2Wgsnd6hADa]
+[UH3oB1ZBkmf6#0] ^Si<cnjadv>$ ^il<prn><tn><p3><m><sg>$ ^vous<prn><pro><p2><mf><pl>$ ^plaire<vblex><pri><p3><sg>$, ^asseoir<vblex><pri><p2><pl>$^vous<prn><tn><p2><mf><pl>$.
+[/UH3oB1ZBkmf6]
+[WAD-Wof8bW0t#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^traduire<vblex><pp><m><sg>$ ^un<det><ind><m><sg>$ ^mot<n><m><sg>$.
+[/WAD-Wof8bW0t]
+[XSmk4voSHo1a#0] ^Nettoyer<vblex><inf>$ ^le<det><def><f><sg>$ ^maison<n><f><sg>$.
+[/XSmk4voSHo1a]
+[ZNrMoPchm8_F#0] ^Le<det><def><mf><sg>$ ^allemand<adj><m><sg>$
+[/ZNrMoPchm8_F]
+[ZgaLkX_jfCi6#0] ^Je<prn><tn><p1><mf><sg>$ ^aimer<vblex><pri><p1><sg>$ ^le<det><def><f><sg>$ ^pizza<n><f><sg>$.
+[/ZgaLkX_jfCi6]
+[a7oTGbuiWScG#0] ^Le<det><def><f><sg>$ ^port<n><m><sg>$
+[/a7oTGbuiWScG]
+[dDxWQwpDQsWB#0] ^Un<det><ind><m><sg>$ ^jeune<adj><mf><sg>$ ^garçon<n><m><sg>$ ^devoir<vbmod><pri><p3><sg>$ ^*se$ ^trouver<vblex><inf>$ ^avant que<cnjadv>$ ^il<prn><tn><p3><m><sg>$ ^ne<adv>$ ^devenir<vblex><prs><p3><sg>$ ^un<det><ind><m><sg>$ ^homme<n><m><sg>$.
+[/dDxWQwpDQsWB]
+[gVc4qSk2qwCt#0] ^Ton<det><pos><f><sg>$ ^fleur<n><f><sg>$.
+[/gVc4qSk2qwCt]
+[gYXIrEZWIZ9K#0] ^*Super$
+[/gYXIrEZWIZ9K]
+[gyePvK_EAjXc#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^envoyer<vblex><pp><m><sg>$ ^le<det><def><f><sg>$ ^liste<n><f><sg>$ ^vous<prn><pro><p2><mf><pl>$.
+[/gyePvK_EAjXc]
+[hj-9XqT94zA3#0] ^Le<det><def><f><sg>$ ^maison<n><f><sg>$.
+[/hj-9XqT94zA3]
+[huRredkE0v91#0] ^Le<det><def><f><sg>$ ^*magnétophone$
+[/huRredkE0v91]
+[i_2-9aKPUOn3#0] ^Ouvrir<vblex><pri><p2><pl>$ ^le<det><def><f><sg>$ ^porte<n><f><sg>$.
+[/i_2-9aKPUOn3]
+[jDJc7aIUiRSY#0] ^*Deux$ ^enfant<n><mf><pl>$.
+[/jDJc7aIUiRSY]
+[kXLo7smfFE9y#0] ^Bonjour<n><m><sg>$
+[/kXLo7smfFE9y]
+[l2kFrwy3ktpS#0] ^Maison<n><f><sg>$.
+[/l2kFrwy3ktpS]
+[mG6f0hDOAAE9#0] ^Venir<vblex><pp><m><sg>$ ^pour<pr>$ ^souper<vblex><inf>$!
+[/mG6f0hDOAAE9]
+[mvpao6Q4sUVh#0] ^Jouer<vblex><inf>$
+[/mvpao6Q4sUVh]
+[nNs8hUm7JL-Z#0] ^Passionner<vblex><ger>$
+[/nNs8hUm7JL-Z]
+[nzl3Y5uylF-e#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^boire<vblex><pp><m><sg>$ ^un<det><ind><m><sg>$ ^verre<n><m><sg>$ ^de<pr>$ ^jus<n><m><sp>$ ^de<pr>$ ^pomme<n><f><sg>$.
+[/nzl3Y5uylF-e]
+[oJMLyXK5VcjH#0] ^Mon<det><pos><mf><pl>$ ^parent<n><m><pl>$.
+[/oJMLyXK5VcjH]
+[qlV54nCIyP3S#0] ^Le<det><def><m><sg>$ ^bon<adj><m><sg>$ ^étudiant<n><m><sg>$.
+[/qlV54nCIyP3S]
+[sA3rm8h0GIHH#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vblex><pri><p1><sg>$ ^*vingt$-^et<cnjcoo>$-^un<det><ind><m><sg>$ ^an<n><m><pl>$
+[/sA3rm8h0GIHH]
+[t39NfUjEINgU#0] ^*Cent$ ^*trente$ ^enfant<n><mf><pl>$.
+[/t39NfUjEINgU]
+[tPLzkWxEuE_N#0] ^Le<det><def><m><sg>$ ^latin<adj><m><sg>$
+[/tPLzkWxEuE_N]
+[tyu7Wr5zmoUg#0] ^Mon<det><pos><m><sg>$ ^nom<n><m><sg>$ ^être<vbser><pri><p3><sg>$ ^Julien<np><ant><m><sg>$.
+[/tyu7Wr5zmoUg]
+[ux0ejoeMNHfG#0] ^Un<det><ind><m><sg>$ ^cochon<n><m><sg>$ ^rose<adj><mf><sg>$.
+[/ux0ejoeMNHfG]
+[wSsxQRENujaM#0] ^Je<prn><tn><p1><mf><sg>$ ^aimer<vblex><pri><p1><sg>$
+[/wSsxQRENujaM]
+[wZeA-9W9Acpu#0] ^Ton<det><pos><mf><pl>$ ^problème<n><m><pl>$.
+[/wZeA-9W9Acpu]
+[xcTYhieR9MxV#0] ^Nous<prn><tn><p1><mf><pl>$ ^aimer<vblex><pri><p1><pl>$
+[/xcTYhieR9MxV]
