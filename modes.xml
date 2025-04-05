@@ -57,7 +57,7 @@
       <program name="cg-proc -w">
         <file name="eng-fra.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -x -g $2">
+      <program name="apertium-tagger -g $2">
         <file name="eng-fra.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
